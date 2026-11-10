@@ -41,6 +41,8 @@ internal class Link(private val context: Context, private val video: Video, priv
     /** Tetra Car's dock asked for the Share page. */
     var shareAsked by mutableStateOf(0)
         private set
+    /** A line from the phone for this screen (what to allow there), until it is read. */
+    var notice by mutableStateOf<String?>(null)
     @Volatile private var out: DataOutputStream? = null
     @Volatile private var socket: Socket? = null
     @Volatile private var running = false
@@ -118,10 +120,12 @@ internal class Link(private val context: Context, private val video: Video, priv
         val input = DataInputStream(BufferedInputStream(s.getInputStream(), 1 shl 16))
         val o = DataOutputStream(BufferedOutputStream(s.getOutputStream(), 1 shl 16)).also { out = it }
         val token = prefs.getString("token", null)
-        val hello = JSONObject().put("version", Wire.VERSION).put("name", carName()).put("width", width).put("height", height).put("dpi", dpi)
+        val hello = JSONObject().put("version", Wire.VERSION).put("name", carName()).put("width", width).put("height", height).put("dpi", dpi).put("pings", true)
         if (token != null) hello.put("token", token) else hello.put("code", pairCode())
         Wire.write(o, Wire.HELLO, hello.toString().toByteArray())
         s.soTimeout = 15_000 // the phone sends a picture or a ping at least every few seconds
+        // and this car says it is here every 5 s: the phone lets a silent car go after 20 s, and is free for it again
+        Thread({ while (out === o) { runCatching { Thread.sleep(5000) }; if (out === o) send(Wire.PING, ByteArray(0)) } }, "tetra-auto-ping").start()
         while (running) {
             val (type, body) = Wire.read(input)
             when (type) {
@@ -143,6 +147,7 @@ internal class Link(private val context: Context, private val video: Video, priv
                 Wire.VIDEO_CONFIG -> video.config(body)
                 Wire.VIDEO -> if (!video.frame(body)) send(Wire.KEYFRAME, ByteArray(0))
                 Wire.OPEN_SHARE -> shareAsked++
+                Wire.NOTICE -> notice = JSONObject(String(body)).optString("text").ifEmpty { null }
                 Wire.FILE_BEGIN, Wire.FILE_DATA, Wire.FILE_END -> share.incoming(type, body) { t, b -> send(t, b) }
                 Wire.FILE_DONE -> share.answered(JSONObject(String(body)))
                 Wire.PING -> Unit

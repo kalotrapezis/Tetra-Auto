@@ -70,8 +70,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        WindowInsetsControllerCompat(window, window.decorView).apply {
-            hide(WindowInsetsCompat.Type.systemBars()); systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+        hideBars()
+        // the unit's bars, swiped out, stay on some head units (the user, 10 Nov: "it would not go away"): hidden again 3 s after they show
+        androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(window.decorView) { v, insets ->
+            if (insets.isVisible(WindowInsetsCompat.Type.systemBars())) { v.removeCallbacks(rehide); v.postDelayed(rehide, 3000) }
+            androidx.core.view.ViewCompat.onApplyWindowInsets(v, insets)
         }
         share = Share(applicationContext)
         link = Link(applicationContext, video, share)
@@ -81,6 +84,13 @@ class MainActivity : ComponentActivity() {
     }
 
     // the link lives as long as the app, not only while it is on the screen: Android's file picker (Share) covers it for a while
+    private val rehide = Runnable { hideBars() }
+    private fun hideBars() = WindowInsetsControllerCompat(window, window.decorView).run {
+        systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE; hide(WindowInsetsCompat.Type.systemBars())
+    }
+    override fun onResume() { super.onResume(); hideBars() }
+    override fun onWindowFocusChanged(hasFocus: Boolean) { super.onWindowFocusChanged(hasFocus); if (hasFocus) hideBars() }
+
     override fun onStart() { super.onStart(); link.start() }
     override fun onDestroy() { link.stop(); super.onDestroy() }
 
@@ -110,6 +120,12 @@ private fun Car(link: Link, share: Share, video: Video) {
         if (state is LinkState.Connected) Projection(link, video)
         if (state is LinkState.Looking) Looking(state, link) { sharing = true }
         if (sharing) SharePage(link, share) { sharing = false; share.newApp = null }
+        // a line from the phone (what to allow there): until it is tapped
+        link.notice?.let { n ->
+            Surface(Modifier.align(Alignment.TopCenter).padding(16.dp).clickable { link.notice = null }, shape = RoundedCornerShape(16.dp), color = Color(0xF0302010), contentColor = Color.White) {
+                Text(n, Modifier.padding(horizontal = 20.dp, vertical = 14.dp), style = MaterialTheme.typography.titleMedium)
+            }
+        }
         share.said?.let { s ->
             LaunchedEffect(s) { kotlinx.coroutines.delay(4000); if (share.said == s) share.said = null }
             Surface(Modifier.align(Alignment.BottomCenter).padding(24.dp), shape = RoundedCornerShape(24.dp), color = Color(0xEE222222), contentColor = Color.White) {

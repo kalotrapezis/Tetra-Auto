@@ -22,7 +22,7 @@ internal object Wire {
     const val CHUNK = 256 * 1024
 
     // car → phone
-    /** JSON {version, token | code, name, width, height, dpi}: who the car is and the screen it has. */
+    /** JSON {version, token | code, name, width, height, dpi, pings}: who the car is and the screen it has; pings: it sends PING every 5 s. */
     const val HELLO: Byte = 0x01
     /** [action][actionIndex][count] then count × [id][x: f32][y: f32], x and y from 0 to 1 of the car's screen. */
     const val TOUCH: Byte = 0x02
@@ -42,6 +42,8 @@ internal object Wire {
     const val VIDEO: Byte = 0x44
     /** Tetra Car's dock asked for the car's own Share page. */
     const val OPEN_SHARE: Byte = 0x45
+    /** JSON {text}: a line for the car's screen (what to allow on the phone). */
+    const val NOTICE: Byte = 0x46
 
     // both ways: Share
     /** JSON {id, name, size}. */
@@ -52,6 +54,7 @@ internal object Wire {
     const val FILE_END: Byte = 0x63
     /** JSON {id, ok, error?}: the receiver's answer. */
     const val FILE_DONE: Byte = 0x64
+    /** Both ways, every 5 s: still here (a car that stops is gone after 20 s). */
     const val PING: Byte = 0x70
 
     fun write(out: DataOutputStream, type: Byte, payload: ByteArray, off: Int = 0, len: Int = payload.size) = synchronized(out) {
