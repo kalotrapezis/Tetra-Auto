@@ -1,0 +1,21 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+continue=turpiniet taisni
+continue_onto=turpiniet pa %1$s
+finish=esat galamērķī
+keep_left=turieties pa kreisi
+keep_right=turieties pa labi
+turn_onto=%1$s uz %2$s
+turn_left=pagriezieties pa kreisi
+turn_right=pagriezieties pa labi
+turn_slight_left=nedaudz pagriezieties pa kreisi
+turn_slight_right=nedaudz pagriezieties pa labi
+turn_sharp_left=strauji pagriezieties pa kreisi
+turn_sharp_right=strauji pagriezieties pa labi
+u_turn=apgriezieties
+toward_destination=%1$s un brauciet virzienā uz %2$s
+toward_destination_ref_only=%1$s virzienā uz %2$s
+toward_destination_with_ref=%1$s un izvēlieties %2$s virzienā uz %3$s
+stopover=starppunkts %1$s
+roundabout_enter=Iebrauciet aplī
+roundabout_exit=Aplī izvēlieties %1$s. izbrauktuvi
+roundabout_exit_onto=Aplī izvēlieties %1$s. izbrauktuvi uz %2$s

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Paikkamuistutukset</string>
+    <string name="place_reminders_note">Kun saavut paikkaan, Muistiinpanojen tarkistuslista soi kuin muistutus. Pyydä AI Assistia: ”kun menen kauppaan, näytä ostoslista”. Sijainti tarkistetaan harvoin akun säästämiseksi.</string>
+    <string name="place_reminders_on">Paikkamuistutukset tässä puhelimessa</string>
+    <string name="place_reminders_location">Sijainti aina</string>
+    <string name="place_reminders_location_on">Sallittu</string>
+    <string name="place_reminders_location_off">Tarvitaan: valitse Salli aina</string>
+    <string name="place_reminders_none">Ei vielä paikkamuistutuksia</string>
+    <string name="place_reminders_any">Mikä tahansa lista, jossa on jäljellä kohtia</string>
+    <string name="place_reminder_title">Listasi</string>
+</resources>

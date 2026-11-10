@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Przewodnik</string>
+    <string name="guide_summary">Krok po kroku: gdzie dotknąć i dlaczego</string>
+    <string name="guide_try_it">Wypróbuj</string>
+    <string name="guide_skip">Pomiń</string>
+    <string name="guide_chapters">Rozdziały</string>
+    <string name="guide_open">Otwórz przewodnik</string>
+    <string name="guide_step_of">%1$d z %2$d</string>
+    <string name="guide_allowed">Zezwolono</string>
+    <string name="guide_not_yet">Jeszcze bez zezwolenia</string>
+    <string name="guide_not_here">Brak na tym urządzeniu</string>
+    <string name="guide_finish">Zakończ</string>
+    <string name="guide_dont_allow">Nie zezwalaj</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Witaj</string>
+    <string name="guide_ch_permissions">Uprawnienia</string>
+    <string name="guide_ch_home">Start</string>
+    <string name="guide_ch_files">Pliki</string>
+    <string name="guide_ch_computer">Twój komputer</string>
+    <string name="guide_ch_settings">Ustawienia</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Witaj w Tetrze</string>
+    <string name="guide_welcome_b">Twoje zdjęcia, pliki, notatki i kalendarz zostają na Twoich własnych urządzeniach. Ten przewodnik pokazuje, gdzie dotknąć i dlaczego. Przeczytaj krok, dotknij Wypróbuj i zrób to na prawdziwym ekranie, a krok pozostanie widoczny.</string>
+    <string name="guide_again_t">Wróć w dowolnej chwili</string>
+    <string name="guide_again_b">Jeśli chcesz, pomiń go teraz. Przewodnik jest zawsze w Ustawienia › Przewodnik, a każdy rozdział otwiera się osobno.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android najpierw pyta</string>
+    <string name="guide_perm_b">Niektóre części Tetry potrzebują Twojej zgody. Każda strona mówi, do czego służy. Dotknij Zezwól, a potem odpowiedz na pytanie Androida. Możesz teraz odmówić i zezwolić później tutaj.</string>
+    <string name="guide_files_t">Wszystkie pliki</string>
+    <string name="guide_files_b">Pliki, Notatki, Office, Kalendarz, Minutnik i Mapy trzymają wszystko w jednym folderze Tetra na tym urządzeniu. Android otworzy stronę z jednym przełącznikiem: włącz go i wróć.</string>
+    <string name="guide_photos_t">Zdjęcia i filmy</string>
+    <string name="guide_photos_b">Galeria pokazuje Twoje zdjęcia i filmy, znajduje twarze i miejsca oraz wysyła je na komputer. Wybierz Zezwól na wszystkie: jeśli wybierzesz tylko niektóre, Galeria pokaże tylko je.</string>
+    <string name="guide_notify_t">Powiadomienia</string>
+    <string name="guide_notify_b">Przypomnienia, minutniki i synchronizacja informują Cię powiadomieniem. Bez tego przypomnienie nie zadzwoni.</string>
+    <string name="guide_alarms_t">Alarmy i przypomnienia</string>
+    <string name="guide_alarms_b">Przypomnienie lub minutnik dzwoni o ustawionej minucie, nawet gdy telefon śpi. Na większości telefonów jest to już dozwolone.</string>
+    <string name="guide_camera_t">Aparat</string>
+    <string name="guide_camera_b">Skaner fotografuje dokumenty, Kody odczytują kody QR, a parowanie z komputerem skanuje jego kod. Wybierz Podczas używania aplikacji.</string>
+    <string name="guide_contacts_t">Kontakty</string>
+    <string name="guide_contacts_b">Kontakty pokazują osoby z Twojego telefonu i mogą tam przechowywać kopię Twoich, aby połączenia i inne aplikacje znały ich imiona.</string>
+    <string name="guide_phone_t">Telefon i połączenia</string>
+    <string name="guide_phone_b">Telefon wykonuje i odbiera połączenia oraz pokazuje historię połączeń, a komputer może dzwonić przez ten telefon. Tablet bez karty SIM tego nie potrzebuje.</string>
+    <string name="guide_usage_t">Dostęp do danych o użyciu</string>
+    <string name="guide_usage_b">Dane liczą, ile danych mobilnych zużywa każda aplikacja. Android pokaże listę: znajdź Tetra, dotknij jej i włącz przełącznik.</string>
+    <string name="guide_location_t">Lokalizacja</string>
+    <string name="guide_location_b">Mapy pokazują, gdzie jesteś, i prowadzą do celu, a Dane potrzebują jej, by widzieć nazwy sieci Wi-Fi wokół Ciebie. Wybierz Podczas używania aplikacji.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Otwórz aplikację</string>
+    <string name="guide_open_b">Każdy obrazek na ekranie Start otwiera aplikację. Dotknij Pliki, aby zobaczyć swoje pliki.</string>
+    <string name="guide_pencil_t">Edytuj Start</string>
+    <string name="guide_pencil_b">Dotknij ołówka u góry. Każdy element dostaje ramkę i dwa małe przyciski, a dotknięcia niczego nie otwierają, dopóki nie skończysz.</string>
+    <string name="guide_move_t">Przesuń element</string>
+    <string name="guide_move_b">Przytrzymaj element, aż się uniesie, a potem przeciągnij go do dowolnej komórki. Pozostałe zrobią miejsce.</string>
+    <string name="guide_size_t">Większy lub mniejszy</string>
+    <string name="guide_size_b">Dotykaj strzałek na elemencie. Każde dotknięcie zmienia go na duży, średni, mały i znów duży: duży pokazuje więcej w środku, mały to tylko jego obrazek.</string>
+    <string name="guide_hide_t">Ukryj element</string>
+    <string name="guide_hide_b">Dotknij oka, aby ukryć element, którego nie używasz. Ukryte elementy czekają pod siatką: dotknij jednego, aby go przywrócić. Jego przypomnienia i minutniki działają dalej.</string>
+    <string name="guide_done_t">Gotowe</string>
+    <string name="guide_done_b">Dotknij Gotowe, gdy ekran Start wygląda dobrze. Resetuj przywraca go do stanu z początku.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Otwórz folder</string>
+    <string name="guide_folder_b">Dotknij folderu, aby do niego wejść, a pliku, aby go otworzyć. Strzałka u góry wychodzi z powrotem.</string>
+    <string name="guide_hold_t">Wybierz pliki</string>
+    <string name="guide_hold_b">Przytrzymaj plik, aż zostanie zaznaczony, a potem dotykaj innych, aby je dodać. Przytrzymanie wybiera, krótkie dotknięcie otwiera.</string>
+    <string name="guide_bar_t">Przenieś lub kopiuj</string>
+    <string name="guide_bar_b">Gdy pliki są wybrane, dotknij Przenieś (strzałka) lub Kopiuj (dwie kartki) na pasku na dole. Kopiuj zostawia oryginał tam, gdzie był.</string>
+    <string name="guide_where_t">Wybierz miejsce</string>
+    <string name="guide_where_b">Dotknij folderu, aby do niego wejść, W górę, aby wyjść, a potem Przenieś tutaj.</string>
+    <string name="guide_more_t">Zmień nazwę, udostępnij i więcej</string>
+    <string name="guide_more_b">Dotknij trzech kropek obok pliku, aby zobaczyć wszystko dla tego jednego pliku: zmianę nazwy, udostępnianie, tagi, kolor i Kosz.</string>
+    <string name="guide_new_t">Coś nowego</string>
+    <string name="guide_new_b">Dotknij Nowy na pasku na dole, aby utworzyć folder, plik tekstowy albo plik Dokumenty, Arkusze lub Prezentacje, w folderze, w którym jesteś.</string>
+    <string name="guide_trash_t">Kosz</string>
+    <string name="guide_trash_b">To, co usuniesz, najpierw trafia do Kosza. Przesuń w górę pasek na dole, aby otworzyć Narzędzia Plików, dotknij Kosz, wybierz, co chcesz odzyskać, i dotknij Przywróć.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra działa samodzielnie</string>
+    <string name="guide_alone_b">Nie potrzebujesz komputera. Bez niego wszystko zostaje na tym urządzeniu, a sparować możesz później.</string>
+    <string name="guide_scan_t">Sparuj z komputerem</string>
+    <string name="guide_scan_b">Na komputerze otwórz Urządzenia › Dodaj urządzenie: Tetra pokaże kod. Tutaj otwórz Synchronizacja na ekranie Start, dotknij Zeskanuj kod i skieruj na niego aparat.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Język i wygląd</string>
+    <string name="guide_look_b">Ustawienia › Wygląd zmienia język, tryb ciemny lub jasny oraz to, co pokazuje ekran Start.</string>
+    <string name="guide_find_t">Znajdź ustawienie</string>
+    <string name="guide_find_b">Wpisz w wyszukiwarkę u góry Ustawień, aby znaleźć dowolne ustawienie po nazwie.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Ikony</string>
+    <string name="guide_icons_t">Co oznacza każda ikona</string>
+    <string name="guide_icons_b">Tetra wszędzie używa tych samych małych obrazków. Oto każdy z nich i co robi.</string>
+    <string name="guide_icon_back">Wstecz: jeden ekran wstecz</string>
+    <string name="guide_icon_close">Zamknij</string>
+    <string name="guide_icon_check">Gotowe lub wybrane</string>
+    <string name="guide_icon_add">Nowe: folder, notatka, wydarzenie…</string>
+    <string name="guide_icon_search">Szukaj</string>
+    <string name="guide_icon_edit">Edytuj lub Zmień nazwę, zależnie od miejsca: Start – Edytuj, plik – Zmień nazwę</string>
+    <string name="guide_icon_more">Więcej: wszystko o tym elemencie</string>
+    <string name="guide_icon_share">Udostępnij innej aplikacji lub osobie</string>
+    <string name="guide_icon_copy">Kopiuj: drugi egzemplarz trafia tam, pierwszy zostaje</string>
+    <string name="guide_icon_move">Przenieś: trafia tam i znika stąd</string>
+    <string name="guide_icon_delete">Do Kosza: nadal może wrócić</string>
+    <string name="guide_icon_restore">Przywróć: z powrotem z Kosza</string>
+    <string name="guide_icon_tag">Tagi: własne etykiety, by później coś znaleźć</string>
+    <string name="guide_icon_favorite">Ulubiony element: pod ręką w Ulubione</string>
+    <string name="guide_icon_size">Rozmiar: duży, średni lub mały (Start)</string>
+    <string name="guide_icon_hide">Ukryj z widoku; nic nie jest usuwane</string>
+    <string name="guide_icon_handle">Przeciągnij lub przesuń tu w górę, by zobaczyć więcej</string>
+    <string name="guide_icon_choices">Lista opcji: dotknij, by wybrać</string>
+    <string name="guide_icon_undo">Cofnij ostatnią zmianę</string>
+    <string name="guide_icon_redo">Ponów cofniętą zmianę</string>
+    <string name="guide_icon_save">Zapisz</string>
+    <string name="guide_icon_refresh">Sprawdź ponownie, co nowego</string>
+    <string name="guide_icon_sync">Synchronizuj z komputerem</string>
+    <string name="guide_icon_qr">Zeskanuj kod aparatem</string>
+    <string name="guide_icon_card">Pokaż kod tego urządzenia, by je sparować</string>
+    <string name="guide_icon_computer">Twój komputer</string>
+    <string name="guide_icon_lock">Zablokowane lub prywatne</string>
+    <string name="guide_icon_notifications">Powiadomienia</string>
+    <string name="guide_icon_info">Więcej o tym</string>
+    <string name="guide_icon_settings">Ustawienia</string>
+    <string name="guide_icon_home">Start</string>
+    <string name="guide_icon_toc">Rozdziały, spis treści</string>
+    <string name="guide_icon_guide">Ten przewodnik</string>
+</resources>

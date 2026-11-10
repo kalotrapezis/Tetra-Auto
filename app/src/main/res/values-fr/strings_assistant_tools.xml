@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Rechercher dans le navigateur</string>
+    <string name="assistant_card_data_used">%1$s utilisés sur %2$s</string>
+    <string name="assistant_card_data_used_unlimited">%1$s utilisés sur ce cycle</string>
+    <string name="assistant_card_data_left">Reste %1$s · jours restants : %2$d</string>
+    <string name="assistant_card_data_pace">Aujourd\'hui %1$s · moyenne %2$s par jour</string>
+    <string name="assistant_card_data_forecast">Prévision en fin de cycle : %1$s</string>
+    <string name="assistant_card_data_on_track">Dans le forfait</string>
+    <string name="assistant_card_data_cut">Pour rester dans le forfait : au plus %1$s par jour pendant %2$d jours</string>
+    <string name="assistant_card_data_hotspot">%1$s via le point d\'accès du téléphone ce mois-ci</string>
+    <string name="assistant_card_brief">Point du jour</string>
+</resources>

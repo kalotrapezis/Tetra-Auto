@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Carr</string>
+    <string name="car_media">Meáin</string>
+    <string name="car_apps">Aipeanna</string>
+    <string name="car_layout">Leagan amach</string>
+    <string name="car_sms_said">Teachtaireacht ó %1$s: %2$s. Ar mhaith leat freagra a thabhairt?</string>
+    <string name="car_sms_say_it">Abair do theachtaireacht.</string>
+    <string name="car_sms_send_it">“%1$s”. An seolfaidh mé é?</string>
+    <string name="car_sms_sent">Seolta.</string>
+    <string name="car_quiet">Ciúnas sa charr</string>
+    <string name="car_quiet_summary">Fanann fógraí aipeanna eile fad a bhíonn tú ag tiomáint; tagann glaonna agus do theachtaireachtaí léite os ard tríd.</string>
+    <string name="car_pair_phone">Péireáil do ghuthán</string>
+    <string name="car_pair_hint">Ar an nguthán: Tetra › Socruithe › Deilbhíní aipe › Péireáil leis an gcarr, ansin scanáil an cód seo.</string>
+    <string name="car_pair_car">Péireáil leis an gcarr</string>
+    <string name="car_pair_car_summary">Scanáil an cód a thaispeánann Tetra Car ar scáileán an chairr: glaonna agus teachtaireachtaí ansin, beo, gan sioncronú.</string>
+    <string name="car_bluetooth">Bluetooth an chairr</string>
+    <string name="car_bluetooth_none">Roghnaigh cén gléas péireáilte an carr: is é amháin a chuireann an guthán i mód cairr.</string>
+    <string name="car_settings_summary">Sa charr</string>
+    <string name="car_read_sms">Léigh teachtaireachtaí os ard</string>
+    <string name="car_answer_calls">Freagair glaonna tar éis 2 shoicind</string>
+    <string name="car_dock">Barra</string>
+    <string name="car_dock_bottom">Ag an mbun</string>
+    <string name="car_dock_left">Ar chlé</string>
+    <string name="car_dock_right">Ar dheis</string>
+    <string name="car_open">Oscail leis féin</string>
+    <string name="car_home">Úsáid mar scáileán baile</string>
+    <string name="car_home_summary">An bealach is cinnte: osclaíonn scáileán an chairr Tetra Car gach uair a thosaíonn sé. Roghnaigh Tetra Car ansin.</string>
+    <string name="car_open_boot">Oscail nuair a thosaíonn an gléas</string>
+    <string name="car_open_bt">Oscail nuair a nascann an Bluetooth seo</string>
+    <string name="car_bluetooth_phone">Bluetooth an ghutháin</string>
+    <string name="car_bluetooth_phone_none">Roghnaigh do ghuthán: nuair a nascann sé, is féidir le Tetra Car oscailt leis féin.</string>
+</resources>

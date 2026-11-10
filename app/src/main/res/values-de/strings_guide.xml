@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Anleitung</string>
+    <string name="guide_summary">Schritt für Schritt: wo du tippst und warum</string>
+    <string name="guide_try_it">Ausprobieren</string>
+    <string name="guide_skip">Überspringen</string>
+    <string name="guide_chapters">Kapitel</string>
+    <string name="guide_open">Anleitung öffnen</string>
+    <string name="guide_step_of">%1$d von %2$d</string>
+    <string name="guide_allowed">Zugelassen</string>
+    <string name="guide_not_yet">Noch nicht zugelassen</string>
+    <string name="guide_not_here">Nicht auf diesem Gerät</string>
+    <string name="guide_finish">Beenden</string>
+    <string name="guide_dont_allow">Nicht zulassen</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Willkommen</string>
+    <string name="guide_ch_permissions">Berechtigungen</string>
+    <string name="guide_ch_home">Start</string>
+    <string name="guide_ch_files">Dateien</string>
+    <string name="guide_ch_computer">Dein Computer</string>
+    <string name="guide_ch_settings">Einstellungen</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Willkommen bei Tetra</string>
+    <string name="guide_welcome_b">Deine Fotos, Dateien, Notizen und dein Kalender bleiben auf deinen eigenen Geräten. Diese Anleitung zeigt, wo du tippst und warum. Lies einen Schritt, tippe auf Ausprobieren und mach es auf dem echten Bildschirm, während der Schritt sichtbar bleibt.</string>
+    <string name="guide_again_t">Jederzeit wieder da</string>
+    <string name="guide_again_b">Überspringe sie jetzt, wenn du möchtest. Die Anleitung ist immer unter Einstellungen › Anleitung, und jedes Kapitel lässt sich einzeln öffnen.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android fragt dich zuerst</string>
+    <string name="guide_perm_b">Einige Teile von Tetra brauchen deine Erlaubnis. Jede Seite sagt, wofür. Tippe auf Zulassen und beantworte dann die Frage von Android. Du kannst jetzt Nein sagen und es später hier zulassen.</string>
+    <string name="guide_files_t">Alle Dateien</string>
+    <string name="guide_files_b">Dateien, Notizen, Office, Kalender, Timer und Karten speichern alles in einem Tetra-Ordner auf diesem Gerät. Android öffnet eine Seite mit einem Schalter: Schalte ihn ein und geh dann zurück.</string>
+    <string name="guide_photos_t">Fotos und Videos</string>
+    <string name="guide_photos_b">Fotos zeigt deine Bilder und Videos, findet Gesichter und Orte und sendet sie an deinen Computer. Wähle Alle zulassen: Sind nur einige ausgewählt, zeigt Fotos nur diese.</string>
+    <string name="guide_notify_t">Benachrichtigungen</string>
+    <string name="guide_notify_b">Erinnerungen, Timer und die Synchronisierung melden sich mit einer Benachrichtigung. Ohne sie kann eine Erinnerung nicht klingeln.</string>
+    <string name="guide_alarms_t">Wecker und Erinnerungen</string>
+    <string name="guide_alarms_b">Eine Erinnerung oder ein Timer klingelt zur eingestellten Minute, auch wenn das Telefon schläft. Auf den meisten Telefonen ist das schon zugelassen.</string>
+    <string name="guide_camera_t">Kamera</string>
+    <string name="guide_camera_b">Scanner fotografiert Dokumente, Codes liest QR-Codes, und beim Koppeln mit einem Computer wird dessen Code gescannt. Wähle Während der Nutzung der App.</string>
+    <string name="guide_contacts_t">Kontakte</string>
+    <string name="guide_contacts_b">Kontakte zeigt die Personen in deinem Telefon und kann dort eine Kopie deiner Kontakte speichern, damit Anrufe und andere Apps ihre Namen kennen.</string>
+    <string name="guide_phone_t">Telefon und Anrufe</string>
+    <string name="guide_phone_b">Telefon tätigt und beantwortet Anrufe und zeigt deine Anrufliste, und dein Computer kann über dieses Telefon anrufen. Ein Tablet ohne SIM braucht das nicht.</string>
+    <string name="guide_usage_t">Zugriff auf Nutzungsdaten</string>
+    <string name="guide_usage_b">Daten zählt, wie viele mobile Daten jede App verbraucht. Android zeigt eine Liste: Such Tetra, tippe darauf und schalte den Schalter ein.</string>
+    <string name="guide_location_t">Standort</string>
+    <string name="guide_location_b">Karten zeigt, wo du bist, und führt dich ans Ziel, und Daten braucht ihn, um die Namen der Wi-Fi-Netze um dich herum zu sehen. Wähle Während der Nutzung der App.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Eine App öffnen</string>
+    <string name="guide_open_b">Jedes Bild auf Start öffnet eine App. Tippe auf Dateien, um deine Dateien zu sehen.</string>
+    <string name="guide_pencil_t">Start ändern</string>
+    <string name="guide_pencil_b">Tippe oben auf den Stift. Jeder Teil bekommt einen Rahmen und zwei kleine Knöpfe, und Tippen öffnet nichts, bis du fertig bist.</string>
+    <string name="guide_move_t">Einen Teil verschieben</string>
+    <string name="guide_move_b">Halte einen Teil gedrückt, bis er sich anhebt, und zieh ihn dann in ein beliebiges Feld. Die anderen machen Platz.</string>
+    <string name="guide_size_t">Größer oder kleiner</string>
+    <string name="guide_size_b">Tippe auf die Pfeile eines Teils. Jedes Tippen macht ihn groß, mittel, klein und wieder groß: Groß zeigt mehr darin, klein nur sein Bild.</string>
+    <string name="guide_hide_t">Einen Teil ausblenden</string>
+    <string name="guide_hide_b">Tippe auf das Auge, um einen Teil auszublenden, den du nicht nutzt. Ausgeblendete Teile warten unter dem Raster: Tippe auf einen, um ihn zurückzuholen. Seine Erinnerungen und Timer laufen weiter.</string>
+    <string name="guide_done_t">Fertig</string>
+    <string name="guide_done_b">Tippe auf Fertig, wenn Start passt. Zurücksetzen stellt alles so her wie am Anfang.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Einen Ordner öffnen</string>
+    <string name="guide_folder_b">Tippe auf einen Ordner, um hineinzugehen, und auf eine Datei, um sie zu öffnen. Der Pfeil oben führt wieder hinaus.</string>
+    <string name="guide_hold_t">Dateien auswählen</string>
+    <string name="guide_hold_b">Halte eine Datei gedrückt, bis sie ein Häkchen hat, und tippe dann auf andere, um sie hinzuzufügen. Gedrückt halten wählt aus, kurz tippen öffnet.</string>
+    <string name="guide_bar_t">Verschieben oder kopieren</string>
+    <string name="guide_bar_b">Wenn Dateien ausgewählt sind, tippe unten in der Leiste auf Verschieben (der Pfeil) oder Kopieren (zwei Seiten). Kopieren lässt das Original, wo es war.</string>
+    <string name="guide_where_t">Ziel wählen</string>
+    <string name="guide_where_b">Tippe auf einen Ordner, um hineinzugehen, auf Hoch zu, um wieder hinauszugehen, und dann auf Hierher verschieben.</string>
+    <string name="guide_more_t">Umbenennen, teilen und mehr</string>
+    <string name="guide_more_b">Tippe auf die drei Punkte neben einer Datei für alles zu dieser einen Datei: umbenennen, teilen, Tags, Farbe und Papierkorb.</string>
+    <string name="guide_new_t">Etwas Neues</string>
+    <string name="guide_new_b">Tippe unten in der Leiste auf Neu für einen Ordner, eine Textdatei oder eine Datei für Dokumente, Tabellen oder Präsentationen, direkt im Ordner, in dem du bist.</string>
+    <string name="guide_trash_t">Papierkorb</string>
+    <string name="guide_trash_b">Was du löschst, kommt zuerst in den Papierkorb. Wische auf der unteren Leiste nach oben für Dateiwerkzeuge, tippe auf Papierkorb, wähle aus, was du zurückhaben willst, und tippe auf Wiederherstellen.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra geht auch allein</string>
+    <string name="guide_alone_b">Du brauchst keinen Computer. Ohne einen bleibt alles auf diesem Gerät, und du kannst später koppeln.</string>
+    <string name="guide_scan_t">Mit deinem Computer koppeln</string>
+    <string name="guide_scan_b">Öffne auf dem Computer Geräte › Gerät hinzufügen: Tetra zeigt einen Code. Öffne hier Sync auf Start, tippe auf Code scannen und richte die Kamera darauf.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Sprache und Aussehen</string>
+    <string name="guide_look_b">Einstellungen › Darstellung ändert die Sprache, hell oder dunkel und was Start zeigt.</string>
+    <string name="guide_find_t">Eine Einstellung finden</string>
+    <string name="guide_find_b">Tippe oben in den Einstellungen in die Suche, um jede Einstellung über ihren Namen zu finden.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Symbole</string>
+    <string name="guide_icons_t">Was jedes Symbol bedeutet</string>
+    <string name="guide_icons_b">Tetra verwendet überall dieselben kleinen Bilder. Hier ist jedes davon und was es tut.</string>
+    <string name="guide_icon_back">Zurück: einen Bildschirm zurück</string>
+    <string name="guide_icon_close">Schließen</string>
+    <string name="guide_icon_check">Fertig oder ausgewählt</string>
+    <string name="guide_icon_add">Neu: ein Ordner, eine Notiz, ein Termin…</string>
+    <string name="guide_icon_search">Suchen</string>
+    <string name="guide_icon_edit">Bearbeiten oder Umbenennen, je nachdem, wo es ist: Start – Bearbeiten, eine Datei – Umbenennen</string>
+    <string name="guide_icon_more">Mehr: alles zu diesem Eintrag</string>
+    <string name="guide_icon_share">Mit einer anderen App oder Person teilen</string>
+    <string name="guide_icon_copy">Kopieren: eine zweite Kopie kommt dorthin, die erste bleibt</string>
+    <string name="guide_icon_move">Verschieben: es kommt dorthin und ist hier weg</string>
+    <string name="guide_icon_delete">In den Papierkorb: es kann noch zurückkommen</string>
+    <string name="guide_icon_restore">Wiederherstellen: zurück aus dem Papierkorb</string>
+    <string name="guide_icon_tag">Tags: deine eigenen Etiketten, um Dinge später zu finden</string>
+    <string name="guide_icon_favorite">Favorit: bleibt griffbereit unter Favoriten</string>
+    <string name="guide_icon_size">Größe: groß, mittel oder klein (Start)</string>
+    <string name="guide_icon_hide">Ausblenden; nichts wird gelöscht</string>
+    <string name="guide_icon_handle">Hier ziehen oder nach oben wischen für mehr</string>
+    <string name="guide_icon_choices">Eine Liste mit Auswahlmöglichkeiten: tippe, um eine zu wählen</string>
+    <string name="guide_icon_undo">Die letzte Änderung rückgängig machen</string>
+    <string name="guide_icon_redo">Wiederherstellen, was rückgängig gemacht wurde</string>
+    <string name="guide_icon_save">Speichern</string>
+    <string name="guide_icon_refresh">Noch einmal nach Neuem suchen</string>
+    <string name="guide_icon_sync">Mit deinem Computer synchronisieren</string>
+    <string name="guide_icon_qr">Einen Code mit der Kamera scannen</string>
+    <string name="guide_icon_card">Den Code dieses Geräts zeigen, um es zu koppeln</string>
+    <string name="guide_icon_computer">Dein Computer</string>
+    <string name="guide_icon_lock">Gesperrt oder privat</string>
+    <string name="guide_icon_notifications">Benachrichtigungen</string>
+    <string name="guide_icon_info">Mehr dazu</string>
+    <string name="guide_icon_settings">Einstellungen</string>
+    <string name="guide_icon_home">Start</string>
+    <string name="guide_icon_toc">Kapitel, Inhalt</string>
+    <string name="guide_icon_guide">Diese Anleitung</string>
+</resources>

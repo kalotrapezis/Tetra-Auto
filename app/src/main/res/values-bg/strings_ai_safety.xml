@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Поискано от външен текст (имейл, уеб, файл): чака вашето да</string>
+    <string name="assistant_confirm_yes">Направи го</string>
+    <string name="assistant_confirm_done">Готово.</string>
+    <string name="assistant_confirm_cancelled">Не е направено.</string>
+    <string name="ai_memory_auto">Запомняне от разговорите</string>
+    <string name="ai_memory_auto_note">След разговор AI Assist запазва до 3 трайни факта, които сте казали за себе си (никога от имейли или файлове)</string>
+    <string name="mail_ai_urgency_1">Заслужава поглед</string>
+    <string name="mail_ai_urgency_2">Важно</string>
+    <string name="mail_ai_urgency_3">Спешно</string>
+</resources>

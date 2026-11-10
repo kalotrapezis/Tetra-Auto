@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">ȘTIRI</string>
+    <string name="news_page">Pagină</string>
+    <string name="ai_presenter">Robotul prezintă</string>
+    <string name="ai_presenter_note">Rezumatele și rezultatele programate ca un mic jurnal de știri, citite cu voce tare.</string>
+</resources>

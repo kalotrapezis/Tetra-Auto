@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assistant_live_vinyl">Βινύλιο</string>
+    <string name="assistant_live_cassette">Κασέτα</string>
+    <string name="assistant_live_tv">Τηλεόραση</string>
+</resources>

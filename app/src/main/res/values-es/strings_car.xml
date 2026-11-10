@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Coche</string>
+    <string name="car_media">Multimedia</string>
+    <string name="car_apps">Aplicaciones</string>
+    <string name="car_layout">Diseño</string>
+    <string name="car_sms_said">Mensaje de %1$s: %2$s. ¿Quieres responder?</string>
+    <string name="car_sms_say_it">Di tu mensaje.</string>
+    <string name="car_sms_send_it">«%1$s». ¿Lo envío?</string>
+    <string name="car_sms_sent">Enviado.</string>
+    <string name="car_quiet">Silencio en el coche</string>
+    <string name="car_quiet_summary">Las notificaciones de otras apps esperan mientras conduces; las llamadas y tus mensajes leídos en voz alta pasan.</string>
+    <string name="car_pair_phone">Vincular el teléfono</string>
+    <string name="car_pair_hint">En el teléfono: Tetra › Ajustes › Iconos de apps › Vincular con el coche, y escanea este código.</string>
+    <string name="car_pair_car">Vincular con el coche</string>
+    <string name="car_pair_car_summary">Escanea el código que Tetra Car muestra en la pantalla del coche: llamadas y mensajes allí, en directo, sin sincronizar.</string>
+    <string name="car_bluetooth">Bluetooth del coche</string>
+    <string name="car_bluetooth_none">Elige qué dispositivo vinculado es el coche: solo él pone el teléfono en modo coche.</string>
+    <string name="car_settings_summary">En el coche</string>
+    <string name="car_read_sms">Leer los mensajes en voz alta</string>
+    <string name="car_answer_calls">Contestar llamadas a los 2 segundos</string>
+    <string name="car_dock">Barra</string>
+    <string name="car_dock_bottom">Abajo</string>
+    <string name="car_dock_left">A la izquierda</string>
+    <string name="car_dock_right">A la derecha</string>
+    <string name="car_open">Abrir por sí solo</string>
+    <string name="car_home">Usar como pantalla de inicio</string>
+    <string name="car_home_summary">Lo más seguro: la pantalla del coche abre Tetra Car cada vez que arranca. Elige Tetra Car allí.</string>
+    <string name="car_open_boot">Abrir al iniciar el dispositivo</string>
+    <string name="car_open_bt">Abrir cuando se conecte este Bluetooth</string>
+    <string name="car_bluetooth_phone">Bluetooth del teléfono</string>
+    <string name="car_bluetooth_phone_none">Elige tu teléfono: cuando se conecte, Tetra Car puede abrirse solo.</string>
+</resources>

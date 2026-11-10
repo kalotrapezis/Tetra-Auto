@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NYHETER</string>
+    <string name="news_page">Sida</string>
+    <string name="ai_presenter">Roboten presenterar</string>
+    <string name="ai_presenter_note">Översikter och schemalagda resultat som ett litet nyhetsprogram, upplästa.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">No es un archivo de texto</string>
+    <string name="text_not_text_body">«%1$s» no es texto plano (por ejemplo, un archivo de Word, PowerPoint, PDF o una imagen). El editor de texto no puede mostrarlo.</string>
+    <string name="text_huge_title">Un archivo muy grande</string>
+    <string name="text_huge_body">«%1$s» ocupa %2$s. El editor de texto puede ir muy lento o bloquearse.</string>
+    <string name="text_open_with">Abrir con…</string>
+    <string name="text_open_anyway">Abrir de todos modos</string>
+    <string name="text_closed_not_text">Se cerró «%1$s»: no es un archivo de texto.</string>
+</resources>

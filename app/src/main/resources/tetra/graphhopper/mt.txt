@@ -1,0 +1,21 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+continue=kompli
+continue_onto=kompli fuq %1$s
+finish=wasalt fid-destinazzjoni
+keep_left=żomm fuq ix-xellug
+keep_right=żomm fuq il-lemin
+turn_onto=%1$s għal %2$s
+turn_left=dur lejn ix-xellug
+turn_right=dur lejn il-lemin
+turn_slight_left=dur ftit lejn ix-xellug
+turn_slight_right=dur ftit lejn il-lemin
+turn_sharp_left=dur għal kollox lejn ix-xellug
+turn_sharp_right=dur għal kollox lejn il-lemin
+u_turn=agħmel dawra U
+toward_destination=%1$s u saq lejn %2$s
+toward_destination_ref_only=%1$s lejn %2$s
+toward_destination_with_ref=%1$s u ħu %2$s lejn %3$s
+stopover=punt tal-waqfa %1$s
+roundabout_enter=Idħol fir-roundabout
+roundabout_exit=Fir-roundabout, ħu l-ħruġ %1$s
+roundabout_exit_onto=Fir-roundabout, ħu l-ħruġ %1$s għal %2$s

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Zażądane przez tekst z zewnątrz (mail, sieć, plik): czeka na Twoje tak</string>
+    <string name="assistant_confirm_yes">Zrób to</string>
+    <string name="assistant_confirm_done">Gotowe.</string>
+    <string name="assistant_confirm_cancelled">Nie zrobiono.</string>
+    <string name="ai_memory_auto">Zapamiętuj z rozmów</string>
+    <string name="ai_memory_auto_note">Po rozmowie AI Assist zachowuje do 3 trwałych faktów, które o sobie powiedziałeś (nigdy z maili ani plików)</string>
+    <string name="mail_ai_urgency_1">Warto zerknąć</string>
+    <string name="mail_ai_urgency_2">Ważne</string>
+    <string name="mail_ai_urgency_3">Pilne</string>
+</resources>

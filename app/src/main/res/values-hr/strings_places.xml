@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Podsjetnici prema mjestu</string>
+    <string name="place_reminders_note">Kad stignete na neko mjesto, oglasi se popis iz Bilješki kao podsjetnik. Recite AI Assistu: „kad odem u supermarket, pokaži mi kupovinu”. Lokacija se provjerava rijetko, radi baterije.</string>
+    <string name="place_reminders_on">Podsjetnici prema mjestu na ovom telefonu</string>
+    <string name="place_reminders_location">Lokacija uvijek</string>
+    <string name="place_reminders_location_on">Dopušteno</string>
+    <string name="place_reminders_location_off">Potrebno: odaberite Uvijek dopusti</string>
+    <string name="place_reminders_none">Još nema podsjetnika prema mjestu</string>
+    <string name="place_reminders_any">Bilo koji popis s preostalim stavkama</string>
+    <string name="place_reminder_title">Vaš popis</string>
+</resources>

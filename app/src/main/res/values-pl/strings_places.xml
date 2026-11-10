@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Przypomnienia o miejscu</string>
+    <string name="place_reminders_note">Gdy dotrzesz na miejsce, zadzwoni lista z Notatek, jak przypomnienie. Powiedz AI Assist: „kiedy pójdę do supermarketu, pokaż mi zakupy”. Lokalizacja jest sprawdzana rzadko, by oszczędzać baterię.</string>
+    <string name="place_reminders_on">Przypomnienia o miejscu na tym telefonie</string>
+    <string name="place_reminders_location">Lokalizacja zawsze</string>
+    <string name="place_reminders_location_on">Dozwolone</string>
+    <string name="place_reminders_location_off">Potrzebne: wybierz Zezwalaj zawsze</string>
+    <string name="place_reminders_none">Brak przypomnień o miejscu</string>
+    <string name="place_reminders_any">Dowolna lista z pozostałymi pozycjami</string>
+    <string name="place_reminder_title">Twoja lista</string>
+</resources>

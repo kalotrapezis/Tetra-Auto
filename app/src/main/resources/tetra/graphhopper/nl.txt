@@ -1,0 +1,4 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+toward_destination=%1$s en rijd richting %2$s
+toward_destination_ref_only=%1$s richting %2$s
+toward_destination_with_ref=%1$s en neem de %2$s richting %3$s

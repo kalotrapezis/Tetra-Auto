@@ -1,0 +1,4 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+toward_destination=%1$s ja aja suuntaan %2$s
+toward_destination_ref_only=%1$s suuntaan %2$s
+toward_destination_with_ref=%1$s ja valitse %2$s suuntaan %3$s

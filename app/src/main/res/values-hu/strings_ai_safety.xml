@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Külső szöveg kérte (levél, web, fájl): az igenedre vár</string>
+    <string name="assistant_confirm_yes">Mehet</string>
+    <string name="assistant_confirm_done">Kész.</string>
+    <string name="assistant_confirm_cancelled">Nem történt meg.</string>
+    <string name="ai_memory_auto">Megjegyzés a beszélgetésekből</string>
+    <string name="ai_memory_auto_note">Egy beszélgetés után az AI Assist legfeljebb 3 tartós tényt megjegyez, amit magadról mondtál (levelekből vagy fájlokból soha)</string>
+    <string name="mail_ai_urgency_1">Érdemes megnézni</string>
+    <string name="mail_ai_urgency_2">Fontos</string>
+    <string name="mail_ai_urgency_3">Sürgős</string>
+</resources>

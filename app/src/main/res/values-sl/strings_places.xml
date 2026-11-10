@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Opomniki za kraj</string>
+    <string name="place_reminders_note">Ko prispete nekam, zazvoni seznam iz Zapiskov kot opomnik. Recite AI Assist: »ko grem v trgovino, mi pokaži nakupovalni seznam«. Lokacija se preverja redko, da se varčuje z baterijo.</string>
+    <string name="place_reminders_on">Opomniki za kraj v tem telefonu</string>
+    <string name="place_reminders_location">Lokacija vedno</string>
+    <string name="place_reminders_location_on">Dovoljeno</string>
+    <string name="place_reminders_location_off">Potrebno: izberite Vedno dovoli</string>
+    <string name="place_reminders_none">Še ni opomnikov za kraj</string>
+    <string name="place_reminders_any">Katerikoli seznam s preostalimi postavkami</string>
+    <string name="place_reminder_title">Vaš seznam</string>
+</resources>

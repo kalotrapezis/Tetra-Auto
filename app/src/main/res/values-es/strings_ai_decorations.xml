@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_decorations">Adornos de IA</string>
+    <string name="ai_decorations_note">El casete, el vinilo o la tele con el robot, sus señales, la nieve y la pantalla antigua. Desactivado: solo la conversación y sus botones.</string>
+</resources>

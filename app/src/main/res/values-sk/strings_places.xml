@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Pripomienky podľa miesta</string>
+    <string name="place_reminders_note">Keď dorazíte na miesto, zazvoní zoznam z Poznámok ako pripomienka. Povedzte AI Assist: „keď pôjdem do supermarketu, ukáž mi nákup“. Poloha sa kontroluje zriedka, aby sa šetrila batéria.</string>
+    <string name="place_reminders_on">Pripomienky podľa miesta v tomto telefóne</string>
+    <string name="place_reminders_location">Poloha vždy</string>
+    <string name="place_reminders_location_on">Povolené</string>
+    <string name="place_reminders_location_off">Potrebné: zvoľte Povoliť vždy</string>
+    <string name="place_reminders_none">Zatiaľ žiadne pripomienky podľa miesta</string>
+    <string name="place_reminders_any">Akýkoľvek zoznam so zostávajúcimi položkami</string>
+    <string name="place_reminder_title">Váš zoznam</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Povijest</string>
+    <string name="usage_tab_days">Dani</string>
+    <string name="usage_tab_months">Mjeseci</string>
+    <string name="usage_tab_years">Godine</string>
+    <string name="usage_saved">Spremljeno ✓</string>
+    <string name="usage_more">Još %1$d</string>
+</resources>

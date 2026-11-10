@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Išči v brskalniku</string>
+    <string name="assistant_card_data_used">Porabljeno %1$s od %2$s</string>
+    <string name="assistant_card_data_used_unlimited">Porabljeno %1$s v tem obdobju</string>
+    <string name="assistant_card_data_left">Ostane %1$s · dni: %2$d</string>
+    <string name="assistant_card_data_pace">Danes %1$s · povprečno %2$s na dan</string>
+    <string name="assistant_card_data_forecast">Napoved ob koncu obdobja: %1$s</string>
+    <string name="assistant_card_data_on_track">V mejah paketa</string>
+    <string name="assistant_card_data_cut">Da ostanete v paketu: največ %1$s na dan %2$d dni</string>
+    <string name="assistant_card_data_hotspot">%1$s prek dostopne točke telefona ta mesec</string>
+    <string name="assistant_card_brief">Dnevni pregled</string>
+</resources>

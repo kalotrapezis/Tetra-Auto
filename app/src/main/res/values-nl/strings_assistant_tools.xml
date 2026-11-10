@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Zoeken in de browser</string>
+    <string name="assistant_card_data_used">%1$s van %2$s gebruikt</string>
+    <string name="assistant_card_data_used_unlimited">%1$s gebruikt deze periode</string>
+    <string name="assistant_card_data_left">Nog %1$s · dagen over: %2$d</string>
+    <string name="assistant_card_data_pace">Vandaag %1$s · gemiddeld %2$s per dag</string>
+    <string name="assistant_card_data_forecast">Verwachting aan het eind van de periode: %1$s</string>
+    <string name="assistant_card_data_on_track">Binnen je bundel</string>
+    <string name="assistant_card_data_cut">Om binnen je bundel te blijven: hoogstens %1$s per dag gedurende %2$d dagen</string>
+    <string name="assistant_card_data_hotspot">%1$s via de hotspot van de telefoon deze maand</string>
+    <string name="assistant_card_brief">Dagoverzicht</string>
+</resources>

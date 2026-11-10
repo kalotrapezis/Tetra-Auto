@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Cluaisíní ó ghléasanna eile</string>
+    <string name="browser_sync_title">Sioncrónú</string>
+    <string name="browser_sync_note">An méid a roinneann an gléas seo le do ghléasanna eile trí shioncrónú Tetra. Baineann gach lasc leis an ngléas seo amháin; má mhúchtar í, fanann a bhfuil anseo.</string>
+    <string name="browser_sync_bookmarks">Leabharmharcanna</string>
+    <string name="browser_sync_tabs">Cluaisíní oscailte</string>
+    <string name="browser_sync_passwords">Pasfhocail</string>
+    <string name="browser_sync_passwords_off">As: fanann siad ar an ngléas seo</string>
+    <string name="browser_sync_passwords_on">Ar siúl: pasfhocail, seoltaí agus cártaí, criptithe le d’fhrása faire sioncrónaithe</string>
+    <string name="browser_sync_passwords_need">Roghnaíodh frása nua ar ghléas eile: tapáil chun é a iontráil</string>
+    <string name="browser_pass_new_title">Roghnaigh frása faire sioncrónaithe</string>
+    <string name="browser_pass_new_note">Taistealaíonn do phasfhocail, do sheoltaí agus do chártaí criptithe leis, agus ní féidir le haon duine iad a léamh gan é, Tetra féin. Iarrfaidh do ghléasanna eile é uair amháin.</string>
+    <string name="browser_pass_enter_title">Frása faire sioncrónaithe</string>
+    <string name="browser_pass_enter_note">An ceann a roghnaigh tú ar do ghléas eile.</string>
+    <string name="browser_pass_field">Frása faire</string>
+    <string name="browser_pass_repeat">Athscríobh é</string>
+    <string name="browser_pass_short">8 gcarachtar ar a laghad</string>
+    <string name="browser_pass_mismatch">Níl an dá cheann mar an gcéanna</string>
+    <string name="browser_pass_wrong">Frása mícheart</string>
+    <string name="browser_pass_failed">Níorbh fhéidir é a ghlacadh; bain triail eile as</string>
+    <string name="browser_pass_forgot">Ar dhearmad tú é?</string>
+    <string name="browser_pass_reset_title">Tosú as an nua le frása nua?</string>
+    <string name="browser_pass_reset_note">Fanann na pasfhocail ar gach gléas mar atá siad. Iarrfaidh do ghléasanna eile an frása nua.</string>
+    <string name="browser_pass_reset">Tosaigh as an nua</string>
+    <string name="browser_saved_note_synced">Coinnithe criptithe, agus seolta chuig do ghléasanna eile criptithe le d’fhrása faire sioncrónaithe</string>
+</resources>

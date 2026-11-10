@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Istorija</string>
+    <string name="usage_tab_days">Dienos</string>
+    <string name="usage_tab_months">Mėnesiai</string>
+    <string name="usage_tab_years">Metai</string>
+    <string name="usage_saved">Išsaugota ✓</string>
+    <string name="usage_more">Dar %1$d</string>
+</resources>

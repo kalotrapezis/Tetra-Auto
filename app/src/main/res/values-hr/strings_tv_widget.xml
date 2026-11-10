@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assist televizor</string>
+    <string name="tv_widget_note">Maskota u starom televizoru: dodirnite zaslon za razgovor, gumbe za gašenje.</string>
+    <string name="tv_widget_power">Uključi ili isključi televizor</string>
+    <string-array name="tv_hello">
+        <item>Bok! Što ima?</item>
+        <item>Pozdrav!</item>
+        <item>Evo me!</item>
+    </string-array>
+</resources>

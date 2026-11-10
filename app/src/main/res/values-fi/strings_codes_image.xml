@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Codes: a code read from a picture (CodeScreens.kt) -->
+<resources>
+    <string name="codes_image">Kuva</string>
+    <string name="codes_none_in_image">Kuvasta ei löytynyt koodia</string>
+    <string name="codes_from_image">Koodi kuvasta</string>
+</resources>

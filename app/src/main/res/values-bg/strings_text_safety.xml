@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Не е текстов файл</string>
+    <string name="text_not_text_body">«%1$s» не е обикновен текст (например Word, PowerPoint, PDF или изображение). Текстовият редактор не може да го покаже.</string>
+    <string name="text_huge_title">Много голям файл</string>
+    <string name="text_huge_body">«%1$s» е %2$s. Текстовият редактор може да работи много бавно или да блокира.</string>
+    <string name="text_open_with">Отваряне с…</string>
+    <string name="text_open_anyway">Отваряне все пак</string>
+    <string name="text_closed_not_text">«%1$s» е затворен: не е текстов файл.</string>
+</resources>

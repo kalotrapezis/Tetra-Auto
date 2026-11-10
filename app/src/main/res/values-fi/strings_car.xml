@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Auto</string>
+    <string name="car_media">Media</string>
+    <string name="car_apps">Sovellukset</string>
+    <string name="car_layout">Asettelu</string>
+    <string name="car_sms_said">Viesti lähettäjältä %1$s: %2$s. Haluatko vastata?</string>
+    <string name="car_sms_say_it">Sano viestisi.</string>
+    <string name="car_sms_send_it">”%1$s”. Lähetänkö sen?</string>
+    <string name="car_sms_sent">Lähetetty.</string>
+    <string name="car_quiet">Hiljaisuus autossa</string>
+    <string name="car_quiet_summary">Muiden sovellusten ilmoitukset odottavat ajon ajan; puhelut ja ääneen luetut viestit tulevat läpi.</string>
+    <string name="car_pair_phone">Yhdistä puhelin</string>
+    <string name="car_pair_hint">Puhelimessa: Tetra › Asetukset › Sovelluskuvakkeet › Yhdistä autoon, ja skannaa tämä koodi.</string>
+    <string name="car_pair_car">Yhdistä autoon</string>
+    <string name="car_pair_car_summary">Skannaa koodi, jonka Tetra Car näyttää auton näytöllä: puhelut ja viestit siellä, suorana, ilman synkronointia.</string>
+    <string name="car_bluetooth">Auton Bluetooth</string>
+    <string name="car_bluetooth_none">Valitse, mikä paritettu laite on auto: vain se laittaa autotilan päälle.</string>
+    <string name="car_settings_summary">Autossa</string>
+    <string name="car_read_sms">Lue viestit ääneen</string>
+    <string name="car_answer_calls">Vastaa puheluihin 2 sekunnin kuluttua</string>
+    <string name="car_dock">Palkki</string>
+    <string name="car_dock_bottom">Alhaalla</string>
+    <string name="car_dock_left">Vasemmalla</string>
+    <string name="car_dock_right">Oikealla</string>
+    <string name="car_open">Avaa itsestään</string>
+    <string name="car_home">Käytä aloitusnäyttönä</string>
+    <string name="car_home_summary">Varmin tapa: auton näyttö avaa Tetra Carin joka käynnistyksellä. Valitse siellä Tetra Car.</string>
+    <string name="car_open_boot">Avaa laitteen käynnistyessä</string>
+    <string name="car_open_bt">Avaa, kun tämä Bluetooth yhdistyy</string>
+    <string name="car_bluetooth_phone">Puhelimen Bluetooth</string>
+    <string name="car_bluetooth_phone_none">Valitse puhelimesi: kun se yhdistyy, Tetra Car voi avautua itsestään.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Tele de AI Assist</string>
+    <string name="tv_widget_note">La mascota en una tele antigua: toca la pantalla para hablar, los botones para apagarla.</string>
+    <string name="tv_widget_power">Encender o apagar la tele</string>
+    <string-array name="tv_hello">
+        <item>¡Hola! ¿Qué tal?</item>
+        <item>¡Buenas!</item>
+        <item>¡Aquí estoy!</item>
+    </string-array>
+</resources>

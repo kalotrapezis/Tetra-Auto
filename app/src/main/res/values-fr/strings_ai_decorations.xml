@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_decorations">Décors IA</string>
+    <string name="ai_decorations_note">La cassette, le vinyle ou la télé avec le robot, ses signes, la neige et le vieil écran. Désactivé : simplement la conversation et ses boutons.</string>
+</resources>

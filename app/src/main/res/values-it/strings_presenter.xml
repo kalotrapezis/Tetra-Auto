@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NOTIZIE</string>
+    <string name="news_page">Pagina</string>
+    <string name="ai_presenter">Il robot presenta</string>
+    <string name="ai_presenter_note">I riepiloghi e i risultati programmati come un piccolo telegiornale, letti ad alta voce.</string>
+</resources>

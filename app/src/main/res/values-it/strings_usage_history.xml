@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Cronologia</string>
+    <string name="usage_tab_days">Giorni</string>
+    <string name="usage_tab_months">Mesi</string>
+    <string name="usage_tab_years">Anni</string>
+    <string name="usage_saved">Salvato ✓</string>
+    <string name="usage_more">Altri %1$d</string>
+</resources>

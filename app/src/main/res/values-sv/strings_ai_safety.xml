@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Begärt av extern text (mejl, webb, fil): väntar på ditt ja</string>
+    <string name="assistant_confirm_yes">Gör det</string>
+    <string name="assistant_confirm_done">Klart.</string>
+    <string name="assistant_confirm_cancelled">Inte gjort.</string>
+    <string name="ai_memory_auto">Kom ihåg från chattar</string>
+    <string name="ai_memory_auto_note">Efter en chatt sparar AI Assist upp till 3 bestående fakta du sagt om dig själv (aldrig från mejl eller filer)</string>
+    <string name="mail_ai_urgency_1">Värt en titt</string>
+    <string name="mail_ai_urgency_2">Viktigt</string>
+    <string name="mail_ai_urgency_3">Brådskande</string>
+</resources>

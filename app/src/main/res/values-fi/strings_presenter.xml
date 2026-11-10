@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">UUTISET</string>
+    <string name="news_page">Sivu</string>
+    <string name="ai_presenter">Robotti juontaa</string>
+    <string name="ai_presenter_note">Katsaukset ja ajastetut tulokset pienenä uutislähetyksenä, ääneen luettuna.</string>
+</resources>

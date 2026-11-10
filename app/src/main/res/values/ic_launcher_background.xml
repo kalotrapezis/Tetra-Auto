@@ -1,0 +1,4 @@
+<resources>
+    <!-- The dark ground of Assets/Icons/New/icon-Black.png, so the adaptive icon and the artwork match. -->
+    <color name="ic_launcher_background">#101622</color>
+</resources>

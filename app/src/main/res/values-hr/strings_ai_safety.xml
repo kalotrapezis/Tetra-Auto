@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Zatraženo vanjskim tekstom (e-pošta, web, datoteka): čeka vaše da</string>
+    <string name="assistant_confirm_yes">Učini</string>
+    <string name="assistant_confirm_done">Gotovo.</string>
+    <string name="assistant_confirm_cancelled">Nije učinjeno.</string>
+    <string name="ai_memory_auto">Pamti iz razgovora</string>
+    <string name="ai_memory_auto_note">Nakon razgovora AI Assist zadrži do 3 trajne činjenice koje ste rekli o sebi (nikad iz e-pošte ili datoteka)</string>
+    <string name="mail_ai_urgency_1">Vrijedi pogledati</string>
+    <string name="mail_ai_urgency_2">Važno</string>
+    <string name="mail_ai_urgency_3">Hitno</string>
+</resources>

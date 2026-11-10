@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra's account in the phone's Contacts: read-only there (edits are made in Tetra, whose files are the truth). -->
+<ContactsAccountType xmlns:android="http://schemas.android.com/apk/res/android" />

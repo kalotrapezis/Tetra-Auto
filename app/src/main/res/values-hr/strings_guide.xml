@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Vodič</string>
+    <string name="guide_summary">Korak po korak: gdje dodirnuti i zašto</string>
+    <string name="guide_try_it">Isprobaj</string>
+    <string name="guide_skip">Preskoči</string>
+    <string name="guide_chapters">Poglavlja</string>
+    <string name="guide_open">Otvori vodič</string>
+    <string name="guide_step_of">%1$d od %2$d</string>
+    <string name="guide_allowed">Dopušteno</string>
+    <string name="guide_not_yet">Još nije dopušteno</string>
+    <string name="guide_not_here">Nije na ovom uređaju</string>
+    <string name="guide_finish">Završi</string>
+    <string name="guide_dont_allow">Nemoj dopustiti</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Dobro došli</string>
+    <string name="guide_ch_permissions">Dopuštenja</string>
+    <string name="guide_ch_home">Početna</string>
+    <string name="guide_ch_files">Datoteke</string>
+    <string name="guide_ch_computer">Vaše računalo</string>
+    <string name="guide_ch_settings">Postavke</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Dobro došli u aplikaciju Tetra</string>
+    <string name="guide_welcome_b">Vaše fotografije, datoteke, bilješke i kalendar ostaju na vašim vlastitim uređajima. Ovaj vodič pokazuje gdje dodirnuti i zašto. Pročitajte korak, dodirnite Isprobaj i napravite ga na pravom zaslonu dok korak ostaje vidljiv.</string>
+    <string name="guide_again_t">Vratite se bilo kada</string>
+    <string name="guide_again_b">Ako želite, sada ga preskočite. Vodič je uvijek u Postavke › Vodič, a svako se poglavlje otvara zasebno.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android vas prvo pita</string>
+    <string name="guide_perm_b">Neki dijelovi Tetre trebaju vaše dopuštenje. Svaka stranica kaže čemu služi. Dodirnite Dopusti, a zatim odgovorite na Androidovo pitanje. Sada možete odbiti i dopustiti to ovdje kasnije.</string>
+    <string name="guide_files_t">Sve datoteke</string>
+    <string name="guide_files_b">Datoteke, Bilješke, Office, Kalendar, Tajmer i Karte drže sve u jednoj mapi Tetra na ovom uređaju. Android otvara stranicu s jednim prekidačem: uključite ga, a zatim se vratite.</string>
+    <string name="guide_photos_t">Fotografije i videozapisi</string>
+    <string name="guide_photos_b">Fotografije prikazuju vaše slike i videozapise, pronalaze lica i mjesta i šalju ih na vaše računalo. Odaberite Dopusti sve: ako odaberete samo neke, Fotografije prikazuju samo njih.</string>
+    <string name="guide_notify_t">Obavijesti</string>
+    <string name="guide_notify_b">Podsjetnici, tajmeri i sinkronizacija javljaju vam stvari obaviješću. Bez toga podsjetnik ne može zazvoniti.</string>
+    <string name="guide_alarms_t">Alarmi i podsjetnici</string>
+    <string name="guide_alarms_b">Podsjetnik ili tajmer zazvoni u minuti koju postavite, čak i dok telefon spava. Na većini telefona to je već dopušteno.</string>
+    <string name="guide_camera_t">Kamera</string>
+    <string name="guide_camera_b">Skener fotografira dokumente, Kodovi čitaju QR kodove, a uparivanje s računalom skenira njegov kod. Odaberite Dok se aplikacija upotrebljava.</string>
+    <string name="guide_contacts_t">Kontakti</string>
+    <string name="guide_contacts_b">Kontakti prikazuju osobe u vašem telefonu i mogu ondje čuvati kopiju vaših, kako bi pozivi i druge aplikacije znali njihova imena.</string>
+    <string name="guide_phone_t">Telefon i pozivi</string>
+    <string name="guide_phone_b">Telefon upućuje i prima pozive te prikazuje povijest poziva, a vaše računalo može zvati preko ovog telefona. Tabletu bez SIM kartice to nije potrebno.</string>
+    <string name="guide_usage_t">Pristup podacima o upotrebi</string>
+    <string name="guide_usage_b">Podaci broje koliko mobilnih podataka troši svaka aplikacija. Android prikazuje popis: pronađite Tetra, dodirnite je i uključite prekidač.</string>
+    <string name="guide_location_t">Lokacija</string>
+    <string name="guide_location_b">Karte pokazuju gdje ste i vode vas do cilja, a Podaci je trebaju da bi vidjeli nazive Wi-Fi mreža oko vas. Odaberite Dok se aplikacija upotrebljava.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Otvorite aplikaciju</string>
+    <string name="guide_open_b">Svaka slika na Početnoj otvara aplikaciju. Dodirnite Datoteke da biste vidjeli svoje datoteke.</string>
+    <string name="guide_pencil_t">Uredite Početnu</string>
+    <string name="guide_pencil_b">Dodirnite olovku na vrhu. Svaki dio dobiva okvir i dva mala gumba, a dodiri ništa ne otvaraju dok ne završite.</string>
+    <string name="guide_move_t">Premjestite dio</string>
+    <string name="guide_move_b">Zadržite dio dok se ne podigne, a zatim ga povucite u bilo koju ćeliju. Ostali će napraviti mjesta.</string>
+    <string name="guide_size_t">Veće ili manje</string>
+    <string name="guide_size_b">Dodirujte strelice na dijelu. Svaki dodir čini ga velikim, srednjim, malim pa opet velikim: veliki prikazuje više sadržaja, mali je samo njegova slika.</string>
+    <string name="guide_hide_t">Sakrijte dio</string>
+    <string name="guide_hide_b">Dodirnite oko da biste sakrili dio koji ne upotrebljavate. Skriveni dijelovi čekaju ispod mreže: dodirnite jedan da biste ga vratili. Njegovi podsjetnici i tajmeri rade dalje.</string>
+    <string name="guide_done_t">Gotovo</string>
+    <string name="guide_done_b">Dodirnite Gotovo kad Početna izgleda kako treba. Vrati zadano vraća je kakva je bila na početku.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Otvorite mapu</string>
+    <string name="guide_folder_b">Dodirnite mapu da biste ušli u nju, a datoteku da biste je otvorili. Strelica na vrhu vodi natrag van.</string>
+    <string name="guide_hold_t">Odaberite datoteke</string>
+    <string name="guide_hold_b">Zadržite datoteku dok ne bude označena, a zatim dodirnite druge da biste ih dodali. Zadržavanje odabire, kratak dodir otvara.</string>
+    <string name="guide_bar_t">Premjesti ili kopiraj</string>
+    <string name="guide_bar_b">Kad su datoteke odabrane, dodirnite Premjesti (strelica) ili Kopiraj (dvije stranice) na traci pri dnu. Kopiraj ostavlja izvornik gdje je bio.</string>
+    <string name="guide_where_t">Odaberite kamo</string>
+    <string name="guide_where_b">Dodirnite mapu da biste ušli u nju, Gore da biste izašli, a zatim Premjesti ovdje.</string>
+    <string name="guide_more_t">Preimenuj, dijeli i više</string>
+    <string name="guide_more_b">Dodirnite tri točke pokraj datoteke za sve o toj jednoj datoteci: preimenovanje, dijeljenje, oznake, boju i Otpad.</string>
+    <string name="guide_new_t">Nešto novo</string>
+    <string name="guide_new_b">Dodirnite Novo na traci pri dnu za mapu, tekstnu datoteku ili dokument Dokumenti, Tablice ili Prezentacije, upravo u mapi u kojoj se nalazite.</string>
+    <string name="guide_trash_t">Otpad</string>
+    <string name="guide_trash_b">Ono što izbrišete prvo ide u Otpad. Prijeđite prstom prema gore po traci pri dnu za Alati Datoteka, dodirnite Otpad, odaberite što želite vratiti i dodirnite Vrati.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra radi i samostalno</string>
+    <string name="guide_alone_b">Računalo vam nije potrebno. Bez njega sve ostaje na ovom uređaju, a upariti možete kasnije.</string>
+    <string name="guide_scan_t">Uparite s računalom</string>
+    <string name="guide_scan_b">Na računalu otvorite Uređaji › Dodaj uređaj: Tetra prikazuje kod. Ovdje na Početnoj otvorite Sinkronizacija, dodirnite Skeniraj kod i usmjerite kameru prema njemu.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Jezik i izgled</string>
+    <string name="guide_look_b">Postavke › Izgled mijenja jezik, tamni ili svijetli način i što prikazuje Početna.</string>
+    <string name="guide_find_t">Pronađite postavku</string>
+    <string name="guide_find_b">Upišite u pretraživanje na vrhu Postavki da biste pronašli bilo koju postavku po nazivu.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Ikone</string>
+    <string name="guide_icons_t">Što znači svaka ikona</string>
+    <string name="guide_icons_b">Tetra svugdje koristi iste male slike. Ovdje je svaka od njih i što radi.</string>
+    <string name="guide_icon_back">Natrag: jedan zaslon natrag</string>
+    <string name="guide_icon_close">Zatvori</string>
+    <string name="guide_icon_check">Gotovo ili odabrano</string>
+    <string name="guide_icon_add">Novo: mapa, bilješka, događaj…</string>
+    <string name="guide_icon_search">Pretraživanje</string>
+    <string name="guide_icon_edit">Uredi ili Preimenuj, ovisno o mjestu: Početna – Uredi, datoteka – Preimenuj</string>
+    <string name="guide_icon_more">Više: sve o ovoj stavci</string>
+    <string name="guide_icon_share">Podijeli s drugom aplikacijom ili osobom</string>
+    <string name="guide_icon_copy">Kopiraj: druga kopija ide tamo, prva ostaje</string>
+    <string name="guide_icon_move">Premjesti: ide tamo i odlazi odavde</string>
+    <string name="guide_icon_delete">U Otpad: još se može vratiti</string>
+    <string name="guide_icon_restore">Vrati: natrag iz Otpada</string>
+    <string name="guide_icon_tag">Oznake: vaše vlastite oznake za kasnije pronalaženje</string>
+    <string name="guide_icon_favorite">Favorit: pri ruci pod Favoriti</string>
+    <string name="guide_icon_size">Veličina: velika, srednja ili mala (Početna)</string>
+    <string name="guide_icon_hide">Sakrij s vidika; ništa se ne briše</string>
+    <string name="guide_icon_handle">Povucite ili prijeđite prstom prema gore za više</string>
+    <string name="guide_icon_choices">Popis izbora: dodirnite za odabir</string>
+    <string name="guide_icon_undo">Poništi posljednju promjenu</string>
+    <string name="guide_icon_redo">Ponovi ono što je poništeno</string>
+    <string name="guide_icon_save">Spremi</string>
+    <string name="guide_icon_refresh">Ponovno potraži što je novo</string>
+    <string name="guide_icon_sync">Sinkroniziraj s računalom</string>
+    <string name="guide_icon_qr">Skeniraj kod kamerom</string>
+    <string name="guide_icon_card">Prikaži kod ovog uređaja radi uparivanja</string>
+    <string name="guide_icon_computer">Vaše računalo</string>
+    <string name="guide_icon_lock">Zaključano ili privatno</string>
+    <string name="guide_icon_notifications">Obavijesti</string>
+    <string name="guide_icon_info">Više o tome</string>
+    <string name="guide_icon_settings">Postavke</string>
+    <string name="guide_icon_home">Početna</string>
+    <string name="guide_icon_toc">Poglavlja, sadržaj</string>
+    <string name="guide_icon_guide">Ovaj vodič</string>
+</resources>

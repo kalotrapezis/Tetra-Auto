@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car's launcher icon: the car on its colour, inside the adaptive icon's safe zone -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/ic_directions_car" android:inset="28%" />

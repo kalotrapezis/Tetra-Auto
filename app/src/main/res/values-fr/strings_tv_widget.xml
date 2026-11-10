@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Télé AI Assist</string>
+    <string name="tv_widget_note">La mascotte dans une vieille télé : touchez l’écran pour parler, les boutons pour l’éteindre.</string>
+    <string name="tv_widget_power">Allumer ou éteindre la télé</string>
+    <string-array name="tv_hello">
+        <item>Salut ! Quoi de neuf ?</item>
+        <item>Bonjour !</item>
+        <item>Me voilà !</item>
+    </string-array>
+</resources>

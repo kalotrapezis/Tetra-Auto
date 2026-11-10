@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Timer's alarms and stopwatch (TimerAlarms.kt, TimerAlarmsScreen.kt, TimerService.kt, AlarmRingActivity.kt) -->
+<resources>
+    <string name="timer_tab_timers">Timers</string>
+    <string name="timer_tab_alarms">Alarms</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="stopwatch_counting">Counting</string>
+    <string name="stopwatch_held">Paused at %1$s</string>
+    <string name="stopwatch_reset">Reset</string>
+    <string name="stopwatch_lap">Lap</string>
+    <string name="stopwatch_lap_n">Lap %1$d</string>
+    <string name="alarm_named">Alarm</string>
+    <string name="alarm_snooze">Snooze</string>
+    <string name="alarm_dismiss">Dismiss</string>
+    <string name="alarm_ringing">Ringing</string>
+    <string name="alarm_next">Alarm %1$s</string>
+    <string name="alarm_skip">Skip</string>
+    <string name="alarm_new">New alarm</string>
+    <string name="alarm_label">Label</string>
+    <string name="alarm_once">Once</string>
+    <string name="alarm_every_day">Every day</string>
+    <string name="alarm_in">Next alarm in %1$s</string>
+    <string name="alarm_none">No alarms yet. An alarm rings on this device and on every device you sync with; dismiss it on one and it stops on all.</string>
+    <string name="timer_add_new">Add new</string>
+    <string name="timer_list_hint">No timers yet. Add new opens the clock: set hours, then minutes, and ✓ starts it. Pin a timer to keep it here, ready to start again.</string>
+    <string name="alarm_set_time">Set time</string>
+    <string name="alarm_skip_next">Skip next</string>
+    <string name="alarm_unskip">Undo skip</string>
+    <string name="alarm_skipped">next one skipped</string>
+    <string name="alarm_soon">Alarm at %1$s · skip or snooze?</string>
+    <string name="alarm_channel_soon">Alarm soon</string>
+    <string name="alarm_channel_soon_about">30 minutes before an alarm, to skip or snooze it</string>
+    <string name="stand_mode">Stand mode</string>
+    <string name="stand_about">A dim clock on black while charging, kind to AMOLED screens; it moves a little every minute. Choose Stand mode as Android\'s screen saver, to start while charging. Before an alarm it lights up like a sunrise, deep red to warm yellow, over 20 minutes.</string>
+    <string name="stand_settings">Screen saver settings</string>
+</resources>

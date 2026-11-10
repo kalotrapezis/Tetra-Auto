@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Auto: Tetra Car alone, for a head unit (Android 10 and up): Maps, the Browser, Phone, Messages, AI Assist and Share. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- /sdcard/Tetra (maps, what the phone sends): Android 11+ All files access; Android 10 the storage permission with requestLegacyExternalStorage -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <!-- Share: an app (a Tetra Auto update) the phone sent, installed here -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
+    <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- opening by itself at start or on Bluetooth -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <!-- Tetra Car's Apps page and AI Assist's «άνοιξε …» name the unit's other apps -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+    <application android:allowBackup="false" android:icon="@mipmap/applet_car" android:roundIcon="@mipmap/applet_car" android:label="@string/app_car"
+        android:supportsRtl="true" android:theme="@style/Theme.LocalDrive" android:requestLegacyExternalStorage="true">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/local_drive_paths" />
+        </provider>
+
+        <!-- Tetra Car: the app's one launcher icon, and a choice of home screen (the head unit's launcher) -->
+        <activity android:name=".CarActivity" android:exported="true" android:label="@string/app_car" android:icon="@mipmap/applet_car" android:roundIcon="@mipmap/applet_car"
+            android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|uiMode">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.HOME" /><category android:name="android.intent.category.DEFAULT" /></intent-filter>
+        </activity>
+        <activity android:name=".CarSmsActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:taskAffinity="com.kalotrapezis.drive.carsms"
+            android:excludeFromRecents="true" android:showWhenLocked="true" android:turnScreenOn="true" />
+        <receiver android:name=".CarBootReceiver" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.BOOT_COMPLETED" /><action android:name="android.intent.action.QUICKBOOT_POWERON" /></intent-filter>
+        </receiver>
+        <receiver android:name=".CarBluetoothReceiver" android:exported="true">
+            <intent-filter><action android:name="android.bluetooth.device.action.ACL_CONNECTED" /><action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" /></intent-filter>
+        </receiver>
+
+        <!-- Maps and Messages in windows of their own, and Settings (Applets.kt) -->
+        <activity android:name=".MapsActivity" android:exported="false" android:label="@string/home_label_maps" android:icon="@mipmap/applet_maps" android:roundIcon="@mipmap/applet_maps"
+            android:taskAffinity="com.kalotrapezis.drive.maps" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout" />
+        <activity android:name=".SmsActivity" android:exported="false" android:label="@string/home_label_sms" android:icon="@mipmap/applet_messages" android:roundIcon="@mipmap/applet_messages"
+            android:taskAffinity="com.kalotrapezis.drive.sms" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout" />
+        <activity android:name=".SettingsActivity" android:exported="false" android:label="@string/common_settings" android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden" />
+        <activity android:name=".BrowserActivity" android:exported="false" android:label="@string/app_browser" android:icon="@mipmap/applet_browser" android:roundIcon="@mipmap/applet_browser" android:taskAffinity="com.kalotrapezis.drive.browser"
+            android:launchMode="singleTask" android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|uiMode" />
+        <service android:name=".BrowserMediaService" android:exported="false" android:foregroundServiceType="mediaPlayback" />
+
+        <!-- Phone: Tetra as the unit's Phone app (ROLE_DIALER), its call screen, keypad and Telecom's notices -->
+        <service android:name=".PhoneInCallService" android:permission="android.permission.BIND_INCALL_SERVICE" android:exported="true">
+            <meta-data android:name="android.telecom.IN_CALL_SERVICE_UI" android:value="true" />
+            <intent-filter><action android:name="android.telecom.InCallService" /></intent-filter>
+        </service>
+        <activity android:name=".PhoneCallActivity" android:exported="false" android:launchMode="singleTask" android:taskAffinity="com.kalotrapezis.drive.call"
+            android:excludeFromRecents="true" android:showWhenLocked="true" android:turnScreenOn="true" />
+        <activity android:name=".PhoneActivity" android:exported="true" android:label="@string/home_label_phone" android:icon="@mipmap/applet_phone" android:roundIcon="@mipmap/applet_phone" android:taskAffinity="com.kalotrapezis.drive.dial" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter><action android:name="android.intent.action.DIAL" /><category android:name="android.intent.category.DEFAULT" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.DIAL" /><category android:name="android.intent.category.DEFAULT" /><data android:scheme="tel" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.VIEW" /><category android:name="android.intent.category.DEFAULT" /><category android:name="android.intent.category.BROWSABLE" /><data android:scheme="tel" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.VIEW" /><category android:name="android.intent.category.DEFAULT" /><data android:mimeType="vnd.android.cursor.dir/calls" /></intent-filter>
+        </activity>
+        <receiver android:name=".PhoneCallReceiver" android:exported="false" />
+        <receiver android:name=".PhoneRelayReceiver" android:exported="false" />
+        <receiver android:name=".PhoneMissedReceiver" android:exported="true" android:permission="android.permission.MODIFY_PHONE_STATE">
+            <intent-filter><action android:name="android.telecom.action.SHOW_MISSED_CALLS_NOTIFICATION" /></intent-filter>
+        </receiver>
+        <service android:name=".PhoneScreening" android:permission="android.permission.BIND_SCREENING_SERVICE" android:exported="true">
+            <intent-filter><action android:name="android.telecom.CallScreeningService" /></intent-filter>
+        </service>
+        <service android:name=".ContactsAuthService" android:exported="true">
+            <intent-filter><action android:name="android.accounts.AccountAuthenticator" /></intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/contacts_authenticator" />
+        </service>
+        <service android:name=".ContactsSyncService" android:exported="true">
+            <intent-filter><action android:name="android.content.SyncAdapter" /></intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/contacts_syncadapter" />
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts_structure" />
+        </service>
+
+        <!-- Messages: what Android asks of a default SMS app (SmsDeliver.kt) -->
+        <receiver android:name=".SmsDeliverReceiver" android:exported="true" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter><action android:name="android.provider.Telephony.SMS_DELIVER" /></intent-filter>
+        </receiver>
+        <receiver android:name=".MmsDeliverReceiver" android:exported="true" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter><action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" /><data android:mimeType="application/vnd.wap.mms-message" /></intent-filter>
+        </receiver>
+        <service android:name=".SmsRespondService" android:exported="true" android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sms" /><data android:scheme="smsto" /><data android:scheme="mms" /><data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+        <activity-alias android:name=".SmsCompose" android:targetActivity=".SmsActivity" android:exported="true"
+            android:label="@string/app_sms" android:icon="@mipmap/applet_messages" android:roundIcon="@mipmap/applet_messages">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sms" /><data android:scheme="smsto" /><data android:scheme="mms" /><data android:scheme="mmsto" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- AI Assist: the chat, and the sheet the steering wheel's voice key or the assistant gesture opens -->
+        <activity android:name=".AssistantActivity" android:exported="false" android:label="@string/app_assistant" android:icon="@mipmap/applet_assistant" android:roundIcon="@mipmap/applet_assistant" android:taskAffinity="com.kalotrapezis.drive.assistant.chat" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AssistantSheetActivity" android:exported="true" android:label="@string/home_label_assistant" android:icon="@mipmap/applet_assistant" android:roundIcon="@mipmap/applet_assistant" android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true" android:launchMode="singleTask" android:taskAffinity="com.kalotrapezis.drive.assistant" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.ASSIST" /><category android:name="android.intent.category.DEFAULT" /></intent-filter>
+        </activity>
+        <service android:name=".AssistantService" android:exported="true" android:label="@string/home_label_assistant" android:permission="android.permission.BIND_VOICE_INTERACTION">
+            <meta-data android:name="android.voice_interaction" android:resource="@xml/assistant_interaction" />
+            <intent-filter><action android:name="android.service.voice.VoiceInteractionService" /></intent-filter>
+        </service>
+        <service android:name=".AssistantSessionService" android:exported="true" android:permission="android.permission.BIND_VOICE_INTERACTION" />
+        <service android:name=".AssistantRecognition" android:exported="true" android:label="@string/home_label_assistant">
+            <intent-filter><action android:name="android.speech.RecognitionService" /></intent-filter>
+        </service>
+        <activity android:name=".UsageActivity" android:exported="false" android:label="@string/usage_title" />
+
+        <!-- The car's server: the phone's calls, messages and files (CarWire, Share) over the phone's hotspot -->
+        <service android:name=".SyncJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" />
+        <service android:name=".SyncService" android:exported="false" android:foregroundServiceType="dataSync" />
+        <service android:name=".SyncListenService" android:exported="false" android:foregroundServiceType="specialUse|location">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Answers the user's own paired phone on the local network" />
+        </service>
+        <receiver android:name=".SyncActionReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.kalotrapezis.drive.PAUSE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

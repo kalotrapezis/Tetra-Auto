@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Mensajes</string>
+    <string name="home_label_sms">Tetra Mensajes</string>
+    <string name="sms_home_detail">Los SMS de tu teléfono</string>
+    <string name="sms_permission_needed">Para mostrar y enviar tus SMS aquí, Tetra necesita permiso para leer y enviar mensajes.</string>
+    <string name="sms_none">Aún no hay mensajes</string>
+    <string name="sms_none_archived">Nada archivado</string>
+    <string name="sms_none_here">Aún no hay mensajes. Escribe el primero.</string>
+    <string name="sms_archived">Archivados</string>
+    <string name="sms_archive">Archivar</string>
+    <string name="sms_unarchive">Desarchivar</string>
+    <string name="sms_did_archive">Archivado</string>
+    <string name="sms_did_unarchive">De nuevo en tus mensajes</string>
+    <string name="sms_choose_first">Mantén pulsada una conversación para elegirla</string>
+    <string name="sms_new_message">Mensaje nuevo</string>
+    <string name="sms_to">Nombre o número</string>
+    <string name="sms_send_to">Enviar a %1$s</string>
+    <string name="sms_write">Mensaje</string>
+    <string name="sms_not_sent">No enviado</string>
+    <string name="sms_sending">Enviando…</string>
+    <string name="sms_send_failed">El mensaje no se ha enviado: %1$s</string>
+    <string name="sms_sent">Enviado.</string>
+    <string name="sms_you">Tú</string>
+    <string name="sms_delete_ask">¿Eliminar las conversaciones elegidas?</string>
+    <string name="sms_delete_note">Sus mensajes se eliminan de este teléfono.</string>
+    <string name="sms_default_only">Solo tu aplicación de mensajes predeterminada puede eliminar mensajes.</string>
+    <string name="sms_open_default">Abrir allí</string>
+    <string name="sms_deleted">Eliminado</string>
+    <string name="sms_pick">Elige una conversación</string>
+    <string name="sms_is_default">Tetra es la app de SMS</string>
+    <string name="sms_not_default">Tetra no es la app de SMS</string>
+    <string name="sms_is_default_summary">Los mensajes llegan a Tetra y Tetra los guarda. Para cambiarlo: Apps predeterminadas de Android › App de SMS.</string>
+    <string name="sms_not_default_summary">Hazla predeterminada para recibir los mensajes nuevos en Tetra y poder borrarlos. Los mensajes con imagen (MMS) solo se avisan, no se muestran.</string>
+    <string name="sms_mms_title">Mensaje con imagen (MMS)</string>
+    <string name="sms_mms_note">Tetra no puede mostrar mensajes con imagen. Para recibirlos, elige otra app de SMS.</string>
+</resources>

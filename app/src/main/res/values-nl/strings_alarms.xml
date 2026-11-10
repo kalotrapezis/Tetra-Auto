@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Timers</string>
+    <string name="timer_tab_alarms">Wekkers</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="stopwatch_counting">Loopt</string>
+    <string name="stopwatch_held">Gepauzeerd op %1$s</string>
+    <string name="stopwatch_reset">Resetten</string>
+    <string name="stopwatch_lap">Ronde</string>
+    <string name="stopwatch_lap_n">Ronde %1$d</string>
+    <string name="alarm_named">Wekker</string>
+    <string name="alarm_snooze">Sluimeren</string>
+    <string name="alarm_dismiss">Stoppen</string>
+    <string name="alarm_ringing">Gaat af</string>
+    <string name="alarm_next">Wekker %1$s</string>
+    <string name="alarm_skip">Overslaan</string>
+    <string name="alarm_new">Nieuwe wekker</string>
+    <string name="alarm_label">Label</string>
+    <string name="alarm_once">Eenmalig</string>
+    <string name="alarm_every_day">Elke dag</string>
+    <string name="alarm_in">Volgende wekker over %1$s</string>
+    <string name="alarm_none">Nog geen wekkers. Een wekker gaat af op dit apparaat en op elk apparaat waarmee je synchroniseert; stop hem op één en hij stopt op alle.</string>
+    <string name="timer_add_new">Nieuw</string>
+    <string name="timer_list_hint">Nog geen timers. Nieuw opent de klok: kies uren, dan minuten, en ✓ start hem. Zet een timer vast om hem hier klaar te houden voor een nieuwe start.</string>
+    <string name="alarm_set_time">Tijd instellen</string>
+    <string name="alarm_skip_next">Volgende overslaan</string>
+    <string name="alarm_unskip">Overslaan ongedaan maken</string>
+    <string name="alarm_skipped">volgende overgeslagen</string>
+    <string name="alarm_soon">Wekker om %1$s · overslaan of sluimeren?</string>
+    <string name="alarm_channel_soon">Wekker binnenkort</string>
+    <string name="alarm_channel_soon_about">30 minuten voor een wekker, om hem over te slaan of uit te stellen</string>
+    <string name="stand_mode">Nachtklok</string>
+    <string name="stand_about">Een zwakke klok op zwart tijdens het opladen, zacht voor AMOLED-schermen; hij schuift elke minuut een beetje op. Kies Nachtklok als screensaver van Android, zodat hij start tijdens het opladen. Voor een wekker licht hij op als een zonsopgang, van diep rood naar warm geel, in 20 minuten.</string>
+    <string name="stand_settings">Instellingen screensaver</string>
+</resources>

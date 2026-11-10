@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Timer</string>
+    <string name="timer_tab_alarms">Alarm</string>
+    <string name="stopwatch">Stoppur</string>
+    <string name="stopwatch_counting">Räknar</string>
+    <string name="stopwatch_held">Pausad vid %1$s</string>
+    <string name="stopwatch_reset">Nollställ</string>
+    <string name="stopwatch_lap">Varv</string>
+    <string name="stopwatch_lap_n">Varv %1$d</string>
+    <string name="alarm_named">Alarm</string>
+    <string name="alarm_snooze">Snooze</string>
+    <string name="alarm_dismiss">Avvisa</string>
+    <string name="alarm_ringing">Ringer</string>
+    <string name="alarm_next">Alarm %1$s</string>
+    <string name="alarm_skip">Hoppa över</string>
+    <string name="alarm_new">Nytt alarm</string>
+    <string name="alarm_label">Etikett</string>
+    <string name="alarm_once">En gång</string>
+    <string name="alarm_every_day">Varje dag</string>
+    <string name="alarm_in">Nästa alarm om %1$s</string>
+    <string name="alarm_none">Inga alarm än. Ett alarm ringer på den här enheten och på varje enhet du synkroniserar med; avvisa det på en, så tystnar det på alla.</string>
+    <string name="timer_add_new">Lägg till</string>
+    <string name="timer_list_hint">Inga timers än. Lägg till öppnar klockan: välj timmar, sedan minuter, och ✓ startar den. Fäst en timer för att ha den kvar här, redo att starta igen.</string>
+    <string name="alarm_set_time">Ställ in tid</string>
+    <string name="alarm_skip_next">Hoppa över nästa</string>
+    <string name="alarm_unskip">Ångra överhopp</string>
+    <string name="alarm_skipped">nästa hoppas över</string>
+    <string name="alarm_soon">Alarm kl. %1$s · hoppa över eller snooza?</string>
+    <string name="alarm_channel_soon">Alarm snart</string>
+    <string name="alarm_channel_soon_about">30 minuter före ett alarm, för att hoppa över eller snooza det</string>
+    <string name="stand_mode">Nattklocka</string>
+    <string name="stand_about">En svag klocka på svart under laddning, skonsam mot AMOLED-skärmar; den flyttar sig lite varje minut. Välj Nattklocka som Androids skärmsläckare, så startar den vid laddning. Före ett alarm lyser den upp som en soluppgång, från djupt rött till varmt gult, under 20 minuter.</string>
+    <string name="stand_settings">Inställningar för skärmsläckare</string>
+</resources>

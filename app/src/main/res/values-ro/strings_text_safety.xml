@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Nu este un fișier text</string>
+    <string name="text_not_text_body">«%1$s» nu este text simplu (de exemplu un fișier Word, PowerPoint, PDF sau o imagine). Editorul de text nu îl poate afișa.</string>
+    <string name="text_huge_title">Un fișier foarte mare</string>
+    <string name="text_huge_body">«%1$s» are %2$s. Editorul de text poate deveni foarte lent sau se poate bloca.</string>
+    <string name="text_open_with">Deschide cu…</string>
+    <string name="text_open_anyway">Deschide oricum</string>
+    <string name="text_closed_not_text">«%1$s» a fost închis: nu este un fișier text.</string>
+</resources>

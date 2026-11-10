@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Guide</string>
+    <string name="guide_summary">Étape par étape : où appuyer et pourquoi</string>
+    <string name="guide_try_it">Essayer</string>
+    <string name="guide_skip">Passer</string>
+    <string name="guide_chapters">Chapitres</string>
+    <string name="guide_open">Ouvrir le guide</string>
+    <string name="guide_step_of">%1$d sur %2$d</string>
+    <string name="guide_allowed">Autorisé</string>
+    <string name="guide_not_yet">Pas encore autorisé</string>
+    <string name="guide_not_here">Pas sur cet appareil</string>
+    <string name="guide_finish">Terminer</string>
+    <string name="guide_dont_allow">Ne pas autoriser</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Bienvenue</string>
+    <string name="guide_ch_permissions">Autorisations</string>
+    <string name="guide_ch_home">Accueil</string>
+    <string name="guide_ch_files">Fichiers</string>
+    <string name="guide_ch_computer">Votre ordinateur</string>
+    <string name="guide_ch_settings">Paramètres</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Bienvenue dans Tetra</string>
+    <string name="guide_welcome_b">Vos photos, fichiers, notes et agenda restent sur vos propres appareils. Ce guide montre où appuyer et pourquoi. Lisez une étape, appuyez sur Essayer et faites-la sur le vrai écran pendant que l’étape reste visible.</string>
+    <string name="guide_again_t">Revenez quand vous voulez</string>
+    <string name="guide_again_b">Passez-le maintenant si vous voulez. Le guide est toujours dans Paramètres › Guide, et chaque chapitre s’ouvre seul.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android vous demande d’abord</string>
+    <string name="guide_perm_b">Certaines parties de Tetra ont besoin de votre autorisation. Chaque page dit à quoi elle sert. Appuyez sur Autoriser, puis répondez à la question d’Android. Vous pouvez refuser maintenant et l’autoriser ici plus tard.</string>
+    <string name="guide_files_t">Tous les fichiers</string>
+    <string name="guide_files_b">Fichiers, Notes, Office, Agenda, Minuteur et Cartes gardent tout dans un seul dossier Tetra sur cet appareil. Android ouvre une page avec un seul bouton : activez-le, puis revenez.</string>
+    <string name="guide_photos_t">Photos et vidéos</string>
+    <string name="guide_photos_b">Galerie affiche vos photos et vidéos, trouve les visages et les lieux, et les envoie à votre ordinateur. Choisissez Tout autoriser : si vous n’en choisissez que certaines, Galerie n’affiche que celles-là.</string>
+    <string name="guide_notify_t">Notifications</string>
+    <string name="guide_notify_b">Les rappels, les minuteurs et la synchro vous préviennent par une notification. Sans elle, un rappel ne peut pas sonner.</string>
+    <string name="guide_alarms_t">Alarmes et rappels</string>
+    <string name="guide_alarms_b">Un rappel ou un minuteur sonne à la minute choisie, même quand le téléphone est en veille. Sur la plupart des téléphones, c’est déjà autorisé.</string>
+    <string name="guide_camera_t">Appareil photo</string>
+    <string name="guide_camera_b">Scanner photographie les documents, Codes lit les codes QR, et l’association avec un ordinateur scanne son code. Choisissez Lorsque vous utilisez l’appli.</string>
+    <string name="guide_contacts_t">Contacts</string>
+    <string name="guide_contacts_b">Contacts affiche les personnes de votre téléphone et peut y garder une copie des vôtres, pour que les appels et les autres applis connaissent leur nom.</string>
+    <string name="guide_phone_t">Téléphone et appels</string>
+    <string name="guide_phone_b">Téléphone passe et reçoit les appels et affiche votre historique d’appels, et votre ordinateur peut appeler par ce téléphone. Une tablette sans SIM n’en a pas besoin.</string>
+    <string name="guide_usage_t">Accès aux données d’utilisation</string>
+    <string name="guide_usage_b">Données compte les données mobiles utilisées par chaque appli. Android affiche une liste : trouvez Tetra, appuyez dessus et activez le bouton.</string>
+    <string name="guide_location_t">Position</string>
+    <string name="guide_location_b">Cartes montre où vous êtes et vous guide jusqu’à destination, et Données en a besoin pour voir les noms des réseaux Wi-Fi autour de vous. Choisissez Lorsque vous utilisez l’appli.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Ouvrir une appli</string>
+    <string name="guide_open_b">Chaque image de l’Accueil ouvre une appli. Appuyez sur Fichiers pour voir vos fichiers.</string>
+    <string name="guide_pencil_t">Modifier l’Accueil</string>
+    <string name="guide_pencil_b">Appuyez sur le crayon en haut. Chaque élément reçoit un cadre et deux petits boutons, et un appui n’ouvre rien tant que vous n’avez pas fini.</string>
+    <string name="guide_move_t">Déplacer un élément</string>
+    <string name="guide_move_b">Maintenez un élément jusqu’à ce qu’il se soulève, puis faites-le glisser vers n’importe quelle case. Les autres se décalent.</string>
+    <string name="guide_size_t">Plus grand ou plus petit</string>
+    <string name="guide_size_b">Appuyez sur les flèches d’un élément. Chaque appui le rend grand, moyen, petit, puis de nouveau grand : grand montre plus de choses, petit n’affiche que son image.</string>
+    <string name="guide_hide_t">Masquer un élément</string>
+    <string name="guide_hide_b">Appuyez sur l’œil pour masquer un élément que vous n’utilisez pas. Les éléments masqués attendent sous la grille : appuyez sur l’un d’eux pour le remettre. Ses rappels et minuteurs continuent.</string>
+    <string name="guide_done_t">Terminé</string>
+    <string name="guide_done_b">Appuyez sur OK quand l’Accueil vous convient. Réinitialiser le remet comme au début.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Ouvrir un dossier</string>
+    <string name="guide_folder_b">Appuyez sur un dossier pour y entrer et sur un fichier pour l’ouvrir. La flèche en haut permet d’en ressortir.</string>
+    <string name="guide_hold_t">Choisir des fichiers</string>
+    <string name="guide_hold_b">Maintenez un fichier jusqu’à ce qu’il soit coché, puis appuyez sur d’autres pour les ajouter. Maintenir choisit ; un appui court ouvre.</string>
+    <string name="guide_bar_t">Déplacer ou copier</string>
+    <string name="guide_bar_b">Une fois les fichiers choisis, appuyez sur Déplacer (la flèche) ou Copier (deux pages) dans la barre du bas. Copier laisse l’original à sa place.</string>
+    <string name="guide_where_t">Choisir où</string>
+    <string name="guide_where_b">Appuyez sur un dossier pour y entrer, sur Remonter pour en sortir, puis sur Déplacer ici.</string>
+    <string name="guide_more_t">Renommer, partager et plus</string>
+    <string name="guide_more_b">Appuyez sur les trois points à côté d’un fichier pour tout ce qui concerne ce fichier : renommer, partager, étiquettes, couleur et Corbeille.</string>
+    <string name="guide_new_t">Créer quelque chose</string>
+    <string name="guide_new_b">Appuyez sur Nouveau dans la barre du bas pour créer un dossier, un fichier texte, ou un fichier Documents, Tableaux ou Présentations, directement dans le dossier où vous êtes.</string>
+    <string name="guide_trash_t">Corbeille</string>
+    <string name="guide_trash_b">Ce que vous supprimez va d’abord dans la Corbeille. Balayez vers le haut sur la barre du bas pour les Outils de Fichiers, appuyez sur Corbeille, choisissez ce que vous voulez récupérer et appuyez sur Restaurer.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra fonctionne seul</string>
+    <string name="guide_alone_b">Vous n’avez pas besoin d’ordinateur. Sans ordinateur, tout reste sur cet appareil, et vous pourrez l’associer plus tard.</string>
+    <string name="guide_scan_t">Associer votre ordinateur</string>
+    <string name="guide_scan_b">Sur l’ordinateur, ouvrez Appareils › Ajouter un appareil : Tetra affiche un code. Ici, ouvrez Synchro depuis l’Accueil, appuyez sur Scanner un code et pointez l’appareil photo dessus.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Langue et apparence</string>
+    <string name="guide_look_b">Paramètres › Apparence change la langue, le mode sombre ou clair, et ce qu’affiche l’Accueil.</string>
+    <string name="guide_find_t">Trouver un paramètre</string>
+    <string name="guide_find_b">Tapez dans la recherche en haut des Paramètres pour trouver n’importe quel paramètre par son nom.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Icônes</string>
+    <string name="guide_icons_t">Ce que veut dire chaque icône</string>
+    <string name="guide_icons_b">Tetra utilise partout les mêmes petites images. Voici chacune d’elles et ce qu’elle fait.</string>
+    <string name="guide_icon_back">Retour : un écran en arrière</string>
+    <string name="guide_icon_close">Fermer</string>
+    <string name="guide_icon_check">Terminé, ou choisi</string>
+    <string name="guide_icon_add">Nouveau : un dossier, une note, un événement…</string>
+    <string name="guide_icon_search">Rechercher</string>
+    <string name="guide_icon_edit">Modifier ou Renommer, selon l’endroit : Accueil – Modifier, un fichier – Renommer</string>
+    <string name="guide_icon_more">Plus : tout ce qui concerne cet élément</string>
+    <string name="guide_icon_share">Le partager avec une autre appli ou une autre personne</string>
+    <string name="guide_icon_copy">Copier : un deuxième exemplaire va là-bas, le premier reste</string>
+    <string name="guide_icon_move">Déplacer : il va là-bas et quitte cet endroit</string>
+    <string name="guide_icon_delete">À la corbeille : il peut encore revenir</string>
+    <string name="guide_icon_restore">Restaurer : de retour hors de la corbeille</string>
+    <string name="guide_icon_tag">Étiquettes : les vôtres, pour retrouver les choses plus tard</string>
+    <string name="guide_icon_favorite">Favori : gardé à portée de main dans Favoris</string>
+    <string name="guide_icon_size">Taille : grande, moyenne ou petite (Accueil)</string>
+    <string name="guide_icon_hide">Le masquer ; rien n’est supprimé</string>
+    <string name="guide_icon_handle">Faites glisser ou balayez vers le haut ici pour en voir plus</string>
+    <string name="guide_icon_choices">Une liste de choix : touchez pour en choisir un</string>
+    <string name="guide_icon_undo">Annuler la dernière modification</string>
+    <string name="guide_icon_redo">Rétablir ce qui a été annulé</string>
+    <string name="guide_icon_save">Enregistrer</string>
+    <string name="guide_icon_refresh">Chercher de nouveau ce qui est nouveau</string>
+    <string name="guide_icon_sync">Synchroniser avec votre ordinateur</string>
+    <string name="guide_icon_qr">Scanner un code avec l’appareil photo</string>
+    <string name="guide_icon_card">Montrer le code de cet appareil pour l’associer</string>
+    <string name="guide_icon_computer">Votre ordinateur</string>
+    <string name="guide_icon_lock">Verrouillé ou privé</string>
+    <string name="guide_icon_notifications">Notifications</string>
+    <string name="guide_icon_info">En savoir plus</string>
+    <string name="guide_icon_settings">Paramètres</string>
+    <string name="guide_icon_home">Accueil</string>
+    <string name="guide_icon_toc">Chapitres, sommaire</string>
+    <string name="guide_icon_guide">Ce guide</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Timer</string>
+    <string name="timer_tab_alarms">Sveglie</string>
+    <string name="stopwatch">Cronometro</string>
+    <string name="stopwatch_counting">In corso</string>
+    <string name="stopwatch_held">In pausa a %1$s</string>
+    <string name="stopwatch_reset">Azzera</string>
+    <string name="stopwatch_lap">Giro</string>
+    <string name="stopwatch_lap_n">Giro %1$d</string>
+    <string name="alarm_named">Sveglia</string>
+    <string name="alarm_snooze">Posticipa</string>
+    <string name="alarm_dismiss">Spegni</string>
+    <string name="alarm_ringing">Sta suonando</string>
+    <string name="alarm_next">Sveglia %1$s</string>
+    <string name="alarm_skip">Salta</string>
+    <string name="alarm_new">Nuova sveglia</string>
+    <string name="alarm_label">Etichetta</string>
+    <string name="alarm_once">Una volta</string>
+    <string name="alarm_every_day">Ogni giorno</string>
+    <string name="alarm_in">Prossima sveglia tra %1$s</string>
+    <string name="alarm_none">Nessuna sveglia per ora. Una sveglia suona su questo dispositivo e su ogni dispositivo che sincronizzi; spegnila su uno e si ferma su tutti.</string>
+    <string name="timer_add_new">Aggiungi</string>
+    <string name="timer_list_hint">Ancora nessun timer. Aggiungi apre l\'orologio: imposta le ore, poi i minuti, e ✓ lo avvia. Fissa un timer per tenerlo qui, pronto a ripartire.</string>
+    <string name="alarm_set_time">Imposta ora</string>
+    <string name="alarm_skip_next">Salta la prossima</string>
+    <string name="alarm_unskip">Annulla salto</string>
+    <string name="alarm_skipped">la prossima saltata</string>
+    <string name="alarm_soon">Sveglia alle %1$s · saltare o posticipare?</string>
+    <string name="alarm_channel_soon">Sveglia a breve</string>
+    <string name="alarm_channel_soon_about">30 minuti prima di una sveglia, per saltarla o posticiparla</string>
+    <string name="stand_mode">Orologio da comodino</string>
+    <string name="stand_about">Un orologio tenue sul nero durante la ricarica, delicato con gli schermi AMOLED; si sposta un po\' ogni minuto. Scegli Orologio da comodino come salvaschermo di Android, perché parta in ricarica. Prima di una sveglia si illumina come un\'alba, dal rosso intenso al giallo caldo, in 20 minuti.</string>
+    <string name="stand_settings">Impostazioni salvaschermo</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Televizorul AI Assist</string>
+    <string name="tv_widget_note">Mascota într-un televizor vechi: atinge ecranul ca să vorbești, butoanele ca să-l oprești.</string>
+    <string name="tv_widget_power">Pornește sau oprește televizorul</string>
+    <string-array name="tv_hello">
+        <item>Salut! Ce mai faci?</item>
+        <item>Bună!</item>
+        <item>Sunt aici!</item>
+    </string-array>
+</resources>

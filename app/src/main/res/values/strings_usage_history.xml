@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">History</string>
+    <string name="usage_tab_days">Days</string>
+    <string name="usage_tab_months">Months</string>
+    <string name="usage_tab_years">Years</string>
+    <string name="usage_saved">Saved ✓</string>
+    <string name="usage_more">%1$d more</string>
+</resources>

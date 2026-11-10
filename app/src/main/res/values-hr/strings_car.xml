@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Automobil</string>
+    <string name="car_media">Mediji</string>
+    <string name="car_apps">Aplikacije</string>
+    <string name="car_layout">Raspored</string>
+    <string name="car_sms_said">Poruka od %1$s: %2$s. Želiš li odgovoriti?</string>
+    <string name="car_sms_say_it">Reci svoju poruku.</string>
+    <string name="car_sms_send_it">„%1$s”. Da je pošaljem?</string>
+    <string name="car_sms_sent">Poslano.</string>
+    <string name="car_quiet">Tišina u autu</string>
+    <string name="car_quiet_summary">Obavijesti drugih aplikacija čekaju dok voziš; pozivi i poruke pročitane naglas prolaze.</string>
+    <string name="car_pair_phone">Upari telefon</string>
+    <string name="car_pair_hint">Na telefonu: Tetra › Postavke › Ikone aplikacija › Upari s autom, pa skeniraj ovaj kod.</string>
+    <string name="car_pair_car">Upari s autom</string>
+    <string name="car_pair_car_summary">Skeniraj kod koji Tetra Car prikazuje na zaslonu auta: pozivi i poruke tamo, uživo, bez sinkronizacije.</string>
+    <string name="car_bluetooth">Bluetooth auta</string>
+    <string name="car_bluetooth_none">Odaberi koji je upareni uređaj auto: samo on uključuje način za auto.</string>
+    <string name="car_settings_summary">U autu</string>
+    <string name="car_read_sms">Čitaj poruke naglas</string>
+    <string name="car_answer_calls">Javljaj se na pozive nakon 2 sekunde</string>
+    <string name="car_dock">Traka</string>
+    <string name="car_dock_bottom">Dolje</string>
+    <string name="car_dock_left">Lijevo</string>
+    <string name="car_dock_right">Desno</string>
+    <string name="car_open">Otvori samo</string>
+    <string name="car_home">Koristi kao početni zaslon</string>
+    <string name="car_home_summary">Najsigurnije: zaslon auta otvara Tetra Car pri svakom pokretanju. Ondje odaberi Tetra Car.</string>
+    <string name="car_open_boot">Otvori pri pokretanju uređaja</string>
+    <string name="car_open_bt">Otvori kad se ovaj Bluetooth poveže</string>
+    <string name="car_bluetooth_phone">Bluetooth telefona</string>
+    <string name="car_bluetooth_phone_none">Odaberi svoj telefon: kad se poveže, Tetra Car se može otvoriti sam.</string>
+</resources>

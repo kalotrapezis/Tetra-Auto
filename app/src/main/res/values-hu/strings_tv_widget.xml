@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assist tévé</string>
+    <string name="tv_widget_note">A kabala egy régi tévében: koppints a képernyőre a beszédhez, a gombokra a kikapcsoláshoz.</string>
+    <string name="tv_widget_power">A tévé be- vagy kikapcsolása</string>
+    <string-array name="tv_hello">
+        <item>Szia! Mi újság?</item>
+        <item>Helló!</item>
+        <item>Itt vagyok!</item>
+    </string-array>
+</resources>

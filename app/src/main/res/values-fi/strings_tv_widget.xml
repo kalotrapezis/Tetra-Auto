@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assist -televisio</string>
+    <string name="tv_widget_note">Maskotti vanhassa televisiossa: napauta ruutua puhuaksesi, nuppeja sammuttaaksesi.</string>
+    <string name="tv_widget_power">Kytke televisio päälle tai pois</string>
+    <string-array name="tv_hello">
+        <item>Moi! Mitä kuuluu?</item>
+        <item>Hei vaan!</item>
+        <item>Täällä ollaan!</item>
+    </string-array>
+</resources>

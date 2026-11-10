@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assist-tv</string>
+    <string name="tv_widget_note">Maskoten i en gammal tv: tryck på skärmen för att prata, på rattarna för att stänga av.</string>
+    <string name="tv_widget_power">Slå på eller av tv:n</string>
+    <string-array name="tv_hello">
+        <item>Hej! Vad händer?</item>
+        <item>Hallå där!</item>
+        <item>Här är jag!</item>
+    </string-array>
+</resources>

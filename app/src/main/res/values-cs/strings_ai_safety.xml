@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Vyžádáno cizím textem (e-mail, web, soubor): čeká na vaše ano</string>
+    <string name="assistant_confirm_yes">Udělat</string>
+    <string name="assistant_confirm_done">Hotovo.</string>
+    <string name="assistant_confirm_cancelled">Neprovedeno.</string>
+    <string name="ai_memory_auto">Pamatovat si z konverzací</string>
+    <string name="ai_memory_auto_note">Po konverzaci si AI Assist uloží až 3 trvalé údaje, které jste o sobě řekli (nikdy z e-mailů ani souborů)</string>
+    <string name="mail_ai_urgency_1">Stojí za pohled</string>
+    <string name="mail_ai_urgency_2">Důležité</string>
+    <string name="mail_ai_urgency_3">Naléhavé</string>
+</resources>

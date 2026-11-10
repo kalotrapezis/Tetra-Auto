@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Ζητήθηκε από εξωτερικό κείμενο (mail, ιστό, αρχείο): περιμένει το ναι σου</string>
+    <string name="assistant_confirm_yes">Κάν\' το</string>
+    <string name="assistant_confirm_done">Έγινε.</string>
+    <string name="assistant_confirm_cancelled">Δεν έγινε.</string>
+    <string name="ai_memory_auto">Απομνημόνευση από τις συνομιλίες</string>
+    <string name="ai_memory_auto_note">Μετά από μια συνομιλία, ο βοηθός κρατά έως 3 μόνιμα στοιχεία που είπες για σένα (ποτέ από mail ή αρχεία)</string>
+    <string name="mail_ai_urgency_1">Αξίζει μια ματιά</string>
+    <string name="mail_ai_urgency_2">Σημαντικό</string>
+    <string name="mail_ai_urgency_3">Επείγον</string>
+</resources>

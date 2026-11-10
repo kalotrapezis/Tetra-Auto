@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NEWS</string>
+    <string name="news_page">Page</string>
+    <string name="ai_presenter">The robot presents</string>
+    <string name="ai_presenter_note">Briefs and scheduled results as a small news show, read aloud; a few cents a month at most.</string>
+</resources>

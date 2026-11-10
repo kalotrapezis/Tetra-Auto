@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Auto</string>
+    <string name="car_media">Mediji</string>
+    <string name="car_apps">Lietotnes</string>
+    <string name="car_layout">Izkārtojums</string>
+    <string name="car_sms_said">Ziņa no %1$s: %2$s. Vai vēlies atbildēt?</string>
+    <string name="car_sms_say_it">Pasaki savu ziņu.</string>
+    <string name="car_sms_send_it">“%1$s”. Vai nosūtīt?</string>
+    <string name="car_sms_sent">Nosūtīts.</string>
+    <string name="car_quiet">Klusums automašīnā</string>
+    <string name="car_quiet_summary">Citu lietotņu paziņojumi gaida, kamēr brauc; zvani un skaļi nolasītas ziņas tiek cauri.</string>
+    <string name="car_pair_phone">Savienot tālruni</string>
+    <string name="car_pair_hint">Tālrunī: Tetra › Iestatījumi › Lietotņu ikonas › Savienot ar auto, tad skenē šo kodu.</string>
+    <string name="car_pair_car">Savienot ar auto</string>
+    <string name="car_pair_car_summary">Skenē kodu, ko Tetra Car rāda auto ekrānā: zvani un ziņas tur, tiešraidē, bez sinhronizācijas.</string>
+    <string name="car_bluetooth">Auto Bluetooth</string>
+    <string name="car_bluetooth_none">Izvēlies, kura savienotā ierīce ir auto: tikai tā ieslēdz auto režīmu.</string>
+    <string name="car_settings_summary">Automašīnā</string>
+    <string name="car_read_sms">Nolasīt ziņas skaļi</string>
+    <string name="car_answer_calls">Atbildēt uz zvaniem pēc 2 sekundēm</string>
+    <string name="car_dock">Josla</string>
+    <string name="car_dock_bottom">Apakšā</string>
+    <string name="car_dock_left">Pa kreisi</string>
+    <string name="car_dock_right">Pa labi</string>
+    <string name="car_open">Atvērt pašam</string>
+    <string name="car_home">Izmantot kā sākuma ekrānu</string>
+    <string name="car_home_summary">Drošākais veids: auto ekrāns katrā startā atver Tetra Car. Izvēlies tur Tetra Car.</string>
+    <string name="car_open_boot">Atvērt, ierīcei startējot</string>
+    <string name="car_open_bt">Atvērt, kad šis Bluetooth savienojas</string>
+    <string name="car_bluetooth_phone">Tālruņa Bluetooth</string>
+    <string name="car_bluetooth_phone_none">Izvēlies savu tālruni: kad tas savienojas, Tetra Car var atvērties pats.</string>
+</resources>

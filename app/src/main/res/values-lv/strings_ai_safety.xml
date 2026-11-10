@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Pieprasīts ārējā tekstā (e-pasts, tīmeklis, fails): gaida jūsu jā</string>
+    <string name="assistant_confirm_yes">Izpildīt</string>
+    <string name="assistant_confirm_done">Gatavs.</string>
+    <string name="assistant_confirm_cancelled">Nav izpildīts.</string>
+    <string name="ai_memory_auto">Atcerēties no sarunām</string>
+    <string name="ai_memory_auto_note">Pēc sarunas AI Assist paturēs līdz 3 paliekošiem faktiem, ko teicāt par sevi (nekad no e-pastiem vai failiem)</string>
+    <string name="mail_ai_urgency_1">Vērts apskatīt</string>
+    <string name="mail_ai_urgency_2">Svarīgi</string>
+    <string name="mail_ai_urgency_3">Steidzami</string>
+</resources>

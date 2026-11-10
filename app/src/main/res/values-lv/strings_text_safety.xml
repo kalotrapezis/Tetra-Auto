@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Nav teksta fails</string>
+    <string name="text_not_text_body">«%1$s» nav vienkāršs teksts (piemēram, Word, PowerPoint, PDF vai attēla fails). Teksta redaktors to nevar parādīt.</string>
+    <string name="text_huge_title">Ļoti liels fails</string>
+    <string name="text_huge_body">«%1$s» ir %2$s. Teksta redaktors var kļūt ļoti lēns vai sastingt.</string>
+    <string name="text_open_with">Atvērt ar…</string>
+    <string name="text_open_anyway">Tomēr atvērt</string>
+    <string name="text_closed_not_text">«%1$s» tika aizvērts: tas nav teksta fails.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Търсене в браузъра</string>
+    <string name="assistant_card_data_used">%1$s от %2$s използвани</string>
+    <string name="assistant_card_data_used_unlimited">%1$s използвани този цикъл</string>
+    <string name="assistant_card_data_left">Остават %1$s · дни: %2$d</string>
+    <string name="assistant_card_data_pace">Днес %1$s · средно %2$s на ден</string>
+    <string name="assistant_card_data_forecast">Прогноза за края на цикъла: %1$s</string>
+    <string name="assistant_card_data_on_track">В рамките на плана</string>
+    <string name="assistant_card_data_cut">За да останете в плана: най-много %1$s на ден за %2$d дни</string>
+    <string name="assistant_card_data_hotspot">%1$s през точката за достъп на телефона този месец</string>
+    <string name="assistant_card_brief">Дневен обзор</string>
+</resources>

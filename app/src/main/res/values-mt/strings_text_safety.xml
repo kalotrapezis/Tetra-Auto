@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Mhux fajl ta\' test</string>
+    <string name="text_not_text_body">«%1$s» mhuwiex test sempliċi (pereżempju fajl Word, PowerPoint, PDF jew stampa). L-editur tat-test ma jistax jurih.</string>
+    <string name="text_huge_title">Fajl kbir ħafna</string>
+    <string name="text_huge_body">«%1$s» huwa %2$s. L-editur tat-test jista\' jsir bil-mod ħafna jew jiffriża.</string>
+    <string name="text_open_with">Iftaħ b\'…</string>
+    <string name="text_open_anyway">Iftaħ xorta</string>
+    <string name="text_closed_not_text">«%1$s» ingħalaq: mhuwiex fajl ta\' test.</string>
+</resources>

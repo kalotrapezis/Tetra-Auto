@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Istoric</string>
+    <string name="usage_tab_days">Zile</string>
+    <string name="usage_tab_months">Luni</string>
+    <string name="usage_tab_years">Ani</string>
+    <string name="usage_saved">Salvat ✓</string>
+    <string name="usage_more">Încă %1$d</string>
+</resources>

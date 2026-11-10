@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Passwords as Android's autofill service (PasswordsAutofill.kt); its settings are the applet. -->
+<autofill-service xmlns:android="http://schemas.android.com/apk/res/android" android:settingsActivity="com.kalotrapezis.drive.PasswordsActivity" />

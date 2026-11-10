@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assist-tv</string>
+    <string name="tv_widget_note">De mascotte in een oude tv: tik op het scherm om te praten, op de knoppen om hem uit te zetten.</string>
+    <string name="tv_widget_power">Tv aan- of uitzetten</string>
+    <string-array name="tv_hello">
+        <item>Hoi! Hoe gaat het?</item>
+        <item>Hallo daar!</item>
+        <item>Hier ben ik!</item>
+    </string-array>
+</resources>

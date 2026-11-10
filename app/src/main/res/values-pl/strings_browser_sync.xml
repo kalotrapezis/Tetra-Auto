@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Karty z innych urządzeń</string>
+    <string name="browser_sync_title">Synchronizacja</string>
+    <string name="browser_sync_note">Co to urządzenie udostępnia innym twoim urządzeniom przez synchronizację Tetry. Każdy przełącznik dotyczy tylko tego urządzenia; wyłączenie zachowuje to, co tu jest.</string>
+    <string name="browser_sync_bookmarks">Zakładki</string>
+    <string name="browser_sync_tabs">Otwarte karty</string>
+    <string name="browser_sync_passwords">Hasła</string>
+    <string name="browser_sync_passwords_off">Wyłączone: zostają na tym urządzeniu</string>
+    <string name="browser_sync_passwords_on">Włączone: hasła, adresy i karty, zaszyfrowane twoim hasłem synchronizacji</string>
+    <string name="browser_sync_passwords_need">Na innym urządzeniu wybrano nowe hasło: dotknij, aby je wpisać</string>
+    <string name="browser_pass_new_title">Wybierz hasło synchronizacji</string>
+    <string name="browser_pass_new_note">Twoje hasła, adresy i karty podróżują nim zaszyfrowane i nikt bez niego ich nie odczyta, nawet Tetra. Inne urządzenia poproszą o nie raz.</string>
+    <string name="browser_pass_enter_title">Hasło synchronizacji</string>
+    <string name="browser_pass_enter_note">To, które wybrano na innym urządzeniu.</string>
+    <string name="browser_pass_field">Hasło</string>
+    <string name="browser_pass_repeat">Powtórz je</string>
+    <string name="browser_pass_short">Co najmniej 8 znaków</string>
+    <string name="browser_pass_mismatch">Oba się różnią</string>
+    <string name="browser_pass_wrong">Błędne hasło</string>
+    <string name="browser_pass_failed">Nie udało się go przyjąć; spróbuj ponownie</string>
+    <string name="browser_pass_forgot">Nie pamiętasz?</string>
+    <string name="browser_pass_reset_title">Zacząć od nowa z nowym hasłem?</string>
+    <string name="browser_pass_reset_note">Hasła na każdym urządzeniu zostają tam, gdzie są. Inne urządzenia poproszą o nowe hasło.</string>
+    <string name="browser_pass_reset">Zacznij od nowa</string>
+    <string name="browser_saved_note_synced">Przechowywane w postaci zaszyfrowanej i wysyłane na inne urządzenia zaszyfrowane hasłem synchronizacji</string>
+</resources>

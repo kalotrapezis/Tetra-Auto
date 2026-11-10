@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Auto</string>
+    <string name="car_media">Meedia</string>
+    <string name="car_apps">Rakendused</string>
+    <string name="car_layout">Paigutus</string>
+    <string name="car_sms_said">Sõnum saatjalt %1$s: %2$s. Kas soovid vastata?</string>
+    <string name="car_sms_say_it">Ütle oma sõnum.</string>
+    <string name="car_sms_send_it">„%1$s“. Kas saadan selle?</string>
+    <string name="car_sms_sent">Saadetud.</string>
+    <string name="car_quiet">Vaikus autos</string>
+    <string name="car_quiet_summary">Teiste rakenduste teavitused ootavad, kuni sõidad; kõned ja etteloetud sõnumid tulevad läbi.</string>
+    <string name="car_pair_phone">Seo telefon</string>
+    <string name="car_pair_hint">Telefonis: Tetra › Seaded › Rakenduste ikoonid › Seo autoga, siis skanni see kood.</string>
+    <string name="car_pair_car">Seo autoga</string>
+    <string name="car_pair_car_summary">Skanni kood, mida Tetra Car auto ekraanil näitab: kõned ja sõnumid seal, otse, ilma sünkroonimata.</string>
+    <string name="car_bluetooth">Auto Bluetooth</string>
+    <string name="car_bluetooth_none">Vali, milline seotud seade on auto: ainult see lülitab autorežiimi sisse.</string>
+    <string name="car_settings_summary">Autos</string>
+    <string name="car_read_sms">Sõnumite ettelugemine</string>
+    <string name="car_answer_calls">Kõnedele vastamine 2 sekundi pärast</string>
+    <string name="car_dock">Riba</string>
+    <string name="car_dock_bottom">All</string>
+    <string name="car_dock_left">Vasakul</string>
+    <string name="car_dock_right">Paremal</string>
+    <string name="car_open">Ava ise</string>
+    <string name="car_home">Kasuta avaekraanina</string>
+    <string name="car_home_summary">Kindlaim viis: auto ekraan avab iga käivitusega Tetra Car’i. Vali seal Tetra Car.</string>
+    <string name="car_open_boot">Ava seadme käivitumisel</string>
+    <string name="car_open_bt">Ava, kui see Bluetooth ühendub</string>
+    <string name="car_bluetooth_phone">Telefoni Bluetooth</string>
+    <string name="car_bluetooth_phone_none">Vali oma telefon: kui see ühendub, võib Tetra Car ise avaneda.</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Juhend</string>
+    <string name="guide_summary">Samm-sammult: kuhu puudutada ja miks</string>
+    <string name="guide_try_it">Proovi</string>
+    <string name="guide_skip">Jäta vahele</string>
+    <string name="guide_chapters">Peatükid</string>
+    <string name="guide_open">Ava juhend</string>
+    <string name="guide_step_of">%1$d / %2$d</string>
+    <string name="guide_allowed">Lubatud</string>
+    <string name="guide_not_yet">Pole veel lubatud</string>
+    <string name="guide_not_here">Selles seadmes pole</string>
+    <string name="guide_finish">Lõpeta</string>
+    <string name="guide_dont_allow">Ära luba</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Tere tulemast</string>
+    <string name="guide_ch_permissions">Load</string>
+    <string name="guide_ch_home">Avaleht</string>
+    <string name="guide_ch_files">Failid</string>
+    <string name="guide_ch_computer">Teie arvuti</string>
+    <string name="guide_ch_settings">Seaded</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Tere tulemast Tetrasse</string>
+    <string name="guide_welcome_b">Teie fotod, failid, märkmed ja kalender jäävad teie enda seadmetesse. See juhend näitab, kuhu puudutada ja miks. Lugege samm läbi, puudutage nuppu Proovi ja tehke see päris ekraanil, samal ajal kui samm jääb nähtavale.</string>
+    <string name="guide_again_t">Tulge tagasi millal tahes</string>
+    <string name="guide_again_b">Soovi korral jätke see praegu vahele. Juhend on alati menüüs Seaded › Juhend ja iga peatüki saab avada eraldi.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android küsib kõigepealt</string>
+    <string name="guide_perm_b">Mõni Tetra osa vajab teie luba. Iga leht ütleb, milleks seda vaja on. Puudutage nuppu Luba ja vastake siis Androidi küsimusele. Võite praegu keelduda ja selle hiljem siin lubada.</string>
+    <string name="guide_files_t">Kõik failid</string>
+    <string name="guide_files_b">Failid, Märkmed, Office, Kalender, Taimer ja Kaardid hoiavad kõike selles seadmes ühes Tetra kaustas. Android avab lehe, kus on üks lüliti: lülitage see sisse ja minge tagasi.</string>
+    <string name="guide_photos_t">Fotod ja videod</string>
+    <string name="guide_photos_b">Fotod näitab teie pilte ja videoid, leiab näod ja kohad ning saadab need teie arvutisse. Valige Luba kõik: kui valite ainult mõned, näitab Fotod ainult neid.</string>
+    <string name="guide_notify_t">Märguanded</string>
+    <string name="guide_notify_b">Meeldetuletused, taimerid ja sünkroonimine annavad teile märguandega teada. Ilma selleta ei saa meeldetuletus heliseda.</string>
+    <string name="guide_alarms_t">Alarmid ja meeldetuletused</string>
+    <string name="guide_alarms_b">Meeldetuletus või taimer heliseb teie määratud minutil, isegi kui telefon magab. Enamikus telefonides on see juba lubatud.</string>
+    <string name="guide_camera_t">Kaamera</string>
+    <string name="guide_camera_b">Skanner pildistab dokumente, Koodid loeb QR-koode ja arvutiga sidumisel skannib kaamera arvuti koodi. Valige Rakenduse kasutamise ajal.</string>
+    <string name="guide_contacts_t">Kontaktid</string>
+    <string name="guide_contacts_b">Kontaktid näitab teie telefonis olevaid inimesi ja võib hoida seal teie kontaktide koopiat, et kõned ja muud rakendused teaksid nende nimesid.</string>
+    <string name="guide_phone_t">Telefon ja kõned</string>
+    <string name="guide_phone_b">Telefon helistab, võtab kõnesid vastu ja näitab kõneajalugu ning teie arvuti saab helistada selle telefoni kaudu. SIM-kaardita tahvelarvuti seda ei vaja.</string>
+    <string name="guide_usage_t">Juurdepääs kasutusandmetele</string>
+    <string name="guide_usage_b">Andmeside loeb, kui palju mobiilset andmesidet iga rakendus kasutab. Android näitab loendit: leidke Tetra, puudutage seda ja lülitage lüliti sisse.</string>
+    <string name="guide_location_t">Asukoht</string>
+    <string name="guide_location_b">Kaardid näitab, kus te olete, ja juhatab teid kohale ning Andmeside vajab seda, et näha ümbritsevate Wi-Fi-võrkude nimesid. Valige Rakenduse kasutamise ajal.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Rakenduse avamine</string>
+    <string name="guide_open_b">Iga pilt Avalehel avab rakenduse. Puudutage valikut Failid, et oma faile näha.</string>
+    <string name="guide_pencil_t">Avalehe muutmine</string>
+    <string name="guide_pencil_b">Puudutage ülal olevat pliiatsit. Iga osa saab raami ja kaks väikest nuppu ning puudutused ei ava midagi enne, kui olete lõpetanud.</string>
+    <string name="guide_move_t">Osa teisaldamine</string>
+    <string name="guide_move_b">Hoidke osa all, kuni see tõuseb, ja lohistage see mis tahes lahtrisse. Teised teevad ruumi.</string>
+    <string name="guide_size_t">Suurem või väiksem</string>
+    <string name="guide_size_b">Puudutage osal olevaid nooli. Iga puudutus teeb selle suureks, keskmiseks, väikeseks ja jälle suureks: suur näitab rohkem sisu, väike on ainult pilt.</string>
+    <string name="guide_hide_t">Osa peitmine</string>
+    <string name="guide_hide_b">Puudutage silma, et peita osa, mida te ei kasuta. Peidetud osad ootavad ruudustiku all: puudutage üht, et see tagasi tuua. Selle meeldetuletused ja taimerid töötavad edasi.</string>
+    <string name="guide_done_t">Valmis</string>
+    <string name="guide_done_b">Puudutage nuppu Valmis, kui Avaleht näeb õige välja. Lähtesta muudab selle tagasi selliseks, nagu see alguses oli.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Kausta avamine</string>
+    <string name="guide_folder_b">Puudutage kausta, et sinna minna, ja faili, et see avada. Ülal olev nool viib tagasi välja.</string>
+    <string name="guide_hold_t">Failide valimine</string>
+    <string name="guide_hold_b">Hoidke faili all, kuni see on märgitud, ja puudutage teisi, et need lisada. Allhoidmine valib, lühike puudutus avab.</string>
+    <string name="guide_bar_t">Teisaldamine või kopeerimine</string>
+    <string name="guide_bar_b">Kui failid on valitud, puudutage alumisel ribal nuppu Teisalda (nool) või Kopeeri (kaks lehte). Kopeerimine jätab originaali oma kohale.</string>
+    <string name="guide_where_t">Sihtkoha valimine</string>
+    <string name="guide_where_b">Puudutage kausta, et sinna minna, nuppu Üles, et tagasi välja tulla, ja siis Teisalda siia.</string>
+    <string name="guide_more_t">Ümbernimetamine, jagamine ja muu</string>
+    <string name="guide_more_b">Puudutage faili kõrval olevat kolme punkti, et näha kõike selle faili kohta: ümbernimetamine, jagamine, sildid, värv ja Prügikast.</string>
+    <string name="guide_new_t">Midagi uut</string>
+    <string name="guide_new_b">Puudutage alumisel ribal nuppu Uus, et luua kaust, tekstifail või dokument (Dokumendid, Tabelid või Esitlused) otse selles kaustas, kus te olete.</string>
+    <string name="guide_trash_t">Prügikast</string>
+    <string name="guide_trash_b">Kustutatu läheb kõigepealt prügikasti. Pühkige alumisel ribal üles, et avada Failide tööriistad, puudutage valikut Prügikast, valige, mida tagasi soovite, ja puudutage nuppu Taasta.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra töötab ka üksi</string>
+    <string name="guide_alone_b">Arvutit pole vaja. Ilma selleta jääb kõik sellesse seadmesse ja saate hiljem siduda.</string>
+    <string name="guide_scan_t">Arvutiga sidumine</string>
+    <string name="guide_scan_b">Avage arvutis Seadmed › Lisa seade: Tetra näitab koodi. Siin avage Avalehelt Sünkroonimine, puudutage nuppu Skanni kood ja suunake kaamera koodile.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Keel ja välimus</string>
+    <string name="guide_look_b">Seaded › Välimus muudab keelt, tumedat või heledat teemat ja seda, mida Avaleht näitab.</string>
+    <string name="guide_find_t">Seadete otsing</string>
+    <string name="guide_find_b">Kirjutage Seadete ülaosas olevasse otsinguvälja, et leida mis tahes seade selle nime järgi.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Ikoonid</string>
+    <string name="guide_icons_t">Mida iga ikoon tähendab</string>
+    <string name="guide_icons_b">Tetra kasutab kõikjal samu väikseid pilte. Siin on igaüks neist ja mida see teeb.</string>
+    <string name="guide_icon_back">Tagasi: üks ekraan tagasi</string>
+    <string name="guide_icon_close">Sulge</string>
+    <string name="guide_icon_check">Valmis või valitud</string>
+    <string name="guide_icon_add">Uus: kaust, märge, sündmus…</string>
+    <string name="guide_icon_search">Otsing</string>
+    <string name="guide_icon_edit">Muuda või Nimeta ümber, olenevalt asukohast: Avaleht – Muuda, fail – Nimeta ümber</string>
+    <string name="guide_icon_more">Rohkem: kõik selle üksuse kohta</string>
+    <string name="guide_icon_share">Jaga teise rakenduse või inimesega</string>
+    <string name="guide_icon_copy">Kopeeri: teine koopia läheb sinna, esimene jääb</string>
+    <string name="guide_icon_move">Teisalda: läheb sinna ja lahkub siit</string>
+    <string name="guide_icon_delete">Prügikasti: saab veel tagasi tuua</string>
+    <string name="guide_icon_restore">Taasta: tagasi prügikastist</string>
+    <string name="guide_icon_tag">Sildid: teie enda märgised, et asju hiljem leida</string>
+    <string name="guide_icon_favorite">Lemmik: käepärast jaotises Lemmikud</string>
+    <string name="guide_icon_size">Suurus: suur, keskmine või väike (Avaleht)</string>
+    <string name="guide_icon_hide">Peida vaatest; midagi ei kustutata</string>
+    <string name="guide_icon_handle">Lohistage või pühkige siin üles, et näha rohkem</string>
+    <string name="guide_icon_choices">Valikute loend: puudutage, et üks valida</string>
+    <string name="guide_icon_undo">Võta viimane muudatus tagasi</string>
+    <string name="guide_icon_redo">Tee tagasivõetu uuesti</string>
+    <string name="guide_icon_save">Salvesta</string>
+    <string name="guide_icon_refresh">Vaata uuesti, mis on uut</string>
+    <string name="guide_icon_sync">Sünkrooni arvutiga</string>
+    <string name="guide_icon_qr">Skanni kaameraga kood</string>
+    <string name="guide_icon_card">Näita selle seadme koodi sidumiseks</string>
+    <string name="guide_icon_computer">Teie arvuti</string>
+    <string name="guide_icon_lock">Lukustatud või privaatne</string>
+    <string name="guide_icon_notifications">Märguanded</string>
+    <string name="guide_icon_info">Lisateave</string>
+    <string name="guide_icon_settings">Seaded</string>
+    <string name="guide_icon_home">Avaleht</string>
+    <string name="guide_icon_toc">Peatükid, sisukord</string>
+    <string name="guide_icon_guide">See juhend</string>
+</resources>

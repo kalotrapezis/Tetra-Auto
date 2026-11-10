@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Televízor AI Assist</string>
+    <string name="tv_widget_note">Maskot v starom televízore: ťuknite na obrazovku a hovorte, gombíky ho vypnú.</string>
+    <string name="tv_widget_power">Zapnúť alebo vypnúť televízor</string>
+    <string-array name="tv_hello">
+        <item>Ahoj! Čo nové?</item>
+        <item>Zdravím!</item>
+        <item>Som tu!</item>
+    </string-array>
+</resources>

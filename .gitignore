@@ -1,0 +1,15 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+Assets/Icons/New/*.psd
+Assets/Icons/New/*.ico
+# Logs pulled from a device (adb … cat files/logs/writer.log) stay out of git
+*.log
+logs/
+
+# The user's own screenshots (may show notifications or personal data): kept here, never pushed
+user-screenshots/

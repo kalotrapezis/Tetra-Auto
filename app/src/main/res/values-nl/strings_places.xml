@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Plaatsherinneringen</string>
+    <string name="place_reminders_note">Als je ergens aankomt, gaat een checklist uit Notities af, zoals een herinnering. Vraag AI Assist: ‘als ik naar de supermarkt ga, laat me de boodschappen zien’. De locatie wordt zelden gecontroleerd, om de batterij te sparen.</string>
+    <string name="place_reminders_on">Plaatsherinneringen op deze telefoon</string>
+    <string name="place_reminders_location">Locatie altijd</string>
+    <string name="place_reminders_location_on">Toegestaan</string>
+    <string name="place_reminders_location_off">Nodig: kies Altijd toestaan</string>
+    <string name="place_reminders_none">Nog geen plaatsherinneringen</string>
+    <string name="place_reminders_any">Elke checklist met open punten</string>
+    <string name="place_reminder_title">Je lijst</string>
+</resources>

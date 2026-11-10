@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">TV do AI Assist</string>
+    <string name="tv_widget_note">A mascote numa TV antiga: toque no ecrã para falar, nos botões para a desligar.</string>
+    <string name="tv_widget_power">Ligar ou desligar a TV</string>
+    <string-array name="tv_hello">
+        <item>Olá! Então?</item>
+        <item>Bom dia!</item>
+        <item>Aqui estou!</item>
+    </string-array>
+</resources>

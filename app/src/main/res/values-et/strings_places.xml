@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Kohameeldetuletused</string>
+    <string name="place_reminders_note">Kui jõuad kohta, heliseb märkmetest kontrollnimekiri nagu meeldetuletus. Ütle AI Assistile: „kui lähen supermarketisse, näita mulle ostunimekirja“. Asukohta kontrollitakse harva, et akut säästa.</string>
+    <string name="place_reminders_on">Kohameeldetuletused selles telefonis</string>
+    <string name="place_reminders_location">Asukoht alati</string>
+    <string name="place_reminders_location_on">Lubatud</string>
+    <string name="place_reminders_location_off">Vaja: vali Luba alati</string>
+    <string name="place_reminders_none">Kohameeldetuletusi veel pole</string>
+    <string name="place_reminders_any">Iga nimekiri, kus on veel midagi</string>
+    <string name="place_reminder_title">Sinu nimekiri</string>
+</resources>

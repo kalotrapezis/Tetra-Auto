@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Teilifís AI Assist</string>
+    <string name="tv_widget_note">An mascot i seanteilifís: tapáil an scáileán chun labhairt, na cnaipí chun í a mhúchadh.</string>
+    <string name="tv_widget_power">Cas an teilifís air nó as</string>
+    <string-array name="tv_hello">
+        <item>Dia duit! Cad é an scéal?</item>
+        <item>Haigh!</item>
+        <item>Seo mé!</item>
+    </string-array>
+</resources>

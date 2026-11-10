@@ -1,0 +1,21 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+continue=lean ar aghaidh
+continue_onto=lean ar aghaidh ar %1$s
+finish=tá tú ag do cheann scríbe
+keep_left=coinnigh ar chlé
+keep_right=coinnigh ar dheis
+turn_onto=%1$s ar %2$s
+turn_left=cas ar chlé
+turn_right=cas ar dheis
+turn_slight_left=cas beagán ar chlé
+turn_slight_right=cas beagán ar dheis
+turn_sharp_left=cas go géar ar chlé
+turn_sharp_right=cas go géar ar dheis
+u_turn=déan U-chasadh
+toward_destination=%1$s agus tiomáin i dtreo %2$s
+toward_destination_ref_only=%1$s i dtreo %2$s
+toward_destination_with_ref=%1$s agus tóg %2$s i dtreo %3$s
+stopover=pointe slí %1$s
+roundabout_enter=Téigh isteach sa timpeallán
+roundabout_exit=Ag an timpeallán, tóg slí amach %1$s
+roundabout_exit_onto=Ag an timpeallán, tóg slí amach %1$s ar %2$s

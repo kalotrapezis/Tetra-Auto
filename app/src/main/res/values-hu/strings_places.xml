@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Helyalapú emlékeztetők</string>
+    <string name="place_reminders_note">Ha megérkezel valahová, a Jegyzetek egy listája csörög, mint egy emlékeztető. Mondd az AI Assistnek: „ha a szupermarketbe megyek, mutasd a bevásárlólistát”. A helyet ritkán ellenőrzi, kímélve az akkumulátort.</string>
+    <string name="place_reminders_on">Helyalapú emlékeztetők ezen a telefonon</string>
+    <string name="place_reminders_location">Helymeghatározás mindig</string>
+    <string name="place_reminders_location_on">Engedélyezve</string>
+    <string name="place_reminders_location_off">Szükséges: válaszd a Mindig engedélyezést</string>
+    <string name="place_reminders_none">Még nincs helyalapú emlékeztető</string>
+    <string name="place_reminders_any">Bármely lista, amelyen van még tétel</string>
+    <string name="place_reminder_title">A listád</string>
+</resources>

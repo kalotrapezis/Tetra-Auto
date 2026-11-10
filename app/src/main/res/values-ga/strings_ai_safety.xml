@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Iarrtha ag téacs seachtrach (ríomhphost, gréasán, comhad): ag fanacht le do thoil</string>
+    <string name="assistant_confirm_yes">Déan é</string>
+    <string name="assistant_confirm_done">Déanta.</string>
+    <string name="assistant_confirm_cancelled">Níor déanadh.</string>
+    <string name="ai_memory_auto">Cuimhnigh ó chomhráite</string>
+    <string name="ai_memory_auto_note">Tar éis comhrá, coinníonn AI Assist suas le 3 fhíric bhuana a dúirt tú fút féin (riamh ó ríomhphost ná comhaid)</string>
+    <string name="mail_ai_urgency_1">Is fiú féachaint air</string>
+    <string name="mail_ai_urgency_2">Tábhachtach</string>
+    <string name="mail_ai_urgency_3">Práinneach</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Televixin ta’ AI Assist</string>
+    <string name="tv_widget_note">Il-maskot f’televixin antik: agħfas l-iskrin biex titkellem, il-pumi biex titfih.</string>
+    <string name="tv_widget_power">Ixgħel jew itfi t-televixin</string>
+    <string-array name="tv_hello">
+        <item>Bonġu! X’hemm?</item>
+        <item>Merħba!</item>
+        <item>Hawn jien!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Onglets des autres appareils</string>
+    <string name="browser_sync_title">Synchronisation</string>
+    <string name="browser_sync_note">Ce que cet appareil partage avec vos autres appareils grâce à la synchronisation de Tetra. Chaque interrupteur ne concerne que cet appareil ; le désactiver garde ce qui est ici.</string>
+    <string name="browser_sync_bookmarks">Marque-pages</string>
+    <string name="browser_sync_tabs">Onglets ouverts</string>
+    <string name="browser_sync_passwords">Mots de passe</string>
+    <string name="browser_sync_passwords_off">Désactivé : ils restent sur cet appareil</string>
+    <string name="browser_sync_passwords_on">Activé : mots de passe, adresses et cartes, chiffrés avec votre phrase de synchronisation</string>
+    <string name="browser_sync_passwords_need">Une nouvelle phrase a été choisie sur un autre appareil : touchez pour la saisir</string>
+    <string name="browser_pass_new_title">Choisissez une phrase de synchronisation</string>
+    <string name="browser_pass_new_note">Vos mots de passe, adresses et cartes voyagent chiffrés avec elle, et personne ne peut les lire sans elle, pas même Tetra. Vos autres appareils la demanderont une fois.</string>
+    <string name="browser_pass_enter_title">Phrase de synchronisation</string>
+    <string name="browser_pass_enter_note">Celle choisie sur votre autre appareil.</string>
+    <string name="browser_pass_field">Phrase</string>
+    <string name="browser_pass_repeat">Répétez-la</string>
+    <string name="browser_pass_short">Au moins 8 caractères</string>
+    <string name="browser_pass_mismatch">Les deux ne sont pas identiques</string>
+    <string name="browser_pass_wrong">Phrase incorrecte</string>
+    <string name="browser_pass_failed">Elle n\'a pas pu être prise ; réessayez</string>
+    <string name="browser_pass_forgot">Oubliée ?</string>
+    <string name="browser_pass_reset_title">Recommencer avec une nouvelle phrase ?</string>
+    <string name="browser_pass_reset_note">Les mots de passe restent sur chaque appareil. Vos autres appareils demanderont la nouvelle phrase.</string>
+    <string name="browser_pass_reset">Recommencer</string>
+    <string name="browser_saved_note_synced">Conservé chiffré, et envoyé à vos autres appareils chiffré avec votre phrase de synchronisation</string>
+</resources>

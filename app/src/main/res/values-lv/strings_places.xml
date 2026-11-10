@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Vietas atgādinājumi</string>
+    <string name="place_reminders_note">Ierodoties vietā, zvana saraksts no Piezīmēm kā atgādinājums. Sakiet AI Assist: “kad iešu uz lielveikalu, parādi iepirkumu sarakstu”. Atrašanās vieta tiek pārbaudīta reti, lai taupītu akumulatoru.</string>
+    <string name="place_reminders_on">Vietas atgādinājumi šajā tālrunī</string>
+    <string name="place_reminders_location">Atrašanās vieta vienmēr</string>
+    <string name="place_reminders_location_on">Atļauts</string>
+    <string name="place_reminders_location_off">Vajag: izvēlieties Atļaut vienmēr</string>
+    <string name="place_reminders_none">Vēl nav vietas atgādinājumu</string>
+    <string name="place_reminders_any">Jebkurš saraksts ar atlikušiem punktiem</string>
+    <string name="place_reminder_title">Jūsu saraksts</string>
+</resources>

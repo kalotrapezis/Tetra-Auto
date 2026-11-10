@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Timers</string>
+    <string name="timer_tab_alarms">Allarmi</string>
+    <string name="stopwatch">Kronometru</string>
+    <string name="stopwatch_counting">Qed jgħodd</string>
+    <string name="stopwatch_held">Waqfa f\'%1$s</string>
+    <string name="stopwatch_reset">Irrisettja</string>
+    <string name="stopwatch_lap">Dawra</string>
+    <string name="stopwatch_lap_n">Dawra %1$d</string>
+    <string name="alarm_named">Allarm</string>
+    <string name="alarm_snooze">Posponi</string>
+    <string name="alarm_dismiss">Waqqaf</string>
+    <string name="alarm_ringing">Qed idoqq</string>
+    <string name="alarm_next">Allarm %1$s</string>
+    <string name="alarm_skip">Aqbeż</string>
+    <string name="alarm_new">Allarm ġdid</string>
+    <string name="alarm_label">Tikketta</string>
+    <string name="alarm_once">Darba</string>
+    <string name="alarm_every_day">Kuljum</string>
+    <string name="alarm_in">L-allarm li jmiss wara %1$s</string>
+    <string name="alarm_none">Għad m\'hemm l-ebda allarm. Allarm idoqq fuq dan l-apparat u fuq kull apparat li tissinkronizza miegħu; waqqfu fuq wieħed u jieqaf fuq kollha.</string>
+    <string name="timer_add_new">Żid</string>
+    <string name="timer_list_hint">L-ebda tajmer s\'issa. Żid jiftaħ l-arloġġ: issettja s-sigħat, imbagħad il-minuti, u ✓ jibdih. Waħħal tajmer biex jibqa\' hawn, lest biex jerġa\' jibda.</string>
+    <string name="alarm_set_time">Issettja l-ħin</string>
+    <string name="alarm_skip_next">Aqbeż li jmiss</string>
+    <string name="alarm_unskip">Ħassar il-qbiż</string>
+    <string name="alarm_skipped">li jmiss maqbuż</string>
+    <string name="alarm_soon">Allarm fil-%1$s · taqbeż jew tposponi?</string>
+    <string name="alarm_channel_soon">Allarm dalwaqt</string>
+    <string name="alarm_channel_soon_about">30 minuta qabel allarm, biex taqbżu jew tipposponih</string>
+    <string name="stand_mode">Arloġġ tal-lejl</string>
+    <string name="stand_about">Arloġġ baħħ fuq iswed waqt l-iċċarġjar, ġentili mal-iskrins AMOLED; jiċċaqlaq ftit kull minuta. Agħżel Arloġġ tal-lejl bħala s-screen saver ta\' Android, biex jibda waqt l-iċċarġjar. Qabel allarm jixgħel bħal tlugħ ix-xemx, minn aħmar skur għal isfar sħun, f\'20 minuta.</string>
+    <string name="stand_settings">Settings tas-screen saver</string>
+</resources>

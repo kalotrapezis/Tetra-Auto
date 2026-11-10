@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Δεν είναι αρχείο κειμένου</string>
+    <string name="text_not_text_body">Το «%1$s» δεν είναι απλό κείμενο (π.χ. Word, PowerPoint, PDF ή εικόνα). Ο επεξεργαστής κειμένου δεν μπορεί να το δείξει.</string>
+    <string name="text_huge_title">Πολύ μεγάλο αρχείο</string>
+    <string name="text_huge_body">Το «%1$s» είναι %2$s. Ο επεξεργαστής κειμένου μπορεί να αργεί πολύ ή να κολλήσει.</string>
+    <string name="text_open_with">Άνοιγμα με…</string>
+    <string name="text_open_anyway">Άνοιγμα ούτως ή άλλως</string>
+    <string name="text_closed_not_text">Έκλεισε το «%1$s»: δεν είναι αρχείο κειμένου.</string>
+</resources>

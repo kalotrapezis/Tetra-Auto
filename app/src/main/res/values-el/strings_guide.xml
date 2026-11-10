@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Οδηγός</string>
+    <string name="guide_summary">Βήμα βήμα: πού να πατήσετε και γιατί</string>
+    <string name="guide_try_it">Δοκιμάστε το</string>
+    <string name="guide_skip">Παράλειψη</string>
+    <string name="guide_chapters">Κεφάλαια</string>
+    <string name="guide_open">Άνοιγμα του οδηγού</string>
+    <string name="guide_step_of">%1$d από %2$d</string>
+    <string name="guide_allowed">Επιτρέπεται</string>
+    <string name="guide_not_yet">Δεν επιτρέπεται ακόμη</string>
+    <string name="guide_not_here">Όχι σε αυτή τη συσκευή</string>
+    <string name="guide_finish">Ολοκλήρωση</string>
+    <string name="guide_dont_allow">Να μην επιτρέπεται</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Καλώς ήρθατε</string>
+    <string name="guide_ch_permissions">Άδειες</string>
+    <string name="guide_ch_home">Αρχική</string>
+    <string name="guide_ch_files">Αρχεία</string>
+    <string name="guide_ch_computer">Ο υπολογιστής σας</string>
+    <string name="guide_ch_settings">Ρυθμίσεις</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Καλώς ήρθατε στο Tetra</string>
+    <string name="guide_welcome_b">Οι φωτογραφίες, τα αρχεία, οι σημειώσεις και το ημερολόγιό σας μένουν στις δικές σας συσκευές. Αυτός ο οδηγός δείχνει πού να πατήσετε και γιατί. Διαβάστε ένα βήμα, πατήστε Δοκιμάστε το και κάντε το στην πραγματική οθόνη, ενώ το βήμα μένει μπροστά σας.</string>
+    <string name="guide_again_t">Επιστρέψτε όποτε θέλετε</string>
+    <string name="guide_again_b">Αν θέλετε, παραλείψτε τον τώρα. Ο οδηγός βρίσκεται πάντα στις Ρυθμίσεις › Οδηγός, και κάθε κεφάλαιο ανοίγει και μόνο του.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Το Android σάς ρωτά πρώτα</string>
+    <string name="guide_perm_b">Ορισμένα μέρη του Tetra χρειάζονται την άδειά σας. Κάθε σελίδα λέει σε τι χρησιμεύει. Πατήστε Να επιτρέπεται και μετά απαντήστε στην ερώτηση του Android. Μπορείτε να πείτε όχι τώρα και να το επιτρέψετε εδώ αργότερα.</string>
+    <string name="guide_files_t">Όλα τα αρχεία</string>
+    <string name="guide_files_b">Τα Αρχεία, οι Σημειώσεις, το Office, το Ημερολόγιο, το Χρονόμετρο και οι Χάρτες κρατούν τα πάντα σε έναν φάκελο Tetra σε αυτή τη συσκευή. Το Android ανοίγει μια σελίδα με έναν διακόπτη: ενεργοποιήστε τον και μετά επιστρέψτε.</string>
+    <string name="guide_photos_t">Φωτογραφίες και βίντεο</string>
+    <string name="guide_photos_b">Η Φωτοθήκη δείχνει τις φωτογραφίες και τα βίντεό σας, βρίσκει πρόσωπα και μέρη και τα στέλνει στον υπολογιστή σας. Επιλέξτε Να επιτρέπονται όλα: αν επιλέξετε μόνο μερικά, η Φωτοθήκη δείχνει μόνο αυτά.</string>
+    <string name="guide_notify_t">Ειδοποιήσεις</string>
+    <string name="guide_notify_b">Οι υπενθυμίσεις, τα χρονόμετρα και ο συγχρονισμός σάς ενημερώνουν με μια ειδοποίηση. Χωρίς αυτήν, μια υπενθύμιση δεν μπορεί να χτυπήσει.</string>
+    <string name="guide_alarms_t">Ξυπνητήρια και υπενθυμίσεις</string>
+    <string name="guide_alarms_b">Μια υπενθύμιση ή ένα χρονόμετρο χτυπά στο λεπτό που ορίσατε, ακόμη κι όταν το τηλέφωνο κοιμάται. Στα περισσότερα τηλέφωνα αυτό επιτρέπεται ήδη.</string>
+    <string name="guide_camera_t">Κάμερα</string>
+    <string name="guide_camera_b">Ο Σαρωτής φωτογραφίζει έγγραφα, οι Κωδικοί διαβάζουν κωδικούς QR και η σύζευξη με υπολογιστή σαρώνει τον κωδικό του. Επιλέξτε Κατά τη χρήση της εφαρμογής.</string>
+    <string name="guide_contacts_t">Επαφές</string>
+    <string name="guide_contacts_b">Οι Επαφές δείχνουν τα άτομα στο τηλέφωνό σας και μπορούν να κρατούν εκεί ένα αντίγραφο των δικών σας, ώστε οι κλήσεις και οι άλλες εφαρμογές να ξέρουν τα ονόματά τους.</string>
+    <string name="guide_phone_t">Τηλέφωνο και κλήσεις</string>
+    <string name="guide_phone_b">Το Τηλέφωνο κάνει και απαντά κλήσεις και δείχνει το ιστορικό κλήσεών σας, και ο υπολογιστής σας μπορεί να καλεί μέσω αυτού του τηλεφώνου. Ένα tablet χωρίς SIM δεν τη χρειάζεται.</string>
+    <string name="guide_usage_t">Πρόσβαση χρήσης</string>
+    <string name="guide_usage_b">Τα Δεδομένα μετρούν πόσα δεδομένα κινητής χρησιμοποιεί κάθε εφαρμογή. Το Android δείχνει μια λίστα: βρείτε το Tetra, πατήστε το και ενεργοποιήστε τον διακόπτη.</string>
+    <string name="guide_location_t">Τοποθεσία</string>
+    <string name="guide_location_b">Οι Χάρτες δείχνουν πού βρίσκεστε και σας οδηγούν εκεί που πάτε, και τα Δεδομένα τη χρειάζονται για να βλέπουν τα ονόματα των δικτύων Wi-Fi γύρω σας. Επιλέξτε Κατά τη χρήση της εφαρμογής.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Άνοιγμα εφαρμογής</string>
+    <string name="guide_open_b">Κάθε εικόνα στην Αρχική ανοίγει μια εφαρμογή. Πατήστε Αρχεία για να δείτε τα αρχεία σας.</string>
+    <string name="guide_pencil_t">Αλλαγή της Αρχικής</string>
+    <string name="guide_pencil_b">Πατήστε το μολύβι στο επάνω μέρος. Κάθε μέρος παίρνει ένα πλαίσιο και δύο μικρά κουμπιά, και τα πατήματα δεν ανοίγουν τίποτα μέχρι να τελειώσετε.</string>
+    <string name="guide_move_t">Μετακίνηση ενός μέρους</string>
+    <string name="guide_move_b">Κρατήστε πατημένο ένα μέρος μέχρι να σηκωθεί και μετά σύρετέ το σε όποιο κελί θέλετε. Τα άλλα κάνουν χώρο.</string>
+    <string name="guide_size_t">Μεγαλύτερο ή μικρότερο</string>
+    <string name="guide_size_b">Πατήστε τα βέλη σε ένα μέρος. Κάθε πάτημα το κάνει μεγάλο, μεσαίο, μικρό και ξανά μεγάλο: το μεγάλο δείχνει περισσότερα μέσα του, το μικρό είναι μόνο η εικόνα του.</string>
+    <string name="guide_hide_t">Απόκρυψη ενός μέρους</string>
+    <string name="guide_hide_b">Πατήστε το μάτι για να κρύψετε ένα μέρος που δεν χρησιμοποιείτε. Τα κρυφά μέρη περιμένουν κάτω από το πλέγμα: πατήστε ένα για να επιστρέψει. Οι υπενθυμίσεις και τα χρονόμετρά του συνεχίζουν.</string>
+    <string name="guide_done_t">Τέλος</string>
+    <string name="guide_done_b">Πατήστε Τέλος όταν η Αρχική είναι όπως τη θέλετε. Η Επαναφορά την επιστρέφει όπως ήταν στην αρχή.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Άνοιγμα φακέλου</string>
+    <string name="guide_folder_b">Πατήστε έναν φάκελο για να μπείτε και ένα αρχείο για να το ανοίξετε. Το βέλος στο επάνω μέρος σάς βγάζει ξανά έξω.</string>
+    <string name="guide_hold_t">Επιλογή αρχείων</string>
+    <string name="guide_hold_b">Κρατήστε πατημένο ένα αρχείο μέχρι να τσεκαριστεί και μετά πατήστε άλλα για να τα προσθέσετε. Το παρατεταμένο πάτημα επιλέγει· το σύντομο ανοίγει.</string>
+    <string name="guide_bar_t">Μετακίνηση ή αντιγραφή</string>
+    <string name="guide_bar_b">Με επιλεγμένα αρχεία, πατήστε Μετακίνηση (το βέλος) ή Αντιγραφή (δύο σελίδες) στη γραμμή κάτω. Η Αντιγραφή αφήνει το αρχικό εκεί που ήταν.</string>
+    <string name="guide_where_t">Επιλογή προορισμού</string>
+    <string name="guide_where_b">Πατήστε έναν φάκελο για να μπείτε, Πάνω για να βγείτε, και μετά Μετακίνηση εδώ.</string>
+    <string name="guide_more_t">Μετονομασία, κοινοποίηση και άλλα</string>
+    <string name="guide_more_b">Πατήστε τις τρεις τελείες δίπλα σε ένα αρχείο για όλα όσα αφορούν αυτό το αρχείο: μετονομασία, κοινοποίηση, ετικέτες, χρώμα και Κάδος.</string>
+    <string name="guide_new_t">Κάτι καινούργιο</string>
+    <string name="guide_new_b">Πατήστε Νέο στη γραμμή κάτω για φάκελο, αρχείο κειμένου ή αρχείο για τα Έγγραφα, τους Πίνακες ή τις Παρουσιάσεις, μέσα στον φάκελο όπου βρίσκεστε.</string>
+    <string name="guide_trash_t">Κάδος</string>
+    <string name="guide_trash_b">Ό,τι διαγράφετε πηγαίνει πρώτα στον Κάδο. Σύρετε προς τα πάνω τη γραμμή κάτω για τα Εργαλεία αρχείων, πατήστε Κάδος, επιλέξτε ό,τι θέλετε πίσω και πατήστε Επαναφορά.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Το Tetra λειτουργεί και μόνο του</string>
+    <string name="guide_alone_b">Δεν χρειάζεστε υπολογιστή. Χωρίς αυτόν, όλα μένουν σε αυτή τη συσκευή, και μπορείτε να κάνετε σύζευξη αργότερα.</string>
+    <string name="guide_scan_t">Σύζευξη με τον υπολογιστή σας</string>
+    <string name="guide_scan_b">Στον υπολογιστή, ανοίξτε Συσκευές › Προσθήκη συσκευής: το Tetra δείχνει έναν κωδικό. Εδώ, ανοίξτε τον Συγχρονισμό από την Αρχική, πατήστε Σάρωση κωδικού και στρέψτε την κάμερα προς αυτόν.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Γλώσσα και εμφάνιση</string>
+    <string name="guide_look_b">Οι Ρυθμίσεις › Εμφάνιση αλλάζουν τη γλώσσα, το σκούρο ή ανοιχτό θέμα και τι δείχνει η Αρχική.</string>
+    <string name="guide_find_t">Εύρεση ρύθμισης</string>
+    <string name="guide_find_b">Πληκτρολογήστε στην αναζήτηση στο επάνω μέρος των Ρυθμίσεων για να βρείτε οποιαδήποτε ρύθμιση από το όνομά της.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Εικονίδια</string>
+    <string name="guide_icons_t">Τι σημαίνει κάθε εικονίδιο</string>
+    <string name="guide_icons_b">Το Tetra χρησιμοποιεί παντού τις ίδιες μικρές εικόνες. Εδώ είναι καθεμία και τι κάνει.</string>
+    <string name="guide_icon_back">Πίσω: μία οθόνη πίσω</string>
+    <string name="guide_icon_close">Κλείσιμο</string>
+    <string name="guide_icon_check">Έτοιμο ή επιλεγμένο</string>
+    <string name="guide_icon_add">Νέο: φάκελος, σημείωση, συμβάν…</string>
+    <string name="guide_icon_search">Αναζήτηση</string>
+    <string name="guide_icon_edit">Επεξεργασία ή Μετονομασία, ανάλογα με το πού βρίσκεται: Αρχική – Επεξεργασία, αρχείο – Μετονομασία</string>
+    <string name="guide_icon_more">Περισσότερα: όλα για αυτό το στοιχείο</string>
+    <string name="guide_icon_share">Κοινοποίηση σε άλλη εφαρμογή ή άτομο</string>
+    <string name="guide_icon_copy">Αντιγραφή: ένα δεύτερο πάει εκεί, το πρώτο μένει</string>
+    <string name="guide_icon_move">Μετακίνηση: πάει εκεί και φεύγει από εδώ</string>
+    <string name="guide_icon_delete">Στον Κάδο: μπορεί ακόμα να γυρίσει</string>
+    <string name="guide_icon_restore">Επαναφορά: πίσω από τον Κάδο</string>
+    <string name="guide_icon_tag">Ετικέτες: δικές σας σημάνσεις, για να βρίσκετε πράγματα αργότερα</string>
+    <string name="guide_icon_favorite">Αγαπημένο: μένει πρόχειρο στα Αγαπημένα</string>
+    <string name="guide_icon_size">Μέγεθος: μεγάλο, μεσαίο ή μικρό (Αρχική)</string>
+    <string name="guide_icon_hide">Απόκρυψη από την οθόνη· τίποτα δεν διαγράφεται</string>
+    <string name="guide_icon_handle">Σύρετε ή σαρώστε προς τα πάνω εδώ για περισσότερα</string>
+    <string name="guide_icon_choices">Λίστα επιλογών: πατήστε για να διαλέξετε</string>
+    <string name="guide_icon_undo">Αναίρεση της τελευταίας αλλαγής</string>
+    <string name="guide_icon_redo">Επανάληψη όσων αναιρέθηκαν</string>
+    <string name="guide_icon_save">Αποθήκευση</string>
+    <string name="guide_icon_refresh">Νέα αναζήτηση για ό,τι είναι καινούργιο</string>
+    <string name="guide_icon_sync">Συγχρονισμός με τον υπολογιστή σας</string>
+    <string name="guide_icon_qr">Σάρωση κωδικού με την κάμερα</string>
+    <string name="guide_icon_card">Δείξτε τον κωδικό αυτής της συσκευής για να τη συνδέσετε</string>
+    <string name="guide_icon_computer">Ο υπολογιστής σας</string>
+    <string name="guide_icon_lock">Κλειδωμένο ή ιδιωτικό</string>
+    <string name="guide_icon_notifications">Ειδοποιήσεις</string>
+    <string name="guide_icon_info">Περισσότερα για αυτό</string>
+    <string name="guide_icon_settings">Ρυθμίσεις</string>
+    <string name="guide_icon_home">Αρχική</string>
+    <string name="guide_icon_toc">Κεφάλαια, περιεχόμενα</string>
+    <string name="guide_icon_guide">Αυτός ο οδηγός</string>
+</resources>

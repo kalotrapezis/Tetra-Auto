@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Zprávy</string>
+    <string name="home_label_sms">Tetra Zprávy</string>
+    <string name="sms_home_detail">Textové zprávy tvého telefonu</string>
+    <string name="sms_permission_needed">Aby zde Tetra mohla zobrazovat a odesílat tvé SMS, potřebuje oprávnění číst a odesílat zprávy.</string>
+    <string name="sms_none">Zatím žádné zprávy</string>
+    <string name="sms_none_archived">Nic není archivováno</string>
+    <string name="sms_none_here">Zatím žádné zprávy. Napiš první.</string>
+    <string name="sms_archived">Archivované</string>
+    <string name="sms_archive">Archivovat</string>
+    <string name="sms_unarchive">Zrušit archivaci</string>
+    <string name="sms_did_archive">Archivováno</string>
+    <string name="sms_did_unarchive">Zpět ve tvých zprávách</string>
+    <string name="sms_choose_first">Podrž konverzaci, abys ji vybral</string>
+    <string name="sms_new_message">Nová zpráva</string>
+    <string name="sms_to">Jméno nebo číslo</string>
+    <string name="sms_send_to">Odeslat na %1$s</string>
+    <string name="sms_write">Zpráva</string>
+    <string name="sms_not_sent">Neodesláno</string>
+    <string name="sms_sending">Odesílání…</string>
+    <string name="sms_send_failed">Zpráva nebyla odeslána: %1$s</string>
+    <string name="sms_sent">Odesláno.</string>
+    <string name="sms_you">Ty</string>
+    <string name="sms_delete_ask">Smazat vybrané konverzace?</string>
+    <string name="sms_delete_note">Jejich zprávy budou z tohoto telefonu smazány.</string>
+    <string name="sms_default_only">Mazat zprávy může jen tvoje výchozí aplikace pro zprávy.</string>
+    <string name="sms_open_default">Otevřít tam</string>
+    <string name="sms_deleted">Smazáno</string>
+    <string name="sms_pick">Vyberte konverzaci</string>
+    <string name="sms_is_default">Tetra je aplikace pro SMS</string>
+    <string name="sms_not_default">Tetra není aplikace pro SMS</string>
+    <string name="sms_is_default_summary">Zprávy přicházejí do Tetry a ta je uchovává. Vrácení: Výchozí aplikace Androidu › SMS.</string>
+    <string name="sms_not_default_summary">Nastavte ji jako výchozí, abyste dostávali nové zprávy v Tetře a mohli je mazat. Obrázkové zprávy (MMS) se jen oznámí, nezobrazí.</string>
+    <string name="sms_mms_title">Obrázková zpráva (MMS)</string>
+    <string name="sms_mms_note">Tetra neumí zobrazit obrázkové zprávy. Chcete-li je přijímat, nastavte jinou aplikaci pro SMS.</string>
+</resources>

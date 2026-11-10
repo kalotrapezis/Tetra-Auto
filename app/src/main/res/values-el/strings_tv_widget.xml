@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Τηλεόραση AI Assist</string>
+    <string name="tv_widget_note">Η μασκότ σε μια παλιά τηλεόραση: πάτα την οθόνη για να μιλήσεις, τα κουμπιά για να την κλείσεις.</string>
+    <string name="tv_widget_power">Άνοιγμα ή κλείσιμο της τηλεόρασης</string>
+    <string-array name="tv_hello">
+        <item>Γεια! Τι γίνεται;</item>
+        <item>Καλώς ήρθες!</item>
+        <item>Εδώ είμαι!</item>
+    </string-array>
+</resources>

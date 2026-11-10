@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NUACHT</string>
+    <string name="news_page">Leathanach</string>
+    <string name="ai_presenter">Cuireann an róbat i láthair</string>
+    <string name="ai_presenter_note">Achoimrí agus torthaí sceidealta mar chlár nuachta beag, léite os ard.</string>
+</resources>

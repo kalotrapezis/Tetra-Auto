@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Ajalugu</string>
+    <string name="usage_tab_days">Päevad</string>
+    <string name="usage_tab_months">Kuud</string>
+    <string name="usage_tab_years">Aastad</string>
+    <string name="usage_saved">Salvestatud ✓</string>
+    <string name="usage_more">Veel %1$d</string>
+</resources>

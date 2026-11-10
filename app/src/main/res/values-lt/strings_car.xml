@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Automobilis</string>
+    <string name="car_media">Medija</string>
+    <string name="car_apps">Programos</string>
+    <string name="car_layout">Išdėstymas</string>
+    <string name="car_sms_said">Žinutė nuo %1$s: %2$s. Ar nori atsakyti?</string>
+    <string name="car_sms_say_it">Pasakyk savo žinutę.</string>
+    <string name="car_sms_send_it">„%1$s“. Ar išsiųsti?</string>
+    <string name="car_sms_sent">Išsiųsta.</string>
+    <string name="car_quiet">Tyla automobilyje</string>
+    <string name="car_quiet_summary">Kitų programų pranešimai laukia, kol vairuoji; skambučiai ir garsiai skaitomos žinutės praeina.</string>
+    <string name="car_pair_phone">Susieti telefoną</string>
+    <string name="car_pair_hint">Telefone: Tetra › Nustatymai › Programų piktogramos › Susieti su automobiliu, tada nuskenuok šį kodą.</string>
+    <string name="car_pair_car">Susieti su automobiliu</string>
+    <string name="car_pair_car_summary">Nuskenuok kodą, kurį Tetra Car rodo automobilio ekrane: skambučiai ir žinutės ten, tiesiogiai, be sinchronizavimo.</string>
+    <string name="car_bluetooth">Automobilio Bluetooth</string>
+    <string name="car_bluetooth_none">Pasirink, kuris susietas įrenginys yra automobilis: tik jis įjungia automobilio režimą.</string>
+    <string name="car_settings_summary">Automobilyje</string>
+    <string name="car_read_sms">Skaityti žinutes garsiai</string>
+    <string name="car_answer_calls">Atsiliepti į skambučius po 2 sekundžių</string>
+    <string name="car_dock">Juosta</string>
+    <string name="car_dock_bottom">Apačioje</string>
+    <string name="car_dock_left">Kairėje</string>
+    <string name="car_dock_right">Dešinėje</string>
+    <string name="car_open">Atidaryti savaime</string>
+    <string name="car_home">Naudoti kaip pradžios ekraną</string>
+    <string name="car_home_summary">Patikimiausia: automobilio ekranas kiekvieną kartą atidaro Tetra Car. Ten pasirink Tetra Car.</string>
+    <string name="car_open_boot">Atidaryti įjungus įrenginį</string>
+    <string name="car_open_bt">Atidaryti prisijungus šiam Bluetooth</string>
+    <string name="car_bluetooth_phone">Telefono Bluetooth</string>
+    <string name="car_bluetooth_phone_none">Pasirink savo telefoną: kai jis prisijungs, Tetra Car gali atsidaryti savaime.</string>
+</resources>

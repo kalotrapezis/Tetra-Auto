@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI-Assist-Fernseher</string>
+    <string name="tv_widget_note">Das Maskottchen in einem alten Fernseher: Tippe auf den Bildschirm zum Sprechen, auf die Knöpfe zum Ausschalten.</string>
+    <string name="tv_widget_power">Fernseher ein- oder ausschalten</string>
+    <string-array name="tv_hello">
+        <item>Hi! Was gibt\'s?</item>
+        <item>Hallo!</item>
+        <item>Da bin ich!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Geschiedenis</string>
+    <string name="usage_tab_days">Dagen</string>
+    <string name="usage_tab_months">Maanden</string>
+    <string name="usage_tab_years">Jaren</string>
+    <string name="usage_saved">Opgeslagen ✓</string>
+    <string name="usage_more">Nog %1$d</string>
+</resources>

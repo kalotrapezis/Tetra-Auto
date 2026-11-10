@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Auto</string>
+    <string name="car_media">Media</string>
+    <string name="car_apps">Apps</string>
+    <string name="car_layout">Indeling</string>
+    <string name="car_sms_said">Bericht van %1$s: %2$s. Wil je antwoorden?</string>
+    <string name="car_sms_say_it">Zeg je bericht.</string>
+    <string name="car_sms_send_it">‘%1$s’. Zal ik het versturen?</string>
+    <string name="car_sms_sent">Verstuurd.</string>
+    <string name="car_quiet">Rust in de auto</string>
+    <string name="car_quiet_summary">Meldingen van andere apps wachten terwijl je rijdt; oproepen en voorgelezen berichten komen door.</string>
+    <string name="car_pair_phone">Telefoon koppelen</string>
+    <string name="car_pair_hint">Op de telefoon: Tetra › Instellingen › App-pictogrammen › Koppelen met de auto, en scan dan deze code.</string>
+    <string name="car_pair_car">Koppelen met de auto</string>
+    <string name="car_pair_car_summary">Scan de code die Tetra Car op het scherm van de auto toont: oproepen en berichten daar, live, zonder synchronisatie.</string>
+    <string name="car_bluetooth">Bluetooth van de auto</string>
+    <string name="car_bluetooth_none">Kies welk gekoppeld apparaat de auto is: alleen dat zet de telefoon in automodus.</string>
+    <string name="car_settings_summary">In de auto</string>
+    <string name="car_read_sms">Berichten voorlezen</string>
+    <string name="car_answer_calls">Oproepen na 2 seconden beantwoorden</string>
+    <string name="car_dock">Balk</string>
+    <string name="car_dock_bottom">Onderaan</string>
+    <string name="car_dock_left">Links</string>
+    <string name="car_dock_right">Rechts</string>
+    <string name="car_open">Vanzelf openen</string>
+    <string name="car_home">Als startscherm gebruiken</string>
+    <string name="car_home_summary">De zekerste manier: het scherm van de auto opent Tetra Car bij elke start. Kies daar Tetra Car.</string>
+    <string name="car_open_boot">Openen bij het starten van het apparaat</string>
+    <string name="car_open_bt">Openen als deze Bluetooth verbindt</string>
+    <string name="car_bluetooth_phone">Bluetooth van de telefoon</string>
+    <string name="car_bluetooth_phone_none">Kies je telefoon: als die verbindt, kan Tetra Car vanzelf openen.</string>
+</resources>

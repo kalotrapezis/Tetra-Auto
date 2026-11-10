@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">UUDISED</string>
+    <string name="news_page">Leht</string>
+    <string name="ai_presenter">Robot juhib</string>
+    <string name="ai_presenter_note">Ülevaated ja ajastatud tulemused väikese uudistesaatena, ette loetud.</string>
+</resources>

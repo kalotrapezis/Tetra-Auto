@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Berichten</string>
+    <string name="home_label_sms">Tetra Berichten</string>
+    <string name="sms_home_detail">De sms\'jes van je telefoon</string>
+    <string name="sms_permission_needed">Om je sms\'jes hier te tonen en te versturen, heeft Tetra toestemming nodig om berichten te lezen en te versturen.</string>
+    <string name="sms_none">Nog geen berichten</string>
+    <string name="sms_none_archived">Niets gearchiveerd</string>
+    <string name="sms_none_here">Nog geen berichten. Schrijf het eerste.</string>
+    <string name="sms_archived">Gearchiveerd</string>
+    <string name="sms_archive">Archiveren</string>
+    <string name="sms_unarchive">Uit archief halen</string>
+    <string name="sms_did_archive">Gearchiveerd</string>
+    <string name="sms_did_unarchive">Weer bij je berichten</string>
+    <string name="sms_choose_first">Houd een gesprek ingedrukt om het te kiezen</string>
+    <string name="sms_new_message">Nieuw bericht</string>
+    <string name="sms_to">Naam of nummer</string>
+    <string name="sms_send_to">Sturen naar %1$s</string>
+    <string name="sms_write">Bericht</string>
+    <string name="sms_not_sent">Niet verstuurd</string>
+    <string name="sms_sending">Versturen…</string>
+    <string name="sms_send_failed">Het bericht is niet verstuurd: %1$s</string>
+    <string name="sms_sent">Verstuurd.</string>
+    <string name="sms_you">Jij</string>
+    <string name="sms_delete_ask">De gekozen gesprekken verwijderen?</string>
+    <string name="sms_delete_note">Hun berichten worden van deze telefoon verwijderd.</string>
+    <string name="sms_default_only">Alleen je standaard-berichtenapp kan berichten verwijderen.</string>
+    <string name="sms_open_default">Daar openen</string>
+    <string name="sms_deleted">Verwijderd</string>
+    <string name="sms_pick">Kies een gesprek</string>
+    <string name="sms_is_default">Tetra is de sms-app</string>
+    <string name="sms_not_default">Tetra is niet de sms-app</string>
+    <string name="sms_is_default_summary">Berichten komen binnen in Tetra en Tetra bewaart ze. Terugzetten: Standaardapps van Android › Sms-app.</string>
+    <string name="sms_not_default_summary">Maak het de standaard om nieuwe berichten in Tetra te krijgen en ze te kunnen verwijderen. Fotoberichten (mms) worden alleen gemeld, niet getoond.</string>
+    <string name="sms_mms_title">Fotobericht (mms)</string>
+    <string name="sms_mms_note">Tetra kan geen fotoberichten tonen. Kies een andere sms-app om ze te ontvangen.</string>
+</resources>

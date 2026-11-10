@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assist televizorius</string>
+    <string name="tv_widget_note">Talismanas sename televizoriuje: palieskite ekraną, kad kalbėtumėte, rankenėles – kad išjungtumėte.</string>
+    <string name="tv_widget_power">Įjungti arba išjungti televizorių</string>
+    <string-array name="tv_hello">
+        <item>Labas! Kas naujo?</item>
+        <item>Sveiki!</item>
+        <item>Aš čia!</item>
+    </string-array>
+</resources>

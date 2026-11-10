@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Hledat v prohlížeči</string>
+    <string name="assistant_card_data_used">Využito %1$s z %2$s</string>
+    <string name="assistant_card_data_used_unlimited">Využito %1$s v tomto období</string>
+    <string name="assistant_card_data_left">Zbývá %1$s · dní: %2$d</string>
+    <string name="assistant_card_data_pace">Dnes %1$s · průměr %2$s denně</string>
+    <string name="assistant_card_data_forecast">Odhad na konci období: %1$s</string>
+    <string name="assistant_card_data_on_track">V rámci tarifu</string>
+    <string name="assistant_card_data_cut">Aby data vystačila: nejvýše %1$s denně po %2$d dní</string>
+    <string name="assistant_card_data_hotspot">%1$s přes hotspot telefonu tento měsíc</string>
+    <string name="assistant_card_brief">Denní přehled</string>
+</resources>

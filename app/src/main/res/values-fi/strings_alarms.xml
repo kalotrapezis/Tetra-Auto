@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Ajastimet</string>
+    <string name="timer_tab_alarms">Herätykset</string>
+    <string name="stopwatch">Sekuntikello</string>
+    <string name="stopwatch_counting">Käynnissä</string>
+    <string name="stopwatch_held">Tauolla kohdassa %1$s</string>
+    <string name="stopwatch_reset">Nollaa</string>
+    <string name="stopwatch_lap">Kierros</string>
+    <string name="stopwatch_lap_n">Kierros %1$d</string>
+    <string name="alarm_named">Herätys</string>
+    <string name="alarm_snooze">Torkku</string>
+    <string name="alarm_dismiss">Hylkää</string>
+    <string name="alarm_ringing">Soi</string>
+    <string name="alarm_next">Herätys %1$s</string>
+    <string name="alarm_skip">Ohita</string>
+    <string name="alarm_new">Uusi herätys</string>
+    <string name="alarm_label">Nimike</string>
+    <string name="alarm_once">Kerran</string>
+    <string name="alarm_every_day">Joka päivä</string>
+    <string name="alarm_in">Seuraava herätys %1$s kuluttua</string>
+    <string name="alarm_none">Ei vielä herätyksiä. Herätys soi tällä laitteella ja jokaisella laitteella, jonka kanssa synkronoit; hylkää se yhdellä, niin se lakkaa soimasta kaikilla.</string>
+    <string name="timer_add_new">Lisää</string>
+    <string name="timer_list_hint">Ei vielä ajastimia. Lisää avaa kellon: valitse tunnit, sitten minuutit, ja ✓ käynnistää sen. Kiinnitä ajastin, niin se jää tähän valmiina uudelleen.</string>
+    <string name="alarm_set_time">Aseta aika</string>
+    <string name="alarm_skip_next">Ohita seuraava</string>
+    <string name="alarm_unskip">Peru ohitus</string>
+    <string name="alarm_skipped">seuraava ohitetaan</string>
+    <string name="alarm_soon">Herätys klo %1$s · ohitetaanko vai torkutetaanko?</string>
+    <string name="alarm_channel_soon">Herätys pian</string>
+    <string name="alarm_channel_soon_about">30 minuuttia ennen herätystä, sen ohittamiseen tai torkuttamiseen</string>
+    <string name="stand_mode">Yökello</string>
+    <string name="stand_about">Himmeä kello mustalla latauksen aikana, AMOLED-näytöille hellävarainen; se siirtyy vähän joka minuutti. Valitse Yökello Androidin näytönsäästäjäksi, niin se käynnistyy latauksessa. Ennen herätystä se kirkastuu kuin auringonnousu, syvänpunaisesta lämpimään keltaiseen, 20 minuutin aikana.</string>
+    <string name="stand_settings">Näytönsäästäjän asetukset</string>
+</resources>

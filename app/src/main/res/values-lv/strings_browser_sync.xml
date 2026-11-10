@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Cilnes no citām ierīcēm</string>
+    <string name="browser_sync_title">Sinhronizācija</string>
+    <string name="browser_sync_note">Ko šī ierīce koplieto ar jūsu citām ierīcēm, izmantojot Tetra sinhronizāciju. Katrs slēdzis attiecas tikai uz šo ierīci; izslēdzot paliek tas, kas ir šeit.</string>
+    <string name="browser_sync_bookmarks">Grāmatzīmes</string>
+    <string name="browser_sync_tabs">Atvērtās cilnes</string>
+    <string name="browser_sync_passwords">Paroles</string>
+    <string name="browser_sync_passwords_off">Izslēgts: tās paliek šajā ierīcē</string>
+    <string name="browser_sync_passwords_on">Ieslēgts: paroles, adreses un kartes, šifrētas ar jūsu sinhronizācijas paroles frāzi</string>
+    <string name="browser_sync_passwords_need">Citā ierīcē izvēlēta jauna paroles frāze: pieskarieties, lai to ievadītu</string>
+    <string name="browser_pass_new_title">Izvēlieties sinhronizācijas paroles frāzi</string>
+    <string name="browser_pass_new_note">Jūsu paroles, adreses un kartes ceļo ar to šifrētas, un neviens bez tās tās nevar izlasīt, arī Tetra ne. Citas ierīces to prasīs vienreiz.</string>
+    <string name="browser_pass_enter_title">Sinhronizācijas paroles frāze</string>
+    <string name="browser_pass_enter_note">Tā, ko izvēlējāties citā ierīcē.</string>
+    <string name="browser_pass_field">Paroles frāze</string>
+    <string name="browser_pass_repeat">Atkārtojiet to</string>
+    <string name="browser_pass_short">Vismaz 8 rakstzīmes</string>
+    <string name="browser_pass_mismatch">Abas nesakrīt</string>
+    <string name="browser_pass_wrong">Nepareiza paroles frāze</string>
+    <string name="browser_pass_failed">To neizdevās pieņemt; mēģiniet vēlreiz</string>
+    <string name="browser_pass_forgot">Aizmirsāt?</string>
+    <string name="browser_pass_reset_title">Sākt no jauna ar jaunu paroles frāzi?</string>
+    <string name="browser_pass_reset_note">Paroles katrā ierīcē paliek, kur ir. Citas ierīces prasīs jauno paroles frāzi.</string>
+    <string name="browser_pass_reset">Sākt no jauna</string>
+    <string name="browser_saved_note_synced">Glabāts šifrēts un nosūtīts uz citām ierīcēm, šifrēts ar sinhronizācijas paroles frāzi</string>
+</resources>

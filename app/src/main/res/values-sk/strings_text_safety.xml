@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Nie je textový súbor</string>
+    <string name="text_not_text_body">«%1$s» nie je čistý text (napríklad Word, PowerPoint, PDF alebo obrázok). Textový editor ho nemôže zobraziť.</string>
+    <string name="text_huge_title">Veľmi veľký súbor</string>
+    <string name="text_huge_body">«%1$s» má %2$s. Textový editor môže byť veľmi pomalý alebo zamrznúť.</string>
+    <string name="text_open_with">Otvoriť pomocou…</string>
+    <string name="text_open_anyway">Napriek tomu otvoriť</string>
+    <string name="text_closed_not_text">«%1$s» bol zatvorený: nie je to textový súbor.</string>
+</resources>

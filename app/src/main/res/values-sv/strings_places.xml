@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Platspåminnelser</string>
+    <string name="place_reminders_note">När du kommer fram någonstans ringer en checklista från Anteckningar som en påminnelse. Be AI Assist: ”när jag går till mataffären, visa mig inköpslistan”. Platsen kontrolleras sällan för att spara batteri.</string>
+    <string name="place_reminders_on">Platspåminnelser på den här telefonen</string>
+    <string name="place_reminders_location">Plats alltid</string>
+    <string name="place_reminders_location_on">Tillåten</string>
+    <string name="place_reminders_location_off">Krävs: välj Tillåt alltid</string>
+    <string name="place_reminders_none">Inga platspåminnelser än</string>
+    <string name="place_reminders_any">Valfri checklista med punkter kvar</string>
+    <string name="place_reminder_title">Din lista</string>
+</resources>

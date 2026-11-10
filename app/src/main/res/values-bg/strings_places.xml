@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Напомняния по място</string>
+    <string name="place_reminders_note">Когато пристигнете някъде, звъни списък от Бележки, като напомняне. Кажете на AI Assist: „когато отида в супермаркета, покажи ми пазаруването“. Местоположението се проверява рядко, за да се пази батерията.</string>
+    <string name="place_reminders_on">Напомняния по място на този телефон</string>
+    <string name="place_reminders_location">Местоположение винаги</string>
+    <string name="place_reminders_location_on">Разрешено</string>
+    <string name="place_reminders_location_off">Нужно: изберете „Разрешаване винаги“</string>
+    <string name="place_reminders_none">Още няма напомняния по място</string>
+    <string name="place_reminders_any">Всеки списък с неотметнати точки</string>
+    <string name="place_reminder_title">Вашият списък</string>
+</resources>

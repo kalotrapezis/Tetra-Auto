@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Codes: a code read from a picture (CodeScreens.kt) -->
+<resources>
+    <string name="codes_image">Stampa</string>
+    <string name="codes_none_in_image">L-ebda kodiċi ma nstab fl-istampa</string>
+    <string name="codes_from_image">Kodiċi minn stampa</string>
+</resources>

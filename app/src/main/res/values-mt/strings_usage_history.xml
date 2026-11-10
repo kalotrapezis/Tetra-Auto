@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Storja</string>
+    <string name="usage_tab_days">Jiem</string>
+    <string name="usage_tab_months">Xhur</string>
+    <string name="usage_tab_years">Snin</string>
+    <string name="usage_saved">Issejvjat ✓</string>
+    <string name="usage_more">%1$d oħra</string>
+</resources>

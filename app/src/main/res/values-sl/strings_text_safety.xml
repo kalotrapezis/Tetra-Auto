@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Ni besedilna datoteka</string>
+    <string name="text_not_text_body">«%1$s» ni navadno besedilo (na primer datoteka Word, PowerPoint, PDF ali slika). Urejevalnik besedila je ne more prikazati.</string>
+    <string name="text_huge_title">Zelo velika datoteka</string>
+    <string name="text_huge_body">«%1$s» ima %2$s. Urejevalnik besedila je lahko zelo počasen ali zamrzne.</string>
+    <string name="text_open_with">Odpri z …</string>
+    <string name="text_open_anyway">Vseeno odpri</string>
+    <string name="text_closed_not_text">«%1$s» je bil zaprt: ni besedilna datoteka.</string>
+</resources>

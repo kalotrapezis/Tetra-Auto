@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car (CarScreen.kt) -->
+<resources>
+    <string name="app_car">Tetra Autó</string>
+    <string name="car_media">Média</string>
+    <string name="car_apps">Alkalmazások</string>
+    <string name="car_layout">Elrendezés</string>
+    <string name="car_sms_said">Üzenet tőle: %1$s: %2$s. Szeretnél válaszolni?</string>
+    <string name="car_sms_say_it">Mondd az üzenetet.</string>
+    <string name="car_sms_send_it">„%1$s”. Elküldjem?</string>
+    <string name="car_sms_sent">Elküldve.</string>
+    <string name="car_quiet">Csend az autóban</string>
+    <string name="car_quiet_summary">Más alkalmazások értesítései várnak vezetés közben; a hívások és a felolvasott üzenetek átjönnek.</string>
+    <string name="car_pair_phone">Telefon párosítása</string>
+    <string name="car_pair_hint">A telefonon: Tetra › Beállítások › Alkalmazásikonok › Párosítás az autóval, majd olvasd be ezt a kódot.</string>
+    <string name="car_pair_car">Párosítás az autóval</string>
+    <string name="car_pair_car_summary">Olvasd be a kódot, amit a Tetra Car az autó kijelzőjén mutat: hívások és üzenetek ott, élőben, szinkronizálás nélkül.</string>
+    <string name="car_bluetooth">Az autó Bluetooth-a</string>
+    <string name="car_bluetooth_none">Válaszd ki, melyik párosított eszköz az autó: csak az kapcsolja be az autós módot.</string>
+    <string name="car_settings_summary">Az autóban</string>
+    <string name="car_read_sms">Üzenetek felolvasása</string>
+    <string name="car_answer_calls">Hívások fogadása 2 másodperc után</string>
+    <string name="car_dock">Sáv</string>
+    <string name="car_dock_bottom">Alul</string>
+    <string name="car_dock_left">Bal oldalt</string>
+    <string name="car_dock_right">Jobb oldalt</string>
+    <string name="car_open">Magától megnyílik</string>
+    <string name="car_home">Kezdőképernyőként</string>
+    <string name="car_home_summary">A legbiztosabb: az autó kijelzője minden indításkor a Tetra Cart nyitja meg. Ott válaszd a Tetra Cart.</string>
+    <string name="car_open_boot">Megnyitás az eszköz indulásakor</string>
+    <string name="car_open_bt">Megnyitás, amikor ez a Bluetooth csatlakozik</string>
+    <string name="car_bluetooth_phone">A telefon Bluetooth-a</string>
+    <string name="car_bluetooth_phone_none">Válaszd ki a telefonod: amikor csatlakozik, a Tetra Car magától megnyílhat.</string>
+</resources>

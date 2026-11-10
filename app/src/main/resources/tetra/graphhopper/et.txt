@@ -1,0 +1,21 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+continue=jätkake otse
+continue_onto=jätkake teel %1$s
+finish=olete jõudnud sihtkohta
+keep_left=hoidke vasakule
+keep_right=hoidke paremale
+turn_onto=%1$s teele %2$s
+turn_left=pöörake vasakule
+turn_right=pöörake paremale
+turn_slight_left=pöörake kergelt vasakule
+turn_slight_right=pöörake kergelt paremale
+turn_sharp_left=pöörake järsult vasakule
+turn_sharp_right=pöörake järsult paremale
+u_turn=pöörake tagasi
+toward_destination=%1$s ja sõitke suunas %2$s
+toward_destination_ref_only=%1$s suunas %2$s
+toward_destination_with_ref=%1$s ja valige %2$s suunas %3$s
+stopover=vahepunkt %1$s
+roundabout_enter=Sõitke ringristmikule
+roundabout_exit=Ringristmikul valige %1$s. väljasõit
+roundabout_exit_onto=Ringristmikul valige %1$s. väljasõit teele %2$s

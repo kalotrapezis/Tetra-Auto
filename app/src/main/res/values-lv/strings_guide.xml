@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Ceļvedis</string>
+    <string name="guide_summary">Soli pa solim: kur pieskarties un kāpēc</string>
+    <string name="guide_try_it">Izmēģināt</string>
+    <string name="guide_skip">Izlaist</string>
+    <string name="guide_chapters">Nodaļas</string>
+    <string name="guide_open">Atvērt ceļvedi</string>
+    <string name="guide_step_of">%1$d no %2$d</string>
+    <string name="guide_allowed">Atļauts</string>
+    <string name="guide_not_yet">Vēl nav atļauts</string>
+    <string name="guide_not_here">Šajā ierīcē nav</string>
+    <string name="guide_finish">Pabeigt</string>
+    <string name="guide_dont_allow">Neatļaut</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Sveicināti</string>
+    <string name="guide_ch_permissions">Atļaujas</string>
+    <string name="guide_ch_home">Sākums</string>
+    <string name="guide_ch_files">Faili</string>
+    <string name="guide_ch_computer">Jūsu dators</string>
+    <string name="guide_ch_settings">Iestatījumi</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Laipni lūdzam Tetra</string>
+    <string name="guide_welcome_b">Jūsu fotoattēli, faili, piezīmes un kalendārs paliek jūsu pašu ierīcēs. Šis ceļvedis rāda, kur pieskarties un kāpēc. Izlasiet soli, pieskarieties „Izmēģināt” un izdariet to īstajā ekrānā, kamēr solis paliek redzams.</string>
+    <string name="guide_again_t">Atgriezieties jebkurā laikā</string>
+    <string name="guide_again_b">Ja vēlaties, izlaidiet to tagad. Ceļvedis vienmēr ir sadaļā „Iestatījumi › Ceļvedis”, un katru nodaļu var atvērt atsevišķi.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android vispirms jautā</string>
+    <string name="guide_perm_b">Dažām Tetra daļām ir vajadzīga jūsu atļauja. Katrā lapā ir rakstīts, kam tā vajadzīga. Pieskarieties „Atļaut”, pēc tam atbildiet uz Android jautājumu. Tagad varat atteikt un atļaut to šeit vēlāk.</string>
+    <string name="guide_files_t">Visi faili</string>
+    <string name="guide_files_b">Faili, Piezīmes, Office, Kalendārs, Taimeris un Kartes visu glabā vienā Tetra mapē šajā ierīcē. Android atvērs lapu ar vienu slēdzi: ieslēdziet to un dodieties atpakaļ.</string>
+    <string name="guide_photos_t">Fotoattēli un videoklipi</string>
+    <string name="guide_photos_b">Fotoattēli rāda jūsu attēlus un videoklipus, atrod sejas un vietas un nosūta tos uz jūsu datoru. Izvēlieties „Atļaut visu”: ja izvēlēti tikai daži, Fotoattēli rāda tikai tos.</string>
+    <string name="guide_notify_t">Paziņojumi</string>
+    <string name="guide_notify_b">Atgādinājumi, taimeri un sinhronizācija jums ziņo ar paziņojumu. Bez tā atgādinājums nevar nozvanīt.</string>
+    <string name="guide_alarms_t">Signāli un atgādinājumi</string>
+    <string name="guide_alarms_b">Atgādinājums vai taimeris nozvana jūsu iestatītajā minūtē, pat ja tālrunis ir miega režīmā. Lielākajā daļā tālruņu tas jau ir atļauts.</string>
+    <string name="guide_camera_t">Kamera</string>
+    <string name="guide_camera_b">Skeneris fotografē dokumentus, Kodi nolasa QR kodus, un, savienojot pārī ar datoru, kamera skenē datora kodu. Izvēlieties „Lietotnes izmantošanas laikā”.</string>
+    <string name="guide_contacts_t">Kontakti</string>
+    <string name="guide_contacts_b">Kontakti rāda jūsu tālrunī esošos cilvēkus un var tur glabāt jūsu kontaktu kopiju, lai zvani un citas lietotnes zinātu viņu vārdus.</string>
+    <string name="guide_phone_t">Tālrunis un zvani</string>
+    <string name="guide_phone_b">Tālrunis zvana un atbild uz zvaniem, rāda zvanu vēsturi, un jūsu dators var zvanīt caur šo tālruni. Planšetdatoram bez SIM kartes tas nav vajadzīgs.</string>
+    <string name="guide_usage_t">Piekļuve lietojuma datiem</string>
+    <string name="guide_usage_b">Dati skaita, cik daudz mobilo datu izmanto katra lietotne. Android parādīs sarakstu: atrodiet Tetra, pieskarieties tai un ieslēdziet slēdzi.</string>
+    <string name="guide_location_t">Atrašanās vieta</string>
+    <string name="guide_location_b">Kartes rāda, kur atrodaties, un aizved līdz galamērķim, bet Datiem tā vajadzīga, lai redzētu apkārtējo Wi-Fi tīklu nosaukumus. Izvēlieties „Lietotnes izmantošanas laikā”.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Atveriet lietotni</string>
+    <string name="guide_open_b">Katrs attēls ekrānā „Sākums” atver lietotni. Pieskarieties „Faili”, lai redzētu savus failus.</string>
+    <string name="guide_pencil_t">Mainiet ekrānu „Sākums”</string>
+    <string name="guide_pencil_b">Pieskarieties zīmulim augšā. Katra daļa iegūst rāmi un divas mazas pogas, un pieskārieni neko neatver, kamēr neesat beiguši.</string>
+    <string name="guide_move_t">Pārvietojiet daļu</string>
+    <string name="guide_move_b">Turiet daļu, līdz tā paceļas, tad velciet to uz jebkuru šūnu. Pārējās atbrīvo vietu.</string>
+    <string name="guide_size_t">Lielāka vai mazāka</string>
+    <string name="guide_size_b">Pieskarieties daļas bultiņām. Katrs pieskāriens padara to lielu, vidēju, mazu un atkal lielu: lielā rāda vairāk satura, mazā ir tikai tās attēls.</string>
+    <string name="guide_hide_t">Paslēpiet daļu</string>
+    <string name="guide_hide_b">Pieskarieties acij, lai paslēptu daļu, ko neizmantojat. Paslēptās daļas gaida zem režģa: pieskarieties vienai, lai to atgrieztu. Tās atgādinājumi un taimeri turpina darboties.</string>
+    <string name="guide_done_t">Gatavs</string>
+    <string name="guide_done_b">Pieskarieties „Gatavs”, kad ekrāns „Sākums” izskatās pareizi. „Atiestatīt” atjauno to tādu, kāds tas bija sākumā.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Atveriet mapi</string>
+    <string name="guide_folder_b">Pieskarieties mapei, lai ieietu tajā, un failam, lai to atvērtu. Bultiņa augšā ved atpakaļ.</string>
+    <string name="guide_hold_t">Izvēlieties failus</string>
+    <string name="guide_hold_b">Turiet failu, līdz tas ir atzīmēts, tad pieskarieties citiem, lai tos pievienotu. Turēšana izvēlas, īss pieskāriens atver.</string>
+    <string name="guide_bar_t">Pārvietojiet vai kopējiet</string>
+    <string name="guide_bar_b">Kad faili ir izvēlēti, apakšējā joslā pieskarieties „Pārvietot” (bultiņa) vai „Kopēt” (divas lapas). Kopējot oriģināls paliek savā vietā.</string>
+    <string name="guide_where_t">Izvēlieties, kur</string>
+    <string name="guide_where_b">Pieskarieties mapei, lai ieietu tajā, „Uz augšu”, lai izietu atpakaļ, tad „Pārvietot šeit”.</string>
+    <string name="guide_more_t">Pārdēvēšana, kopīgošana un cits</string>
+    <string name="guide_more_b">Pieskarieties trim punktiem blakus failam, lai redzētu visu par šo failu: pārdēvēšanu, kopīgošanu, birkas, krāsu un „Miskaste”.</string>
+    <string name="guide_new_t">Kaut kas jauns</string>
+    <string name="guide_new_b">Apakšējā joslā pieskarieties „Jauns”, lai izveidotu mapi, teksta failu vai „Dokumenti”, „Tabulas” vai „Prezentācijas” dokumentu tieši tajā mapē, kurā atrodaties.</string>
+    <string name="guide_trash_t">Miskaste</string>
+    <string name="guide_trash_b">Tas, ko izdzēšat, vispirms nonāk miskastē. Pavelciet apakšējo joslu uz augšu, lai atvērtu „Failu rīki”, pieskarieties „Miskaste”, izvēlieties, ko vēlaties atgūt, un pieskarieties „Atjaunot”.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra darbojas arī viena</string>
+    <string name="guide_alone_b">Dators nav vajadzīgs. Bez tā viss paliek šajā ierīcē, un savienot pārī varat vēlāk.</string>
+    <string name="guide_scan_t">Savienojiet pārī ar datoru</string>
+    <string name="guide_scan_b">Datorā atveriet „Ierīces › Pievienot ierīci”: Tetra parāda kodu. Šeit ekrānā „Sākums” atveriet „Sinhronizācija”, pieskarieties „Skenēt kodu” un pavērsiet kameru pret kodu.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Valoda un izskats</string>
+    <string name="guide_look_b">„Iestatījumi › Izskats” maina valodu, tumšo vai gaišo režīmu un to, ko rāda ekrāns „Sākums”.</string>
+    <string name="guide_find_t">Atrodiet iestatījumu</string>
+    <string name="guide_find_b">Rakstiet meklēšanas laukā iestatījumu augšdaļā, lai atrastu jebkuru iestatījumu pēc nosaukuma.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Ikonas</string>
+    <string name="guide_icons_t">Ko nozīmē katra ikona</string>
+    <string name="guide_icons_b">Tetra visur izmanto tos pašus mazos attēlus. Šeit ir katrs no tiem un tas, ko tas dara.</string>
+    <string name="guide_icon_back">Atpakaļ: viens ekrāns atpakaļ</string>
+    <string name="guide_icon_close">Aizvērt</string>
+    <string name="guide_icon_check">Gatavs vai izvēlēts</string>
+    <string name="guide_icon_add">Jauns: mape, piezīme, notikums…</string>
+    <string name="guide_icon_search">Meklēšana</string>
+    <string name="guide_icon_edit">Rediģēt vai Pārdēvēt, atkarībā no vietas: Sākums – Rediģēt, fails – Pārdēvēt</string>
+    <string name="guide_icon_more">Vairāk: viss par šo vienumu</string>
+    <string name="guide_icon_share">Kopīgot ar citu lietotni vai personu</string>
+    <string name="guide_icon_copy">Kopēt: otrs eksemplārs nonāk tur, pirmais paliek</string>
+    <string name="guide_icon_move">Pārvietot: tas nonāk tur un pazūd no šejienes</string>
+    <string name="guide_icon_delete">Uz Miskasti: to joprojām var atgriezt</string>
+    <string name="guide_icon_restore">Atjaunot: atpakaļ no Miskastes</string>
+    <string name="guide_icon_tag">Birkas: jūsu pašu atzīmes, lai vēlāk atrastu</string>
+    <string name="guide_icon_favorite">Izlase: pie rokas sadaļā Izlase</string>
+    <string name="guide_icon_size">Izmērs: liels, vidējs vai mazs (Sākums)</string>
+    <string name="guide_icon_hide">Paslēpt no skata; nekas netiek dzēsts</string>
+    <string name="guide_icon_handle">Velciet šeit uz augšu, lai redzētu vairāk</string>
+    <string name="guide_icon_choices">Izvēļu saraksts: pieskarieties, lai izvēlētos</string>
+    <string name="guide_icon_undo">Atsaukt pēdējo izmaiņu</string>
+    <string name="guide_icon_redo">Atkārtot atsaukto darbību</string>
+    <string name="guide_icon_save">Saglabāt</string>
+    <string name="guide_icon_refresh">Pārbaudīt vēlreiz, kas ir jauns</string>
+    <string name="guide_icon_sync">Sinhronizēt ar datoru</string>
+    <string name="guide_icon_qr">Skenēt kodu ar kameru</string>
+    <string name="guide_icon_card">Rādīt šīs ierīces kodu savienošanai pārī</string>
+    <string name="guide_icon_computer">Jūsu dators</string>
+    <string name="guide_icon_lock">Bloķēts vai privāts</string>
+    <string name="guide_icon_notifications">Paziņojumi</string>
+    <string name="guide_icon_info">Vairāk par to</string>
+    <string name="guide_icon_settings">Iestatījumi</string>
+    <string name="guide_icon_home">Sākums</string>
+    <string name="guide_icon_toc">Nodaļas, saturs</string>
+    <string name="guide_icon_guide">Šī pamācība</string>
+</resources>

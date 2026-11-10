@@ -1,0 +1,4 @@
+# Tetra's turn words where GraphHopper 10.2 has none (MapsRouting.translation): GraphHopper's keys and format, put over its own.
+toward_destination=%1$s in vozite v smeri %2$s
+toward_destination_ref_only=%1$s v smeri %2$s
+toward_destination_with_ref=%1$s in izberite %2$s v smeri %3$s

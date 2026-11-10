@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">ŽINIOS</string>
+    <string name="news_page">Puslapis</string>
+    <string name="ai_presenter">Robotas veda</string>
+    <string name="ai_presenter_note">Apžvalgos ir suplanuoti rezultatai kaip mažos žinios, perskaitytos garsiai.</string>
+</resources>

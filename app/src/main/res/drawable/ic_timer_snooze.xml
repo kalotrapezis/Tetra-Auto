@@ -1,0 +1,11 @@
+<!-- A ringing alarm's Snooze, 10 min (the user's sketch, 1 Nov: a circle with three rising z's), as ic_timer_stop. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FF000000" android:strokeColor="@color/applet_timer" android:strokeWidth="2.5"
+        android:pathData="M24,2.75A21.25,21.25 0,1 1,23.99,2.75Z" />
+    <path android:strokeColor="@color/applet_timer" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M13.5,25H22.5L13.5,35H22.5" />
+    <path android:strokeColor="@color/applet_timer" android:strokeWidth="2.75" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M25,17.5H31L25,24H31" />
+    <path android:strokeColor="@color/applet_timer" android:strokeWidth="2.25" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M33,11H37L33,15.5H37" />
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Promemoria di luogo</string>
+    <string name="place_reminders_note">Quando arrivi in un posto, suona una lista da Note, come un promemoria. Chiedi ad AI Assist: «quando vado al supermercato, mostrami la spesa». La posizione viene controllata di rado, per risparmiare batteria.</string>
+    <string name="place_reminders_on">Promemoria di luogo su questo telefono</string>
+    <string name="place_reminders_location">Posizione sempre</string>
+    <string name="place_reminders_location_on">Consentito</string>
+    <string name="place_reminders_location_off">Serve: scegli Consenti sempre</string>
+    <string name="place_reminders_none">Nessun promemoria di luogo</string>
+    <string name="place_reminders_any">Qualsiasi lista con voci rimaste</string>
+    <string name="place_reminder_title">La tua lista</string>
+</resources>

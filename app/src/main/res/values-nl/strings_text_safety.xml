@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Geen tekstbestand</string>
+    <string name="text_not_text_body">«%1$s» is geen platte tekst (bijvoorbeeld een Word-, PowerPoint-, PDF- of afbeeldingsbestand). De teksteditor kan het niet tonen.</string>
+    <string name="text_huge_title">Een heel groot bestand</string>
+    <string name="text_huge_body">«%1$s» is %2$s. De teksteditor kan er erg traag van worden of vastlopen.</string>
+    <string name="text_open_with">Openen met…</string>
+    <string name="text_open_anyway">Toch openen</string>
+    <string name="text_closed_not_text">«%1$s» is gesloten: het is geen tekstbestand.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NEWS</string>
+    <string name="news_page">Seite</string>
+    <string name="ai_presenter">Der Roboter moderiert</string>
+    <string name="ai_presenter_note">Überblicke und geplante Ergebnisse als kleine Nachrichtensendung, vorgelesen.</string>
+</resources>

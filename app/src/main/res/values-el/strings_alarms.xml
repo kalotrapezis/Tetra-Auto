@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Χρονοδιακόπτης</string>
+    <string name="timer_tab_alarms">Ξυπνητήρια</string>
+    <string name="stopwatch">Χρονόμετρο</string>
+    <string name="stopwatch_counting">Μετράει</string>
+    <string name="stopwatch_held">Σε παύση στο %1$s</string>
+    <string name="stopwatch_reset">Μηδενισμός</string>
+    <string name="stopwatch_lap">Γύρος</string>
+    <string name="stopwatch_lap_n">Γύρος %1$d</string>
+    <string name="alarm_named">Ξυπνητήρι</string>
+    <string name="alarm_snooze">Αναβολή</string>
+    <string name="alarm_dismiss">Τέλος</string>
+    <string name="alarm_ringing">Χτυπάει</string>
+    <string name="alarm_next">Ξυπνητήρι %1$s</string>
+    <string name="alarm_skip">Παράλειψη</string>
+    <string name="alarm_new">Νέο ξυπνητήρι</string>
+    <string name="alarm_label">Ετικέτα</string>
+    <string name="alarm_once">Μία φορά</string>
+    <string name="alarm_every_day">Κάθε μέρα</string>
+    <string name="alarm_in">Επόμενο ξυπνητήρι σε %1$s</string>
+    <string name="alarm_none">Κανένα ξυπνητήρι ακόμα. Ένα ξυπνητήρι χτυπάει σε αυτή τη συσκευή και σε κάθε συσκευή που συγχρονίζεις· σταμάτα το σε μία και σταματά σε όλες.</string>
+    <string name="timer_add_new">Προσθήκη</string>
+    <string name="timer_list_hint">Κανένας χρονοδιακόπτης ακόμα. Η Προσθήκη ανοίγει το ρολόι: όρισε ώρες, μετά λεπτά, και το ✓ τον ξεκινά. Καρφίτσωσε έναν για να μένει εδώ, έτοιμος να ξεκινήσει ξανά.</string>
+    <string name="alarm_set_time">Ορισμός ώρας</string>
+    <string name="alarm_skip_next">Παράλειψη επόμενου</string>
+    <string name="alarm_unskip">Αναίρεση παράλειψης</string>
+    <string name="alarm_skipped">το επόμενο παραλείπεται</string>
+    <string name="alarm_soon">Ξυπνητήρι στις %1$s · παράλειψη ή αναβολή;</string>
+    <string name="alarm_channel_soon">Ξυπνητήρι σε λίγο</string>
+    <string name="alarm_channel_soon_about">30 λεπτά πριν από ένα ξυπνητήρι, για παράλειψη ή αναβολή</string>
+    <string name="stand_mode">Ρολόι κομοδίνου</string>
+    <string name="stand_about">Ένα αχνό ρολόι σε μαύρο όσο φορτίζει, φιλικό στις οθόνες AMOLED· μετακινείται λίγο κάθε λεπτό. Διάλεξε το Ρολόι κομοδίνου ως προφύλαξη οθόνης του Android, να ξεκινά κατά τη φόρτιση. Πριν από ένα ξυπνητήρι φωτίζει σαν ανατολή, από βαθύ κόκκινο σε ζεστό κίτρινο, μέσα σε 20 λεπτά.</string>
+    <string name="stand_settings">Ρυθμίσεις προφύλαξης οθόνης</string>
+</resources>

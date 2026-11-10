@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">Телевизор AI Assist</string>
+    <string name="tv_widget_note">Талисманът в стар телевизор: докоснете екрана, за да говорите, копчетата — за да го изключите.</string>
+    <string name="tv_widget_power">Включи или изключи телевизора</string>
+    <string-array name="tv_hello">
+        <item>Здрасти! Какво става?</item>
+        <item>Здравей!</item>
+        <item>Тук съм!</item>
+    </string-array>
+</resources>

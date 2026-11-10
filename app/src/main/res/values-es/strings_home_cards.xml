@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home's live cards (HomeCards.kt) -->
+<resources>
+    <string name="home_pills_none">Ninguna dosis hoy</string>
+    <string name="home_pills_done">Todo tomado hoy</string>
+    <string name="home_mail_unread">%1$d sin leer</string>
+    <string name="home_mail_none">Ningún correo sin leer</string>
+    <string name="home_birthday_on">cumple años el</string>
+    <string name="home_birthdays_none">Ningún cumpleaños en el próximo año</string>
+    <string name="home_notes_none">Ninguna nota fijada</string>
+    <string name="home_pill_marked">Marcado: %1$s</string>
+</resources>

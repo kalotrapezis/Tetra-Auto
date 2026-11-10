@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_widget_label">AI Assisti teler</string>
+    <string name="tv_widget_note">Maskott vanas teleris: puuduta ekraani, et rääkida, nuppe, et välja lülitada.</string>
+    <string name="tv_widget_power">Lülita teler sisse või välja</string>
+    <string-array name="tv_hello">
+        <item>Tere! Mis toimub?</item>
+        <item>Tervist!</item>
+        <item>Siin ma olen!</item>
+    </string-array>
+</resources>

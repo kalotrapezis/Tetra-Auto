@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Taimeri</string>
+    <string name="timer_tab_alarms">Modinātāji</string>
+    <string name="stopwatch">Hronometrs</string>
+    <string name="stopwatch_counting">Mēra</string>
+    <string name="stopwatch_held">Apturēts pie %1$s</string>
+    <string name="stopwatch_reset">Atiestatīt</string>
+    <string name="stopwatch_lap">Aplis</string>
+    <string name="stopwatch_lap_n">Aplis %1$d</string>
+    <string name="alarm_named">Modinātājs</string>
+    <string name="alarm_snooze">Atlikt</string>
+    <string name="alarm_dismiss">Izslēgt</string>
+    <string name="alarm_ringing">Zvana</string>
+    <string name="alarm_next">Modinātājs %1$s</string>
+    <string name="alarm_skip">Izlaist</string>
+    <string name="alarm_new">Jauns modinātājs</string>
+    <string name="alarm_label">Nosaukums</string>
+    <string name="alarm_once">Vienreiz</string>
+    <string name="alarm_every_day">Katru dienu</string>
+    <string name="alarm_in">Nākamais modinātājs pēc %1$s</string>
+    <string name="alarm_none">Modinātāju vēl nav. Modinātājs zvana šajā ierīcē un katrā ierīcē, ar kuru sinhronizējat; izslēdziet to vienā, un tas apstājas visās.</string>
+    <string name="timer_add_new">Pievienot</string>
+    <string name="timer_list_hint">Taimeru vēl nav. Pievienot atver pulksteni: iestati stundas, tad minūtes, un ✓ to sāk. Piesprauž taimeri, lai tas paliktu šeit, gatavs atkal sākt.</string>
+    <string name="alarm_set_time">Iestatīt laiku</string>
+    <string name="alarm_skip_next">Izlaist nākamo</string>
+    <string name="alarm_unskip">Atsaukt izlaišanu</string>
+    <string name="alarm_skipped">nākamais izlaists</string>
+    <string name="alarm_soon">Modinātājs %1$s · izlaist vai atlikt?</string>
+    <string name="alarm_channel_soon">Modinātājs drīz</string>
+    <string name="alarm_channel_soon_about">30 minūtes pirms modinātāja, lai to izlaistu vai atliktu</string>
+    <string name="stand_mode">Nakts pulkstenis</string>
+    <string name="stand_about">Blāvs pulkstenis uz melna uzlādes laikā, saudzīgs pret AMOLED ekrāniem; ik minūti tas nedaudz pārvietojas. Izvēlies Nakts pulksteni kā Android ekrānsaudzētāju, lai tas sāktos uzlādes laikā. Pirms modinātāja tas iedegas kā saullēkts, no tumši sarkana līdz silti dzeltenam, 20 minūšu laikā.</string>
+    <string name="stand_settings">Ekrānsaudzētāja iestatījumi</string>
+</resources>

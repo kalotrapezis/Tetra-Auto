@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">HÍREK</string>
+    <string name="news_page">Oldal</string>
+    <string name="ai_presenter">A robot műsorvezet</string>
+    <string name="ai_presenter_note">Az összefoglalók és ütemezett eredmények kis híradóként, felolvasva.</string>
+</resources>
