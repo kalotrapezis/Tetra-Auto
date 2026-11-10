@@ -1,9 +1,0 @@
-{
-  "manifest_version": 2,
-  "name": "Tetra",
-  "version": "1.9",
-  "description": "Tetra's own: saved logins and forms, Player mode and the media keys.",
-  "browser_specific_settings": { "gecko": { "id": "browser@tetra" } },
-  "content_scripts": [{ "matches": ["<all_urls>"], "js": ["content.js"], "run_at": "document_start" }],
-  "permissions": ["nativeMessaging", "nativeMessagingFromContent", "geckoViewAddons", "<all_urls>"]
-}
