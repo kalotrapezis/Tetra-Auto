@@ -1,6 +1,6 @@
 # Tetra Auto
 
-**[⬇ Download Tetra Auto 0.1 for the car (APK, 2 MB)](https://github.com/kalotrapezis/Tetra-Auto/releases/download/v0.1.0/TetraAuto-0.1.0.apk)** — needs [Tetra for Android 0.8 Beta 12](https://github.com/kalotrapezis/Tetra-mobile/releases/tag/v0.8.0-beta.12) on the phone.
+**[⬇ Download Tetra Auto 0.2 for the car (APK, 2 MB)](https://github.com/kalotrapezis/Tetra-Auto/releases/download/v0.2.0/TetraAuto-0.2.0.apk)** — needs [Tetra for Android 0.8 Beta 13](https://github.com/kalotrapezis/Tetra-mobile/releases/tag/v0.8.0-beta.13) on the phone.
 
 Tetra Car on your car's own screen, the way Android Auto does it: **the phone is the server, the car a client.**
 Tetra on the phone draws Tetra Car (Maps, music, phone, messages, AI Assist) on a private screen the size of the car's,
