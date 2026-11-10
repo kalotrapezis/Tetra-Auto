@@ -80,8 +80,9 @@ class MainActivity : ComponentActivity() {
         setContent { MaterialTheme(colorScheme = darkColorScheme()) { Car(link, share, video) } }
     }
 
+    // the link lives as long as the app, not only while it is on the screen: Android's file picker (Share) covers it for a while
     override fun onStart() { super.onStart(); link.start() }
-    override fun onStop() { link.stop(); super.onStop() }
+    override fun onDestroy() { link.stop(); super.onDestroy() }
 
     // the unit's Back and its steering wheel's voice key go to the phone while its picture is shown
     override fun dispatchKeyEvent(event: KeyEvent): Boolean {

@@ -30,7 +30,7 @@ internal class Video {
 
     /** One access unit ([key][pts][data]); false when a whole picture is needed first. */
     @Synchronized fun frame(body: ByteArray): Boolean {
-        val c = codec ?: return false
+        val c = codec ?: return surface == null // nothing on the screen (the picker over it): dropped, no whole picture asked for
         val key = body[0].toInt() == 1
         if (waitingForKey && !key) return false
         val pts = ByteBuffer.wrap(body, 1, 8).long

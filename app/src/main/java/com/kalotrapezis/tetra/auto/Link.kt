@@ -44,6 +44,8 @@ internal class Link(private val context: Context, private val video: Video, priv
     @Volatile private var out: DataOutputStream? = null
     @Volatile private var socket: Socket? = null
     @Volatile private var running = false
+    /** Each start's own loop: a loop left over from an earlier start (the screen stopped and started) ends itself. */
+    @Volatile private var generation = 0
     var width = 0; var height = 0; var dpi = 160
 
     /** The code this car's QR carries until a phone pairs with it: made once, kept, so the QR does not change each start. */
@@ -58,7 +60,8 @@ internal class Link(private val context: Context, private val video: Video, priv
     fun start() {
         if (running) return
         running = true
-        Thread({ loop() }, "tetra-auto-link").start()
+        val g = ++generation
+        Thread({ loop(g) }, "tetra-auto-link").start()
     }
 
     fun stop() { running = false; runCatching { socket?.close() } }
@@ -69,11 +72,11 @@ internal class Link(private val context: Context, private val video: Video, priv
         state = LinkState.Looking(pairCode()); runCatching { socket?.close() }
     }
 
-    private fun loop() {
+    private fun loop(g: Int) {
         val wifi = context.applicationContext.getSystemService(WifiManager::class.java)
         val lock = wifi?.createMulticastLock("tetra-auto")?.apply { setReferenceCounted(false); runCatching { acquire() } }
         try {
-            while (running) {
+            while (running && g == generation) {
                 val hosts = candidates(wifi)
                 val connected = hosts.firstNotNullOfOrNull { h -> runCatching { Socket().apply { connect(InetSocketAddress(h, Wire.PORT), 1500); tcpNoDelay = true } }.getOrNull()?.let { h to it } }
                 if (connected == null) { Thread.sleep(1000); continue }
@@ -149,8 +152,15 @@ internal class Link(private val context: Context, private val video: Video, priv
 
     val connected get() = out != null && state is LinkState.Connected
 
-    /** A frame to the phone; false when there is no phone. */
-    fun send(type: Byte, body: ByteArray, off: Int = 0, len: Int = body.size): Boolean = out?.let { o ->
-        runCatching { Wire.write(o, type, body, off, len) }.onFailure { runCatching { socket?.close() } }.isSuccess
-    } ?: false
+    /** The screen's frames (touches, keys) go out on this thread: Android allows no network on the screen's own. */
+    private val writer = java.util.concurrent.Executors.newSingleThreadExecutor()
+
+    /** A frame to the phone; false when there is no phone. From the screen's thread it is queued; from any other, written now. */
+    fun send(type: Byte, body: ByteArray, off: Int = 0, len: Int = body.size): Boolean {
+        val o = out ?: return false
+        val write = { runCatching { Wire.write(o, type, body, off, len) }.onFailure { Log.w(TAG, "Not sent: ${it.message}"); runCatching { socket?.close() } }.isSuccess }
+        if (android.os.Looper.myLooper() != android.os.Looper.getMainLooper()) return write()
+        writer.execute { write() }
+        return true
+    }
 }
