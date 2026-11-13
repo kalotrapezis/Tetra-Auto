@@ -126,7 +126,7 @@ internal class Link(private val context: Context, private val video: Video, priv
         val o = DataOutputStream(BufferedOutputStream(s.getOutputStream(), 1 shl 16)).also { out = it }
         val token = prefs.getString("token", null)
         val hello = JSONObject().put("version", Wire.VERSION).put("name", carName()).put("width", width).put("height", height).put("dpi", dpi).put("pings", true)
-        mode?.let { hello.put("mode", it) }
+        mode?.let { hello.put("mode", it).put("maps", share.mapsHere()) }
         if (token != null) hello.put("token", token) else hello.put("code", pairCode())
         Wire.write(o, Wire.HELLO, hello.toString().toByteArray())
         s.soTimeout = 15_000 // the phone sends a picture or a ping at least every few seconds

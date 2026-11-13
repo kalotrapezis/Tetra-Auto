@@ -25,6 +25,14 @@ internal class Share(private val context: Context) {
     /** Offline maps (Tetra Auto SE): the phone's Send maps to the car puts each map's .pmtiles, .json and -gh graph files here. */
     val maps: File = File(context.getExternalFilesDir(null) ?: context.filesDir, "Maps")
 
+    /** A map came (the screen draws the maps again). */
+    var mapsChanged by mutableStateOf(0)
+        private set
+    /** The maps here, path → size ("Maps/greece-gh/nodes" → 1234): told to the phone, which sends only what is missing. */
+    fun mapsHere(): JSONObject = JSONObject().apply {
+        maps.walkTopDown().maxDepth(2).filter { it.isFile && !it.name.startsWith(".") }.forEach { put("Maps/" + it.relativeTo(maps).invariantSeparatorsPath, it.length()) }
+    }
+
     /** Where a file with a path ("Maps/greece-gh/nodes") goes: under [maps], each part a safe name; null for any other path. */
     fun mapFile(path: String): File? {
         val parts = path.split('/').filter { it.isNotEmpty() }
@@ -80,6 +88,7 @@ internal class Share(private val context: Context) {
                 said = if (ok) context.getString(R.string.share_received, f.name) else context.getString(R.string.share_broken, f.name)
                 refresh()
                 if (kept != null && kept.name.endsWith(".apk", true)) newApp = kept
+                if (kept != null && f.target != null && kept.name.endsWith(".pmtiles")) mapsChanged++
             }
         }
     }

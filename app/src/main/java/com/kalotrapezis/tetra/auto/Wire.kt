@@ -33,7 +33,7 @@ internal object Wire {
     const val KEY: Byte = 0x03
     /** A whole picture again (the car's decoder started over). */
     const val KEYFRAME: Byte = 0x04
-    /** JSON {id, …}: Tetra Auto SE asks the phone: {sms: {to, text}}, {call: answer|hangup}, {place: number}, {recent: calls|sms}; an ANSWER with the same id follows. */
+    /** JSON {id, …}: Tetra Auto SE asks the phone: {sms: {to, text}}, {call: answer|decline|end}, {place: number}, {recent: calls}, {assist: {wav}}; an ANSWER with the same id follows. */
     const val ASK: Byte = 0x05
 
     // phone → car
@@ -58,7 +58,7 @@ internal object Wire {
     const val ANSWER: Byte = 0x48
 
     // both ways: Share
-    /** JSON {id, name, size}. */
+    /** JSON {id, name, size, path?}: path "Maps/…" puts a map's file in Tetra Auto SE's Maps folder. */
     const val FILE_BEGIN: Byte = 0x61
     /** [id: i32][bytes]. */
     const val FILE_DATA: Byte = 0x62

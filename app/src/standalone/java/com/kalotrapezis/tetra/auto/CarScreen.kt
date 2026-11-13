@@ -84,7 +84,7 @@ internal fun CarScreen(link: Link, share: Share) {
             if (!v.dockRight) dock()
             Box(Modifier.weight(1f).fillMaxHeight()) {
                 // the map's own size, apart from the interface's
-                CompositionLocalProvider(LocalDensity provides base) { MapPage(share.maps, Modifier.fillMaxSize()) }
+                CompositionLocalProvider(LocalDensity provides base) { MapPage(share.maps, share.mapsChanged, if (page == null) 0f else if (v.dockRight) -0.42f else 0.42f, Modifier.fillMaxSize()) }
                 page?.let { p ->
                     Surface(Modifier.align(if (v.dockRight) Alignment.CenterStart else Alignment.CenterEnd).fillMaxHeight().fillMaxWidth(0.42f).padding(8.dp),
                         shape = RoundedCornerShape(20.dp), color = MaterialTheme.colorScheme.surface) {
@@ -144,7 +144,7 @@ private fun Dock(link: Link, page: Page?, open: (Page) -> Unit, maps: () -> Unit
         DockArt(R.drawable.phone_art, R.string.se_phone, page == Page.Phone) { open(Page.Phone) }
         DockArt(R.drawable.sms_art, R.string.se_messages, page == Page.Messages) { open(Page.Messages) }
         DockIcon(R.drawable.ic_mic, R.string.se_assist, Color(0xFF7E57C2), false) { Assist.listen(context) }
-        DockIcon(R.drawable.ic_menu, R.string.se_menu, Color(0xFF455A64), false, menu)
+        DockIcon(R.drawable.ic_apps, R.string.se_menu, Color(0xFF455A64), false, menu)
     }
 }
 
@@ -310,7 +310,7 @@ private fun PhonePage() {
                     Text(stringResource(when (c.optString("state")) { "ringing" -> R.string.se_call_ringing; "active" -> R.string.se_call_active; "ended" -> R.string.se_call_ended; else -> R.string.se_call_calling }))
                     Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                         if (c.optString("state") == "ringing") RoundAction(R.drawable.ic_call, Color(0xFF43A047)) { PhoneLink.callDo("answer") }
-                        if (c.optString("state") != "ended") RoundAction(R.drawable.ic_call_end, Color(0xFFE53935)) { PhoneLink.callDo("hangup") }
+                        if (c.optString("state") != "ended") RoundAction(R.drawable.ic_call_end, Color(0xFFE53935)) { PhoneLink.callDo(if (c.optString("state") == "ringing") "decline" else "end") }
                     }
                 }
             }

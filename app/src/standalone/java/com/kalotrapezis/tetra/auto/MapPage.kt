@@ -130,11 +130,12 @@ internal fun metres(lat1: Double, lng1: Double, lat2: Double, lng2: Double): Dou
 /**
  * The map, large (the user: "the map drawn large … tilted, the arrow low"): Tetra's offline maps from the Maps folder, the
  * position the fix shown ([Fixes.now]: the unit's GPS, the phone's, or the better of both), the camera following it until the
- * map is moved by hand. A destination from the phone shows as a pin and a line to it.
+ * map is moved by hand. A destination from the phone shows as a pin and a line to it. [version]: a new map came, drawn again;
+ * [covered]: the share of the width a page covers beside the map (negative: on the left), so the arrow stays in the part seen.
  */
 @SuppressLint("MissingPermission") // the arrow is drawn from our own fixes, MapLibre asks Android for nothing
 @Composable
-internal fun MapPage(root: File, modifier: Modifier = Modifier) {
+internal fun MapPage(root: File, version: Int, covered: Float, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     val view by CarView.state
     val fix by Fixes.now
@@ -143,12 +144,13 @@ internal fun MapPage(root: File, modifier: Modifier = Modifier) {
     var following by remember { mutableStateOf(true) }
     var hasMap by remember { mutableStateOf(true) }
     var height by remember { mutableStateOf(720) }
+    var width by remember { mutableStateOf(1280) }
     val ratio = LocalDensity.current.density * view.map
     val lifecycle = LocalLifecycleOwner.current.lifecycle
 
     Box(modifier) {
         // the map's size is MapLibre's pixel ratio, fixed when the view is made: a new size, a new view
-        androidx.compose.runtime.key(ratio) {
+        androidx.compose.runtime.key(ratio, version) {
             val mapView = remember {
                 MapLibre.getInstance(context)
                 MapView(context, MapLibreMapOptions.createFromAttributes(context).pixelRatio(ratio)).apply { onCreate(Bundle()) }
@@ -186,11 +188,11 @@ internal fun MapPage(root: File, modifier: Modifier = Modifier) {
                 }
                 onDispose { lifecycle.removeObserver(observer); map = null; mapView.onStop(); mapView.onDestroy() }
             }
-            AndroidView({ mapView }, Modifier.fillMaxSize(), update = { height = it.height.takeIf { h -> h > 0 } ?: height })
+            AndroidView({ mapView }, Modifier.fillMaxSize(), update = { if (it.height > 0) { height = it.height; width = it.width } })
         }
 
         // each fix: the arrow there, and the camera after it while following
-        LaunchedEffect(map, fix, view, following) {
+        LaunchedEffect(map, fix, view, following, covered) {
             val m = map ?: return@LaunchedEffect
             val f = fix ?: return@LaunchedEffect
             m.locationComponent.forceLocationUpdate(Location(if (f.phone) "phone" else "car").apply {
@@ -200,7 +202,7 @@ internal fun MapPage(root: File, modifier: Modifier = Modifier) {
             val (zoom, tilt) = driveCamera(f.speed, view)
             val top = if (view.low) height * 0.45 else 0.0 // the arrow low on the screen: the road ahead shows
             m.animateCamera(CameraUpdateFactory.newCameraPosition(CameraPosition.Builder().target(LatLng(f.lat, f.lng)).zoom(zoom).tilt(tilt)
-                .bearing(if (f.moving) f.bearing.toDouble() else m.cameraPosition.bearing).padding(0.0, top, 0.0, 0.0).build()), 600)
+                .bearing(if (f.moving) f.bearing.toDouble() else m.cameraPosition.bearing).padding(if (covered < 0) -covered * width.toDouble() else 0.0, top, if (covered > 0) covered * width.toDouble() else 0.0, 0.0).build()), 600)
         }
         // where to go: a pin and a straight line from here (offline directions on the routing graph come next)
         LaunchedEffect(map, going, fix?.let { it.lat.toFloat() to it.lng.toFloat() }) {
