@@ -22,7 +22,10 @@ internal object Wire {
     const val CHUNK = 256 * 1024
 
     // car → phone
-    /** JSON {version, token | code, name, width, height, dpi, pings}: who the car is and the screen it has; pings: it sends PING every 5 s. */
+    /**
+     * JSON {version, token | code, name, width, height, dpi, pings, mode?}: who the car is and the screen it has; pings: it sends PING
+     * every 5 s; mode "standalone": Tetra Auto SE, which runs Tetra Car itself and wants no picture, only EVENTs and ANSWERs.
+     */
     const val HELLO: Byte = 0x01
     /** [action][actionIndex][count] then count × [id][x: f32][y: f32], x and y from 0 to 1 of the car's screen. */
     const val TOUCH: Byte = 0x02
@@ -30,9 +33,11 @@ internal object Wire {
     const val KEY: Byte = 0x03
     /** A whole picture again (the car's decoder started over). */
     const val KEYFRAME: Byte = 0x04
+    /** JSON {id, …}: Tetra Auto SE asks the phone: {sms: {to, text}}, {call: answer|hangup}, {place: number}, {recent: calls|sms}; an ANSWER with the same id follows. */
+    const val ASK: Byte = 0x05
 
     // phone → car
-    /** JSON {name, token?}: paired (token, the first time) and the picture follows. */
+    /** JSON {name, token?, standalone?}: paired (token, the first time) and the picture follows; standalone: the phone knows Tetra Auto SE and sends none. */
     const val WELCOME: Byte = 0x41
     /** JSON {error, unpaired?}: not this car (unpaired: its token is no longer known, pair again). */
     const val REFUSED: Byte = 0x42
@@ -44,6 +49,13 @@ internal object Wire {
     const val OPEN_SHARE: Byte = 0x45
     /** JSON {text}: a line for the car's screen (what to allow on the phone). */
     const val NOTICE: Byte = 0x46
+    /**
+     * JSON {type, …}, to Tetra Auto SE: a signal from the phone. sms {from, name, body}; call {state, name, number, incoming}; fix {lat, lng,
+     * accuracy, speed?, bearing?, age: ms since the phone took it}; go {lat, lng, name}: navigate there; play {url, name}; say {text}.
+     */
+    const val EVENT: Byte = 0x47
+    /** JSON {id, ok, error?, …}: the phone's answer to an ASK. */
+    const val ANSWER: Byte = 0x48
 
     // both ways: Share
     /** JSON {id, name, size}. */

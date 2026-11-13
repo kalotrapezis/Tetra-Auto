@@ -34,7 +34,9 @@ internal sealed interface LinkState {
  * on its hotspot), say hello with this screen's size, then show what comes and send the touches. Started again a second after
  * any failure, for as long as the screen is open.
  */
-internal class Link(private val context: Context, private val video: Video, private val share: Share) {
+internal class Link(private val context: Context, private val video: Video, private val share: Share,
+                    /** "standalone" for Tetra Auto SE (no picture); its EVENTs and ANSWERs go to [signal], on the link's thread. */
+                    private val mode: String? = null, private val signal: (Byte, ByteArray) -> Unit = { _, _ -> }) {
     private val prefs = context.getSharedPreferences("link", Context.MODE_PRIVATE)
     var state: LinkState by mutableStateOf(LinkState.Looking(if (prefs.getString("token", null) == null) pairCode() else null))
         private set
@@ -49,6 +51,9 @@ internal class Link(private val context: Context, private val video: Video, priv
     /** Each start's own loop: a loop left over from an earlier start (the screen stopped and started) ends itself. */
     @Volatile private var generation = 0
     var width = 0; var height = 0; var dpi = 160
+    /** The phone said it knows Tetra Auto SE (an older Tetra sends the picture instead, which SE ignores). */
+    var standalone by mutableStateOf(false)
+        private set
 
     /** The code this car's QR carries until a phone pairs with it: made once, kept, so the QR does not change each start. */
     private fun pairCode(): String = prefs.getString("code", null) ?: SecureRandom().let { r ->
@@ -121,6 +126,7 @@ internal class Link(private val context: Context, private val video: Video, priv
         val o = DataOutputStream(BufferedOutputStream(s.getOutputStream(), 1 shl 16)).also { out = it }
         val token = prefs.getString("token", null)
         val hello = JSONObject().put("version", Wire.VERSION).put("name", carName()).put("width", width).put("height", height).put("dpi", dpi).put("pings", true)
+        mode?.let { hello.put("mode", it) }
         if (token != null) hello.put("token", token) else hello.put("code", pairCode())
         Wire.write(o, Wire.HELLO, hello.toString().toByteArray())
         s.soTimeout = 15_000 // the phone sends a picture or a ping at least every few seconds
@@ -135,6 +141,7 @@ internal class Link(private val context: Context, private val video: Video, priv
                         w.optString("token").takeIf { it.isNotEmpty() }?.let { putString("token", it); remove("code") }
                     }.apply()
                     state = LinkState.Connected(w.optString("name").ifEmpty { "Phone" })
+                    standalone = w.optBoolean("standalone")
                     Log.i(TAG, "Welcome from ${w.optString("name")}")
                 }
                 Wire.REFUSED -> {
@@ -144,12 +151,13 @@ internal class Link(private val context: Context, private val video: Video, priv
                     Thread.sleep(4000) // not paired yet: asked again in a while, not every second
                     return
                 }
-                Wire.VIDEO_CONFIG -> video.config(body)
-                Wire.VIDEO -> if (!video.frame(body)) send(Wire.KEYFRAME, ByteArray(0))
+                Wire.VIDEO_CONFIG -> if (mode == null) video.config(body)
+                Wire.VIDEO -> if (mode == null && !video.frame(body)) send(Wire.KEYFRAME, ByteArray(0))
                 Wire.OPEN_SHARE -> shareAsked++
                 Wire.NOTICE -> notice = JSONObject(String(body)).optString("text").ifEmpty { null }
                 Wire.FILE_BEGIN, Wire.FILE_DATA, Wire.FILE_END -> share.incoming(type, body) { t, b -> send(t, b) }
                 Wire.FILE_DONE -> share.answered(JSONObject(String(body)))
+                Wire.EVENT, Wire.ANSWER -> signal(type, body)
                 Wire.PING -> Unit
             }
         }

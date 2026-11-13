@@ -22,6 +22,15 @@ import java.security.MessageDigest
  */
 internal class Share(private val context: Context) {
     val dir: File = File(context.getExternalFilesDir(null) ?: context.filesDir, "Received").apply { mkdirs() }
+    /** Offline maps (Tetra Auto SE): the phone's Send maps to the car puts each map's .pmtiles, .json and -gh graph files here. */
+    val maps: File = File(context.getExternalFilesDir(null) ?: context.filesDir, "Maps")
+
+    /** Where a file with a path ("Maps/greece-gh/nodes") goes: under [maps], each part a safe name; null for any other path. */
+    fun mapFile(path: String): File? {
+        val parts = path.split('/').filter { it.isNotEmpty() }
+        if (parts.size < 2 || parts.size > 3 || parts[0] != "Maps") return null
+        return parts.drop(1).fold(maps) { f, p -> File(f, Wire.safeName(p)) }
+    }
     var files by mutableStateOf(list())
         private set
     /** What is on its way, either way: name → share done (0..1). */
@@ -36,7 +45,7 @@ internal class Share(private val context: Context) {
     fun refresh() { files = list() }
     fun delete(f: File) { f.delete(); refresh() }
 
-    private class In(val name: String, val size: Long, val part: File, val out: OutputStream, val digest: MessageDigest, var got: Long = 0)
+    private class In(val name: String, val size: Long, val part: File, val out: OutputStream, val digest: MessageDigest, val target: File? = null, var got: Long = 0)
     private val incoming = mutableMapOf<Int, In>()
 
     /** A frame of a file from the phone; [reply] answers it. Runs on the link's thread. */
@@ -47,7 +56,7 @@ internal class Share(private val context: Context) {
                 val id = o.getInt("id"); val name = Wire.safeName(o.optString("name"))
                 val part = File(dir, ".$id.part")
                 incoming.remove(id)?.let { runCatching { it.out.close() }; it.part.delete() }
-                incoming[id] = In(name, o.optLong("size"), part, part.outputStream().buffered(1 shl 16), MessageDigest.getInstance("SHA-256"))
+                incoming[id] = In(name, o.optLong("size"), part, part.outputStream().buffered(1 shl 16), MessageDigest.getInstance("SHA-256"), mapFile(o.optString("path")))
                 progress(name, 0f)
             }
             Wire.FILE_DATA -> {
@@ -62,7 +71,8 @@ internal class Share(private val context: Context) {
                 runCatching { f.out.close() }
                 val sha = f.digest.digest().joinToString("") { "%02x".format(it) }
                 val ok = sha == o.optString("sha256").lowercase()
-                val kept = if (ok) free(f.name).also { f.part.renameTo(it) } else null
+                // a map's file replaces the one there (a newer map); anything else is kept beside what came before
+                val kept = if (!ok) null else f.target?.also { it.parentFile?.mkdirs(); it.delete(); f.part.renameTo(it) } ?: free(f.name).also { f.part.renameTo(it) }
                 f.part.delete()
                 progress(f.name, null)
                 reply(Wire.FILE_DONE, JSONObject().put("id", id).put("ok", ok).apply { if (!ok) put("error", "The file changed on the way.") }.toString().toByteArray())

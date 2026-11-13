@@ -32,6 +32,17 @@ android {
             }
         }
     }
+    // Two editions (the user, 13 Nov): projection shows the phone's picture; standalone (Tetra Auto SE, "stand alone edition")
+    // runs Tetra Car on the unit itself and takes only signals and commands from the phone. Both install side by side.
+    flavorDimensions += "edition"
+    productFlavors {
+        create("projection") { dimension = "edition" }
+        create("standalone") {
+            dimension = "edition"
+            applicationIdSuffix = ".se"
+            versionNameSuffix = "-se"
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = true
@@ -55,5 +66,9 @@ dependencies {
     implementation(libs.compose.ui)
     implementation(libs.compose.material3)
     implementation("com.google.zxing:core:3.5.3") // the pairing QR the phone scans
+    // Tetra Auto SE: the map (MapLibre, BSD-2; reads Tetra's .pmtiles) and the radio (Media3 ExoPlayer, Apache 2.0; its own sound)
+    "standaloneImplementation"("org.maplibre.gl:android-sdk-opengl:13.6.1")
+    "standaloneImplementation"("androidx.media3:media3-exoplayer:1.11.1")
+    "standaloneImplementation"("androidx.media3:media3-exoplayer-hls:1.11.1")
     testImplementation(libs.junit)
 }
