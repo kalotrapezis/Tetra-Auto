@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Sagen Sie „Tetra“, „OK Tetra“, „Ahoy Tetra“ oder „Hey Tetra“, um AI Assist zu öffnen, auch bei ausgeschaltetem Bildschirm. Es vergleicht, was das Mikrofon hört, mit Ihren eigenen Aufnahmen, auf dem Telefon; beim Zuhören wird nichts gesendet. Bei gesperrtem Telefon fragen persönliche Dinge (Anrufe, Nachrichten, Mail, Kalender, Notizen, Dateien, Kontakte) erst nach dem Entsperren. Nur auf einem Gerät: zwei würden beide antworten, also auf dem Tablet aus lassen. Im Auto pausiert.</string>
+    <string name="wake_on">Hört auf Ihre Stimme</string>
+    <string name="wake_off">Aus</string>
+    <string name="wake_record">Stimme aufnehmen</string>
+    <string name="wake_record_note">Sagen Sie jede Wendung viermal so, wie Sie sie dem Telefon sagen werden: Legen Sie es dorthin, wo es meist liegt, und sprechen Sie von dort, wo Sie meist sind, zwei Aufnahmen nah und zwei weiter weg. Tippen Sie auf eine Aufnahme, um sie neu aufzunehmen.</string>
+    <string name="wake_take">Aufnahme %1$d</string>
+    <string name="wake_take_odd">Anders als die übrigen: neu aufnehmen</string>
+    <string name="wake_record_take">„%1$s“ aufnehmen, Nr. %2$d</string>
+    <string name="wake_speak">Jetzt „%1$s“ sagen…</string>
+    <string name="wake_not_heard">Nicht gehört. Bitte noch einmal.</string>
+    <string name="wake_record_again">Neu</string>
+    <string name="wake_try">Testen</string>
+    <string name="wake_try_caught">Erkannt als „%1$s“ (%2$s der Schwelle)</string>
+    <string name="wake_try_missed">Nicht erkannt: am nächsten „%1$s“, %2$s der Schwelle. Neu aufnehmen.</string>
+    <string name="wake_notice">Hört auf „Hey Tetra“</string>
+    <string name="wake_turn_off">Ausschalten</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Was gibt’s?</string>
+    <string name="wake_hello_2">Hey, ich bin da.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

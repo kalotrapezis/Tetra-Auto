@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_decorations">AI-koristeet</string>
+    <string name="ai_decorations_note">Kasetti, levy tai televisio robotteineen, sen merkit, lumisade ja vanha ruutu. Pois: pelkkä keskustelu ja sen painikkeet.</string>
+</resources>

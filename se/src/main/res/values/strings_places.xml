@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Place reminders</string>
+    <string name="place_reminders_note">When you arrive at a place, a checklist from Notes rings, as a reminder does. Ask AI Assist: \"when I go to the supermarket, show me the shopping list\". The location is checked rarely, to spare the battery.</string>
+    <string name="place_reminders_on">Place reminders on this phone</string>
+    <string name="place_reminders_location">Location all the time</string>
+    <string name="place_reminders_location_on">Allowed</string>
+    <string name="place_reminders_location_off">Needed: choose Allow all the time</string>
+    <string name="place_reminders_none">No place reminders yet</string>
+    <string name="place_reminders_any">Any checklist with items left</string>
+    <string name="place_reminder_title">Your list</string>
+</resources>

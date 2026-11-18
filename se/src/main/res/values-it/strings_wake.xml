@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Di’ «Tetra», «OK Tetra», «Ahoy Tetra» o «Hey Tetra» per aprire AI Assist, anche a schermo spento. Confronta ciò che sente il microfono con le tue registrazioni, sul telefono; nulla viene inviato mentre ascolta. A telefono bloccato, le cose personali (chiamate, messaggi, posta, calendario, note, file, contatti) chiedono prima lo sblocco. Su un solo dispositivo: due risponderebbero insieme, quindi lascialo disattivato sul tablet. In pausa in auto.</string>
+    <string name="wake_on">In ascolto della tua voce</string>
+    <string name="wake_off">Disattivato</string>
+    <string name="wake_record">Registra la tua voce</string>
+    <string name="wake_record_note">Di’ ogni frase quattro volte come la dirai al telefono: lascialo dove sta di solito e parla da dove sei di solito, due riprese da vicino e due da più lontano. Tocca una ripresa per rifarla.</string>
+    <string name="wake_take">Ripresa %1$d</string>
+    <string name="wake_take_odd">Diversa dalle altre: registrala di nuovo</string>
+    <string name="wake_record_take">Registra «%1$s», ripresa %2$d</string>
+    <string name="wake_speak">Di’ «%1$s» ora…</string>
+    <string name="wake_not_heard">Non sentito. Riprova.</string>
+    <string name="wake_record_again">Ancora</string>
+    <string name="wake_try">Prova</string>
+    <string name="wake_try_caught">Riconosciuto come «%1$s» (%2$s della soglia)</string>
+    <string name="wake_try_missed">Non riconosciuto: il più vicino «%1$s», %2$s della soglia. Registra di nuovo.</string>
+    <string name="wake_notice">In ascolto di «Hey Tetra»</string>
+    <string name="wake_turn_off">Disattiva</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Che c’è?</string>
+    <string name="wake_hello_2">Eccomi.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

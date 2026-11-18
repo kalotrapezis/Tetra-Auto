@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_decorations">AI kaunistused</string>
+    <string name="ai_decorations_note">Kassett, plaat või teler robotiga, selle märgid, lumi ja vana ekraan. Väljas: lihtsalt vestlus ja selle nupud.</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Temporizadores</string>
+    <string name="timer_tab_alarms">Alarmas</string>
+    <string name="stopwatch">Cronómetro</string>
+    <string name="stopwatch_counting">Contando</string>
+    <string name="stopwatch_held">En pausa en %1$s</string>
+    <string name="stopwatch_reset">Restablecer</string>
+    <string name="stopwatch_lap">Vuelta</string>
+    <string name="stopwatch_lap_n">Vuelta %1$d</string>
+    <string name="alarm_named">Alarma</string>
+    <string name="alarm_snooze">Posponer</string>
+    <string name="alarm_dismiss">Descartar</string>
+    <string name="alarm_ringing">Sonando</string>
+    <string name="alarm_next">Alarma %1$s</string>
+    <string name="alarm_skip">Omitir</string>
+    <string name="alarm_new">Nueva alarma</string>
+    <string name="alarm_label">Etiqueta</string>
+    <string name="alarm_once">Una vez</string>
+    <string name="alarm_every_day">Todos los días</string>
+    <string name="alarm_in">Próxima alarma en %1$s</string>
+    <string name="alarm_none">Aún no hay alarmas. Una alarma suena en este dispositivo y en todos los que sincronices; descártala en uno y se detiene en todos.</string>
+    <string name="timer_add_new">Añadir</string>
+    <string name="timer_list_hint">Aún no hay temporizadores. Añadir abre el reloj: elige horas, luego minutos, y ✓ lo inicia. Fija un temporizador para que quede aquí, listo para empezar otra vez.</string>
+    <string name="alarm_set_time">Fijar hora</string>
+    <string name="alarm_skip_next">Omitir la próxima</string>
+    <string name="alarm_unskip">Deshacer omisión</string>
+    <string name="alarm_skipped">la próxima omitida</string>
+    <string name="alarm_soon">Alarma a las %1$s · ¿omitir o posponer?</string>
+    <string name="alarm_channel_soon">Alarma pronto</string>
+    <string name="alarm_channel_soon_about">30 minutos antes de una alarma, para omitirla o posponerla</string>
+    <string name="stand_mode">Reloj de mesilla</string>
+    <string name="stand_about">Un reloj tenue sobre negro mientras carga, amable con las pantallas AMOLED; se mueve un poco cada minuto. Elige Reloj de mesilla como salvapantallas de Android, para que empiece al cargar. Antes de una alarma se ilumina como un amanecer, de rojo intenso a amarillo cálido, durante 20 minutos.</string>
+    <string name="stand_settings">Ajustes del salvapantallas</string>
+</resources>

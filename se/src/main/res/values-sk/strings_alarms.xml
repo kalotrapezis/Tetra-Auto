@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Časovače</string>
+    <string name="timer_tab_alarms">Budíky</string>
+    <string name="stopwatch">Stopky</string>
+    <string name="stopwatch_counting">Beží</string>
+    <string name="stopwatch_held">Pozastavené na %1$s</string>
+    <string name="stopwatch_reset">Vynulovať</string>
+    <string name="stopwatch_lap">Kolo</string>
+    <string name="stopwatch_lap_n">Kolo %1$d</string>
+    <string name="alarm_named">Budík</string>
+    <string name="alarm_snooze">Odložiť</string>
+    <string name="alarm_dismiss">Vypnúť</string>
+    <string name="alarm_ringing">Zvoní</string>
+    <string name="alarm_next">Budík %1$s</string>
+    <string name="alarm_skip">Preskočiť</string>
+    <string name="alarm_new">Nový budík</string>
+    <string name="alarm_label">Štítok</string>
+    <string name="alarm_once">Raz</string>
+    <string name="alarm_every_day">Každý deň</string>
+    <string name="alarm_in">Ďalší budík o %1$s</string>
+    <string name="alarm_none">Zatiaľ žiadne budíky. Budík zvoní na tomto zariadení aj na každom zariadení, s ktorým synchronizujete; vypnite ho na jednom a prestane zvoniť na všetkých.</string>
+    <string name="timer_add_new">Pridať</string>
+    <string name="timer_list_hint">Zatiaľ žiadne časovače. Pridať otvorí hodiny: nastav hodiny, potom minúty, a ✓ ho spustí. Pripni časovač, aby tu zostal pripravený na ďalšie spustenie.</string>
+    <string name="alarm_set_time">Nastaviť čas</string>
+    <string name="alarm_skip_next">Preskočiť ďalší</string>
+    <string name="alarm_unskip">Zrušiť preskočenie</string>
+    <string name="alarm_skipped">ďalší preskočený</string>
+    <string name="alarm_soon">Budík o %1$s · preskočiť alebo odložiť?</string>
+    <string name="alarm_channel_soon">Budík čoskoro</string>
+    <string name="alarm_channel_soon_about">30 minút pred budíkom, na preskočenie alebo odloženie</string>
+    <string name="stand_mode">Nočné hodiny</string>
+    <string name="stand_about">Tlmené hodiny na čiernom pri nabíjaní, šetrné k AMOLED displejom; každú minútu sa trochu posunú. Zvoľ Nočné hodiny ako šetrič obrazovky Androidu, aby sa spustili pri nabíjaní. Pred budíkom sa rozsvieti ako východ slnka, od tmavočervenej po teplú žltú, počas 20 minút.</string>
+    <string name="stand_settings">Nastavenia šetriča obrazovky</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">НОВИНИ</string>
+    <string name="news_page">Страница</string>
+    <string name="ai_presenter">Роботът представя</string>
+    <string name="ai_presenter_note">Обзорите и планираните резултати като кратки новини, прочетени на глас.</string>
+</resources>

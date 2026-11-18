@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Codes: a code read from a picture (CodeScreens.kt) -->
+<resources>
+    <string name="codes_image">Afbeelding</string>
+    <string name="codes_none_in_image">Geen code gevonden in de afbeelding</string>
+    <string name="codes_from_image">Code uit afbeelding</string>
+</resources>

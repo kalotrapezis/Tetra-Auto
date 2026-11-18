@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Beskeder</string>
+    <string name="home_label_sms">Tetra Beskeder</string>
+    <string name="sms_home_detail">Din telefons sms\'er</string>
+    <string name="sms_permission_needed">For at vise og sende dine sms\'er her skal Tetra have tilladelse til at læse og sende beskeder.</string>
+    <string name="sms_none">Ingen beskeder endnu</string>
+    <string name="sms_none_archived">Intet arkiveret</string>
+    <string name="sms_none_here">Ingen beskeder endnu. Skriv den første.</string>
+    <string name="sms_archived">Arkiveret</string>
+    <string name="sms_archive">Arkivér</string>
+    <string name="sms_unarchive">Fjern fra arkiv</string>
+    <string name="sms_did_archive">Arkiveret</string>
+    <string name="sms_did_unarchive">Tilbage i dine beskeder</string>
+    <string name="sms_choose_first">Hold en samtale nede for at vælge den</string>
+    <string name="sms_new_message">Ny besked</string>
+    <string name="sms_to">Navn eller nummer</string>
+    <string name="sms_send_to">Send til %1$s</string>
+    <string name="sms_write">Besked</string>
+    <string name="sms_not_sent">Ikke sendt</string>
+    <string name="sms_sending">Sender…</string>
+    <string name="sms_send_failed">Beskeden blev ikke sendt: %1$s</string>
+    <string name="sms_sent">Sendt.</string>
+    <string name="sms_you">Dig</string>
+    <string name="sms_delete_ask">Slet de valgte samtaler?</string>
+    <string name="sms_delete_note">Deres beskeder slettes fra denne telefon.</string>
+    <string name="sms_default_only">Kun din standardapp til beskeder kan slette beskeder.</string>
+    <string name="sms_open_default">Åbn den der</string>
+    <string name="sms_deleted">Slettet</string>
+    <string name="sms_pick">Vælg en samtale</string>
+    <string name="sms_is_default">Tetra er SMS-appen</string>
+    <string name="sms_not_default">Tetra er ikke SMS-appen</string>
+    <string name="sms_is_default_summary">Beskeder kommer i Tetra, og Tetra gemmer dem. For at skifte tilbage: Androids Standardapps › SMS-app.</string>
+    <string name="sms_not_default_summary">Gør den til standard for at få nye beskeder i Tetra og kunne slette dem. Billedbeskeder (MMS) bliver kun meldt, ikke vist.</string>
+    <string name="sms_mms_title">Billedbesked (MMS)</string>
+    <string name="sms_mms_note">Tetra kan ikke vise billedbeskeder. Vælg en anden SMS-app for at modtage dem.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Zgodovina</string>
+    <string name="usage_tab_days">Dnevi</string>
+    <string name="usage_tab_months">Meseci</string>
+    <string name="usage_tab_years">Leta</string>
+    <string name="usage_saved">Shranjeno ✓</string>
+    <string name="usage_more">Še %1$d</string>
+</resources>

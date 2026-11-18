@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assistant_live_vinyl">Винил</string>
+    <string name="assistant_live_cassette">Касета</string>
+    <string name="assistant_live_tv">Телевизор</string>
+</resources>

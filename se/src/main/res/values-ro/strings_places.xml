@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Mementouri de loc</string>
+    <string name="place_reminders_note">Când ajungi undeva, sună o listă din Notițe, ca un memento. Spune-i lui AI Assist: „când merg la supermarket, arată-mi cumpărăturile”. Locația e verificată rar, ca să cruțe bateria.</string>
+    <string name="place_reminders_on">Mementouri de loc pe acest telefon</string>
+    <string name="place_reminders_location">Locație mereu</string>
+    <string name="place_reminders_location_on">Permis</string>
+    <string name="place_reminders_location_off">Necesar: alege Permite mereu</string>
+    <string name="place_reminders_none">Încă nu există mementouri de loc</string>
+    <string name="place_reminders_any">Orice listă cu elemente rămase</string>
+    <string name="place_reminder_title">Lista ta</string>
+</resources>

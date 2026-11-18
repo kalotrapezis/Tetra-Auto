@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">ZPRÁVY</string>
+    <string name="news_page">Stránka</string>
+    <string name="ai_presenter">Robot moderuje</string>
+    <string name="ai_presenter_note">Přehledy a plánované výsledky jako malé zprávy, přečtené nahlas.</string>
+</resources>

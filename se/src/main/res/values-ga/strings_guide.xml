@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Treoir</string>
+    <string name="guide_summary">Céim ar chéim: cá háit le tapáil agus cén fáth</string>
+    <string name="guide_try_it">Bain triail as</string>
+    <string name="guide_skip">Scipeáil</string>
+    <string name="guide_chapters">Caibidlí</string>
+    <string name="guide_open">Oscail an treoir</string>
+    <string name="guide_step_of">%1$d as %2$d</string>
+    <string name="guide_allowed">Ceadaithe</string>
+    <string name="guide_not_yet">Gan cead fós</string>
+    <string name="guide_not_here">Níl sé ar an ngléas seo</string>
+    <string name="guide_finish">Críochnaigh</string>
+    <string name="guide_dont_allow">Ná ceadaigh</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Fáilte</string>
+    <string name="guide_ch_permissions">Ceadanna</string>
+    <string name="guide_ch_home">Baile</string>
+    <string name="guide_ch_files">Comhaid</string>
+    <string name="guide_ch_computer">Do ríomhaire</string>
+    <string name="guide_ch_settings">Socruithe</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Fáilte go Tetra</string>
+    <string name="guide_welcome_b">Fanann do ghrianghraif, do chomhaid, do nótaí agus d’fhéilire ar do ghléasanna féin. Taispeánann an treoir seo cá háit le tapáil agus cén fáth. Léigh céim, tapáil Bain triail as, agus déan é ar an scáileán fíor fad is a fhanann an chéim le feiceáil.</string>
+    <string name="guide_again_t">Fill uair ar bith</string>
+    <string name="guide_again_b">Scipeáil anois é más maith leat. Bíonn an treoir i gcónaí i Socruithe › Treoir, agus osclaíonn gach caibidil léi féin.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Iarrann Android ort ar dtús</string>
+    <string name="guide_perm_b">Tá do chead ag teastáil ó chodanna áirithe de Tetra. Insíonn gach leathanach cad chuige é. Tapáil Ceadaigh, ansin freagair ceist Android. Is féidir leat diúltú anois agus é a cheadú anseo níos déanaí.</string>
+    <string name="guide_files_t">Gach comhad</string>
+    <string name="guide_files_b">Coinníonn Comhaid, Nótaí, Office, Féilire, Amadóir agus Léarscáileanna gach rud in aon fhillteán Tetra amháin ar an ngléas seo. Osclaíonn Android leathanach le lasc amháin: cas air é, ansin téigh siar.</string>
+    <string name="guide_photos_t">Grianghraif agus físeáin</string>
+    <string name="guide_photos_b">Taispeánann Grianghraif do phictiúir agus d’fhíseáin, aimsíonn sé aghaidheanna agus áiteanna, agus seolann sé chuig do ríomhaire iad. Roghnaigh Ceadaigh gach rud: mura roghnaíonn tú ach cuid acu, ní thaispeánann Grianghraif ach iad sin.</string>
+    <string name="guide_notify_t">Fógraí</string>
+    <string name="guide_notify_b">Insíonn meabhrúcháin, amadóirí agus sioncrónú rudaí duit le fógra. Gan é ní féidir le meabhrúchán bualadh.</string>
+    <string name="guide_alarms_t">Aláraim agus meabhrúcháin</string>
+    <string name="guide_alarms_b">Buaileann meabhrúchán nó amadóir ag an nóiméad a shocraíonn tú, fiú nuair atá an fón ina chodladh. Ar fhormhór na bhfón, tá sé seo ceadaithe cheana.</string>
+    <string name="guide_camera_t">Ceamara</string>
+    <string name="guide_camera_b">Glacann Scanóir grianghraif de dhoiciméid, léann Cóid cóid QR, agus scanann an phéireáil le ríomhaire a chód. Roghnaigh Agus an aip á húsáid.</string>
+    <string name="guide_contacts_t">Teagmhálacha</string>
+    <string name="guide_contacts_b">Taispeánann Teagmhálacha na daoine i do ghuthán agus is féidir leis cóip de do theagmhálacha a choinneáil ann, ionas go mbeidh a n-ainmneacha ag glaonna agus ag aipeanna eile.</string>
+    <string name="guide_phone_t">Guthán agus glaonna</string>
+    <string name="guide_phone_b">Déanann agus freagraíonn Guthán glaonna agus taispeánann sé stair do ghlaonna, agus is féidir le do ríomhaire glaoch tríd an nguthán seo. Ní theastaíonn sé ó thaibléad gan SIM.</string>
+    <string name="guide_usage_t">Rochtain úsáide</string>
+    <string name="guide_usage_b">Comhaireann Sonraí an méid sonraí móibíleacha a úsáideann gach aip. Taispeánann Android liosta: aimsigh Tetra, tapáil é agus cas air an lasc.</string>
+    <string name="guide_location_t">Suíomh</string>
+    <string name="guide_location_b">Taispeánann Léarscáileanna cá bhfuil tú agus treoraíonn sé ann thú, agus úsáideann Sonraí é chun ainmneacha na líonraí Wi-Fi thart ort a fheiceáil. Roghnaigh Agus an aip á húsáid.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Oscail aip</string>
+    <string name="guide_open_b">Osclaíonn gach pictiúr ar an scáileán Baile aip. Tapáil Comhaid chun do chomhaid a fheiceáil.</string>
+    <string name="guide_pencil_t">Athraigh Baile</string>
+    <string name="guide_pencil_b">Tapáil an peann luaidhe ag an mbarr. Faigheann gach cuid fráma agus dhá chnaipe bheaga, agus ní osclaíonn tapáil aon rud go dtí go mbeidh tú réidh.</string>
+    <string name="guide_move_t">Bog cuid</string>
+    <string name="guide_move_b">Coinnigh do mhéar ar chuid go dtí go n-ardaíonn sí, ansin tarraing go cill ar bith í. Déanann na cinn eile spás.</string>
+    <string name="guide_size_t">Níos mó nó níos lú</string>
+    <string name="guide_size_b">Tapáil na saigheada ar chuid. Le gach tapáil bíonn sí mór, meánach, beag agus mór arís: taispeánann mór níos mó inti, níl i mbeag ach a pictiúr.</string>
+    <string name="guide_hide_t">Folaigh cuid</string>
+    <string name="guide_hide_b">Tapáil an tsúil chun cuid nach n-úsáideann tú a fholú. Fanann codanna folaithe faoin ngreille: tapáil ceann chun é a thabhairt ar ais. Leanann a meabhrúcháin agus a hamadóirí ar aghaidh.</string>
+    <string name="guide_done_t">Déanta</string>
+    <string name="guide_done_b">Tapáil Déanta nuair a bhíonn Baile i gceart. Cuireann Athshocraigh ar ais é mar a bhí sé ag an tús.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Oscail fillteán</string>
+    <string name="guide_folder_b">Tapáil fillteán chun dul isteach ann agus comhad chun é a oscailt. Tugann an tsaighead ag an mbarr amach arís thú.</string>
+    <string name="guide_hold_t">Roghnaigh comhaid</string>
+    <string name="guide_hold_b">Coinnigh do mhéar ar chomhad go dtí go mbíonn tic air, ansin tapáil cinn eile chun iad a chur leis. Roghnaíonn coinneáil; osclaíonn tapáil ghearr.</string>
+    <string name="guide_bar_t">Bog nó cóipeáil</string>
+    <string name="guide_bar_b">Le comhaid roghnaithe, tapáil Bog (an tsaighead) nó Cóipeáil (dhá leathanach) sa bharra ag an mbun. Fágann Cóipeáil an chéad cheann mar a bhí sé.</string>
+    <string name="guide_where_t">Roghnaigh cén áit</string>
+    <string name="guide_where_b">Tapáil fillteán chun dul isteach ann, Suas chun dul amach arís, ansin Bog anseo.</string>
+    <string name="guide_more_t">Athainmnigh, roinn agus tuilleadh</string>
+    <string name="guide_more_b">Tapáil na trí phonc in aice le comhad le haghaidh gach rud faoin gcomhad sin: athainmniú, roinnt, clibeanna, dath agus Bruscar.</string>
+    <string name="guide_new_t">Rud éigin nua</string>
+    <string name="guide_new_b">Tapáil Nua sa bharra ag an mbun le haghaidh fillteáin, comhaid téacs, nó comhaid Doiciméid, Scarbhileoga nó Sleamhnáin, díreach san fhillteán ina bhfuil tú.</string>
+    <string name="guide_trash_t">Bruscar</string>
+    <string name="guide_trash_b">An rud a scriosann tú, téann sé chuig Bruscar ar dtús. Svaidhpeáil suas ar an mbarra ag an mbun le haghaidh Uirlisí comhad, tapáil Bruscar, roghnaigh a bhfuil uait ar ais agus tapáil Athchóirigh.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Oibríonn Tetra leis féin</string>
+    <string name="guide_alone_b">Níl ríomhaire de dhíth ort. Gan ceann, fanann gach rud ar an ngléas seo, agus is féidir leat péireáil níos déanaí.</string>
+    <string name="guide_scan_t">Péireáil le do ríomhaire</string>
+    <string name="guide_scan_b">Ar an ríomhaire, oscail Gléasanna › Cuir gléas leis: taispeánann Tetra cód. Anseo, oscail Sioncrónú ar an scáileán Baile, tapáil Scan cód agus dírigh an ceamara air.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Teanga agus cuma</string>
+    <string name="guide_look_b">Athraíonn Socruithe › Cuma an teanga, dorcha nó geal, agus a dtaispeánann Baile.</string>
+    <string name="guide_find_t">Aimsigh socrú</string>
+    <string name="guide_find_b">Clóscríobh sa chuardach ag barr Socruithe chun socrú ar bith a aimsiú de réir a ainm.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Deilbhíní</string>
+    <string name="guide_icons_t">Cad is brí le gach deilbhín</string>
+    <string name="guide_icons_b">Úsáideann Tetra na pictiúir bheaga chéanna i ngach áit. Seo gach ceann acu agus a bhfuil á dhéanamh aige.</string>
+    <string name="guide_icon_back">Ar ais: scáileán amháin ar gcúl</string>
+    <string name="guide_icon_close">Dún</string>
+    <string name="guide_icon_check">Déanta, nó roghnaithe</string>
+    <string name="guide_icon_add">Nua: fillteán, nóta, imeacht…</string>
+    <string name="guide_icon_search">Cuardaigh</string>
+    <string name="guide_icon_edit">Cuir in eagar nó Athainmnigh, de réir an áit: Baile – Cuir in eagar, comhad – Athainmnigh</string>
+    <string name="guide_icon_more">Tuilleadh: gach rud faoin mír seo</string>
+    <string name="guide_icon_share">Comhroinn le haip nó duine eile</string>
+    <string name="guide_icon_copy">Cóipeáil: téann an dara ceann ansin, fanann an chéad cheann</string>
+    <string name="guide_icon_move">Bog: téann sé ansin agus fágann sé anseo</string>
+    <string name="guide_icon_delete">Go dtí an Bruscar: is féidir é a fháil ar ais fós</string>
+    <string name="guide_icon_restore">Athchóirigh: amach as an mBruscar</string>
+    <string name="guide_icon_tag">Clibeanna: do lipéid féin, chun rudaí a aimsiú ar ball</string>
+    <string name="guide_icon_favorite">Ceanán: ar láimh faoi Ceanáin</string>
+    <string name="guide_icon_size">Méid: mór, meánach nó beag (Baile)</string>
+    <string name="guide_icon_hide">Folaigh é ón radharc; ní scriostar tada</string>
+    <string name="guide_icon_handle">Tarraing nó svaidhpeáil aníos anseo le tuilleadh a fháil</string>
+    <string name="guide_icon_choices">Liosta roghanna: tapáil le ceann a roghnú</string>
+    <string name="guide_icon_undo">Cealaigh an t-athrú deireanach</string>
+    <string name="guide_icon_redo">Athdhéan an rud a cealaíodh</string>
+    <string name="guide_icon_save">Sábháil</string>
+    <string name="guide_icon_refresh">Féach arís le haghaidh an méid atá nua</string>
+    <string name="guide_icon_sync">Sioncrónaigh le do ríomhaire</string>
+    <string name="guide_icon_qr">Scan cód leis an gceamara</string>
+    <string name="guide_icon_card">Taispeáin cód an ghléis seo chun é a phéireáil</string>
+    <string name="guide_icon_computer">Do ríomhaire</string>
+    <string name="guide_icon_lock">Faoi ghlas nó príobháideach</string>
+    <string name="guide_icon_notifications">Fógraí</string>
+    <string name="guide_icon_info">Tuilleadh faoi</string>
+    <string name="guide_icon_settings">Socruithe</string>
+    <string name="guide_icon_home">Baile</string>
+    <string name="guide_icon_toc">Caibidlí, clár ábhair</string>
+    <string name="guide_icon_guide">An treoir seo</string>
+</resources>

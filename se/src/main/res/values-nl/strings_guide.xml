@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Handleiding</string>
+    <string name="guide_summary">Stap voor stap: waar je tikt en waarom</string>
+    <string name="guide_try_it">Probeer het</string>
+    <string name="guide_skip">Overslaan</string>
+    <string name="guide_chapters">Hoofdstukken</string>
+    <string name="guide_open">Handleiding openen</string>
+    <string name="guide_step_of">%1$d van %2$d</string>
+    <string name="guide_allowed">Toegestaan</string>
+    <string name="guide_not_yet">Nog niet toegestaan</string>
+    <string name="guide_not_here">Niet op dit apparaat</string>
+    <string name="guide_finish">Afronden</string>
+    <string name="guide_dont_allow">Niet toestaan</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Welkom</string>
+    <string name="guide_ch_permissions">Rechten</string>
+    <string name="guide_ch_home">Start</string>
+    <string name="guide_ch_files">Bestanden</string>
+    <string name="guide_ch_computer">Je computer</string>
+    <string name="guide_ch_settings">Instellingen</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Welkom bij Tetra</string>
+    <string name="guide_welcome_b">Je foto\'s, bestanden, notities en agenda blijven op je eigen apparaten. Deze handleiding laat zien waar je tikt en waarom. Lees een stap, tik op Probeer het en doe het op het echte scherm terwijl de stap in beeld blijft.</string>
+    <string name="guide_again_t">Kom altijd terug</string>
+    <string name="guide_again_b">Sla het nu over als je wilt. De handleiding staat altijd in Instellingen › Handleiding, en elk hoofdstuk opent ook los.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android vraagt het je eerst</string>
+    <string name="guide_perm_b">Sommige delen van Tetra hebben je toestemming nodig. Elke pagina zegt waarvoor. Tik op Toestaan en beantwoord dan de vraag van Android. Je kunt nu nee zeggen en het later hier toestaan.</string>
+    <string name="guide_files_t">Alle bestanden</string>
+    <string name="guide_files_b">Bestanden, Notities, Office, Agenda, Timer en Kaarten bewaren alles in één Tetra-map op dit apparaat. Android opent een pagina met één schakelaar: zet hem aan en ga dan terug.</string>
+    <string name="guide_photos_t">Foto\'s en video\'s</string>
+    <string name="guide_photos_b">Foto\'s toont je foto\'s en video\'s, vindt gezichten en plaatsen en stuurt ze naar je computer. Kies Alles toestaan: als je er maar een paar kiest, toont Foto\'s alleen die.</string>
+    <string name="guide_notify_t">Meldingen</string>
+    <string name="guide_notify_b">Herinneringen, timers en sync laten je dingen weten met een melding. Zonder meldingen kan een herinnering niet afgaan.</string>
+    <string name="guide_alarms_t">Wekkers en herinneringen</string>
+    <string name="guide_alarms_b">Een herinnering of timer gaat af op de minuut die je instelt, ook als de telefoon slaapt. Op de meeste telefoons is dit al toegestaan.</string>
+    <string name="guide_camera_t">Camera</string>
+    <string name="guide_camera_b">Scanner fotografeert documenten, Codes leest QR-codes, en bij het koppelen met een computer scan je de code ervan. Kies Toestaan tijdens gebruik van de app.</string>
+    <string name="guide_contacts_t">Contacten</string>
+    <string name="guide_contacts_b">Contacten toont de mensen in je telefoon en kan daar een kopie van de jouwe bewaren, zodat gesprekken en andere apps hun namen kennen.</string>
+    <string name="guide_phone_t">Telefoon en gesprekken</string>
+    <string name="guide_phone_b">Telefoon belt, neemt gesprekken aan en toont je belgeschiedenis, en je computer kan via deze telefoon bellen. Een tablet zonder SIM heeft het niet nodig.</string>
+    <string name="guide_usage_t">Gebruikstoegang</string>
+    <string name="guide_usage_b">Data telt hoeveel mobiele data elke app gebruikt. Android toont een lijst: zoek Tetra, tik erop en zet de schakelaar aan.</string>
+    <string name="guide_location_t">Locatie</string>
+    <string name="guide_location_b">Kaarten toont waar je bent en wijst je de weg, en Data heeft het nodig om de namen van Wi-Fi-netwerken om je heen te zien. Kies Toestaan tijdens gebruik van de app.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Een app openen</string>
+    <string name="guide_open_b">Elke afbeelding op Start opent een app. Tik op Bestanden om je bestanden te zien.</string>
+    <string name="guide_pencil_t">Start aanpassen</string>
+    <string name="guide_pencil_b">Tik op het potlood bovenaan. Elk onderdeel krijgt een kader en twee knopjes, en tikken opent niets tot je klaar bent.</string>
+    <string name="guide_move_t">Een onderdeel verplaatsen</string>
+    <string name="guide_move_b">Houd een onderdeel vast tot het omhoogkomt en sleep het naar een vak. De andere maken plaats.</string>
+    <string name="guide_size_t">Groter of kleiner</string>
+    <string name="guide_size_b">Tik op de pijlen van een onderdeel. Elke tik maakt het groot, middel, klein en weer groot: groot toont er meer in, klein is alleen de afbeelding.</string>
+    <string name="guide_hide_t">Een onderdeel verbergen</string>
+    <string name="guide_hide_b">Tik op het oog om een onderdeel te verbergen dat je niet gebruikt. Verborgen onderdelen wachten onder het raster: tik erop om ze terug te halen. Hun herinneringen en timers lopen door.</string>
+    <string name="guide_done_t">Klaar</string>
+    <string name="guide_done_b">Tik op Klaar als Start er goed uitziet. Resetten zet alles terug zoals het in het begin was.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Een map openen</string>
+    <string name="guide_folder_b">Tik op een map om erin te gaan en op een bestand om het te openen. De pijl bovenaan gaat weer terug.</string>
+    <string name="guide_hold_t">Bestanden kiezen</string>
+    <string name="guide_hold_b">Houd een bestand vast tot het een vinkje krijgt en tik dan op andere om ze toe te voegen. Vasthouden kiest; kort tikken opent.</string>
+    <string name="guide_bar_t">Verplaatsen of kopiëren</string>
+    <string name="guide_bar_b">Tik met gekozen bestanden op Verplaatsen (de pijl) of Kopiëren (twee pagina\'s) in de balk onderaan. Kopiëren laat het origineel staan waar het was.</string>
+    <string name="guide_where_t">Kies waarheen</string>
+    <string name="guide_where_b">Tik op een map om erin te gaan, op Omhoog naar om terug te gaan en dan op Hierheen verplaatsen.</string>
+    <string name="guide_more_t">Naam wijzigen, delen en meer</string>
+    <string name="guide_more_b">Tik op de drie puntjes naast een bestand voor alles over dat ene bestand: naam wijzigen, delen, tags, kleur en Prullenbak.</string>
+    <string name="guide_new_t">Iets nieuws</string>
+    <string name="guide_new_b">Tik op Nieuw in de balk onderaan voor een map, een tekstbestand of een bestand voor Documenten, Tabellen of Presentaties, meteen in de map waarin je bent.</string>
+    <string name="guide_trash_t">Prullenbak</string>
+    <string name="guide_trash_b">Wat je verwijdert, gaat eerst naar de Prullenbak. Veeg omhoog op de balk onderaan voor Bestandshulpmiddelen, tik op Prullenbak, kies wat je terug wilt en tik op Terugzetten.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra werkt ook alleen</string>
+    <string name="guide_alone_b">Je hebt geen computer nodig. Zonder computer blijft alles op dit apparaat, en je kunt later koppelen.</string>
+    <string name="guide_scan_t">Koppelen met je computer</string>
+    <string name="guide_scan_b">Open op de computer Apparaten › Apparaat toevoegen: Tetra toont een code. Open hier Sync op Start, tik op Code scannen en richt de camera erop.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Taal en weergave</string>
+    <string name="guide_look_b">Instellingen › Weergave wijzigt de taal, donker of licht en wat Start toont.</string>
+    <string name="guide_find_t">Een instelling vinden</string>
+    <string name="guide_find_b">Typ in het zoekveld bovenaan Instellingen om elke instelling op naam te vinden.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Pictogrammen</string>
+    <string name="guide_icons_t">Wat elk pictogram betekent</string>
+    <string name="guide_icons_b">Tetra gebruikt overal dezelfde kleine plaatjes. Hier is elk ervan en wat het doet.</string>
+    <string name="guide_icon_back">Terug: één scherm terug</string>
+    <string name="guide_icon_close">Sluiten</string>
+    <string name="guide_icon_check">Klaar, of gekozen</string>
+    <string name="guide_icon_add">Nieuw: een map, een notitie, een afspraak…</string>
+    <string name="guide_icon_search">Zoeken</string>
+    <string name="guide_icon_edit">Bewerken of Naam wijzigen, afhankelijk van waar het is: Start – Bewerken, een bestand – Naam wijzigen</string>
+    <string name="guide_icon_more">Meer: alles over dit item</string>
+    <string name="guide_icon_share">Delen met een andere app of persoon</string>
+    <string name="guide_icon_copy">Kopiëren: er komt een tweede naar daar, de eerste blijft</string>
+    <string name="guide_icon_move">Verplaatsen: het gaat daarheen en verdwijnt hier</string>
+    <string name="guide_icon_delete">Naar Prullenbak: het kan nog terugkomen</string>
+    <string name="guide_icon_restore">Terugzetten: terug uit de Prullenbak</string>
+    <string name="guide_icon_tag">Labels: je eigen etiketten, om later dingen te vinden</string>
+    <string name="guide_icon_favorite">Favoriet: blijft binnen handbereik onder Favorieten</string>
+    <string name="guide_icon_size">Grootte: groot, middelgroot of klein (Start)</string>
+    <string name="guide_icon_hide">Verberg het uit het zicht; er wordt niets verwijderd</string>
+    <string name="guide_icon_handle">Sleep of veeg hier omhoog voor meer</string>
+    <string name="guide_icon_choices">Een lijst met keuzes: tik om er een te kiezen</string>
+    <string name="guide_icon_undo">De laatste wijziging ongedaan maken</string>
+    <string name="guide_icon_redo">Opnieuw doen wat ongedaan is gemaakt</string>
+    <string name="guide_icon_save">Opslaan</string>
+    <string name="guide_icon_refresh">Opnieuw zoeken naar wat nieuw is</string>
+    <string name="guide_icon_sync">Synchroniseren met je computer</string>
+    <string name="guide_icon_qr">Een code scannen met de camera</string>
+    <string name="guide_icon_card">De code van dit apparaat tonen om het te koppelen</string>
+    <string name="guide_icon_computer">Je computer</string>
+    <string name="guide_icon_lock">Vergrendeld of privé</string>
+    <string name="guide_icon_notifications">Meldingen</string>
+    <string name="guide_icon_info">Meer erover</string>
+    <string name="guide_icon_settings">Instellingen</string>
+    <string name="guide_icon_home">Start</string>
+    <string name="guide_icon_toc">Hoofdstukken, inhoud</string>
+    <string name="guide_icon_guide">Deze gids</string>
+</resources>

@@ -40,6 +40,21 @@ are the same protocol, word for word.
 The branch `standalone` keeps an earlier attempt: Tetra Car itself cut down to run on the head unit (maps and music on
 the car). Projection replaced it.
 
+## Tetra Auto SE (`se/`)
+
+Tetra Auto SE, the "stand alone edition", is Tetra for Android built for a head unit: Tetra Car is its start and home
+screen, and it runs on the unit itself. It pairs with the phone over the car link (Tetra's CarWire) for calls, messages,
+maps, bookmarks and Share. Until Tetra for Android 0.8 Beta 24 it was Tetra-mobile's `car` module. On 18 Nov 2026 it moved
+here, copied as it was at Beta 24 (Tetra-mobile `0c3e70f5`), and Tetra for Android no longer carries it.
+
+```bash
+./gradlew :se:assembleRelease            # se/build/outputs/apk/release/se-arm64-v8a-release.apk, se-armeabi-v7a-release.apk
+./gradlew :se:assembleDebug -Pemulator   # with an x86_64 APK for the tetra_car_se emulator
+```
+
+Same applicationId (`com.kalotrapezis.tetra.auto.se`) and release key (`~/.android/tetra-release.properties`) as before, so
+it installs over the car's current one.
+
 ## Licence
 
 GPL-3.0, as Tetra.

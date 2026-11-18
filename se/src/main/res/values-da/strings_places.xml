@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Stedpåmindelser</string>
+    <string name="place_reminders_note">Når du ankommer et sted, ringer en tjekliste fra Noter som en påmindelse. Spørg AI Assist: \"når jeg går i supermarkedet, så vis mig indkøbslisten\". Placeringen tjekkes sjældent for at spare batteriet.</string>
+    <string name="place_reminders_on">Stedpåmindelser på denne telefon</string>
+    <string name="place_reminders_location">Placering altid</string>
+    <string name="place_reminders_location_on">Tilladt</string>
+    <string name="place_reminders_location_off">Kræves: vælg Tillad altid</string>
+    <string name="place_reminders_none">Ingen stedpåmindelser endnu</string>
+    <string name="place_reminders_any">Enhver tjekliste med punkter tilbage</string>
+    <string name="place_reminder_title">Din liste</string>
+</resources>

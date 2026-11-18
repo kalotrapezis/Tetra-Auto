@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">ZIŅAS</string>
+    <string name="news_page">Lapa</string>
+    <string name="ai_presenter">Robots vada</string>
+    <string name="ai_presenter_note">Pārskati un ieplānotie rezultāti kā mazas ziņas, nolasīti skaļi.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NOVICE</string>
+    <string name="news_page">Stran</string>
+    <string name="ai_presenter">Robot vodi</string>
+    <string name="ai_presenter_note">Pregledi in načrtovani rezultati kot male novice, prebrani naglas.</string>
+</resources>

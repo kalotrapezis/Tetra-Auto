@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Mitlub minn test barrani (posta, web, fajl): qed jistenna l-iva tiegħek</string>
+    <string name="assistant_confirm_yes">Agħmlu</string>
+    <string name="assistant_confirm_done">Lest.</string>
+    <string name="assistant_confirm_cancelled">Ma sarx.</string>
+    <string name="ai_memory_auto">Ftakar mill-konversazzjonijiet</string>
+    <string name="ai_memory_auto_note">Wara konversazzjoni, AI Assist iżomm sa 3 fatti dejjiema li għidt dwarek (qatt minn posta jew fajls)</string>
+    <string name="mail_ai_urgency_1">Ta\' min tarah</string>
+    <string name="mail_ai_urgency_2">Importanti</string>
+    <string name="mail_ai_urgency_3">Urġenti</string>
+</resources>

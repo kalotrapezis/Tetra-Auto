@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Bedt om af ekstern tekst (mail, web, fil): venter på dit ja</string>
+    <string name="assistant_confirm_yes">Gør det</string>
+    <string name="assistant_confirm_done">Færdig.</string>
+    <string name="assistant_confirm_cancelled">Ikke udført.</string>
+    <string name="ai_memory_auto">Husk fra samtaler</string>
+    <string name="ai_memory_auto_note">Efter en samtale gemmer AI Assist op til 3 varige fakta, du har sagt om dig selv (aldrig fra mail eller filer)</string>
+    <string name="mail_ai_urgency_1">Værd at se</string>
+    <string name="mail_ai_urgency_2">Vigtig</string>
+    <string name="mail_ai_urgency_3">Haster</string>
+</resources>

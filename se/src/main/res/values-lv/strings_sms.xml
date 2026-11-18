@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Ziņas</string>
+    <string name="home_label_sms">Tetra Ziņas</string>
+    <string name="sms_home_detail">Tava tālruņa īsziņas</string>
+    <string name="sms_permission_needed">Lai šeit rādītu un sūtītu tavas īsziņas, Tetra vajag atļauju lasīt un sūtīt ziņas.</string>
+    <string name="sms_none">Vēl nav ziņu</string>
+    <string name="sms_none_archived">Nekas nav arhivēts</string>
+    <string name="sms_none_here">Vēl nav ziņu. Uzraksti pirmo.</string>
+    <string name="sms_archived">Arhivētās</string>
+    <string name="sms_archive">Arhivēt</string>
+    <string name="sms_unarchive">Atjaunot no arhīva</string>
+    <string name="sms_did_archive">Arhivēts</string>
+    <string name="sms_did_unarchive">Atkal tavās ziņās</string>
+    <string name="sms_choose_first">Turi sarunu nospiestu, lai to izvēlētos</string>
+    <string name="sms_new_message">Jauna ziņa</string>
+    <string name="sms_to">Vārds vai numurs</string>
+    <string name="sms_send_to">Sūtīt uz %1$s</string>
+    <string name="sms_write">Ziņa</string>
+    <string name="sms_not_sent">Nav nosūtīts</string>
+    <string name="sms_sending">Sūta…</string>
+    <string name="sms_send_failed">Ziņa netika nosūtīta: %1$s</string>
+    <string name="sms_sent">Nosūtīts.</string>
+    <string name="sms_you">Tu</string>
+    <string name="sms_delete_ask">Dzēst izvēlētās sarunas?</string>
+    <string name="sms_delete_note">To ziņas tiks izdzēstas no šī tālruņa.</string>
+    <string name="sms_default_only">Ziņas var dzēst tikai tava noklusējuma ziņapmaiņas lietotne.</string>
+    <string name="sms_open_default">Atvērt tur</string>
+    <string name="sms_deleted">Izdzēsts</string>
+    <string name="sms_pick">Izvēlieties sarunu</string>
+    <string name="sms_is_default">Tetra ir SMS lietotne</string>
+    <string name="sms_not_default">Tetra nav SMS lietotne</string>
+    <string name="sms_is_default_summary">Ziņas pienāk Tetra, un Tetra tās glabā. Lai atgrieztu: Android noklusējuma lietotnes › SMS lietotne.</string>
+    <string name="sms_not_default_summary">Iestatiet to kā noklusējumu, lai jaunās ziņas pienāktu Tetra un tās varētu dzēst. Par attēlu ziņām (MMS) tikai paziņo, tās netiek rādītas.</string>
+    <string name="sms_mms_title">Attēla ziņa (MMS)</string>
+    <string name="sms_mms_note">Tetra nevar parādīt attēlu ziņas. Lai tās saņemtu, izvēlieties citu SMS lietotni.</string>
+</resources>

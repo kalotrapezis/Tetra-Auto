@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Раздели от други устройства</string>
+    <string name="browser_sync_title">Синхронизиране</string>
+    <string name="browser_sync_note">Какво споделя това устройство с другите ви устройства чрез синхронизирането на Tetra. Всеки превключвател е само за това устройство; изключването запазва наличното тук.</string>
+    <string name="browser_sync_bookmarks">Отметки</string>
+    <string name="browser_sync_tabs">Отворени раздели</string>
+    <string name="browser_sync_passwords">Пароли</string>
+    <string name="browser_sync_passwords_off">Изключено: остават на това устройство</string>
+    <string name="browser_sync_passwords_on">Включено: пароли, адреси и карти, шифровани с паролата ви за синхронизиране</string>
+    <string name="browser_sync_passwords_need">На друго устройство е избрана нова парола: докоснете, за да я въведете</string>
+    <string name="browser_pass_new_title">Изберете парола за синхронизиране</string>
+    <string name="browser_pass_new_note">Паролите, адресите и картите ви пътуват шифровани с нея и никой не може да ги прочете без нея, нито Tetra. Другите ви устройства ще я поискат веднъж.</string>
+    <string name="browser_pass_enter_title">Парола за синхронизиране</string>
+    <string name="browser_pass_enter_note">Тази, която избрахте на другото си устройство.</string>
+    <string name="browser_pass_field">Парола</string>
+    <string name="browser_pass_repeat">Повторете я</string>
+    <string name="browser_pass_short">Поне 8 знака</string>
+    <string name="browser_pass_mismatch">Двете не съвпадат</string>
+    <string name="browser_pass_wrong">Грешна парола</string>
+    <string name="browser_pass_failed">Не можа да бъде приета; опитайте отново</string>
+    <string name="browser_pass_forgot">Забравихте ли я?</string>
+    <string name="browser_pass_reset_title">Започване отначало с нова парола?</string>
+    <string name="browser_pass_reset_note">Паролите на всяко устройство остават там, където са. Другите ви устройства ще поискат новата парола.</string>
+    <string name="browser_pass_reset">Отначало</string>
+    <string name="browser_saved_note_synced">Пазят се шифровани и стигат до другите ви устройства шифровани с паролата за синхронизиране</string>
+</resources>

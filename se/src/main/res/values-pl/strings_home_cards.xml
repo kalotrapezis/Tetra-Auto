@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home's live cards (HomeCards.kt) -->
+<resources>
+    <string name="home_pills_none">Dziś brak dawek</string>
+    <string name="home_pills_done">Dziś wszystko przyjęte</string>
+    <string name="home_mail_unread">%1$d nieprzeczytanych</string>
+    <string name="home_mail_none">Brak nieprzeczytanej poczty</string>
+    <string name="home_birthday_on">ma urodziny</string>
+    <string name="home_birthdays_none">Brak urodzin w najbliższym roku</string>
+    <string name="home_notes_none">Brak przypiętych notatek</string>
+    <string name="home_pill_marked">Zaznaczono: %1$s</string>
+</resources>

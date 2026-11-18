@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tetra Car: Settings › App icons, and the head unit's home screen -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/applet_car" />
+    <foreground android:drawable="@drawable/applet_car_fg" />
+</adaptive-icon>

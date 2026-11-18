@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Spuneți „Tetra”, „OK Tetra”, „Ahoy Tetra” sau „Hey Tetra” pentru a deschide AI Assist, chiar și cu ecranul stins. Compară ce aude microfonul cu înregistrările dvs., pe telefon; nimic nu se trimite cât ascultă. Cu telefonul blocat, lucrurile personale (apeluri, mesaje, e-mail, calendar, notițe, fișiere, contacte) cer întâi deblocarea. Doar pe un dispozitiv: două ar răspunde împreună, deci lăsați-l oprit pe tabletă. În pauză în mașină.</string>
+    <string name="wake_on">Ascultă vocea dvs.</string>
+    <string name="wake_off">Oprit</string>
+    <string name="wake_record">Înregistrați-vă vocea</string>
+    <string name="wake_record_note">Spuneți fiecare frază de patru ori așa cum i-o veți spune telefonului: lăsați-l unde stă de obicei și vorbiți de unde sunteți de obicei, două înregistrări de aproape și două de mai departe. Atingeți o înregistrare ca s-o refaceți.</string>
+    <string name="wake_take">Înregistrarea %1$d</string>
+    <string name="wake_take_odd">Diferită de celelalte: înregistrați din nou</string>
+    <string name="wake_record_take">Înregistrează „%1$s”, nr. %2$d</string>
+    <string name="wake_speak">Spuneți acum „%1$s”…</string>
+    <string name="wake_not_heard">Nu s-a auzit. Încercați din nou.</string>
+    <string name="wake_record_again">Din nou</string>
+    <string name="wake_try">Încercați</string>
+    <string name="wake_try_caught">Recunoscut ca „%1$s” (%2$s din prag)</string>
+    <string name="wake_try_missed">Nerecunoscut: cel mai aproape „%1$s”, %2$s din prag. Înregistrați din nou.</string>
+    <string name="wake_notice">Ascultă „Hey Tetra”</string>
+    <string name="wake_turn_off">Oprește</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Ce faci?</string>
+    <string name="wake_hello_2">Sunt aici.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

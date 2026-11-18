@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Tabs minn apparati oħra</string>
+    <string name="browser_sync_title">Sinkronizzazzjoni</string>
+    <string name="browser_sync_note">X\'jaqsam dan l-apparat mal-apparati l-oħra tiegħek permezz tas-sinkronizzazzjoni ta\' Tetra. Kull swiċċ huwa għal dan l-apparat biss; jekk tintefa, dak li hawn jibqa\'.</string>
+    <string name="browser_sync_bookmarks">Bookmarks</string>
+    <string name="browser_sync_tabs">Tabs miftuħa</string>
+    <string name="browser_sync_passwords">Passwords</string>
+    <string name="browser_sync_passwords_off">Mitfi: jibqgħu fuq dan l-apparat</string>
+    <string name="browser_sync_passwords_on">Mixgħul: passwords, indirizzi u karti, ikkriptati bil-passphrase tas-sinkronizzazzjoni tiegħek</string>
+    <string name="browser_sync_passwords_need">Intgħażlet passphrase ġdida fuq apparat ieħor: agħfas biex iddaħħalha</string>
+    <string name="browser_pass_new_title">Agħżel passphrase tas-sinkronizzazzjoni</string>
+    <string name="browser_pass_new_note">Il-passwords, l-indirizzi u l-karti tiegħek jivvjaġġaw ikkriptati biha, u ħadd ma jista\' jaqrahom mingħajrha, lanqas Tetra. L-apparati l-oħra tiegħek jitolbuha darba.</string>
+    <string name="browser_pass_enter_title">Passphrase tas-sinkronizzazzjoni</string>
+    <string name="browser_pass_enter_note">Dik li għażilt fuq l-apparat l-ieħor tiegħek.</string>
+    <string name="browser_pass_field">Passphrase</string>
+    <string name="browser_pass_repeat">Erġa\' iktibha</string>
+    <string name="browser_pass_short">Mill-inqas 8 karattri</string>
+    <string name="browser_pass_mismatch">It-tnejn mhumiex l-istess</string>
+    <string name="browser_pass_wrong">Passphrase ħażina</string>
+    <string name="browser_pass_failed">Ma setgħetx tittieħed; erġa\' pprova</string>
+    <string name="browser_pass_forgot">Insejtha?</string>
+    <string name="browser_pass_reset_title">Tibda mill-ġdid b\'passphrase ġdida?</string>
+    <string name="browser_pass_reset_note">Il-passwords fuq kull apparat jibqgħu fejn huma. L-apparati l-oħra tiegħek jitolbu l-passphrase il-ġdida.</string>
+    <string name="browser_pass_reset">Ibda mill-ġdid</string>
+    <string name="browser_saved_note_synced">Miżmum ikkriptat, u mibgħut lill-apparati l-oħra tiegħek ikkriptat bil-passphrase tas-sinkronizzazzjoni</string>
+</resources>

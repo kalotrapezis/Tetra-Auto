@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Recite »Tetra«, »OK Tetra«, »Ahoy Tetra« ali »Hey Tetra«, da odprete AI Assist, tudi z ugasnjenim zaslonom. Primerja, kar sliši mikrofon, z vašimi posnetki, na telefonu; med poslušanjem se nič ne pošilja. Ko je telefon zaklenjen, osebne stvari (klici, sporočila, pošta, koledar, zapiski, datoteke, stiki) najprej zahtevajo odklep. Samo na eni napravi: dve bi odgovorili skupaj, zato ga na tablici pustite izklopljenega. V avtu začasno ustavljeno.</string>
+    <string name="wake_on">Posluša vaš glas</string>
+    <string name="wake_off">Izklopljeno</string>
+    <string name="wake_record">Posnemite svoj glas</string>
+    <string name="wake_record_note">Recite vsako frazo štirikrat tako, kot jo boste rekli telefonu: pustite ga, kjer navadno leži, in govorite od tam, kjer ste navadno, dva posnetka od blizu in dva od dlje. Tapnite posnetek, da ga posnamete znova.</string>
+    <string name="wake_take">Posnetek %1$d</string>
+    <string name="wake_take_odd">Drugačen od ostalih: posnemite znova</string>
+    <string name="wake_record_take">Posnemi »%1$s«, posnetek %2$d</string>
+    <string name="wake_speak">Zdaj recite »%1$s«…</string>
+    <string name="wake_not_heard">Ni slišal. Poskusite znova.</string>
+    <string name="wake_record_again">Znova</string>
+    <string name="wake_try">Preizkusi</string>
+    <string name="wake_try_caught">Prepoznano kot »%1$s« (%2$s praga)</string>
+    <string name="wake_try_missed">Ni prepoznano: najbližje »%1$s«, %2$s praga. Posnemite znova.</string>
+    <string name="wake_notice">Posluša »Hey Tetra«</string>
+    <string name="wake_turn_off">Izklopi</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Kaj je novega?</string>
+    <string name="wake_hello_2">Tukaj sem.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

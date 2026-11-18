@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Keresés a böngészőben</string>
+    <string name="assistant_card_data_used">%1$s / %2$s felhasználva</string>
+    <string name="assistant_card_data_used_unlimited">%1$s felhasználva ebben az időszakban</string>
+    <string name="assistant_card_data_left">%1$s maradt · hátralévő napok: %2$d</string>
+    <string name="assistant_card_data_pace">Ma %1$s · átlagosan napi %2$s</string>
+    <string name="assistant_card_data_forecast">Előrejelzés az időszak végére: %1$s</string>
+    <string name="assistant_card_data_on_track">A kereten belül</string>
+    <string name="assistant_card_data_cut">Hogy a kereten belül maradj: legfeljebb napi %1$s %2$d napig</string>
+    <string name="assistant_card_data_hotspot">%1$s a telefon hotspotján ebben a hónapban</string>
+    <string name="assistant_card_brief">Napi összefoglaló</string>
+</resources>

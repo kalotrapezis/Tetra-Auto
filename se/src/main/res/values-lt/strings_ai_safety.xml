@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Paprašyta išorinio teksto (laiško, žiniatinklio, failo): laukia jūsų sutikimo</string>
+    <string name="assistant_confirm_yes">Atlikti</string>
+    <string name="assistant_confirm_done">Atlikta.</string>
+    <string name="assistant_confirm_cancelled">Neatlikta.</string>
+    <string name="ai_memory_auto">Įsiminti iš pokalbių</string>
+    <string name="ai_memory_auto_note">Po pokalbio AI Assist įsimena iki 3 ilgalaikių faktų, kuriuos pasakėte apie save (niekada iš laiškų ar failų)</string>
+    <string name="mail_ai_urgency_1">Verta pažiūrėti</string>
+    <string name="mail_ai_urgency_2">Svarbu</string>
+    <string name="mail_ai_urgency_3">Skubu</string>
+</resources>

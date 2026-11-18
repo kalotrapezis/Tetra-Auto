@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Me while moving (Maps' GPS mode): a solid arrow filling the icon, white-edged, pointing north (MapLibre turns it).
+     In place of MapLibre's white disc with a small arrow, a white dot from the car's seat (the user, 12 Nov).
+     As big as that disc (75 dp), so activateArrow's scales stay what they were. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="75dp" android:height="75dp" android:viewportWidth="75" android:viewportHeight="75">
+    <!-- a soft shadow, for a light map -->
+    <path android:fillColor="#000000" android:fillAlpha="0.25"
+        android:pathData="M37.5,6 L67,70 L37.5,56 L8,70 Z" />
+    <path android:fillColor="#1565C0" android:strokeColor="#FFFFFF" android:strokeWidth="5" android:strokeLineJoin="round"
+        android:pathData="M37.5,4 L65,66 L37.5,53 L10,66 Z" />
+</vector>

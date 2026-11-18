@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Kortelės iš kitų įrenginių</string>
+    <string name="browser_sync_title">Sinchronizavimas</string>
+    <string name="browser_sync_note">Ką šis įrenginys bendrina su kitais jūsų įrenginiais per Tetra sinchronizavimą. Kiekvienas jungiklis galioja tik šiam įrenginiui; išjungus tai, kas čia yra, lieka.</string>
+    <string name="browser_sync_bookmarks">Žymės</string>
+    <string name="browser_sync_tabs">Atvertos kortelės</string>
+    <string name="browser_sync_passwords">Slaptažodžiai</string>
+    <string name="browser_sync_passwords_off">Išjungta: lieka šiame įrenginyje</string>
+    <string name="browser_sync_passwords_on">Įjungta: slaptažodžiai, adresai ir kortelės, užšifruoti jūsų sinchronizavimo slaptafraze</string>
+    <string name="browser_sync_passwords_need">Kitame įrenginyje pasirinkta nauja slaptafrazė: palieskite, kad ją įvestumėte</string>
+    <string name="browser_pass_new_title">Pasirinkite sinchronizavimo slaptafrazę</string>
+    <string name="browser_pass_new_note">Jūsų slaptažodžiai, adresai ir kortelės keliauja ja užšifruoti, ir niekas be jos jų neperskaitys, net Tetra. Kiti įrenginiai jos paprašys vieną kartą.</string>
+    <string name="browser_pass_enter_title">Sinchronizavimo slaptafrazė</string>
+    <string name="browser_pass_enter_note">Ta, kurią pasirinkote kitame įrenginyje.</string>
+    <string name="browser_pass_field">Slaptafrazė</string>
+    <string name="browser_pass_repeat">Pakartokite ją</string>
+    <string name="browser_pass_short">Bent 8 simboliai</string>
+    <string name="browser_pass_mismatch">Jos nesutampa</string>
+    <string name="browser_pass_wrong">Neteisinga slaptafrazė</string>
+    <string name="browser_pass_failed">Nepavyko jos priimti; bandykite dar kartą</string>
+    <string name="browser_pass_forgot">Pamiršote?</string>
+    <string name="browser_pass_reset_title">Pradėti iš naujo su nauja slaptafraze?</string>
+    <string name="browser_pass_reset_note">Slaptažodžiai kiekviename įrenginyje lieka, kur yra. Kiti įrenginiai paprašys naujos slaptafrazės.</string>
+    <string name="browser_pass_reset">Pradėti iš naujo</string>
+    <string name="browser_saved_note_synced">Laikoma užšifruota ir siunčiama į kitus įrenginius, užšifruota sinchronizavimo slaptafraze</string>
+</resources>

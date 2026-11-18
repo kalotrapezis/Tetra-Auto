@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Más eszközök lapjai</string>
+    <string name="browser_sync_title">Szinkronizálás</string>
+    <string name="browser_sync_note">Amit ez az eszköz megoszt a többi eszközével a Tetra szinkronizálásán keresztül. Minden kapcsoló csak erre az eszközre vonatkozik; kikapcsolva megmarad, ami itt van.</string>
+    <string name="browser_sync_bookmarks">Könyvjelzők</string>
+    <string name="browser_sync_tabs">Megnyitott lapok</string>
+    <string name="browser_sync_passwords">Jelszavak</string>
+    <string name="browser_sync_passwords_off">Ki: ezen az eszközön maradnak</string>
+    <string name="browser_sync_passwords_on">Be: jelszavak, címek és kártyák, a szinkronizálási jelmondatával titkosítva</string>
+    <string name="browser_sync_passwords_need">Egy másik eszközön új jelmondatot választottak: koppintson a megadásához</string>
+    <string name="browser_pass_new_title">Válasszon szinkronizálási jelmondatot</string>
+    <string name="browser_pass_new_note">Jelszavai, címei és kártyái ezzel titkosítva utaznak, és nélküle senki sem olvashatja őket, a Tetra sem. A többi eszköze egyszer kéri.</string>
+    <string name="browser_pass_enter_title">Szinkronizálási jelmondat</string>
+    <string name="browser_pass_enter_note">Amit a másik eszközén választott.</string>
+    <string name="browser_pass_field">Jelmondat</string>
+    <string name="browser_pass_repeat">Ismételje meg</string>
+    <string name="browser_pass_short">Legalább 8 karakter</string>
+    <string name="browser_pass_mismatch">A kettő nem egyezik</string>
+    <string name="browser_pass_wrong">Hibás jelmondat</string>
+    <string name="browser_pass_failed">Nem sikerült elfogadni; próbálja újra</string>
+    <string name="browser_pass_forgot">Elfelejtette?</string>
+    <string name="browser_pass_reset_title">Újrakezdi egy új jelmondattal?</string>
+    <string name="browser_pass_reset_note">A jelszavak minden eszközön ott maradnak, ahol vannak. A többi eszköze az új jelmondatot kéri majd.</string>
+    <string name="browser_pass_reset">Újrakezdés</string>
+    <string name="browser_saved_note_synced">Titkosítva tárolva, és a szinkronizálási jelmondattal titkosítva a többi eszközére küldve</string>
+</resources>

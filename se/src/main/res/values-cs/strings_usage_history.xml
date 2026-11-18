@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Historie</string>
+    <string name="usage_tab_days">Dny</string>
+    <string name="usage_tab_months">Měsíce</string>
+    <string name="usage_tab_years">Roky</string>
+    <string name="usage_saved">Uloženo ✓</string>
+    <string name="usage_more">Dalších %1$d</string>
+</resources>

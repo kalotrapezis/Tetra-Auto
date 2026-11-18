@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Sano ”Tetra”, ”OK Tetra”, ”Ahoy Tetra” tai ”Hey Tetra” avataksesi AI Assistin, myös näytön ollessa pimeänä. Se vertaa mikrofonin kuulemaa omiin äänityksiisi, puhelimessa; mitään ei lähetetä kuunnellessa. Lukitussa puhelimessa henkilökohtaiset asiat (puhelut, viestit, posti, kalenteri, muistiinpanot, tiedostot, yhteystiedot) pyytävät ensin avausta. Vain yhdessä laitteessa: kaksi vastaisi yhtä aikaa, joten pidä se tabletissa pois päältä. Tauolla autossa.</string>
+    <string name="wake_on">Kuuntelee ääntäsi</string>
+    <string name="wake_off">Pois</string>
+    <string name="wake_record">Äänitä äänesi</string>
+    <string name="wake_record_note">Sano kukin fraasi neljä kertaa niin kuin sanot sen puhelimelle: jätä se paikalleen ja puhu sieltä, missä yleensä olet, kaksi ottoa läheltä ja kaksi kauempaa. Napauta ottoa äänittääksesi sen uudelleen.</string>
+    <string name="wake_take">Otto %1$d</string>
+    <string name="wake_take_odd">Erilainen kuin muut: äänitä uudelleen</string>
+    <string name="wake_record_take">Äänitä ”%1$s”, otto %2$d</string>
+    <string name="wake_speak">Sano nyt ”%1$s”…</string>
+    <string name="wake_not_heard">Ei kuulunut. Yritä uudelleen.</string>
+    <string name="wake_record_again">Uudelleen</string>
+    <string name="wake_try">Kokeile</string>
+    <string name="wake_try_caught">Tunnistettu: ”%1$s” (%2$s rajasta)</string>
+    <string name="wake_try_missed">Ei tunnistettu: lähin ”%1$s”, %2$s rajasta. Äänitä uudelleen.</string>
+    <string name="wake_notice">Kuuntelee ”Hey Tetra”</string>
+    <string name="wake_turn_off">Poista käytöstä</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Mitä kuuluu?</string>
+    <string name="wake_hello_2">Hei, täällä ollaan.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

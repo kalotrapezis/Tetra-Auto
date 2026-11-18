@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Stair</string>
+    <string name="usage_tab_days">Laethanta</string>
+    <string name="usage_tab_months">Míonna</string>
+    <string name="usage_tab_years">Blianta</string>
+    <string name="usage_saved">Sábháilte ✓</string>
+    <string name="usage_more">%1$d eile</string>
+</resources>

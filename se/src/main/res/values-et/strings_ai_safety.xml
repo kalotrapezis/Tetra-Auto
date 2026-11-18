@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Välise teksti soov (kiri, veeb, fail): ootab sinu jah-vastust</string>
+    <string name="assistant_confirm_yes">Tee ära</string>
+    <string name="assistant_confirm_done">Tehtud.</string>
+    <string name="assistant_confirm_cancelled">Ei tehtud.</string>
+    <string name="ai_memory_auto">Jäta vestlustest meelde</string>
+    <string name="ai_memory_auto_note">Pärast vestlust jätab AI Assist meelde kuni 3 püsivat fakti, mida endast ütlesid (mitte kunagi kirjadest ega failidest)</string>
+    <string name="mail_ai_urgency_1">Tasub vaadata</string>
+    <string name="mail_ai_urgency_2">Oluline</string>
+    <string name="mail_ai_urgency_3">Kiire</string>
+</resources>

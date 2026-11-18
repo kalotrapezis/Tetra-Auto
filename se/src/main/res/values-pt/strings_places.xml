@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Lembretes de local</string>
+    <string name="place_reminders_note">Ao chegar a um local, toca uma lista das Notas, como um lembrete. Peça ao AI Assist: «quando for ao supermercado, mostra-me as compras». A localização é verificada raramente, para poupar bateria.</string>
+    <string name="place_reminders_on">Lembretes de local neste telemóvel</string>
+    <string name="place_reminders_location">Localização sempre</string>
+    <string name="place_reminders_location_on">Permitido</string>
+    <string name="place_reminders_location_off">Necessário: escolha Permitir sempre</string>
+    <string name="place_reminders_none">Ainda sem lembretes de local</string>
+    <string name="place_reminders_any">Qualquer lista com itens por fazer</string>
+    <string name="place_reminder_title">A sua lista</string>
+</resources>

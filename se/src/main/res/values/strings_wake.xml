@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Say “Tetra”, “OK Tetra”, “Ahoy Tetra” or “Hey Tetra” to open AI Assist, even with the screen off. It compares what the mic hears with your own takes, on the phone; nothing is sent while it listens. With the phone locked, personal things (calls, messages, mail, calendar, notes, files, contacts) ask you to unlock it first. On one device only: two would both answer, so leave it off on the tablet. Paused in the car.</string>
+    <string name="wake_on">Listening for your voice</string>
+    <string name="wake_off">Off</string>
+    <string name="wake_record">Record your voice</string>
+    <string name="wake_record_note">Say each phrase four times as you will to the phone: put it where it usually lies and speak from where you usually are, two takes near and two from further away. Tap a take to record it again.</string>
+    <string name="wake_take">Take %1$d</string>
+    <string name="wake_take_odd">Unlike the others: record it again</string>
+    <string name="wake_record_take">Record “%1$s”, take %2$d</string>
+    <string name="wake_speak">Say “%1$s” now…</string>
+    <string name="wake_not_heard">Didn’t catch it. Try again.</string>
+    <string name="wake_record_again">Again</string>
+    <string name="wake_try">Try it</string>
+    <string name="wake_try_caught">Caught as “%1$s” (%2$s of its threshold)</string>
+    <string name="wake_try_missed">Not caught: nearest “%1$s”, %2$s of its threshold. Record its takes again.</string>
+    <string name="wake_notice">Listening for “Hey Tetra”</string>
+    <string name="wake_turn_off">Turn off</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">What’s up?</string>
+    <string name="wake_hello_2">Hey, I’m here.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

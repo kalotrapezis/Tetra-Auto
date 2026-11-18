@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Ei tekstitiedosto</string>
+    <string name="text_not_text_body">«%1$s» ei ole pelkkää tekstiä (esimerkiksi Word-, PowerPoint-, PDF- tai kuvatiedosto). Tekstieditori ei voi näyttää sitä.</string>
+    <string name="text_huge_title">Hyvin suuri tiedosto</string>
+    <string name="text_huge_body">«%1$s» on %2$s. Tekstieditori voi hidastua paljon tai jumittua.</string>
+    <string name="text_open_with">Avaa sovelluksella…</string>
+    <string name="text_open_anyway">Avaa silti</string>
+    <string name="text_closed_not_text">«%1$s» suljettiin: se ei ole tekstitiedosto.</string>
+</resources>

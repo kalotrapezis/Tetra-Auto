@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Pasakykite „Tetra“, „OK Tetra“, „Ahoy Tetra“ arba „Hey Tetra“, kad atsidarytų AI Assist, net užgesus ekranui. Lygina tai, ką girdi mikrofonas, su jūsų pačių įrašais, telefone; klausantis niekas nesiunčiama. Užrakinus telefoną, asmeniniai dalykai (skambučiai, žinutės, paštas, kalendorius, užrašai, failai, kontaktai) pirma prašo atrakinti. Tik viename įrenginyje: du atsakytų kartu, tad planšetėje palikite išjungtą. Automobilyje pristabdyta.</string>
+    <string name="wake_on">Klausosi jūsų balso</string>
+    <string name="wake_off">Išjungta</string>
+    <string name="wake_record">Įrašykite balsą</string>
+    <string name="wake_record_note">Pasakykite kiekvieną frazę keturis kartus taip, kaip sakysite telefonui: padėkite jį ten, kur jis paprastai būna, ir kalbėkite iš ten, kur paprastai esate, du įrašus iš arti ir du iš toliau. Bakstelėkite įrašą, kad įrašytumėte iš naujo.</string>
+    <string name="wake_take">Įrašas %1$d</string>
+    <string name="wake_take_odd">Skiriasi nuo kitų: įrašykite iš naujo</string>
+    <string name="wake_record_take">Įrašyti „%1$s“, nr. %2$d</string>
+    <string name="wake_speak">Dabar sakykite „%1$s“…</string>
+    <string name="wake_not_heard">Negirdėjo. Bandykite dar.</string>
+    <string name="wake_record_again">Iš naujo</string>
+    <string name="wake_try">Išbandyti</string>
+    <string name="wake_try_caught">Atpažinta kaip „%1$s“ (%2$s ribos)</string>
+    <string name="wake_try_missed">Neatpažinta: artimiausia „%1$s“, %2$s ribos. Įrašykite iš naujo.</string>
+    <string name="wake_notice">Klausosi „Hey Tetra“</string>
+    <string name="wake_turn_off">Išjungti</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Kas nauja?</string>
+    <string name="wake_hello_2">Aš čia.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

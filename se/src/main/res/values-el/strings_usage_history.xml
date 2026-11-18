@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Ιστορικό</string>
+    <string name="usage_tab_days">Μέρες</string>
+    <string name="usage_tab_months">Μήνες</string>
+    <string name="usage_tab_years">Χρόνια</string>
+    <string name="usage_saved">Αποθηκεύτηκε ✓</string>
+    <string name="usage_more">Άλλες %1$d</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Zeg „Tetra”, „OK Tetra”, „Ahoy Tetra” of „Hey Tetra” om AI Assist te openen, ook met het scherm uit. Het vergelijkt wat de microfoon hoort met je eigen opnamen, op de telefoon; tijdens het luisteren wordt niets verstuurd. Met de telefoon vergrendeld vragen persoonlijke dingen (gesprekken, berichten, mail, agenda, notities, bestanden, contacten) eerst om ontgrendeling. Op één apparaat: twee zouden allebei antwoorden, dus laat het op de tablet uit. Gepauzeerd in de auto.</string>
+    <string name="wake_on">Luistert naar je stem</string>
+    <string name="wake_off">Uit</string>
+    <string name="wake_record">Neem je stem op</string>
+    <string name="wake_record_note">Zeg elke zin vier keer zoals je hem tegen de telefoon zult zeggen: leg hem waar hij meestal ligt en spreek vanaf waar je meestal bent, twee opnamen dichtbij en twee verder weg. Tik op een opname om die opnieuw te maken.</string>
+    <string name="wake_take">Opname %1$d</string>
+    <string name="wake_take_odd">Anders dan de rest: neem opnieuw op</string>
+    <string name="wake_record_take">„%1$s” opnemen, nr. %2$d</string>
+    <string name="wake_speak">Zeg nu „%1$s”…</string>
+    <string name="wake_not_heard">Niet gehoord. Probeer opnieuw.</string>
+    <string name="wake_record_again">Opnieuw</string>
+    <string name="wake_try">Probeer</string>
+    <string name="wake_try_caught">Herkend als „%1$s” (%2$s van de drempel)</string>
+    <string name="wake_try_missed">Niet herkend: het dichtst „%1$s”, %2$s van de drempel. Neem opnieuw op.</string>
+    <string name="wake_notice">Luistert naar „Hey Tetra”</string>
+    <string name="wake_turn_off">Uitzetten</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Wat is er?</string>
+    <string name="wake_hello_2">Hé, ik ben er.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

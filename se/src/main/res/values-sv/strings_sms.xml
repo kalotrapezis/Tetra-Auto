@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Meddelanden</string>
+    <string name="home_label_sms">Tetra Meddelanden</string>
+    <string name="sms_home_detail">Telefonens sms</string>
+    <string name="sms_permission_needed">För att visa och skicka dina sms här behöver Tetra tillåtelse att läsa och skicka meddelanden.</string>
+    <string name="sms_none">Inga meddelanden än</string>
+    <string name="sms_none_archived">Inget arkiverat</string>
+    <string name="sms_none_here">Inga meddelanden än. Skriv det första.</string>
+    <string name="sms_archived">Arkiverade</string>
+    <string name="sms_archive">Arkivera</string>
+    <string name="sms_unarchive">Ta ur arkivet</string>
+    <string name="sms_did_archive">Arkiverad</string>
+    <string name="sms_did_unarchive">Tillbaka bland dina meddelanden</string>
+    <string name="sms_choose_first">Håll in en konversation för att välja den</string>
+    <string name="sms_new_message">Nytt meddelande</string>
+    <string name="sms_to">Namn eller nummer</string>
+    <string name="sms_send_to">Skicka till %1$s</string>
+    <string name="sms_write">Meddelande</string>
+    <string name="sms_not_sent">Inte skickat</string>
+    <string name="sms_sending">Skickar…</string>
+    <string name="sms_send_failed">Meddelandet skickades inte: %1$s</string>
+    <string name="sms_sent">Skickat.</string>
+    <string name="sms_you">Du</string>
+    <string name="sms_delete_ask">Radera de valda konversationerna?</string>
+    <string name="sms_delete_note">Deras meddelanden raderas från den här telefonen.</string>
+    <string name="sms_default_only">Bara din standardapp för meddelanden kan radera meddelanden.</string>
+    <string name="sms_open_default">Öppna där</string>
+    <string name="sms_deleted">Raderad</string>
+    <string name="sms_pick">Välj en konversation</string>
+    <string name="sms_is_default">Tetra är sms-appen</string>
+    <string name="sms_not_default">Tetra är inte sms-appen</string>
+    <string name="sms_is_default_summary">Meddelanden kommer till Tetra och Tetra sparar dem. För att byta tillbaka: Androids standardappar › Sms-app.</string>
+    <string name="sms_not_default_summary">Gör den till standard för att få nya meddelanden i Tetra och kunna radera dem. Bildmeddelanden (mms) aviseras bara, de visas inte.</string>
+    <string name="sms_mms_title">Bildmeddelande (mms)</string>
+    <string name="sms_mms_note">Tetra kan inte visa bildmeddelanden. Välj en annan sms-app för att ta emot dem.</string>
+</resources>

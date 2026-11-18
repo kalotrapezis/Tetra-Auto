@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Ръководство</string>
+    <string name="guide_summary">Стъпка по стъпка: къде да докоснете и защо</string>
+    <string name="guide_try_it">Опитайте</string>
+    <string name="guide_skip">Пропусни</string>
+    <string name="guide_chapters">Глави</string>
+    <string name="guide_open">Отвори ръководството</string>
+    <string name="guide_step_of">%1$d от %2$d</string>
+    <string name="guide_allowed">Разрешено</string>
+    <string name="guide_not_yet">Още не е разрешено</string>
+    <string name="guide_not_here">Не е налично на това устройство</string>
+    <string name="guide_finish">Завърши</string>
+    <string name="guide_dont_allow">Не разрешавай</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Добре дошли</string>
+    <string name="guide_ch_permissions">Разрешения</string>
+    <string name="guide_ch_home">Начало</string>
+    <string name="guide_ch_files">Файлове</string>
+    <string name="guide_ch_computer">Вашият компютър</string>
+    <string name="guide_ch_settings">Настройки</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Добре дошли в Tetra</string>
+    <string name="guide_welcome_b">Вашите снимки, файлове, бележки и календар остават на вашите собствени устройства. Това ръководство показва къде да докоснете и защо. Прочетете стъпка, докоснете Опитайте и я изпълнете на истинския екран, докато стъпката остава пред очите ви.</string>
+    <string name="guide_again_t">Върнете се по всяко време</string>
+    <string name="guide_again_b">Ако искате, пропуснете го сега. Ръководството винаги е в Настройки › Ръководство и всяка глава се отваря и самостоятелно.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android първо ви пита</string>
+    <string name="guide_perm_b">Някои части на Tetra се нуждаят от вашето разрешение. Всяка страница казва за какво е. Докоснете Разреши, после отговорете на въпроса на Android. Можете да откажете сега и да разрешите тук по-късно.</string>
+    <string name="guide_files_t">Всички файлове</string>
+    <string name="guide_files_b">Файлове, Бележки, Office, Календар, Таймер и Карти пазят всичко в една папка Tetra на това устройство. Android отваря страница с един превключвател: включете го, после се върнете.</string>
+    <string name="guide_photos_t">Снимки и видеоклипове</string>
+    <string name="guide_photos_b">Галерия показва вашите снимки и видеоклипове, открива лица и места и ги изпраща на компютъра ви. Изберете Разрешаване на всички: ако изберете само някои, Галерия показва само тях.</string>
+    <string name="guide_notify_t">Известия</string>
+    <string name="guide_notify_b">Напомнянията, таймерите и синхронизацията ви съобщават неща с известие. Без него напомнянето не може да звъни.</string>
+    <string name="guide_alarms_t">Будилници и напомняния</string>
+    <string name="guide_alarms_b">Напомняне или таймер звъни в минутата, която сте задали, дори докато телефонът спи. На повечето телефони това вече е разрешено.</string>
+    <string name="guide_camera_t">Камера</string>
+    <string name="guide_camera_b">Скенер снима документи, Кодове чете QR кодове, а сдвояването с компютър сканира неговия код. Изберете Докато използвате приложението.</string>
+    <string name="guide_contacts_t">Контакти</string>
+    <string name="guide_contacts_b">Контакти показва хората в телефона ви и може да пази там копие на вашите, за да знаят обажданията и другите приложения имената им.</string>
+    <string name="guide_phone_t">Телефон и обаждания</string>
+    <string name="guide_phone_b">Телефон провежда и приема обаждания и показва историята на обажданията ви, а компютърът ви може да се обажда чрез този телефон. Таблет без SIM не се нуждае от него.</string>
+    <string name="guide_usage_t">Достъп до използването</string>
+    <string name="guide_usage_b">Данни отчита колко мобилни данни използва всяко приложение. Android показва списък: намерете Tetra, докоснете го и включете превключвателя.</string>
+    <string name="guide_location_t">Местоположение</string>
+    <string name="guide_location_b">Карти показва къде сте и ви води до целта, а Данни се нуждае от него, за да вижда имената на Wi-Fi мрежите около вас. Изберете Докато използвате приложението.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Отворете приложение</string>
+    <string name="guide_open_b">Всяка картинка в Начало отваря приложение. Докоснете Файлове, за да видите файловете си.</string>
+    <string name="guide_pencil_t">Променете Начало</string>
+    <string name="guide_pencil_b">Докоснете молива горе. Всяка част получава рамка и два малки бутона, а докосванията не отварят нищо, докато не приключите.</string>
+    <string name="guide_move_t">Преместете част</string>
+    <string name="guide_move_b">Задръжте част, докато се повдигне, после я плъзнете в произволна клетка. Другите правят място.</string>
+    <string name="guide_size_t">По-голяма или по-малка</string>
+    <string name="guide_size_b">Докоснете стрелките на част. Всяко докосване я прави голяма, средна, малка и пак голяма: голямата показва повече в себе си, малката е само картинката ѝ.</string>
+    <string name="guide_hide_t">Скрийте част</string>
+    <string name="guide_hide_b">Докоснете окото, за да скриете част, която не използвате. Скритите части чакат под мрежата: докоснете една, за да я върнете. Напомнянията и таймерите ѝ продължават.</string>
+    <string name="guide_done_t">Готово</string>
+    <string name="guide_done_b">Докоснете Готово, когато Начало изглежда както искате. Нулирай го връща както беше в началото.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Отворете папка</string>
+    <string name="guide_folder_b">Докоснете папка, за да влезете в нея, и файл, за да го отворите. Стрелката горе ви връща обратно навън.</string>
+    <string name="guide_hold_t">Изберете файлове</string>
+    <string name="guide_hold_b">Задръжте файл, докато се отметне, после докоснете други, за да ги добавите. Задържането избира; краткото докосване отваря.</string>
+    <string name="guide_bar_t">Преместване или копиране</string>
+    <string name="guide_bar_b">С избрани файлове докоснете Премести (стрелката) или Копирай (две страници) в лентата долу. Копирай оставя оригинала там, където беше.</string>
+    <string name="guide_where_t">Изберете къде</string>
+    <string name="guide_where_b">Докоснете папка, за да влезете в нея, Нагоре, за да излезете, после Премести тук.</string>
+    <string name="guide_more_t">Преименуване, споделяне и още</string>
+    <string name="guide_more_b">Докоснете трите точки до файл за всичко за този файл: преименуване, споделяне, етикети, цвят и Кошче.</string>
+    <string name="guide_new_t">Нещо ново</string>
+    <string name="guide_new_b">Докоснете Нов в лентата долу за папка, текстов файл или документ за Документи, Таблици или Презентации, направо в папката, в която сте.</string>
+    <string name="guide_trash_t">Кошче</string>
+    <string name="guide_trash_b">Това, което изтриете, първо отива в Кошчето. Плъзнете нагоре лентата долу за Инструменти на Файлове, докоснете Кошче, изберете какво искате обратно и докоснете Възстанови.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra работи и самостоятелно</string>
+    <string name="guide_alone_b">Не ви е нужен компютър. Без него всичко остава на това устройство, а можете да се сдвоите по-късно.</string>
+    <string name="guide_scan_t">Сдвоете се с компютъра си</string>
+    <string name="guide_scan_b">На компютъра отворете Устройства › Добави устройство: Tetra показва код. Тук отворете Синхронизация от Начало, докоснете Сканирай код и насочете камерата към него.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Език и облик</string>
+    <string name="guide_look_b">Настройки › Облик променя езика, тъмната или светлата тема и какво показва Начало.</string>
+    <string name="guide_find_t">Намерете настройка</string>
+    <string name="guide_find_b">Пишете в търсенето горе в Настройки, за да намерите всяка настройка по името ѝ.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Икони</string>
+    <string name="guide_icons_t">Какво означава всяка икона</string>
+    <string name="guide_icons_b">Tetra използва навсякъде едни и същи малки картинки. Ето всяка от тях и какво прави.</string>
+    <string name="guide_icon_back">Назад: един екран назад</string>
+    <string name="guide_icon_close">Затвори</string>
+    <string name="guide_icon_check">Готово или избрано</string>
+    <string name="guide_icon_add">Ново: папка, бележка, събитие…</string>
+    <string name="guide_icon_search">Търсене</string>
+    <string name="guide_icon_edit">Редактирай или Преименувай, според мястото: Начало – Редактирай, файл – Преименувай</string>
+    <string name="guide_icon_more">Още: всичко за този елемент</string>
+    <string name="guide_icon_share">Споделете го с друго приложение или човек</string>
+    <string name="guide_icon_copy">Копиране: второ копие отива там, първото остава</string>
+    <string name="guide_icon_move">Преместване: отива там и изчезва оттук</string>
+    <string name="guide_icon_delete">В Кошчето: още може да се върне</string>
+    <string name="guide_icon_restore">Възстанови: обратно от Кошчето</string>
+    <string name="guide_icon_tag">Етикети: ваши собствени, за да намирате неща по-късно</string>
+    <string name="guide_icon_favorite">Любимо: държи се под ръка в Любими</string>
+    <string name="guide_icon_size">Размер: голям, среден или малък (Начало)</string>
+    <string name="guide_icon_hide">Скрийте го от погледа; нищо не се изтрива</string>
+    <string name="guide_icon_handle">Плъзнете или прекарайте пръст нагоре тук за повече</string>
+    <string name="guide_icon_choices">Списък с възможности: докоснете, за да изберете</string>
+    <string name="guide_icon_undo">Отмяна на последната промяна</string>
+    <string name="guide_icon_redo">Връщане на отмененото</string>
+    <string name="guide_icon_save">Запази</string>
+    <string name="guide_icon_refresh">Потърсете отново какво е ново</string>
+    <string name="guide_icon_sync">Синхронизиране с вашия компютър</string>
+    <string name="guide_icon_qr">Сканиране на код с камерата</string>
+    <string name="guide_icon_card">Покажете кода на това устройство, за да го свържете</string>
+    <string name="guide_icon_computer">Вашият компютър</string>
+    <string name="guide_icon_lock">Заключено или лично</string>
+    <string name="guide_icon_notifications">Известия</string>
+    <string name="guide_icon_info">Повече за него</string>
+    <string name="guide_icon_settings">Настройки</string>
+    <string name="guide_icon_home">Начало</string>
+    <string name="guide_icon_toc">Глави, съдържание</string>
+    <string name="guide_icon_guide">Това ръководство</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Historik</string>
+    <string name="usage_tab_days">Dage</string>
+    <string name="usage_tab_months">Måneder</string>
+    <string name="usage_tab_years">År</string>
+    <string name="usage_saved">Gemt ✓</string>
+    <string name="usage_more">%1$d mere</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Recite „Tetra”, „OK Tetra”, „Ahoy Tetra” ili „Hey Tetra” da otvorite AI Assist, čak i s ugašenim zaslonom. Uspoređuje ono što mikrofon čuje s vašim snimkama, na telefonu; ništa se ne šalje dok sluša. Kad je telefon zaključan, osobne stvari (pozivi, poruke, pošta, kalendar, bilješke, datoteke, kontakti) prvo traže otključavanje. Samo na jednom uređaju: dva bi odgovorila zajedno, pa ga na tabletu ostavite isključenim. U autu pauzirano.</string>
+    <string name="wake_on">Sluša vaš glas</string>
+    <string name="wake_off">Isključeno</string>
+    <string name="wake_record">Snimite svoj glas</string>
+    <string name="wake_record_note">Recite svaku frazu četiri puta onako kako ćete je govoriti telefonu: ostavite ga gdje obično stoji i govorite odande gdje obično jeste, dvije snimke izbliza i dvije izdaleka. Dodirnite snimku da je snimite ponovno.</string>
+    <string name="wake_take">Snimka %1$d</string>
+    <string name="wake_take_odd">Drukčija od ostalih: snimite je ponovno</string>
+    <string name="wake_record_take">Snimi „%1$s”, snimka %2$d</string>
+    <string name="wake_speak">Recite sada „%1$s”…</string>
+    <string name="wake_not_heard">Nije čuto. Pokušajte ponovno.</string>
+    <string name="wake_record_again">Ponovno</string>
+    <string name="wake_try">Isprobaj</string>
+    <string name="wake_try_caught">Prepoznato kao „%1$s” (%2$s praga)</string>
+    <string name="wake_try_missed">Nije prepoznato: najbliže „%1$s”, %2$s praga. Snimite ponovno.</string>
+    <string name="wake_notice">Sluša „Hey Tetra”</string>
+    <string name="wake_turn_off">Isključi</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Što ima?</string>
+    <string name="wake_hello_2">Tu sam.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

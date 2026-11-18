@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Кажете „Tetra“, „OK Tetra“, „Ahoy Tetra“ или „Hey Tetra“, за да отворите AI Assist, дори при изключен екран. Сравнява чутото от микрофона с вашите записи, на телефона; нищо не се изпраща, докато слуша. При заключен телефон личните неща (обаждания, съобщения, поща, календар, бележки, файлове, контакти) първо искат отключване. Само на едно устройство: две биха отговорили заедно, затова на таблета остава изключено. Пауза в колата.</string>
+    <string name="wake_on">Слуша гласа ви</string>
+    <string name="wake_off">Изключено</string>
+    <string name="wake_record">Запишете гласа си</string>
+    <string name="wake_record_note">Кажете всяка фраза четири пъти, както ще я казвате на телефона: оставете го където обикновено стои и говорете оттам, където обикновено сте, два записа отблизо и два от по-далеч. Докоснете запис, за да го повторите.</string>
+    <string name="wake_take">Запис %1$d</string>
+    <string name="wake_take_odd">Различен от другите: запишете го отново</string>
+    <string name="wake_record_take">Запиши „%1$s“, запис %2$d</string>
+    <string name="wake_speak">Кажете „%1$s“ сега…</string>
+    <string name="wake_not_heard">Не се чу. Опитайте пак.</string>
+    <string name="wake_record_again">Пак</string>
+    <string name="wake_try">Опитайте</string>
+    <string name="wake_try_caught">Разпознато като „%1$s“ (%2$s от прага)</string>
+    <string name="wake_try_missed">Не е разпознато: най-близко „%1$s“, %2$s от прага. Запишете го отново.</string>
+    <string name="wake_notice">Слуша за „Hey Tetra“</string>
+    <string name="wake_turn_off">Изключи</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Какво става?</string>
+    <string name="wake_hello_2">Тук съм.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Cerut de un text din afară (e-mail, web, fișier): așteaptă da-ul tău</string>
+    <string name="assistant_confirm_yes">Fă-o</string>
+    <string name="assistant_confirm_done">Gata.</string>
+    <string name="assistant_confirm_cancelled">Nu s-a făcut.</string>
+    <string name="ai_memory_auto">Reține din conversații</string>
+    <string name="ai_memory_auto_note">După o conversație, AI Assist păstrează până la 3 fapte durabile spuse despre tine (niciodată din e-mailuri sau fișiere)</string>
+    <string name="mail_ai_urgency_1">Merită o privire</string>
+    <string name="mail_ai_urgency_2">Important</string>
+    <string name="mail_ai_urgency_3">Urgent</string>
+</resources>

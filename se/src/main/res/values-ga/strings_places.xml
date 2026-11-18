@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Meabhrúcháin áite</string>
+    <string name="place_reminders_note">Nuair a shroicheann tú áit, buaileann seicliosta ó Nótaí mar mheabhrúchán. Abair le AI Assist: “nuair a théim chuig an ollmhargadh, taispeáin an liosta siopadóireachta dom”. Seiceáiltear an suíomh go hannamh, chun an ceallra a spáráil.</string>
+    <string name="place_reminders_on">Meabhrúcháin áite ar an bhfón seo</string>
+    <string name="place_reminders_location">Suíomh i gcónaí</string>
+    <string name="place_reminders_location_on">Ceadaithe</string>
+    <string name="place_reminders_location_off">Ag teastáil: roghnaigh Ceadaigh i gcónaí</string>
+    <string name="place_reminders_none">Níl meabhrúcháin áite ann fós</string>
+    <string name="place_reminders_any">Aon seicliosta a bhfuil míreanna fágtha air</string>
+    <string name="place_reminder_title">Do liosta</string>
+</resources>

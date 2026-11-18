@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Temporizatoare</string>
+    <string name="timer_tab_alarms">Alarme</string>
+    <string name="stopwatch">Cronometru</string>
+    <string name="stopwatch_counting">Pornit</string>
+    <string name="stopwatch_held">În pauză la %1$s</string>
+    <string name="stopwatch_reset">Resetează</string>
+    <string name="stopwatch_lap">Tur</string>
+    <string name="stopwatch_lap_n">Tur %1$d</string>
+    <string name="alarm_named">Alarmă</string>
+    <string name="alarm_snooze">Amână</string>
+    <string name="alarm_dismiss">Închide</string>
+    <string name="alarm_ringing">Sună</string>
+    <string name="alarm_next">Alarmă %1$s</string>
+    <string name="alarm_skip">Omite</string>
+    <string name="alarm_new">Alarmă nouă</string>
+    <string name="alarm_label">Etichetă</string>
+    <string name="alarm_once">O dată</string>
+    <string name="alarm_every_day">În fiecare zi</string>
+    <string name="alarm_in">Următoarea alarmă peste %1$s</string>
+    <string name="alarm_none">Încă nu există alarme. O alarmă sună pe acest dispozitiv și pe fiecare dispozitiv cu care sincronizezi; închide-o pe unul și se oprește pe toate.</string>
+    <string name="timer_add_new">Adaugă</string>
+    <string name="timer_list_hint">Încă nu există cronometre. Adaugă deschide ceasul: setează orele, apoi minutele, iar ✓ îl pornește. Fixează un cronometru ca să rămână aici, gata de repornire.</string>
+    <string name="alarm_set_time">Setează ora</string>
+    <string name="alarm_skip_next">Omite următoarea</string>
+    <string name="alarm_unskip">Anulează omiterea</string>
+    <string name="alarm_skipped">următoarea omisă</string>
+    <string name="alarm_soon">Alarmă la %1$s · omiți sau amâni?</string>
+    <string name="alarm_channel_soon">Alarmă în curând</string>
+    <string name="alarm_channel_soon_about">Cu 30 de minute înaintea unei alarme, pentru a o omite sau amâna</string>
+    <string name="stand_mode">Ceas de noptieră</string>
+    <string name="stand_about">Un ceas estompat pe negru în timpul încărcării, blând cu ecranele AMOLED; se mută puțin în fiecare minut. Alege Ceas de noptieră ca economizor de ecran Android, ca să pornească la încărcare. Înaintea unei alarme se luminează ca un răsărit, de la roșu închis la galben cald, în 20 de minute.</string>
+    <string name="stand_settings">Setări economizor de ecran</string>
+</resources>

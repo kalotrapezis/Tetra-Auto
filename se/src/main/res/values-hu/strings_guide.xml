@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Útmutató</string>
+    <string name="guide_summary">Lépésről lépésre: hova koppints és miért</string>
+    <string name="guide_try_it">Kipróbálom</string>
+    <string name="guide_skip">Kihagyás</string>
+    <string name="guide_chapters">Fejezetek</string>
+    <string name="guide_open">Az útmutató megnyitása</string>
+    <string name="guide_step_of">%1$d / %2$d</string>
+    <string name="guide_allowed">Engedélyezve</string>
+    <string name="guide_not_yet">Még nincs engedélyezve</string>
+    <string name="guide_not_here">Ezen az eszközön nincs</string>
+    <string name="guide_finish">Befejezés</string>
+    <string name="guide_dont_allow">Tiltás</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Üdvözlés</string>
+    <string name="guide_ch_permissions">Engedélyek</string>
+    <string name="guide_ch_home">Kezdőlap</string>
+    <string name="guide_ch_files">Fájlok</string>
+    <string name="guide_ch_computer">A számítógéped</string>
+    <string name="guide_ch_settings">Beállítások</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Üdvözöl a Tetra</string>
+    <string name="guide_welcome_b">A fotóid, fájljaid, jegyzeteid és a naptárad a saját eszközeiden maradnak. Ez az útmutató megmutatja, hova koppints és miért. Olvass el egy lépést, koppints a Kipróbálom gombra, és csináld meg a valódi képernyőn, miközben a lépés látható marad.</string>
+    <string name="guide_again_t">Bármikor visszatérhetsz</string>
+    <string name="guide_again_b">Most kihagyhatod, ha szeretnéd. Az útmutató mindig megtalálható itt: Beállítások › Útmutató, és minden fejezet külön is megnyitható.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Az Android előbb rákérdez</string>
+    <string name="guide_perm_b">A Tetra egyes részeinek engedélyre van szükségük. Minden oldal leírja, mire kell. Koppints az Engedélyezés gombra, majd válaszolj az Android kérdésére. Most nemet is mondhatsz, és később itt engedélyezheted.</string>
+    <string name="guide_files_t">Minden fájl</string>
+    <string name="guide_files_b">A Fájlok, a Jegyzetek, az Office, a Naptár, az Időzítő és a Térképek mindent egyetlen Tetra mappában tartanak ezen az eszközön. Az Android megnyit egy oldalt egyetlen kapcsolóval: kapcsold be, majd lépj vissza.</string>
+    <string name="guide_photos_t">Fotók és videók</string>
+    <string name="guide_photos_b">A Fotók megmutatja a képeidet és videóidat, felismeri az arcokat és a helyeket, és elküldi őket a számítógépedre. Válaszd ezt: Összes engedélyezése. Ha csak néhányat választasz, a Fotók csak azokat mutatja.</string>
+    <string name="guide_notify_t">Értesítések</string>
+    <string name="guide_notify_b">Az emlékeztetők, az időzítők és a szinkronizálás értesítéssel szólnak. Enélkül egy emlékeztető nem tud megszólalni.</string>
+    <string name="guide_alarms_t">Ébresztők és emlékeztetők</string>
+    <string name="guide_alarms_b">Az emlékeztető vagy az időzítő a beállított percben szólal meg, akkor is, ha a telefon alszik. A legtöbb telefonon ez már engedélyezve van.</string>
+    <string name="guide_camera_t">Kamera</string>
+    <string name="guide_camera_b">A Szkenner lefényképezi a dokumentumokat, a Kódok beolvassa a QR-kódokat, a számítógéppel való párosításkor pedig a kamera a számítógép kódját olvassa be. Válaszd ezt: Az alkalmazás használata közben.</string>
+    <string name="guide_contacts_t">Névjegyek</string>
+    <string name="guide_contacts_b">A Névjegyek megmutatja a telefonodban lévő személyeket, és a saját névjegyeidről is tarthat ott másolatot, így a hívások és más alkalmazások ismerik a nevüket.</string>
+    <string name="guide_phone_t">Telefon és hívások</string>
+    <string name="guide_phone_b">A Telefon hívásokat indít és fogad, megmutatja a híváselőzményeidet, és a számítógéped is telefonálhat ezen a telefonon keresztül. SIM nélküli táblagépen erre nincs szükség.</string>
+    <string name="guide_usage_t">Használati hozzáférés</string>
+    <string name="guide_usage_b">Az Adatok megszámolja, mennyi mobiladatot használnak az egyes alkalmazások. Az Android egy listát mutat: keresd meg a Tetrát, koppints rá, és kapcsold be a kapcsolót.</string>
+    <string name="guide_location_t">Helymeghatározás</string>
+    <string name="guide_location_b">A Térképek megmutatja, hol vagy, és elvezet oda, ahová mész, az Adatoknak pedig ahhoz kell, hogy lássa a környező Wi-Fi-hálózatok nevét. Válaszd ezt: Az alkalmazás használata közben.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Alkalmazás megnyitása</string>
+    <string name="guide_open_b">A Kezdőlap minden képe megnyit egy alkalmazást. Koppints a Fájlok elemre, és megjelennek a fájljaid.</string>
+    <string name="guide_pencil_t">A Kezdőlap módosítása</string>
+    <string name="guide_pencil_b">Koppints a ceruzára felül. Minden elem keretet és két kis gombot kap, és amíg nem végzel, a koppintások semmit sem nyitnak meg.</string>
+    <string name="guide_move_t">Elem áthelyezése</string>
+    <string name="guide_move_b">Tarts lenyomva egy elemet, amíg fel nem emelkedik, majd húzd bármelyik cellába. A többi helyet ad neki.</string>
+    <string name="guide_size_t">Nagyobb vagy kisebb</string>
+    <string name="guide_size_b">Koppints az elemen lévő nyilakra. Minden koppintás nagyra, közepesre, kicsire, majd ismét nagyra állítja: a nagy többet mutat a tartalmából, a kicsi csak a képe.</string>
+    <string name="guide_hide_t">Elem elrejtése</string>
+    <string name="guide_hide_b">Koppints a szemre, hogy elrejts egy elemet, amelyet nem használsz. A rejtett elemek a rács alatt várnak: koppints egyre, és visszakerül. Az emlékeztetői és időzítői tovább működnek.</string>
+    <string name="guide_done_t">Kész</string>
+    <string name="guide_done_b">Koppints a Kész gombra, ha a Kezdőlap jól néz ki. A Visszaállítás olyanra állítja vissza, amilyen az elején volt.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Mappa megnyitása</string>
+    <string name="guide_folder_b">Koppints egy mappára, hogy belépj, és egy fájlra, hogy megnyisd. A felül lévő nyíllal visszaléphetsz.</string>
+    <string name="guide_hold_t">Fájlok kiválasztása</string>
+    <string name="guide_hold_b">Tarts lenyomva egy fájlt, amíg pipa nem kerül rá, majd koppints másokra is, hogy hozzáadd őket. A lenyomva tartás kiválaszt, a rövid koppintás megnyit.</string>
+    <string name="guide_bar_t">Áthelyezés vagy másolás</string>
+    <string name="guide_bar_b">Ha kiválasztottad a fájlokat, koppints az alsó sávon az Áthelyezés (nyíl) vagy a Másolás (két lap) gombra. A másolás az eredetit a helyén hagyja.</string>
+    <string name="guide_where_t">A hely kiválasztása</string>
+    <string name="guide_where_b">Koppints egy mappára, hogy belépj, a Fel gombra, hogy visszalépj, majd az Áthelyezés ide gombra.</string>
+    <string name="guide_more_t">Átnevezés, megosztás és más</string>
+    <string name="guide_more_b">Koppints a fájl melletti három pontra, és ott találsz mindent ahhoz az egy fájlhoz: átnevezés, megosztás, címkék, szín és Kuka.</string>
+    <string name="guide_new_t">Valami új</string>
+    <string name="guide_new_b">Koppints az alsó sávon az Új gombra, és létrehozhatsz egy mappát, egy szövegfájlt, vagy egy Dokumentumok, Táblázatok vagy Bemutatók fájlt, rögtön abban a mappában, ahol vagy.</string>
+    <string name="guide_trash_t">Kuka</string>
+    <string name="guide_trash_b">Amit törölsz, először a Kukába kerül. Húzd felfelé az alsó sávot a Fájleszközökhöz, koppints a Kuka elemre, válaszd ki, amit vissza szeretnél kapni, és koppints a Visszaállítás gombra.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">A Tetra magában is működik</string>
+    <string name="guide_alone_b">Nincs szükséged számítógépre. Nélküle minden ezen az eszközön marad, és később is párosíthatsz.</string>
+    <string name="guide_scan_t">Párosítás a számítógéppel</string>
+    <string name="guide_scan_b">A számítógépen nyisd meg ezt: Eszközök › Eszköz hozzáadása. A Tetra egy kódot mutat. Itt nyisd meg a Kezdőlapon a Szinkron elemet, koppints a Kód beolvasása gombra, és irányítsd a kamerát a kódra.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Nyelv és megjelenés</string>
+    <string name="guide_look_b">A Beállítások › Megjelenés részben módosíthatod a nyelvet, a sötét vagy világos témát, és hogy mit mutasson a Kezdőlap.</string>
+    <string name="guide_find_t">Beállítás keresése</string>
+    <string name="guide_find_b">Írj a Beállítások tetején lévő keresőmezőbe, és bármelyik beállítást megtalálod a neve alapján.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Ikonok</string>
+    <string name="guide_icons_t">Mit jelent az egyes ikon</string>
+    <string name="guide_icons_b">A Tetra mindenhol ugyanazokat a kis képeket használja. Itt van mindegyik, és hogy mit csinál.</string>
+    <string name="guide_icon_back">Vissza: egy képernyővel vissza</string>
+    <string name="guide_icon_close">Bezárás</string>
+    <string name="guide_icon_check">Kész, vagy kiválasztva</string>
+    <string name="guide_icon_add">Új: mappa, jegyzet, esemény…</string>
+    <string name="guide_icon_search">Keresés</string>
+    <string name="guide_icon_edit">Szerkesztés vagy Átnevezés, attól függően, hol van: Kezdőlap – Szerkesztés, fájl – Átnevezés</string>
+    <string name="guide_icon_more">Több: minden erről az elemről</string>
+    <string name="guide_icon_share">Megosztás másik alkalmazással vagy személlyel</string>
+    <string name="guide_icon_copy">Másolás: egy második megy oda, az első marad</string>
+    <string name="guide_icon_move">Áthelyezés: odamegy, és innen eltűnik</string>
+    <string name="guide_icon_delete">A Kukába: még visszahozható</string>
+    <string name="guide_icon_restore">Visszaállítás: vissza a Kukából</string>
+    <string name="guide_icon_tag">Címkék: saját címkéid, hogy később megtaláld a dolgokat</string>
+    <string name="guide_icon_favorite">Kedvenc: kéznél a Kedvencek alatt</string>
+    <string name="guide_icon_size">Méret: nagy, közepes vagy kicsi (Kezdőlap)</string>
+    <string name="guide_icon_hide">Elrejtés a nézetből; semmi sem törlődik</string>
+    <string name="guide_icon_handle">Húzd vagy csúsztasd felfelé ide további lehetőségekért</string>
+    <string name="guide_icon_choices">Választási lista: koppints egy elem kiválasztásához</string>
+    <string name="guide_icon_undo">Az utolsó módosítás visszavonása</string>
+    <string name="guide_icon_redo">A visszavont módosítás újra végrehajtása</string>
+    <string name="guide_icon_save">Mentés</string>
+    <string name="guide_icon_refresh">Nézd meg újra, mi az új</string>
+    <string name="guide_icon_sync">Szinkronizálás a számítógéppel</string>
+    <string name="guide_icon_qr">Kód beolvasása a kamerával</string>
+    <string name="guide_icon_card">Az eszköz kódjának megjelenítése a párosításhoz</string>
+    <string name="guide_icon_computer">A számítógéped</string>
+    <string name="guide_icon_lock">Zárolt vagy privát</string>
+    <string name="guide_icon_notifications">Értesítések</string>
+    <string name="guide_icon_info">Bővebben</string>
+    <string name="guide_icon_settings">Beállítások</string>
+    <string name="guide_icon_home">Kezdőlap</string>
+    <string name="guide_icon_toc">Fejezetek, tartalom</string>
+    <string name="guide_icon_guide">Ez az útmutató</string>
+</resources>

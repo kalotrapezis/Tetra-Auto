@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Sök i webbläsaren</string>
+    <string name="assistant_card_data_used">%1$s av %2$s använt</string>
+    <string name="assistant_card_data_used_unlimited">%1$s använt den här perioden</string>
+    <string name="assistant_card_data_left">%1$s kvar · dagar kvar: %2$d</string>
+    <string name="assistant_card_data_pace">I dag %1$s · i snitt %2$s om dagen</string>
+    <string name="assistant_card_data_forecast">Prognos vid periodens slut: %1$s</string>
+    <string name="assistant_card_data_on_track">Inom abonnemanget</string>
+    <string name="assistant_card_data_cut">För att hålla dig inom abonnemanget: högst %1$s om dagen i %2$d dagar</string>
+    <string name="assistant_card_data_hotspot">%1$s via telefonens hotspot den här månaden</string>
+    <string name="assistant_card_brief">Dagens sammanfattning</string>
+</resources>

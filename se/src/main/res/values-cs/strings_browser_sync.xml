@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Panely z jiných zařízení</string>
+    <string name="browser_sync_title">Synchronizace</string>
+    <string name="browser_sync_note">Co toto zařízení sdílí s vašimi dalšími zařízeními přes synchronizaci Tetra. Každý přepínač platí jen pro toto zařízení; vypnutí ponechá, co tu je.</string>
+    <string name="browser_sync_bookmarks">Záložky</string>
+    <string name="browser_sync_tabs">Otevřené panely</string>
+    <string name="browser_sync_passwords">Hesla</string>
+    <string name="browser_sync_passwords_off">Vypnuto: zůstávají v tomto zařízení</string>
+    <string name="browser_sync_passwords_on">Zapnuto: hesla, adresy a karty šifrované vaším heslem pro synchronizaci</string>
+    <string name="browser_sync_passwords_need">V jiném zařízení bylo zvoleno nové heslo: klepnutím ho zadejte</string>
+    <string name="browser_pass_new_title">Zvolte heslo pro synchronizaci</string>
+    <string name="browser_pass_new_note">Vaše hesla, adresy a karty cestují zašifrované tímto heslem a bez něj je nikdo nepřečte, ani Tetra. Ostatní zařízení si o něj řeknou jednou.</string>
+    <string name="browser_pass_enter_title">Heslo pro synchronizaci</string>
+    <string name="browser_pass_enter_note">To, které jste zvolili v jiném zařízení.</string>
+    <string name="browser_pass_field">Heslo</string>
+    <string name="browser_pass_repeat">Zopakujte ho</string>
+    <string name="browser_pass_short">Alespoň 8 znaků</string>
+    <string name="browser_pass_mismatch">Obě se neshodují</string>
+    <string name="browser_pass_wrong">Nesprávné heslo</string>
+    <string name="browser_pass_failed">Nepodařilo se ho přijmout; zkuste to znovu</string>
+    <string name="browser_pass_forgot">Zapomněli jste ho?</string>
+    <string name="browser_pass_reset_title">Začít znovu s novým heslem?</string>
+    <string name="browser_pass_reset_note">Hesla v každém zařízení zůstanou, kde jsou. Ostatní zařízení si řeknou o nové heslo.</string>
+    <string name="browser_pass_reset">Začít znovu</string>
+    <string name="browser_saved_note_synced">Uloženo šifrovaně a do ostatních zařízení posláno šifrované heslem pro synchronizaci</string>
+</resources>

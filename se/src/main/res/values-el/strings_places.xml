@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Υπενθυμίσεις τοποθεσίας</string>
+    <string name="place_reminders_note">Όταν φτάνεις κάπου, χτυπά μια λίστα από τις Σημειώσεις, όπως μια υπενθύμιση. Πες στον Βοηθό AI: «όταν πάω σούπερ μάρκετ δείξε μου τα ψώνια». Η τοποθεσία ελέγχεται αραιά, για να μη χαλά η μπαταρία.</string>
+    <string name="place_reminders_on">Υπενθυμίσεις τοποθεσίας σε αυτό το κινητό</string>
+    <string name="place_reminders_location">Τοποθεσία πάντα</string>
+    <string name="place_reminders_location_on">Επιτρέπεται</string>
+    <string name="place_reminders_location_off">Χρειάζεται: διάλεξε «Να επιτρέπεται πάντα»</string>
+    <string name="place_reminders_none">Καμία υπενθύμιση τοποθεσίας ακόμη</string>
+    <string name="place_reminders_any">Όποια λίστα έχει ακόμη κάτι</string>
+    <string name="place_reminder_title">Η λίστα σου</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Għid “Tetra”, “OK Tetra”, “Ahoy Tetra” jew “Hey Tetra” biex tiftaħ AI Assist, anke bl-iskrin mitfi. Iqabbel dak li jisma’ l-mikrofonu mar-reġistrazzjonijiet tiegħek, fuq it-telefon; xejn ma jintbagħat waqt li jisma’. Bit-telefon imsakkar, affarijiet personali (sejħiet, messaġġi, posta, kalendarju, noti, fajls, kuntatti) l-ewwel jitolbu li jinfetaħ. Fuq apparat wieħed biss: tnejn iwieġbu flimkien, allura ħallih mitfi fuq it-tablet. Wieqaf fil-karozza.</string>
+    <string name="wake_on">Qed jisma’ leħnek</string>
+    <string name="wake_off">Mitfi</string>
+    <string name="wake_record">Irreġistra leħnek</string>
+    <string name="wake_record_note">Għid kull frażi erba’ darbiet kif se tgħidha lit-telefon: ħallih fejn soltu jkun u tkellem minn fejn soltu tkun, żewġ reġistrazzjonijiet minn qrib u tnejn minn aktar ’il bogħod. Agħfas reġistrazzjoni biex terġa’ tirreġistraha.</string>
+    <string name="wake_take">Reġistrazzjoni %1$d</string>
+    <string name="wake_take_odd">Differenti mill-oħrajn: erġa’ rreġistraha</string>
+    <string name="wake_record_take">Irreġistra “%1$s”, nru %2$d</string>
+    <string name="wake_speak">Għid “%1$s” issa…</string>
+    <string name="wake_not_heard">Ma nstemax. Erġa’ pprova.</string>
+    <string name="wake_record_again">Mill-ġdid</string>
+    <string name="wake_try">Ipprova</string>
+    <string name="wake_try_caught">Magħruf bħala “%1$s” (%2$s tal-limitu)</string>
+    <string name="wake_try_missed">Mhux magħruf: l-eqreb “%1$s”, %2$s tal-limitu. Erġa’ rreġistra.</string>
+    <string name="wake_notice">Qed jisma’ għal “Hey Tetra”</string>
+    <string name="wake_turn_off">Itfi</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">X’hemm?</string>
+    <string name="wake_hello_2">Hawn jien.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

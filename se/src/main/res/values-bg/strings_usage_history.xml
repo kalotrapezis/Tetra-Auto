@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">История</string>
+    <string name="usage_tab_days">Дни</string>
+    <string name="usage_tab_months">Месеци</string>
+    <string name="usage_tab_years">Години</string>
+    <string name="usage_saved">Запазено ✓</string>
+    <string name="usage_more">Още %1$d</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Tfakkiriet tal-post</string>
+    <string name="place_reminders_note">Meta tasal f’post, tindaqq lista min-Noti bħal tfakkira. Għid lil AI Assist: “meta mmur is-supermarket, urini x’għandi nixtri”. Il-post jiġi ċċekkjat rari, biex tiffranka l-batterija.</string>
+    <string name="place_reminders_on">Tfakkiriet tal-post fuq dan it-telefon</string>
+    <string name="place_reminders_location">Post dejjem</string>
+    <string name="place_reminders_location_on">Permess</string>
+    <string name="place_reminders_location_off">Meħtieġ: agħżel Ħalli dejjem</string>
+    <string name="place_reminders_none">L-ebda tfakkira tal-post s’issa</string>
+    <string name="place_reminders_any">Kwalunkwe lista b’affarijiet li fadal</string>
+    <string name="place_reminder_title">Il-lista tiegħek</string>
+</resources>

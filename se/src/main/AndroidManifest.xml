@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.MANAGE_MEDIA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Calendar reminders on time: a calendar app's own exact alarms (Android 13+), the asked-for kind before -->
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <!-- Maps: where you are, and directions (only while the map is open) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- place reminders, off until the user turns them on -->
+    <!-- Maps on the car's screen (Android Auto): directions, and the map drawn on its surface -->
+    <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
+    <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- the phone's copy of Tetra's contacts is an account of its own, marked syncable (ContactsAccount.write); without this every write failed (log, 10 Nov) -->
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- Tetra as the default SMS app (SmsDeliver.kt): what arrives comes to it -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- Tetra Car opening by itself at start or on Bluetooth --> <!-- Tetra Car's quiet (CarQuiet) -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Data: how much each app used (the user turns on Usage access in Android's settings; Plan.md § Data) -->
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions" />
+    <!-- Data names the apps by their icons in the launcher; not QUERY_ALL_PACKAGES (Play restricts it) -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <!-- Settings › Αλληλογραφία names the email app that opens mailto: links now -->
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <application android:requestLegacyExternalStorage="true" android:allowBackup="false" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:largeHeap="true" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/Theme.LocalDrive">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/local_drive_paths" />
+        </provider>
+        <!-- the AI Assist TV on the phone's home screen (8 Nov) -->
+        <!-- Tetra Maps in Android Auto (MapsCar.kt); a navigation app not from Play shows there with Android Auto's Unknown sources on -->
+        <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc" />
+        <meta-data android:name="androidx.car.app.minCarApiLevel" android:value="1" />
+        <!-- Contacts › Show in the phone's contacts: the account and its (one-way) contacts copy (ContactsAccount.kt) -->
+        <!-- Phone (Plan.md § Phone): Tetra as the phone's Phone app — the call screen Telecom binds while Tetra holds ROLE_DIALER,
+             the keypad Android opens for a number, and the notification's Decline / Hang up -->
+        <activity android:name=".PhoneActivity" android:exported="true" android:label="@string/home_label_phone" android:icon="@mipmap/applet_phone" android:roundIcon="@mipmap/applet_phone" android:taskAffinity="com.kalotrapezis.drive.dial" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter><action android:name="android.intent.action.DIAL" /><category android:name="android.intent.category.DEFAULT" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.DIAL" /><category android:name="android.intent.category.DEFAULT" /><data android:scheme="tel" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.VIEW" /><category android:name="android.intent.category.DEFAULT" /><category android:name="android.intent.category.BROWSABLE" /><data android:scheme="tel" /></intent-filter>
+            <!-- the call log: what Android opens from a missed-call notification -->
+            <intent-filter><action android:name="android.intent.action.VIEW" /><category android:name="android.intent.category.DEFAULT" /><data android:mimeType="vnd.android.cursor.dir/calls" /></intent-filter>
+        </activity>
+        <activity android:name=".UsageActivity" android:exported="false" android:label="@string/usage_title" />
+        <receiver android:name=".QuietOff" android:exported="false" /> <!-- AI Assist's Do Not Disturb "until": off again -->
+        <activity android:name=".BrowserActivity" android:exported="false" android:label="@string/app_browser" android:icon="@mipmap/applet_browser" android:roundIcon="@mipmap/applet_browser" android:taskAffinity="com.kalotrapezis.drive.browser"
+            android:launchMode="singleTask" android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|uiMode" />
+        <!-- Tetra Car: Maps, Media, Phone, Messages and the Browser side by side on a head unit, a dock and AI Assist's mic -->
+        <activity android:name=".CarActivity" android:exported="true" android:label="@string/app_car" android:icon="@mipmap/applet_car" android:roundIcon="@mipmap/applet_car" android:taskAffinity="com.kalotrapezis.drive.car"
+            android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|uiMode" >
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.HOME" /><category android:name="android.intent.category.DEFAULT" /></intent-filter>
+        </activity>
+        <!-- A message in the car: read aloud, a reply said and sent; over the lock screen, as a call's screen -->
+        <activity android:name=".CarSmsActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:taskAffinity="com.kalotrapezis.drive.carsms"
+            android:excludeFromRecents="true" android:showWhenLocked="true" android:turnScreenOn="true" />
+        <!-- Tetra Auto: Tetra Car drawn for the car's own screen, the car a client of the phone (AutoProjection.kt) -->
+        <receiver android:name=".CarBootReceiver" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.BOOT_COMPLETED" /><action android:name="android.intent.action.QUICKBOOT_POWERON" /></intent-filter>
+        </receiver>
+        <receiver android:name=".CarBluetoothReceiver" android:exported="true" android:permission="android.permission.BLUETOOTH_CONNECT">
+            <intent-filter><action android:name="android.bluetooth.device.action.ACL_CONNECTED" /><action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" /></intent-filter>
+        </receiver>
+        <!-- Android's missed-call notice, handed to the phone app; only Telecom (it holds MODIFY_PHONE_STATE) may send it -->
+        <service android:name=".SyncJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" />
+        <service android:name=".SyncService" android:exported="false" android:foregroundServiceType="dataSync" />
+        <service android:name=".AudioService" android:exported="false" android:foregroundServiceType="dataSync" />
+        <!-- AI Assist talking on the home screen's TV (8 Nov) -->
+        <!-- An alarm ringing: its time, Snooze and Dismiss, over the lock screen -->
+        <!-- The Timer while one runs: its countdown notification, the alarm at the end, the 30 s look at the other devices -->
+        <!-- What Android asks of a default SMS app (SmsDeliver.kt): SMS and MMS in, "reply with a message", sms: links (.SmsCompose) -->
+        <!-- An SMS while another app is the default: read aloud in Tetra Car (SmsReceivedReceiver) -->
+        <service android:name=".BrowserMediaService" android:exported="false" android:foregroundServiceType="mediaPlayback" />
+        <!-- Stand mode: a dim clock on black while charging, chosen as Android's screen saver -->
+        <!-- Data's live speed in the status bar, while the user has it on (Plan.md § Data) -->
+        <!-- Listening for the paired computer with the app closed: its syncs, and desktop Maps asking where the phone is -->
+        <service android:name=".SyncListenService" android:exported="false" android:foregroundServiceType="specialUse|location">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Answers the user's own paired computer on the local network: sync requests and the phone's location for its Maps" />
+        </service>
+        <activity android:name=".MainActivity" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <!-- Offered as the device's gallery app. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.APP_GALLERY" />
+            </intent-filter>
+            <!-- Opens photos and videos from other apps and the camera's "review last shot". -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.provider.action.REVIEW" />
+                <action android:name="com.android.camera.action.REVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <!-- The applets in windows of their own, as the Browser (asked 4 Nov): a task each in Recents, with its name and icon
+             (AppletActivities.kt); Tetra, its notifications and AI Assist open them with appletIntent -->
+        <activity android:name=".MapsActivity" android:exported="false" android:label="@string/home_label_maps" android:icon="@mipmap/applet_maps" android:roundIcon="@mipmap/applet_maps"
+            android:taskAffinity="com.kalotrapezis.drive.maps" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout" />
+        <!-- Passwords as Android's autofill service (the user, 4 Nov: "Can I set it as Android autocomplete?"): chosen in Android's settings -->
+        <activity android:name=".SmsActivity" android:exported="false" android:label="@string/home_label_sms" android:icon="@mipmap/applet_messages" android:roundIcon="@mipmap/applet_messages"
+            android:taskAffinity="com.kalotrapezis.drive.sms" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout" />
+        <!-- Settings › App icons (asked 17 Oct): a launcher icon for each part of Tetra, off until switched on; AppletLaunch
+             hands the part to MainActivity (its own empty task affinity, so a running Tetra is asked, not just brought up). -->
+        <activity android:name=".AppletLaunch" android:exported="false" android:theme="@android:style/Theme.NoDisplay"
+            android:taskAffinity="" android:excludeFromRecents="true" android:noHistory="true" />
+        <!-- Settings › App icons › Tetra Car: its icon, and a choice of home screen (the head unit's launcher) -->
+        <!-- Tetra Assistant (Assistant.kt): the chat, and the sheet the phone's assistant gesture opens over any app -->
+        <activity android:name=".AssistantActivity" android:exported="false" android:label="@string/app_assistant" android:icon="@mipmap/applet_assistant" android:roundIcon="@mipmap/applet_assistant" android:taskAffinity="com.kalotrapezis.drive.assistant.chat" android:windowSoftInputMode="adjustResize" />
+        <!-- the sheet opened by "Hey Tetra" on a locked phone: opaque, as only an opaque window covers the lock screen and turns the screen on -->
+        <activity android:name=".AssistantSheetActivity" android:exported="true" android:label="@string/home_label_assistant" android:icon="@mipmap/applet_assistant" android:roundIcon="@mipmap/applet_assistant" android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true" android:launchMode="singleTask" android:taskAffinity="com.kalotrapezis.drive.assistant" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.ASSIST" /><category android:name="android.intent.category.DEFAULT" /></intent-filter>
+        </activity>
+        <service android:name=".AssistantService" android:exported="true" android:label="@string/home_label_assistant" android:permission="android.permission.BIND_VOICE_INTERACTION">
+            <meta-data android:name="android.voice_interaction" android:resource="@xml/assistant_interaction" />
+            <intent-filter><action android:name="android.service.voice.VoiceInteractionService" /></intent-filter>
+        </service>
+        <service android:name=".AssistantSessionService" android:exported="true" android:permission="android.permission.BIND_VOICE_INTERACTION" />
+        <service android:name=".AssistantRecognition" android:exported="true" android:label="@string/home_label_assistant">
+            <intent-filter><action android:name="android.speech.RecognitionService" /></intent-filter>
+        </service>
+        <!-- Calendar: an .ics from any app (Open with › Tetra Calendar) is imported -->
+        <!-- Office: "Open with › Tetra Office" for documents, spreadsheets, presentations and PDFs (17 Oct) from any app (asked 16 Oct);
+             Android's Always makes it the default. -->
+        <!-- Office › Text editor: "Open with Tetra" for text files from any app (asked 2026-09-27). -->
+        <!-- Tetra as the email app (31 Oct): mailto: links, and «Email (Tetra)» in the share menu, open Mail's compose page
+             (MainActivity.mailWrite). An alias, so the share menu shows its own name beside «Send to computer». -->
+        <!-- Send to computer: Tetra in the share menu; shared files go to the paired computer (SendToComputer.kt) -->
+        <!-- Pills (PillsAlarms.kt): its alarm and its notification's Taken and Skip; boot and the clock come through CalendarAlarmReceiver -->
+        <receiver android:name=".SyncActionReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.kalotrapezis.drive.PAUSE" />
+                <action android:name="com.kalotrapezis.drive.ANALYSIS_PAUSE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

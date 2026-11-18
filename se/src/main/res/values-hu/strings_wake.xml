@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Mondja: „Tetra”, „OK Tetra”, „Ahoy Tetra” vagy „Hey Tetra”, és megnyílik az AI Assist, kikapcsolt képernyőnél is. Összeveti, amit a mikrofon hall, a saját felvételeivel, a telefonon; figyelés közben semmi sem megy el. Zárolt telefonon a személyes dolgok (hívások, üzenetek, levelek, naptár, jegyzetek, fájlok, névjegyek) előbb feloldást kérnek. Csak egy eszközön: kettő egyszerre válaszolna, ezért a táblagépen hagyja kikapcsolva. Autóban szünetel.</string>
+    <string name="wake_on">Figyeli a hangját</string>
+    <string name="wake_off">Ki</string>
+    <string name="wake_record">Hang felvétele</string>
+    <string name="wake_record_note">Mondja el mindegyik kifejezést négyszer úgy, ahogy a telefonnak mondja majd: tegye oda, ahol lenni szokott, és onnan beszéljen, ahol lenni szokott, két felvételt közelről és kettőt messzebbről. Koppintson egy felvételre az újrafelvételhez.</string>
+    <string name="wake_take">%1$d. felvétel</string>
+    <string name="wake_take_odd">Eltér a többitől: vegye fel újra</string>
+    <string name="wake_record_take">„%1$s” felvétele, %2$d.</string>
+    <string name="wake_speak">Most mondja: „%1$s”…</string>
+    <string name="wake_not_heard">Nem hallotta. Próbálja újra.</string>
+    <string name="wake_record_again">Újra</string>
+    <string name="wake_try">Kipróbál</string>
+    <string name="wake_try_caught">Felismerve: „%1$s” (a küszöb %2$s-a)</string>
+    <string name="wake_try_missed">Nem ismerte fel: legközelebb „%1$s”, a küszöb %2$s-a. Vegye fel újra.</string>
+    <string name="wake_notice">Figyeli: „Hey Tetra”</string>
+    <string name="wake_turn_off">Kikapcsolás</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Mi újság?</string>
+    <string name="wake_hello_2">Itt vagyok.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

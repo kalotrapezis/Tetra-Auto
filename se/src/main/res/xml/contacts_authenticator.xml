@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contacts › Show in the phone's contacts: Tetra's own account, holding a read-only copy of Tetra/Contacts (ContactsAccount). -->
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.kalotrapezis.drive.contacts"
+    android:icon="@mipmap/applet_contacts"
+    android:smallIcon="@mipmap/applet_contacts"
+    android:label="Tetra" />

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_tab_timers">Minutniki</string>
+    <string name="timer_tab_alarms">Budziki</string>
+    <string name="stopwatch">Stoper</string>
+    <string name="stopwatch_counting">Mierzy</string>
+    <string name="stopwatch_held">Wstrzymano przy %1$s</string>
+    <string name="stopwatch_reset">Zeruj</string>
+    <string name="stopwatch_lap">Okrążenie</string>
+    <string name="stopwatch_lap_n">Okrążenie %1$d</string>
+    <string name="alarm_named">Budzik</string>
+    <string name="alarm_snooze">Drzemka</string>
+    <string name="alarm_dismiss">Wyłącz</string>
+    <string name="alarm_ringing">Dzwoni</string>
+    <string name="alarm_next">Budzik %1$s</string>
+    <string name="alarm_skip">Pomiń</string>
+    <string name="alarm_new">Nowy budzik</string>
+    <string name="alarm_label">Etykieta</string>
+    <string name="alarm_once">Jednorazowo</string>
+    <string name="alarm_every_day">Codziennie</string>
+    <string name="alarm_in">Następny budzik za %1$s</string>
+    <string name="alarm_none">Brak budzików. Budzik dzwoni na tym urządzeniu i na każdym urządzeniu, z którym synchronizujesz; wyłącz go na jednym, a ucichnie na wszystkich.</string>
+    <string name="timer_add_new">Dodaj</string>
+    <string name="timer_list_hint">Jeszcze brak minutników. Dodaj otwiera zegar: ustaw godziny, potem minuty, a ✓ go uruchomi. Przypnij minutnik, by został tu gotowy do ponownego startu.</string>
+    <string name="alarm_set_time">Ustaw godzinę</string>
+    <string name="alarm_skip_next">Pomiń następny</string>
+    <string name="alarm_unskip">Cofnij pominięcie</string>
+    <string name="alarm_skipped">następny pominięty</string>
+    <string name="alarm_soon">Budzik o %1$s · pominąć czy drzemka?</string>
+    <string name="alarm_channel_soon">Budzik wkrótce</string>
+    <string name="alarm_channel_soon_about">30 minut przed budzikiem, by go pominąć lub odłożyć</string>
+    <string name="stand_mode">Zegar nocny</string>
+    <string name="stand_about">Przygaszony zegar na czarnym tle podczas ładowania, łagodny dla ekranów AMOLED; co minutę trochę się przesuwa. Wybierz Zegar nocny jako wygaszacz ekranu Androida, by włączał się przy ładowaniu. Przed budzikiem rozjaśnia się jak wschód słońca, od ciemnej czerwieni do ciepłej żółci, przez 20 minut.</string>
+    <string name="stand_settings">Ustawienia wygaszacza ekranu</string>
+</resources>

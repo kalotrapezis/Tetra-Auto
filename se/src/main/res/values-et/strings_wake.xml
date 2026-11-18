@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Öelge „Tetra“, „OK Tetra“, „Ahoy Tetra“ või „Hey Tetra“, et avada AI Assist ka kustunud ekraaniga. See võrdleb mikrofoni kuuldut teie enda salvestustega, telefonis; kuulamise ajal midagi ei saadeta. Lukus telefoni puhul küsivad isiklikud asjad (kõned, sõnumid, e-post, kalender, märkmed, failid, kontaktid) enne avamist. Ainult ühes seadmes: kaks vastaksid koos, seega jätke see tahvelarvutis välja. Autos peatatud.</string>
+    <string name="wake_on">Kuulab teie häält</string>
+    <string name="wake_off">Väljas</string>
+    <string name="wake_record">Salvestage oma hääl</string>
+    <string name="wake_record_note">Öelge iga fraasi neli korda nii, nagu ütlete seda telefonile: pange see sinna, kus see tavaliselt on, ja rääkige sealt, kus tavaliselt olete, kaks salvestust lähedalt ja kaks kaugemalt. Puudutage salvestust, et see uuesti salvestada.</string>
+    <string name="wake_take">Salvestus %1$d</string>
+    <string name="wake_take_odd">Teistest erinev: salvestage uuesti</string>
+    <string name="wake_record_take">Salvesta „%1$s“, nr %2$d</string>
+    <string name="wake_speak">Öelge nüüd „%1$s“…</string>
+    <string name="wake_not_heard">Ei kuulnud. Proovige uuesti.</string>
+    <string name="wake_record_again">Uuesti</string>
+    <string name="wake_try">Proovi</string>
+    <string name="wake_try_caught">Tuvastatud kui „%1$s“ (%2$s lävest)</string>
+    <string name="wake_try_missed">Ei tuvastatud: lähim „%1$s“, %2$s lävest. Salvestage uuesti.</string>
+    <string name="wake_notice">Kuulab „Hey Tetra“</string>
+    <string name="wake_turn_off">Lülita välja</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Mis toimub?</string>
+    <string name="wake_hello_2">Olen siin.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

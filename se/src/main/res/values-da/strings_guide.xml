@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Guide</string>
+    <string name="guide_summary">Trin for trin: hvor du trykker, og hvorfor</string>
+    <string name="guide_try_it">Prøv det</string>
+    <string name="guide_skip">Spring over</string>
+    <string name="guide_chapters">Kapitler</string>
+    <string name="guide_open">Åbn guiden</string>
+    <string name="guide_step_of">%1$d af %2$d</string>
+    <string name="guide_allowed">Tilladt</string>
+    <string name="guide_not_yet">Ikke tilladt endnu</string>
+    <string name="guide_not_here">Ikke på denne enhed</string>
+    <string name="guide_finish">Afslut</string>
+    <string name="guide_dont_allow">Tillad ikke</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Velkommen</string>
+    <string name="guide_ch_permissions">Tilladelser</string>
+    <string name="guide_ch_home">Hjem</string>
+    <string name="guide_ch_files">Filer</string>
+    <string name="guide_ch_computer">Din computer</string>
+    <string name="guide_ch_settings">Indstillinger</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Velkommen til Tetra</string>
+    <string name="guide_welcome_b">Dine fotos, filer, noter og din kalender bliver på dine egne enheder. Denne guide viser, hvor du trykker, og hvorfor. Læs et trin, tryk på Prøv det, og gør det på den rigtige skærm, mens trinnet bliver stående.</string>
+    <string name="guide_again_t">Kom tilbage når som helst</string>
+    <string name="guide_again_b">Spring den over nu, hvis du vil. Guiden ligger altid i Indstillinger › Guide, og hvert kapitel kan åbnes for sig.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android spørger dig først</string>
+    <string name="guide_perm_b">Nogle dele af Tetra kræver din tilladelse. Hver side fortæller, hvad den skal bruges til. Tryk på Tillad, og svar så på Androids spørgsmål. Du kan sige nej nu og tillade det her senere.</string>
+    <string name="guide_files_t">Alle filer</string>
+    <string name="guide_files_b">Filer, Noter, Office, Kalender, Timer og Kort gemmer alt i én Tetra-mappe på denne enhed. Android åbner en side med én kontakt: slå den til, og gå så tilbage.</string>
+    <string name="guide_photos_t">Fotos og videoer</string>
+    <string name="guide_photos_b">Fotos viser dine billeder og videoer, finder ansigter og steder og sender dem til din computer. Vælg Tillad alle: hvis kun nogle er valgt, viser Fotos kun dem.</string>
+    <string name="guide_notify_t">Notifikationer</string>
+    <string name="guide_notify_b">Påmindelser, timere og synk giver dig besked med en notifikation. Uden den kan en påmindelse ikke ringe.</string>
+    <string name="guide_alarms_t">Alarmer og påmindelser</string>
+    <string name="guide_alarms_b">En påmindelse eller en timer ringer på det minut, du har valgt, også mens telefonen sover. På de fleste telefoner er det allerede tilladt.</string>
+    <string name="guide_camera_t">Kamera</string>
+    <string name="guide_camera_b">Scanner fotograferer dokumenter, Koder læser QR-koder, og når du parrer med en computer, scanner du dens kode. Vælg Mens appen er i brug.</string>
+    <string name="guide_contacts_t">Kontakter</string>
+    <string name="guide_contacts_b">Kontakter viser personerne på din telefon og kan gemme en kopi af dine der, så opkald og andre apps kender deres navne.</string>
+    <string name="guide_phone_t">Telefon og opkald</string>
+    <string name="guide_phone_b">Telefon foretager og besvarer opkald og viser din opkaldshistorik, og din computer kan ringe via denne telefon. En tablet uden SIM har ikke brug for det.</string>
+    <string name="guide_usage_t">Adgang til forbrugsdata</string>
+    <string name="guide_usage_b">Data tæller, hvor meget mobildata hver app bruger. Android viser en liste: find Tetra, tryk på den, og slå kontakten til.</string>
+    <string name="guide_location_t">Placering</string>
+    <string name="guide_location_b">Kort viser, hvor du er, og guider dig frem, og Data skal bruge den for at se navnene på Wi-Fi-netværk omkring dig. Vælg Mens appen er i brug.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Åbn en app</string>
+    <string name="guide_open_b">Hvert billede på Hjem åbner en app. Tryk på Filer for at se dine filer.</string>
+    <string name="guide_pencil_t">Skift Hjem</string>
+    <string name="guide_pencil_b">Tryk på blyanten øverst. Hver del får en ramme og to små knapper, og tryk åbner ingenting, før du er færdig.</string>
+    <string name="guide_move_t">Flyt en del</string>
+    <string name="guide_move_b">Hold fingeren på en del, til den løfter sig, og træk den så hen til en vilkårlig celle. De andre gør plads.</string>
+    <string name="guide_size_t">Større eller mindre</string>
+    <string name="guide_size_b">Tryk på pilene på en del. Hvert tryk gør den stor, mellem, lille og stor igen: stor viser mere indeni, lille er kun dens billede.</string>
+    <string name="guide_hide_t">Skjul en del</string>
+    <string name="guide_hide_b">Tryk på øjet for at skjule en del, du ikke bruger. Skjulte dele venter under gitteret: tryk på en for at hente den tilbage. Dens påmindelser og timere fortsætter.</string>
+    <string name="guide_done_t">Færdig</string>
+    <string name="guide_done_b">Tryk på Færdig, når Hjem ser rigtigt ud. Nulstil sætter det tilbage, som det var fra start.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Åbn en mappe</string>
+    <string name="guide_folder_b">Tryk på en mappe for at gå ind i den og på en fil for at åbne den. Pilen øverst går ud igen.</string>
+    <string name="guide_hold_t">Vælg filer</string>
+    <string name="guide_hold_b">Hold fingeren på en fil, til den får et flueben, og tryk så på andre for at tilføje dem. Et langt tryk vælger; et kort tryk åbner.</string>
+    <string name="guide_bar_t">Flyt eller kopiér</string>
+    <string name="guide_bar_b">Når filerne er valgt, så tryk på Flyt (pilen) eller Kopiér (to sider) i bjælken nederst. Kopiér lader originalen blive, hvor den var.</string>
+    <string name="guide_where_t">Vælg hvorhen</string>
+    <string name="guide_where_b">Tryk på en mappe for at gå ind i den, på Op til for at gå ud igen, og så på Flyt hertil.</string>
+    <string name="guide_more_t">Omdøb, del og mere</string>
+    <string name="guide_more_b">Tryk på de tre prikker ved en fil for alt om netop den fil: omdøb, del, tags, farve og Papirkurv.</string>
+    <string name="guide_new_t">Noget nyt</string>
+    <string name="guide_new_b">Tryk på Ny i bjælken nederst for en mappe, en tekstfil eller en fil til Dokumenter, Regneark eller Præsentationer, lige i den mappe, du er i.</string>
+    <string name="guide_trash_t">Papirkurv</string>
+    <string name="guide_trash_b">Det, du sletter, havner først i Papirkurv. Stryg op på bjælken nederst for Værktøjer til Filer, tryk på Papirkurv, vælg det, du vil have tilbage, og tryk på Gendan.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra klarer sig selv</string>
+    <string name="guide_alone_b">Du behøver ikke en computer. Uden en bliver alt på denne enhed, og du kan parre senere.</string>
+    <string name="guide_scan_t">Par med din computer</string>
+    <string name="guide_scan_b">Åbn Enheder › Tilføj en enhed på computeren: Tetra viser en kode. Åbn Synk fra Hjem her, tryk på Scan en kode, og ret kameraet mod den.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Sprog og udseende</string>
+    <string name="guide_look_b">Indstillinger › Udseende ændrer sproget, mørk eller lys og hvad Hjem viser.</string>
+    <string name="guide_find_t">Find en indstilling</string>
+    <string name="guide_find_b">Skriv i søgefeltet øverst i Indstillinger for at finde en indstilling ud fra navnet.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Ikoner</string>
+    <string name="guide_icons_t">Hvad hvert ikon betyder</string>
+    <string name="guide_icons_b">Tetra bruger de samme små billeder overalt. Her er hvert af dem og hvad det gør.</string>
+    <string name="guide_icon_back">Tilbage: én skærm tilbage</string>
+    <string name="guide_icon_close">Luk</string>
+    <string name="guide_icon_check">Færdig, eller valgt</string>
+    <string name="guide_icon_add">Ny: en mappe, en note, en begivenhed…</string>
+    <string name="guide_icon_search">Søg</string>
+    <string name="guide_icon_edit">Rediger eller Omdøb, alt efter hvor den er: Hjem – Rediger, en fil – Omdøb</string>
+    <string name="guide_icon_more">Mere: alt om dette element</string>
+    <string name="guide_icon_share">Del det med en anden app eller person</string>
+    <string name="guide_icon_copy">Kopiér: en anden kopi kommer derhen, den første bliver</string>
+    <string name="guide_icon_move">Flyt: den kommer derhen og forlader stedet her</string>
+    <string name="guide_icon_delete">Til papirkurven: den kan stadig komme tilbage</string>
+    <string name="guide_icon_restore">Gendan: tilbage fra papirkurven</string>
+    <string name="guide_icon_tag">Mærker: dine egne etiketter, så du kan finde ting senere</string>
+    <string name="guide_icon_favorite">Favorit: ligger ved hånden under Favoritter</string>
+    <string name="guide_icon_size">Størrelse: stor, mellem eller lille (Hjem)</string>
+    <string name="guide_icon_hide">Skjul det; intet bliver slettet</string>
+    <string name="guide_icon_handle">Træk eller stryg op her for mere</string>
+    <string name="guide_icon_choices">En liste med valg: tryk for at vælge</string>
+    <string name="guide_icon_undo">Fortryd den sidste ændring</string>
+    <string name="guide_icon_redo">Gentag det, der blev fortrudt</string>
+    <string name="guide_icon_save">Gem</string>
+    <string name="guide_icon_refresh">Se igen efter, hvad der er nyt</string>
+    <string name="guide_icon_sync">Synkronisér med din computer</string>
+    <string name="guide_icon_qr">Scan en kode med kameraet</string>
+    <string name="guide_icon_card">Vis denne enheds kode for at parre den</string>
+    <string name="guide_icon_computer">Din computer</string>
+    <string name="guide_icon_lock">Låst eller privat</string>
+    <string name="guide_icon_notifications">Notifikationer</string>
+    <string name="guide_icon_info">Mere om det</string>
+    <string name="guide_icon_settings">Indstillinger</string>
+    <string name="guide_icon_home">Hjem</string>
+    <string name="guide_icon_toc">Kapitler, indhold</string>
+    <string name="guide_icon_guide">Denne vejledning</string>
+</resources>

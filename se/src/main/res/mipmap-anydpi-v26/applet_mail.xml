@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings › App icons: Home's art for this part on its own colour (tools/applet-icons.py). -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/applet_mail" />
+    <foreground android:drawable="@drawable/applet_mail_fg" />
+</adaptive-icon>

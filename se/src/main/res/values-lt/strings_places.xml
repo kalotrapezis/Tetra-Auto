@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Vietos priminimai</string>
+    <string name="place_reminders_note">Atvykus į vietą, suskamba sąrašas iš Užrašų, kaip priminimas. Pasakykite AI Assist: „kai eisiu į prekybos centrą, parodyk pirkinių sąrašą“. Vieta tikrinama retai, kad būtų taupoma baterija.</string>
+    <string name="place_reminders_on">Vietos priminimai šiame telefone</string>
+    <string name="place_reminders_location">Vieta visada</string>
+    <string name="place_reminders_location_on">Leidžiama</string>
+    <string name="place_reminders_location_off">Reikia: pasirinkite Leisti visada</string>
+    <string name="place_reminders_none">Vietos priminimų dar nėra</string>
+    <string name="place_reminders_any">Bet kuris sąrašas su likusiais punktais</string>
+    <string name="place_reminder_title">Jūsų sąrašas</string>
+</resources>

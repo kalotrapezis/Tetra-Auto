@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Browser's sync between devices (BrowserSync.kt) -->
+<resources>
+    <string name="browser_other_devices">Tabs von anderen Geräten</string>
+    <string name="browser_sync_title">Synchronisieren</string>
+    <string name="browser_sync_note">Was dieses Gerät über Tetras Synchronisierung mit deinen anderen Geräten teilt. Jeder Schalter gilt nur für dieses Gerät; ausgeschaltet bleibt, was hier ist.</string>
+    <string name="browser_sync_bookmarks">Lesezeichen</string>
+    <string name="browser_sync_tabs">Offene Tabs</string>
+    <string name="browser_sync_passwords">Passwörter</string>
+    <string name="browser_sync_passwords_off">Aus: Sie bleiben auf diesem Gerät</string>
+    <string name="browser_sync_passwords_on">An: Passwörter, Adressen und Karten, verschlüsselt mit deiner Sync-Passphrase</string>
+    <string name="browser_sync_passwords_need">Auf einem anderen Gerät wurde eine neue Passphrase gewählt: tippen, um sie einzugeben</string>
+    <string name="browser_pass_new_title">Sync-Passphrase wählen</string>
+    <string name="browser_pass_new_note">Deine Passwörter, Adressen und Karten reisen damit verschlüsselt, und niemand kann sie ohne sie lesen, auch Tetra nicht. Deine anderen Geräte fragen einmal danach.</string>
+    <string name="browser_pass_enter_title">Sync-Passphrase</string>
+    <string name="browser_pass_enter_note">Die du auf deinem anderen Gerät gewählt hast.</string>
+    <string name="browser_pass_field">Passphrase</string>
+    <string name="browser_pass_repeat">Wiederholen</string>
+    <string name="browser_pass_short">Mindestens 8 Zeichen</string>
+    <string name="browser_pass_mismatch">Die beiden stimmen nicht überein</string>
+    <string name="browser_pass_wrong">Falsche Passphrase</string>
+    <string name="browser_pass_failed">Sie konnte nicht übernommen werden; versuch es noch einmal</string>
+    <string name="browser_pass_forgot">Vergessen?</string>
+    <string name="browser_pass_reset_title">Mit einer neuen Passphrase neu beginnen?</string>
+    <string name="browser_pass_reset_note">Die Passwörter auf jedem Gerät bleiben, wo sie sind. Deine anderen Geräte fragen nach der neuen Passphrase.</string>
+    <string name="browser_pass_reset">Neu beginnen</string>
+    <string name="browser_saved_note_synced">Verschlüsselt gespeichert und verschlüsselt mit deiner Sync-Passphrase an deine anderen Geräte gesendet</string>
+</resources>

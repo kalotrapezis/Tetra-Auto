@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Säg ”Tetra”, ”OK Tetra”, ”Ahoy Tetra” eller ”Hey Tetra” för att öppna AI Assist, även med skärmen avstängd. Den jämför det mikrofonen hör med dina egna inspelningar, på telefonen; inget skickas medan den lyssnar. Med telefonen låst ber personliga saker (samtal, meddelanden, mejl, kalender, anteckningar, filer, kontakter) först om upplåsning. Bara på en enhet: två skulle båda svara, så låt den vara av på surfplattan. Pausad i bilen.</string>
+    <string name="wake_on">Lyssnar efter din röst</string>
+    <string name="wake_off">Av</string>
+    <string name="wake_record">Spela in din röst</string>
+    <string name="wake_record_note">Säg varje fras fyra gånger som du kommer att säga den till telefonen: lägg den där den brukar ligga och tala därifrån du brukar vara, två inspelningar nära och två längre bort. Tryck på en inspelning för att göra om den.</string>
+    <string name="wake_take">Inspelning %1$d</string>
+    <string name="wake_take_odd">Olik de andra: spela in igen</string>
+    <string name="wake_record_take">Spela in ”%1$s”, nr %2$d</string>
+    <string name="wake_speak">Säg ”%1$s” nu…</string>
+    <string name="wake_not_heard">Hördes inte. Försök igen.</string>
+    <string name="wake_record_again">Igen</string>
+    <string name="wake_try">Prova</string>
+    <string name="wake_try_caught">Igenkänd som ”%1$s” (%2$s av gränsen)</string>
+    <string name="wake_try_missed">Inte igenkänd: närmast ”%1$s”, %2$s av gränsen. Spela in igen.</string>
+    <string name="wake_notice">Lyssnar efter ”Hey Tetra”</string>
+    <string name="wake_turn_off">Stäng av</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Vad händer?</string>
+    <string name="wake_hello_2">Hej, jag är här.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

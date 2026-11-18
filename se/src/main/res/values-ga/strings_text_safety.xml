@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Ní comhad téacs é</string>
+    <string name="text_not_text_body">Ní téacs simplí é «%1$s» (mar shampla comhad Word, PowerPoint, PDF nó pictiúr). Ní féidir leis an eagarthóir téacs é a thaispeáint.</string>
+    <string name="text_huge_title">Comhad an-mhór</string>
+    <string name="text_huge_body">Tá «%1$s» %2$s. D\'fhéadfadh an t-eagarthóir téacs a bheith an-mhall nó reo leis.</string>
+    <string name="text_open_with">Oscail le…</string>
+    <string name="text_open_anyway">Oscail mar sin féin</string>
+    <string name="text_closed_not_text">Dúnadh «%1$s»: ní comhad téacs é.</string>
+</resources>

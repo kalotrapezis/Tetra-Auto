@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Řekněte „Tetra“, „OK Tetra“, „Ahoy Tetra“ nebo „Hey Tetra“ a otevře se AI Assist, i při zhasnuté obrazovce. Porovnává, co mikrofon slyší, s vašimi nahrávkami, v telefonu; nic se neodesílá. Při zamčeném telefonu osobní věci (hovory, zprávy, pošta, kalendář, poznámky, soubory, kontakty) nejdřív chtějí odemknout. Jen na jednom zařízení: dvě by odpověděla obě, na tabletu ho nechte vypnuté. V autě pozastaveno.</string>
+    <string name="wake_on">Poslouchá váš hlas</string>
+    <string name="wake_off">Vypnuto</string>
+    <string name="wake_record">Nahrát váš hlas</string>
+    <string name="wake_record_note">Řekněte každou frázi čtyřikrát tak, jak ji budete telefonu říkat: nechte ho tam, kde obvykle leží, a mluvte odtud, kde obvykle jste, dvě nahrávky zblízka a dvě zdálky. Klepnutím na nahrávku ji nahrajete znovu.</string>
+    <string name="wake_take">Nahrávka %1$d</string>
+    <string name="wake_take_odd">Jiná než ostatní: nahrajte znovu</string>
+    <string name="wake_record_take">Nahrát „%1$s“, nahrávka %2$d</string>
+    <string name="wake_speak">Teď řekněte „%1$s“…</string>
+    <string name="wake_not_heard">Nezachyceno. Zkuste znovu.</string>
+    <string name="wake_record_again">Znovu</string>
+    <string name="wake_try">Vyzkoušet</string>
+    <string name="wake_try_caught">Zachyceno jako „%1$s“ (%2$s prahu)</string>
+    <string name="wake_try_missed">Nezachyceno: nejblíž „%1$s“, %2$s prahu. Nahrajte ji znovu.</string>
+    <string name="wake_notice">Poslouchá „Hey Tetra“</string>
+    <string name="wake_turn_off">Vypnout</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Co se děje?</string>
+    <string name="wake_hello_2">Jsem tady.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

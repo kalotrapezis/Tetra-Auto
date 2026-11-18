@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">NIEUWS</string>
+    <string name="news_page">Pagina</string>
+    <string name="ai_presenter">De robot presenteert</string>
+    <string name="ai_presenter_note">Overzichten en geplande resultaten als een klein journaal, voorgelezen.</string>
+</resources>

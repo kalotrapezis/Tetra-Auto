@@ -1,0 +1,7 @@
+<!-- The island's ✕ Done (the user, 18 Oct): a pink ✕ in a black circle with a pink rim, the Calendar's pink. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FF000000" android:strokeColor="#FFF41879" android:strokeWidth="2.5"
+        android:pathData="M24,2.75A21.25,21.25 0,1 1,23.99,2.75Z" />
+    <path android:strokeColor="#FFF41879" android:strokeWidth="3.5" android:strokeLineCap="round"
+        android:pathData="M16.5,16.5L31.5,31.5M31.5,16.5L16.5,31.5" />
+</vector>

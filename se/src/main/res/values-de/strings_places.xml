@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_reminders">Ortserinnerungen</string>
+    <string name="place_reminders_note">Wenn du an einem Ort ankommst, klingelt eine Checkliste aus Notizen wie eine Erinnerung. Sag dem KI-Assistenten: „Wenn ich in den Supermarkt gehe, zeig mir die Einkaufsliste“. Der Standort wird selten geprüft, um den Akku zu schonen.</string>
+    <string name="place_reminders_on">Ortserinnerungen auf diesem Telefon</string>
+    <string name="place_reminders_location">Standort immer</string>
+    <string name="place_reminders_location_on">Erlaubt</string>
+    <string name="place_reminders_location_off">Nötig: „Immer zulassen“ wählen</string>
+    <string name="place_reminders_none">Noch keine Ortserinnerungen</string>
+    <string name="place_reminders_any">Jede Checkliste mit offenen Punkten</string>
+    <string name="place_reminder_title">Deine Liste</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Guide</string>
+    <string name="guide_summary">Step by step: where to tap and why</string>
+    <string name="guide_try_it">Try it</string>
+    <string name="guide_skip">Skip</string>
+    <string name="guide_chapters">Chapters</string>
+    <string name="guide_open">Open the guide</string>
+    <string name="guide_step_of">%1$d of %2$d</string>
+    <string name="guide_allowed">Allowed</string>
+    <string name="guide_not_yet">Not allowed yet</string>
+    <string name="guide_not_here">Not on this device</string>
+    <string name="guide_finish">Finish</string>
+    <string name="guide_dont_allow">Don’t allow</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Welcome</string>
+    <string name="guide_ch_permissions">Permissions</string>
+    <string name="guide_ch_home">Home</string>
+    <string name="guide_ch_files">Files</string>
+    <string name="guide_ch_computer">Your computer</string>
+    <string name="guide_ch_settings">Settings</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Welcome to Tetra</string>
+    <string name="guide_welcome_b">Your photos, files, notes and calendar stay on your own devices. This guide shows where to tap and why. Read a step, tap Try it, and do it on the real screen while the step stays in view.</string>
+    <string name="guide_again_t">Come back any time</string>
+    <string name="guide_again_b">Skip it now if you like. The guide is always in Settings › Guide, and each chapter opens on its own.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android asks you first</string>
+    <string name="guide_perm_b">Some parts of Tetra need your permission. Each page says what it is for. Tap Allow, then answer Android’s question. You can say no now and allow it here later.</string>
+    <string name="guide_files_t">All files</string>
+    <string name="guide_files_b">Files, Notes, Office, Calendar, Timer and Maps keep everything in one Tetra folder on this device. Android opens a page with one switch: turn it on, then go back.</string>
+    <string name="guide_photos_t">Photos and videos</string>
+    <string name="guide_photos_b">Photos shows your pictures and videos, finds faces and places, and sends them to your computer. Choose Allow all: with only some chosen, Photos shows only those.</string>
+    <string name="guide_notify_t">Notifications</string>
+    <string name="guide_notify_b">Reminders, timers and sync tell you things with a notification. Without it a reminder cannot ring.</string>
+    <string name="guide_alarms_t">Alarms and reminders</string>
+    <string name="guide_alarms_b">A reminder or a timer rings at the minute you set, even while the phone sleeps. On most phones this is already allowed.</string>
+    <string name="guide_camera_t">Camera</string>
+    <string name="guide_camera_b">Scanner photographs documents, Codes reads QR codes, and pairing with a computer scans its code. Choose While using the app.</string>
+    <string name="guide_contacts_t">Contacts</string>
+    <string name="guide_contacts_b">Contacts shows the people in your phone and can keep a copy of yours there, so calls and other apps know their names.</string>
+    <string name="guide_phone_t">Phone and calls</string>
+    <string name="guide_phone_b">Phone makes and answers calls and shows your call history, and your computer can call through this phone. A tablet without a SIM does not need it.</string>
+    <string name="guide_usage_t">Usage access</string>
+    <string name="guide_usage_b">Data counts how much mobile data each app uses. Android shows a list: find Tetra, tap it and turn on the switch.</string>
+    <string name="guide_location_t">Location</string>
+    <string name="guide_location_b">Maps shows where you are and guides you there, and Data needs it to see the names of Wi-Fi networks around you. Choose While using the app.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Open an applet</string>
+    <string name="guide_open_b">Each picture on Home opens an applet. Tap Files to see your files.</string>
+    <string name="guide_pencil_t">Change Home</string>
+    <string name="guide_pencil_b">Tap the pencil at the top. Each part gets a frame and two small buttons, and taps open nothing until you are done.</string>
+    <string name="guide_move_t">Move a part</string>
+    <string name="guide_move_b">Hold a part until it lifts, then drag it to any cell. The others make room.</string>
+    <string name="guide_size_t">Bigger or smaller</string>
+    <string name="guide_size_b">Tap the arrows on a part. Each tap makes it large, medium, small and large again: large shows more inside it, small is just its picture.</string>
+    <string name="guide_hide_t">Hide a part</string>
+    <string name="guide_hide_b">Tap the eye to hide a part you do not use. Hidden parts wait under the grid: tap one to bring it back. Its reminders and timers go on.</string>
+    <string name="guide_done_t">Done</string>
+    <string name="guide_done_b">Tap Done when Home looks right. Reset puts it back as it was at the start.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Open a folder</string>
+    <string name="guide_folder_b">Tap a folder to go in and a file to open it. The arrow at the top goes back out.</string>
+    <string name="guide_hold_t">Choose files</string>
+    <string name="guide_hold_b">Hold a file until it is ticked, then tap others to add them. Holding chooses; a short tap opens.</string>
+    <string name="guide_bar_t">Move or copy</string>
+    <string name="guide_bar_b">With files chosen, tap Move (the arrow) or Copy (two pages) in the bar at the bottom. Copy leaves the first one where it was.</string>
+    <string name="guide_where_t">Choose where</string>
+    <string name="guide_where_b">Tap a folder to go into it, Up to go back out, then Move here.</string>
+    <string name="guide_more_t">Rename, share and more</string>
+    <string name="guide_more_b">Tap the three dots next to a file for everything about that one file: rename, share, tags, colour and Trash.</string>
+    <string name="guide_new_t">Something new</string>
+    <string name="guide_new_b">Tap New in the bar at the bottom for a folder, a text file, or a Words, Tables or Slides document, right in the folder you are in.</string>
+    <string name="guide_trash_t">Trash</string>
+    <string name="guide_trash_b">What you delete goes to Trash first. Swipe up on the bar at the bottom for Files tools, tap Trash, choose what you want back and tap Restore.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra works on its own</string>
+    <string name="guide_alone_b">You do not need a computer. Without one, everything stays on this device, and you can pair later.</string>
+    <string name="guide_scan_t">Pair with your computer</string>
+    <string name="guide_scan_b">On the computer, open Devices › Add a device: Tetra shows a code. Here, open Local Sync from Home, tap Scan a code and point the camera at it.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Language and look</string>
+    <string name="guide_look_b">Settings › Appearance changes the language, dark or light, and what Home shows.</string>
+    <string name="guide_find_t">Find a setting</string>
+    <string name="guide_find_b">Type in the search at the top of Settings to find any setting by its name.</string>
+
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Icons</string>
+    <string name="guide_icons_t">What each icon means</string>
+    <string name="guide_icons_b">Tetra uses the same small pictures everywhere. Here is each one and what it does.</string>
+    <string name="guide_icon_back">Back: one screen back</string>
+    <string name="guide_icon_close">Close</string>
+    <string name="guide_icon_check">Done, or chosen</string>
+    <string name="guide_icon_add">New: a folder, a note, an event…</string>
+    <string name="guide_icon_search">Search</string>
+    <string name="guide_icon_edit">Edit or Rename, depending on where it is: Home is edited, a file is renamed</string>
+    <string name="guide_icon_more">More: everything about this one item</string>
+    <string name="guide_icon_share">Share it with another app or person</string>
+    <string name="guide_icon_copy">Copy: a second one goes there, the first stays</string>
+    <string name="guide_icon_move">Move: it goes there and leaves here</string>
+    <string name="guide_icon_delete">To Trash: it can still come back</string>
+    <string name="guide_icon_restore">Restore: back out of Trash</string>
+    <string name="guide_icon_tag">Tags: your own labels, to find things later</string>
+    <string name="guide_icon_favorite">Favourite: kept at hand under Favourites</string>
+    <string name="guide_icon_size">Size: large, medium or small (Home)</string>
+    <string name="guide_icon_hide">Hide it from view; nothing is deleted</string>
+    <string name="guide_icon_handle">Drag or swipe up here for more</string>
+    <string name="guide_icon_choices">A list of choices: tap to pick one</string>
+    <string name="guide_icon_undo">Undo the last change</string>
+    <string name="guide_icon_redo">Redo what was undone</string>
+    <string name="guide_icon_save">Save</string>
+    <string name="guide_icon_refresh">Look again for what is new</string>
+    <string name="guide_icon_sync">Sync with your computer</string>
+    <string name="guide_icon_qr">Scan a code with the camera</string>
+    <string name="guide_icon_card">Show this device’s code to pair it</string>
+    <string name="guide_icon_computer">Your computer</string>
+    <string name="guide_icon_lock">Locked or private</string>
+    <string name="guide_icon_notifications">Notifications</string>
+    <string name="guide_icon_info">More about it</string>
+    <string name="guide_icon_settings">Settings</string>
+    <string name="guide_icon_home">Home</string>
+    <string name="guide_icon_toc">Chapters, contents</string>
+    <string name="guide_icon_guide">This guide</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sms">Съобщения</string>
+    <string name="home_label_sms">Tetra Съобщения</string>
+    <string name="sms_home_detail">SMS съобщенията на телефона ти</string>
+    <string name="sms_permission_needed">За да показва и изпраща SMS-ите ти тук, Tetra се нуждае от разрешение да чете и изпраща съобщения.</string>
+    <string name="sms_none">Все още няма съобщения</string>
+    <string name="sms_none_archived">Няма нищо архивирано</string>
+    <string name="sms_none_here">Все още няма съобщения. Напиши първото.</string>
+    <string name="sms_archived">Архивирани</string>
+    <string name="sms_archive">Архивиране</string>
+    <string name="sms_unarchive">Разархивиране</string>
+    <string name="sms_did_archive">Архивирано</string>
+    <string name="sms_did_unarchive">Отново в съобщенията ти</string>
+    <string name="sms_choose_first">Задръж разговор, за да го избереш</string>
+    <string name="sms_new_message">Ново съобщение</string>
+    <string name="sms_to">Име или номер</string>
+    <string name="sms_send_to">Изпращане до %1$s</string>
+    <string name="sms_write">Съобщение</string>
+    <string name="sms_not_sent">Не е изпратено</string>
+    <string name="sms_sending">Изпраща се…</string>
+    <string name="sms_send_failed">Съобщението не беше изпратено: %1$s</string>
+    <string name="sms_sent">Изпратено.</string>
+    <string name="sms_you">Ти</string>
+    <string name="sms_delete_ask">Да се изтрият ли избраните разговори?</string>
+    <string name="sms_delete_note">Съобщенията им се изтриват от този телефон.</string>
+    <string name="sms_default_only">Само приложението ти за съобщения по подразбиране може да изтрива съобщения.</string>
+    <string name="sms_open_default">Отвори го там</string>
+    <string name="sms_deleted">Изтрито</string>
+    <string name="sms_pick">Изберете разговор</string>
+    <string name="sms_is_default">Tetra е приложението за SMS</string>
+    <string name="sms_not_default">Tetra не е приложението за SMS</string>
+    <string name="sms_is_default_summary">Съобщенията пристигат в Tetra и то ги пази. За да го върнете: Приложения по подразбиране в Android › SMS.</string>
+    <string name="sms_not_default_summary">Направете го по подразбиране, за да получавате нови съобщения в Tetra и да ги изтривате. Съобщенията със снимки (MMS) само се обявяват, не се показват.</string>
+    <string name="sms_mms_title">Съобщение със снимка (MMS)</string>
+    <string name="sms_mms_note">Tetra не показва съобщения със снимки. За да ги получавате, изберете друго приложение за SMS.</string>
+</resources>

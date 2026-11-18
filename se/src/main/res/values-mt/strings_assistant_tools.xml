@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Fittex fil-Browser</string>
+    <string name="assistant_card_data_used">Użati %1$s minn %2$s</string>
+    <string name="assistant_card_data_used_unlimited">Użati %1$s f\'dan iċ-ċiklu</string>
+    <string name="assistant_card_data_left">Fadal %1$s · jiem fadal: %2$d</string>
+    <string name="assistant_card_data_pace">Illum %1$s · medja ta\' %2$s kuljum</string>
+    <string name="assistant_card_data_forecast">Tbassir fi tmiem iċ-ċiklu: %1$s</string>
+    <string name="assistant_card_data_on_track">Fil-limitu</string>
+    <string name="assistant_card_data_cut">Biex tibqa\' fil-pjan: l-aktar %1$s kuljum għal %2$d jum</string>
+    <string name="assistant_card_data_hotspot">%1$s mill-hotspot tat-telefon dan ix-xahar</string>
+    <string name="assistant_card_brief">Rapport tal-jum</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_decorations">AI díszítés</string>
+    <string name="ai_decorations_note">A kazetta, a lemez vagy a tévé a robottal, a jelei, a hó és a régi képernyő. Ki: csak a beszélgetés és a gombjai.</string>
+</resources>

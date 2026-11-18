@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Ne tekstinis failas</string>
+    <string name="text_not_text_body">«%1$s» nėra paprastas tekstas (pvz., Word, PowerPoint, PDF ar paveikslėlio failas). Teksto redaktorius negali jo parodyti.</string>
+    <string name="text_huge_title">Labai didelis failas</string>
+    <string name="text_huge_body">«%1$s» užima %2$s. Teksto redaktorius gali labai sulėtėti arba užstrigti.</string>
+    <string name="text_open_with">Atidaryti su…</string>
+    <string name="text_open_anyway">Vis tiek atidaryti</string>
+    <string name="text_closed_not_text">«%1$s» uždarytas: tai ne tekstinis failas.</string>
+</resources>

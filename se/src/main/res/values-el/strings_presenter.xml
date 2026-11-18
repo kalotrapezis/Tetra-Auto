@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_label">ΕΙΔΗΣΕΙΣ</string>
+    <string name="news_page">Σελίδα</string>
+    <string name="ai_presenter">Παρουσίαση από το ρομποτάκι</string>
+    <string name="ai_presenter_note">Οι αναφορές και τα προγραμματισμένα σαν μικρό δελτίο ειδήσεων, διαβασμένα δυνατά· λίγα λεπτά του ευρώ τον μήνα το πολύ.</string>
+</resources>

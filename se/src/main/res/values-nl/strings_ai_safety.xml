@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist: confirmations after outside text, auto memory, the mail AI's urgency (AssistantGuard, AssistantAutoMemory, MailAi) -->
+<resources>
+    <string name="assistant_confirm_title">Gevraagd door tekst van buiten (mail, web, bestand): wacht op je ja</string>
+    <string name="assistant_confirm_yes">Doen</string>
+    <string name="assistant_confirm_done">Klaar.</string>
+    <string name="assistant_confirm_cancelled">Niet gedaan.</string>
+    <string name="ai_memory_auto">Onthouden uit gesprekken</string>
+    <string name="ai_memory_auto_note">Na een gesprek bewaart AI Assist tot 3 blijvende feiten die je over jezelf zei (nooit uit mail of bestanden)</string>
+    <string name="mail_ai_urgency_1">Het bekijken waard</string>
+    <string name="mail_ai_urgency_2">Belangrijk</string>
+    <string name="mail_ai_urgency_3">Dringend</string>
+</resources>

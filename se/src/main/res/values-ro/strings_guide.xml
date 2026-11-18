@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The guide (Plan.md (5b)): step by step, where to tap and why. Its own file in every language. -->
+<resources>
+    <!-- the guide's own buttons and words -->
+    <string name="guide_title">Ghid</string>
+    <string name="guide_summary">Pas cu pas: unde atingi și de ce</string>
+    <string name="guide_try_it">Încearcă</string>
+    <string name="guide_skip">Omite</string>
+    <string name="guide_chapters">Capitole</string>
+    <string name="guide_open">Deschide ghidul</string>
+    <string name="guide_step_of">%1$d din %2$d</string>
+    <string name="guide_allowed">Permis</string>
+    <string name="guide_not_yet">Încă nepermis</string>
+    <string name="guide_not_here">Indisponibil pe acest dispozitiv</string>
+    <string name="guide_finish">Termină</string>
+    <string name="guide_dont_allow">Nu permite</string>
+
+    <!-- the chapters -->
+    <string name="guide_ch_start">Bun venit</string>
+    <string name="guide_ch_permissions">Permisiuni</string>
+    <string name="guide_ch_home">Acasă</string>
+    <string name="guide_ch_files">Fișiere</string>
+    <string name="guide_ch_computer">Computerul tău</string>
+    <string name="guide_ch_settings">Setări</string>
+
+    <!-- Welcome -->
+    <string name="guide_welcome_t">Bun venit în Tetra</string>
+    <string name="guide_welcome_b">Fotografiile, fișierele, notele și calendarul tău rămân pe propriile tale dispozitive. Acest ghid îți arată unde să atingi și de ce. Citește un pas, atinge Încearcă și fă-l pe ecranul real, în timp ce pasul rămâne la vedere.</string>
+    <string name="guide_again_t">Revino oricând</string>
+    <string name="guide_again_b">Poți să-l omiți acum. Ghidul este mereu în Setări › Ghid, iar fiecare capitol se deschide și separat.</string>
+
+    <!-- Permissions -->
+    <string name="guide_perm_t">Android te întreabă mai întâi</string>
+    <string name="guide_perm_b">Unele părți din Tetra au nevoie de permisiunea ta. Fiecare pagină spune la ce folosește. Atinge Permite, apoi răspunde la întrebarea Android. Poți refuza acum și permite de aici mai târziu.</string>
+    <string name="guide_files_t">Toate fișierele</string>
+    <string name="guide_files_b">Fișiere, Note, Office, Calendar, Temporizator și Hărți păstrează totul într-un singur dosar Tetra pe acest dispozitiv. Android deschide o pagină cu un singur comutator: activează-l, apoi revino.</string>
+    <string name="guide_photos_t">Fotografii și videoclipuri</string>
+    <string name="guide_photos_b">Foto îți arată fotografiile și videoclipurile, găsește fețe și locuri și le trimite pe computer. Alege Permite tot: dacă alegi doar câteva, Foto le arată doar pe acelea.</string>
+    <string name="guide_notify_t">Notificări</string>
+    <string name="guide_notify_b">Mementourile, temporizatoarele și sincronizarea te anunță printr-o notificare. Fără ea, un memento nu poate suna.</string>
+    <string name="guide_alarms_t">Alarme și mementouri</string>
+    <string name="guide_alarms_b">Un memento sau un temporizator sună în minutul pe care l-ai setat, chiar și când telefonul doarme. Pe majoritatea telefoanelor, asta e deja permis.</string>
+    <string name="guide_camera_t">Cameră foto</string>
+    <string name="guide_camera_b">Scanner fotografiază documente, Coduri citește coduri QR, iar asocierea cu un computer îi scanează codul. Alege În timp ce folosești aplicația.</string>
+    <string name="guide_contacts_t">Contacte</string>
+    <string name="guide_contacts_b">Contacte îți arată persoanele din telefon și poate păstra acolo o copie a contactelor tale, ca apelurile și celelalte aplicații să le știe numele.</string>
+    <string name="guide_phone_t">Telefon și apeluri</string>
+    <string name="guide_phone_b">Telefon face și preia apeluri și îți arată istoricul apelurilor, iar computerul tău poate suna prin acest telefon. O tabletă fără SIM nu are nevoie de ea.</string>
+    <string name="guide_usage_t">Acces la utilizare</string>
+    <string name="guide_usage_b">Date numără câte date mobile folosește fiecare aplicație. Android arată o listă: găsește Tetra, atinge-l și activează comutatorul.</string>
+    <string name="guide_location_t">Locație</string>
+    <string name="guide_location_b">Hărți îți arată unde ești și te ghidează până acolo, iar Date are nevoie de ea ca să vadă numele rețelelor Wi-Fi din jur. Alege În timp ce folosești aplicația.</string>
+
+    <!-- Home -->
+    <string name="guide_open_t">Deschide o aplicație</string>
+    <string name="guide_open_b">Fiecare imagine din Acasă deschide o aplicație. Atinge Fișiere ca să-ți vezi fișierele.</string>
+    <string name="guide_pencil_t">Schimbă Acasă</string>
+    <string name="guide_pencil_b">Atinge creionul de sus. Fiecare element primește un cadru și două butoane mici, iar atingerile nu deschid nimic până nu termini.</string>
+    <string name="guide_move_t">Mută un element</string>
+    <string name="guide_move_b">Ține apăsat un element până se ridică, apoi trage-l în orice celulă. Celelalte îi fac loc.</string>
+    <string name="guide_size_t">Mai mare sau mai mic</string>
+    <string name="guide_size_b">Atinge săgețile de pe un element. Fiecare atingere îl face mare, mediu, mic și iar mare: cel mare arată mai mult în el, cel mic e doar imaginea lui.</string>
+    <string name="guide_hide_t">Ascunde un element</string>
+    <string name="guide_hide_b">Atinge ochiul ca să ascunzi un element pe care nu-l folosești. Elementele ascunse așteaptă sub grilă: atinge unul ca să-l readuci. Mementourile și temporizatoarele lui continuă.</string>
+    <string name="guide_done_t">Gata</string>
+    <string name="guide_done_b">Atinge Gata când Acasă arată cum vrei. Resetează îl aduce înapoi cum era la început.</string>
+
+    <!-- Files -->
+    <string name="guide_folder_t">Deschide un dosar</string>
+    <string name="guide_folder_b">Atinge un dosar ca să intri în el și un fișier ca să-l deschizi. Săgeata de sus te scoate înapoi.</string>
+    <string name="guide_hold_t">Alege fișiere</string>
+    <string name="guide_hold_b">Ține apăsat un fișier până e bifat, apoi atinge altele ca să le adaugi. Apăsarea lungă alege; o atingere scurtă deschide.</string>
+    <string name="guide_bar_t">Mută sau copiază</string>
+    <string name="guide_bar_b">Cu fișierele alese, atinge Mută (săgeata) sau Copiază (două pagini) în bara de jos. Copiază lasă originalul unde era.</string>
+    <string name="guide_where_t">Alege unde</string>
+    <string name="guide_where_b">Atinge un dosar ca să intri în el, Sus ca să ieși, apoi Mută aici.</string>
+    <string name="guide_more_t">Redenumește, partajează și altele</string>
+    <string name="guide_more_b">Atinge cele trei puncte de lângă un fișier pentru tot ce ține de acel fișier: redenumire, partajare, etichete, culoare și Coș de gunoi.</string>
+    <string name="guide_new_t">Ceva nou</string>
+    <string name="guide_new_b">Atinge Nou în bara de jos pentru un dosar, un fișier text sau un document Documente, Tabele sau Prezentări, chiar în dosarul în care ești.</string>
+    <string name="guide_trash_t">Coș de gunoi</string>
+    <string name="guide_trash_b">Ce ștergi ajunge mai întâi în Coșul de gunoi. Glisează în sus pe bara de jos pentru Instrumente Fișiere, atinge Coș de gunoi, alege ce vrei înapoi și atinge Restaurează.</string>
+
+    <!-- Your computer -->
+    <string name="guide_alone_t">Tetra merge și singur</string>
+    <string name="guide_alone_b">Nu ai nevoie de un computer. Fără el, totul rămâne pe acest dispozitiv și poți face asocierea mai târziu.</string>
+    <string name="guide_scan_t">Asociază cu computerul tău</string>
+    <string name="guide_scan_b">Pe computer, deschide Dispozitive › Adaugă un dispozitiv: Tetra arată un cod. Aici, deschide Sincronizare din Acasă, atinge Scanează un cod și îndreaptă camera spre el.</string>
+
+    <!-- Settings -->
+    <string name="guide_look_t">Limbă și aspect</string>
+    <string name="guide_look_b">Setări › Aspect schimbă limba, tema întunecată sau luminoasă și ce arată Acasă.</string>
+    <string name="guide_find_t">Găsește o setare</string>
+    <string name="guide_find_b">Scrie în căutarea din partea de sus a Setărilor ca să găsești orice setare după nume.</string>
+    <!-- Icons: the catalog at the end, what each picture means -->
+    <string name="guide_ch_icons">Pictograme</string>
+    <string name="guide_icons_t">Ce înseamnă fiecare pictogramă</string>
+    <string name="guide_icons_b">Tetra folosește peste tot aceleași imagini mici. Iat-o pe fiecare și ce face.</string>
+    <string name="guide_icon_back">Înapoi: un ecran înapoi</string>
+    <string name="guide_icon_close">Închide</string>
+    <string name="guide_icon_check">Gata, sau ales</string>
+    <string name="guide_icon_add">Nou: un dosar, o notă, un eveniment…</string>
+    <string name="guide_icon_search">Căutare</string>
+    <string name="guide_icon_edit">Editează sau Redenumește, în funcție de loc: Acasă – Editează, un fișier – Redenumește</string>
+    <string name="guide_icon_more">Mai multe: tot ce ține de acest element</string>
+    <string name="guide_icon_share">Trimite-l altei aplicații sau altei persoane</string>
+    <string name="guide_icon_copy">Copiază: o a doua copie ajunge acolo, prima rămâne</string>
+    <string name="guide_icon_move">Mută: ajunge acolo și pleacă de aici</string>
+    <string name="guide_icon_delete">În Coșul de gunoi: se mai poate întoarce</string>
+    <string name="guide_icon_restore">Restaurează: înapoi din Coșul de gunoi</string>
+    <string name="guide_icon_tag">Etichete: ale tale, ca să găsești lucrurile mai târziu</string>
+    <string name="guide_icon_favorite">Preferat: ținut la îndemână la Preferate</string>
+    <string name="guide_icon_size">Mărime: mare, medie sau mică (Acasă)</string>
+    <string name="guide_icon_hide">Ascunde-l din vedere; nu se șterge nimic</string>
+    <string name="guide_icon_handle">Trage sau glisează în sus aici pentru mai multe</string>
+    <string name="guide_icon_choices">O listă de opțiuni: atinge ca să alegi una</string>
+    <string name="guide_icon_undo">Anulează ultima schimbare</string>
+    <string name="guide_icon_redo">Reface ce a fost anulat</string>
+    <string name="guide_icon_save">Salvează</string>
+    <string name="guide_icon_refresh">Caută din nou ce e nou</string>
+    <string name="guide_icon_sync">Sincronizează cu computerul tău</string>
+    <string name="guide_icon_qr">Scanează un cod cu camera</string>
+    <string name="guide_icon_card">Arată codul acestui dispozitiv ca să-l asociezi</string>
+    <string name="guide_icon_computer">Computerul tău</string>
+    <string name="guide_icon_lock">Blocat sau privat</string>
+    <string name="guide_icon_notifications">Notificări</string>
+    <string name="guide_icon_info">Mai multe despre el</string>
+    <string name="guide_icon_settings">Setări</string>
+    <string name="guide_icon_home">Acasă</string>
+    <string name="guide_icon_toc">Capitole, cuprins</string>
+    <string name="guide_icon_guide">Acest ghid</string>
+</resources>

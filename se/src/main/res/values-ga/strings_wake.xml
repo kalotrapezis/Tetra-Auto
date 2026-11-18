@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wake_title">Hey Tetra</string>
+    <string name="wake_note">Abair “Tetra”, “OK Tetra”, “Ahoy Tetra” nó “Hey Tetra” chun AI Assist a oscailt, fiú leis an scáileán múchta. Cuireann sé an méid a chloiseann an micreafón i gcomparáid le do thaifid féin, ar an bhfón; ní sheoltar aon rud agus é ag éisteacht. Leis an bhfón faoi ghlas, iarrann rudaí pearsanta (glaonna, teachtaireachtaí, ríomhphost, féilire, nótaí, comhaid, teagmhálacha) é a dhíghlasáil ar dtús. Ar ghléas amháin amháin: d’fhreagródh dhá cheann le chéile, mar sin fág as é ar an táibléad. Ar sos sa charr.</string>
+    <string name="wake_on">Ag éisteacht le do ghuth</string>
+    <string name="wake_off">As</string>
+    <string name="wake_record">Taifead do ghuth</string>
+    <string name="wake_record_note">Abair gach frása ceithre huaire mar a déarfaidh tú leis an bhfón é: fág é san áit a mbíonn sé de ghnáth agus labhair ón áit a mbíonn tú, dhá thaifead gar dó agus dhá cheann níos faide uaidh. Tapáil taifead chun é a thaifeadadh arís.</string>
+    <string name="wake_take">Taifead %1$d</string>
+    <string name="wake_take_odd">Difriúil leis na cinn eile: taifead arís é</string>
+    <string name="wake_record_take">Taifead “%1$s”, uimhir %2$d</string>
+    <string name="wake_speak">Abair “%1$s” anois…</string>
+    <string name="wake_not_heard">Níor chualathas é. Bain triail eile as.</string>
+    <string name="wake_record_again">Arís</string>
+    <string name="wake_try">Triail é</string>
+    <string name="wake_try_caught">Aitheanta mar “%1$s” (%2$s den tairseach)</string>
+    <string name="wake_try_missed">Gan aithint: is gaire “%1$s”, %2$s den tairseach. Taifead arís.</string>
+    <string name="wake_notice">Ag éisteacht le “Hey Tetra”</string>
+    <string name="wake_turn_off">Múch</string>
+    <!-- spoken as a phrase is heard, before AI Assist listens; the third is Bell's telephone greeting in every language -->
+    <string name="wake_hello_1">Cad é atá ar siúl?</string>
+    <string name="wake_hello_2">Táim anseo.</string>
+    <string name="wake_hello_3">Ahoy!</string>
+</resources>

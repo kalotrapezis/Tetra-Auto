@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Pole tekstifail</string>
+    <string name="text_not_text_body">«%1$s» pole lihttekst (näiteks Wordi, PowerPointi, PDF- või pildifail). Tekstiredaktor ei saa seda näidata.</string>
+    <string name="text_huge_title">Väga suur fail</string>
+    <string name="text_huge_body">«%1$s» on %2$s. Tekstiredaktor võib sellega olla väga aeglane või hanguda.</string>
+    <string name="text_open_with">Ava rakendusega…</string>
+    <string name="text_open_anyway">Ava ikkagi</string>
+    <string name="text_closed_not_text">«%1$s» suleti: see pole tekstifail.</string>
+</resources>

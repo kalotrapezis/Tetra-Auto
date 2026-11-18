@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Otsi brauseris</string>
+    <string name="assistant_card_data_used">Kasutatud %1$s / %2$s</string>
+    <string name="assistant_card_data_used_unlimited">Selles perioodis kasutatud %1$s</string>
+    <string name="assistant_card_data_left">Alles %1$s · päevi jäänud: %2$d</string>
+    <string name="assistant_card_data_pace">Täna %1$s · keskmiselt %2$s päevas</string>
+    <string name="assistant_card_data_forecast">Prognoos perioodi lõpuks: %1$s</string>
+    <string name="assistant_card_data_on_track">Paketi piires</string>
+    <string name="assistant_card_data_cut">Paketi piiresse jäämiseks: kõige rohkem %1$s päevas %2$d päeva jooksul</string>
+    <string name="assistant_card_data_hotspot">Sel kuul telefoni kuumkoha kaudu %1$s</string>
+    <string name="assistant_card_brief">Päeva ülevaade</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI Assist's data, brief and web cards (AssistantCards.kt) -->
+<resources>
+    <string name="assistant_card_search_browser">Caută în browser</string>
+    <string name="assistant_card_data_used">%1$s din %2$s folosiți</string>
+    <string name="assistant_card_data_used_unlimited">%1$s folosiți în acest ciclu</string>
+    <string name="assistant_card_data_left">Rămân %1$s · zile rămase: %2$d</string>
+    <string name="assistant_card_data_pace">Azi %1$s · în medie %2$s pe zi</string>
+    <string name="assistant_card_data_forecast">Prognoză la sfârșitul ciclului: %1$s</string>
+    <string name="assistant_card_data_on_track">În limită</string>
+    <string name="assistant_card_data_cut">Ca să rămâi în abonament: cel mult %1$s pe zi timp de %2$d zile</string>
+    <string name="assistant_card_data_hotspot">%1$s prin hotspotul telefonului luna aceasta</string>
+    <string name="assistant_card_brief">Rezumatul zilei</string>
+</resources>

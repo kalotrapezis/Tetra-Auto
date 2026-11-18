@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The AI Assist TV on the phone's home screen (8 Nov): the mascot blinking, twinkling and now and then wiping the glass;
+     the knobs at the right switch it off. Frames: tools/tv_widget_frames.py -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewFlipper android:id="@+id/tv_screen" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:autoStart="true" android:flipInterval="900">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_blink" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_twinkle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_blink" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_clean0" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_clean1" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_clean2" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_clean3" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_clean" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_idle" android:contentDescription="@null" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:src="@drawable/tv_blink" android:contentDescription="@null" />
+    </ViewFlipper>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/tv_talk" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="78" android:contentDescription="@string/assistant_tap_to_talk" />
+        <FrameLayout android:id="@+id/tv_power" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="22" android:contentDescription="@string/tv_widget_power" />
+    </LinearLayout>
+</FrameLayout>

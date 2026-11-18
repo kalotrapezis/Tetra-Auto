@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usage_history">Előzmények</string>
+    <string name="usage_tab_days">Napok</string>
+    <string name="usage_tab_months">Hónapok</string>
+    <string name="usage_tab_years">Évek</string>
+    <string name="usage_saved">Mentve ✓</string>
+    <string name="usage_more">További %1$d</string>
+</resources>

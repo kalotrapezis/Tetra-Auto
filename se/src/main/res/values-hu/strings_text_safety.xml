@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The text editor: files that are not text, or too big (TextEditor.kt TextFileRules.kind) -->
+<resources>
+    <string name="text_not_text_title">Nem szövegfájl</string>
+    <string name="text_not_text_body">A(z) «%1$s» nem egyszerű szöveg (például Word-, PowerPoint-, PDF- vagy képfájl). A szövegszerkesztő nem tudja megjeleníteni.</string>
+    <string name="text_huge_title">Nagyon nagy fájl</string>
+    <string name="text_huge_body">A(z) «%1$s» mérete %2$s. A szövegszerkesztő nagyon lelassulhat vagy lefagyhat tőle.</string>
+    <string name="text_open_with">Megnyitás ezzel…</string>
+    <string name="text_open_anyway">Megnyitás mégis</string>
+    <string name="text_closed_not_text">A(z) «%1$s» bezárult: nem szövegfájl.</string>
+</resources>
