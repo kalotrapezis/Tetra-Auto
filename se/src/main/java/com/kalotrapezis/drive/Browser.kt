@@ -403,13 +403,13 @@ internal object MediaSites {
 internal object BrowserTools {
     val ALL = listOf("fill", "extensions", "private", "desktop", "html", "bookmarks", "history", "saved_list", "saved", "copy", "share", "split", "forward", "player", "import", "autohide", "background", "tabs_run", "close")
     /** uBlock Origin's button, where the ad blocker's shield was (the user, 3 Nov): its count of the page's blocked requests. */
-    const val UBLOCK = "ext:" + BrowserEngine.UBLOCK
+    val UBLOCK = "ext:" + if (CarMaps.edition) BrowserEngine.UBO_LITE else BrowserEngine.UBLOCK // the car: uBlock Origin Lite's
     val PHONE = listOf("fill", UBLOCK, "private", "bookmarks", "copy", "share") // two columns of three small (the user, 2 Nov: "fit 2 more tools")
     val TABLET = listOf("fill", UBLOCK, "private", "desktop", "html", "bookmarks", "history", "saved", "copy", "extensions", "split")
     fun max(wide: Boolean) = if (wide) 11 else 6
 
     /** The bar as kept; an extension's button is "ext:" and its id; the old ad blocker's place goes to uBlock Origin. */
-    fun parse(saved: String?, wide: Boolean) = saved?.split(',')?.map { if (it == "ads") UBLOCK else it }?.filter { it in ALL || it.startsWith("ext:") }?.distinct()?.take(max(wide))
+    fun parse(saved: String?, wide: Boolean) = saved?.split(',')?.map { if (it == "ads" || it == "ext:" + BrowserEngine.UBLOCK) UBLOCK else it }?.filter { it in ALL || it.startsWith("ext:") }?.distinct()?.take(max(wide))
         ?: if (wide) TABLET else PHONE
 
     /** A tool tapped in edit mode: off the bar, or onto its end; null when the bar is full. */

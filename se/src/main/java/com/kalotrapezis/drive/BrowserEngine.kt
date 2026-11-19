@@ -42,6 +42,8 @@ internal object BrowserEngine {
     const val BUILT_IN = "browser@tetra" // assets/tetra-ext: raise its manifest's version with every change, or Gecko keeps the old one
     const val UBLOCK = "uBlock0@raymondhill.net"
     const val DARK_READER = "addon@darkreader.org"
+    /** The car's blocker (the user, 19 Nov: "try uB Lite for the car"): its rules kept by Gecko itself, no filter engine in memory. */
+    const val UBO_LITE = "uBOLiteRedux@raymondhill.net"
     /** The user, 3 Nov: uBlock Origin instead of the EasyList blocker, Dark Reader for dark pages; each installed once, never again once removed. */
     private val AUTO = listOf(UBLOCK to "ublock-origin", DARK_READER to "darkreader")
     const val GET_MORE = "https://addons.mozilla.org/android/"
@@ -230,14 +232,14 @@ internal object BrowserEngine {
         val ctl = runtime(c).webExtensionController
         followLook() // the look may have changed since the runtime was made
         val done = prefs().getStringSet("ext_auto", null).orEmpty()
-        // the car build: uBlock and Tetra's own only, any other removed at every start (the user, 19 Nov: "no add-ons in the car but
-        // the adblock"; 14 Nov: on a 2 GB head unit Android closed Tetra every minute or two with more of them and the tabs)
+        // the car build: uBlock Origin Lite and Tetra's own only, any other (uBlock Origin too) removed at every start (the user, 19 Nov:
+        // "no add-ons in the car but the adblock"; 14 Nov: on a 2 GB head unit Android closed Tetra every minute or two with more of them)
         if (CarMaps.edition) ctl.list().accept({ all ->
-            all.orEmpty().filter { !it.isBuiltIn && it.id != BUILT_IN && it.id != UBLOCK }.forEach { ext ->
+            all.orEmpty().filter { !it.isBuiltIn && it.id != BUILT_IN && it.id != UBO_LITE }.forEach { ext ->
                 ctl.uninstall(ext).accept({ WriterLog.i("Browser: ${ext.id} removed, not for the car"); refresh() }, { e -> WriterLog.w("Browser: ${ext.id} not removed", e); null })
             }
         }, { null })
-        AUTO.filter { !CarMaps.edition || it.first != DARK_READER }.filter { it.first !in done && it.first !in silent }.forEach { (id, slug) ->
+        (if (CarMaps.edition) listOf(UBO_LITE to "ublock-origin-lite") else AUTO).filter { it.first !in done && it.first !in silent }.forEach { (id, slug) ->
             silent += id; quiet[id] = System.currentTimeMillis()
             WriterLog.i("Browser: installing $slug")
             ctl.install("https://addons.mozilla.org/firefox/downloads/latest/$slug/latest.xpi", WebExtensionController.INSTALLATION_METHOD_MANAGER).accept({ ext ->
