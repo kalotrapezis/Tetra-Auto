@@ -100,7 +100,10 @@ internal object BrowserEngine {
             .consoleOutput(false)
             // the car build: one page process for every site, not one a site, and caches let go when Android is short of memory: on a 2 GB
             // head unit four page processes (746 MB in all with one page, emulator, 14 Nov) left Android closing Tetra every minute or two
-            .apply { if (CarMaps.edition) { fissionEnabled(false); lowMemoryDetection(true); extensionsProcessEnabled(false); configFilePath(carConfig(c)) } }
+            // Extensions keep their own process even here (the user, 19 Nov: Tetra killed 6 times in 10 minutes while uBlock fought
+            // YouTube): inside Tetra's own process, every request's filtering and uBlock's memory took Maps down with it; on its own,
+            // Android kills uBlock alone and Gecko starts it again
+            .apply { if (CarMaps.edition) { fissionEnabled(false); lowMemoryDetection(true); configFilePath(carConfig(c)) } }
             .build())
         WriterLog.i("Browser: Gecko runtime made in ${System.currentTimeMillis() - t0} ms")
         val ctl = r.webExtensionController
