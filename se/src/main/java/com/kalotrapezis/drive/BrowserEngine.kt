@@ -230,13 +230,12 @@ internal object BrowserEngine {
         val ctl = runtime(c).webExtensionController
         followLook() // the look may have changed since the runtime was made
         val done = prefs().getStringSet("ext_auto", null).orEmpty()
-        // the car build: uBlock only, Dark Reader neither installed nor kept on (the user, 14 Nov: "no many addons, just the uBlock and the
-        // password saving"): on a 2 GB head unit Android closed Tetra every minute or two with both and the tabs (car.log, 14 Nov)
-        if (CarMaps.edition && !prefs().getBoolean("ext_car_off", false)) ctl.list().accept({ all ->
-            all.orEmpty().filter { it.id == DARK_READER && it.metaData.enabled }.forEach { ext ->
-                ctl.disable(ext, WebExtensionController.EnableSource.USER).accept({ WriterLog.i("Browser: ${ext.id} off on the car"); refresh() }, { e -> WriterLog.w("Browser: ${ext.id} not switched off", e); null })
+        // the car build: uBlock and Tetra's own only, any other removed at every start (the user, 19 Nov: "no add-ons in the car but
+        // the adblock"; 14 Nov: on a 2 GB head unit Android closed Tetra every minute or two with more of them and the tabs)
+        if (CarMaps.edition) ctl.list().accept({ all ->
+            all.orEmpty().filter { !it.isBuiltIn && it.id != BUILT_IN && it.id != UBLOCK }.forEach { ext ->
+                ctl.uninstall(ext).accept({ WriterLog.i("Browser: ${ext.id} removed, not for the car"); refresh() }, { e -> WriterLog.w("Browser: ${ext.id} not removed", e); null })
             }
-            prefs().edit().putBoolean("ext_car_off", true).apply()
         }, { null })
         AUTO.filter { !CarMaps.edition || it.first != DARK_READER }.filter { it.first !in done && it.first !in silent }.forEach { (id, slug) ->
             silent += id; quiet[id] = System.currentTimeMillis()
