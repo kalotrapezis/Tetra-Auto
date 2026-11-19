@@ -51,7 +51,32 @@ internal object WriterLog {
         // A crash anywhere in the app: written down before the app goes (the system's own handler still runs after).
         val before = Thread.getDefaultUncaughtExceptionHandler()
         Thread.setDefaultUncaughtExceptionHandler { t, e -> e("crash on ${t.name}", e); before?.uncaughtException(t, e) }
+        // the car's 2 GB (the user, 19 Nov: YouTube stuck, Tetra started again 6 times, no crash written): Android's own warnings
+        // that memory runs short, the last thing it says before it kills the app; not UI_HIDDEN, said on every switch away
+        ram(context, "start")
+        context.applicationContext.registerComponentCallbacks(object : android.content.ComponentCallbacks2 {
+            override fun onTrimMemory(level: Int) { if (level != android.content.ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN) ram(context, "Android asks for memory back (trim level $level)") }
+            override fun onLowMemory() = ram(context, "Android is out of memory")
+            override fun onConfigurationChanged(c: android.content.res.Configuration) = Unit
+        })
     }
+
+    /**
+     * A line of memory, off the main thread: the device's free RAM and whether Android counts it low, Tetra's Java heap, and
+     * every Tetra process Android lists (the Browser's Gecko pages among them unless they run isolated) with its PSS.
+     */
+    fun ram(context: Context, why: String) = Thread {
+        runCatching {
+            val am = context.getSystemService(android.app.ActivityManager::class.java)
+            val mi = android.app.ActivityManager.MemoryInfo().also { am.getMemoryInfo(it) }
+            val rt = Runtime.getRuntime(); val mb = 1024 * 1024
+            val procs = am.runningAppProcesses.orEmpty()
+            val pss = am.getProcessMemoryInfo(procs.map { it.pid }.toIntArray())
+            val each = procs.indices.joinToString { "${procs[it].processName.substringAfterLast(':').substringAfterLast('$')} ${pss[it].totalPss / 1024} MB" }
+            i("RAM ($why): ${mi.availMem / mb} MB free of ${mi.totalMem / mb}${if (mi.lowMemory) ", LOW" else ""} (low under ${mi.threshold / mb}); " +
+                "heap ${(rt.totalMemory() - rt.freeMemory()) / mb} of ${rt.maxMemory() / mb} MB; Tetra ${pss.sumOf { it.totalPss } / 1024} MB: $each")
+        }.onFailure { w("RAM ($why): not read (${it.message})") }
+    }.start()
 
     fun i(message: String) = write('I', message, null)
     fun w(message: String, error: Throwable? = null) = write('W', message, error)

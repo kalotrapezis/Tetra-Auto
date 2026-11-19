@@ -513,7 +513,7 @@ private fun BrowserPage(private: Boolean, start: String, said: String?, play: St
             }
             // its page's process gone (killed behind other apps, or crashed): the same page again
             override fun onCrash(session: GeckoSession) { WriterLog.w("Browser: a tab's page crashed, ${BrowserRules.host(tab.url)}"); reopen(tab) }
-            override fun onKill(session: GeckoSession) { WriterLog.w("Browser: a tab's page was killed, ${BrowserRules.host(tab.url)}"); reopen(tab) }
+            override fun onKill(session: GeckoSession) { WriterLog.w("Browser: a tab's page was killed, ${BrowserRules.host(tab.url)}"); WriterLog.ram(context, "a page killed"); reopen(tab) }
         }
         session.scrollDelegate = object : GeckoSession.ScrollDelegate {
             override fun onScrollChanged(session: GeckoSession, scrollX: Int, scrollY: Int) {
