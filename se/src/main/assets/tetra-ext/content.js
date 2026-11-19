@@ -110,7 +110,9 @@ if (/(^|\.)youtube\.com$/.test(location.hostname)) try {
     if (!pauses.length) stopped = false;
     pauses.push(now); stopped = stopped || !this.paused;
     if (pauses.length == 4 && stopped) unstick();
-    return pause0.apply(this, arguments); }, window);
+    // pause takes nothing: this script's own arguments object handed to the page's pause threw "Permission denied", so no
+    // pause() of the page's ever paused (19 Nov: YouTube Music's ⏸ did nothing and its player stopped answering taps)
+    return pause0.call(this); }, window);
   if (sessionStorage.getItem('tetraResume')) { sessionStorage.removeItem('tetraResume'); autoplay(); }
 } catch (e) {}
 function unstick() { try { var m = cur();

@@ -57,7 +57,9 @@ internal class BrowserPrompter(private val context: Context, private val pick: (
     override fun onColorPrompt(session: GeckoSession, prompt: ColorPrompt) = ask(prompt)
     override fun onDateTimePrompt(session: GeckoSession, prompt: DateTimePrompt) = ask(prompt)
     override fun onPopupPrompt(session: GeckoSession, prompt: PopupPrompt) = ask(prompt)
-    override fun onBeforeUnloadPrompt(session: GeckoSession, prompt: BeforeUnloadPrompt) = ask(prompt)
+    // the car build: a page asking "Leave this page?" is left (19 Nov: YouTube Music asks it while it plays, at every Media tile in the one view)
+    override fun onBeforeUnloadPrompt(session: GeckoSession, prompt: BeforeUnloadPrompt): GeckoResult<PromptResponse> =
+        if (CarMaps.edition) GeckoResult.fromValue(prompt.confirm(org.mozilla.geckoview.AllowOrDeny.ALLOW)) else ask(prompt)
     override fun onRepostConfirmPrompt(session: GeckoSession, prompt: RepostConfirmPrompt) = ask(prompt)
 
     override fun onFilePrompt(session: GeckoSession, prompt: FilePrompt): GeckoResult<PromptResponse> {
