@@ -370,8 +370,10 @@ internal fun AssistantApp(sheet: Boolean, openJob: String? = null, liveFirst: Bo
         live?.muted = true; if (inLive) livePhase = LivePhase.Thinking
         // the answer comes a few words at a time and is read a sentence at a time: the first is heard while the rest is made
         hush()
-        if (car && !inLive) reader.add(context.getString(R.string.car_assist_moment)) // heard, and on it
         val speech = if (aloud || inLive) AnswerVoice(context, reader, chat.bill.part("voice"), scope).also { voice = it } else null
+        // the car's own words in the answer's voice (the user, 19 Nov: the phone's voice first, then Mistral's for the answer)
+        fun tell(s: String) { if (speech != null) speech.say(s) else reader.add(s) }
+        if (car && !inLive) tell(context.getString(R.string.car_assist_moment)) // heard, and on it
         val cut = Sentences()
         AssistantTools.beside = Beside.can(context)
         val said = StringBuilder(); tvCue = TalkCue.None; tvMood = TalkMood.Normal
@@ -379,7 +381,7 @@ internal fun AssistantApp(sheet: Boolean, openJob: String? = null, liveFirst: Bo
         chat.onTool = { name, args ->
             TalkCue.ofTool(name).takeIf { it != TalkCue.None }?.let { found -> scope.launch { tvCue = found } }
             // the car: what it is doing, said as it starts (the user, 14 Nov: "I am opening this, I am searching for this")
-            if (car) CarDoing.of(context, name, args)?.takeIf { told.add(it) }?.let { reader.add(it) }
+            if (car) CarDoing.of(context, name, args)?.takeIf { told.add(it) }?.let(::tell)
         }
         val r = withContext(Dispatchers.IO) { runCatching { try { chat.ask(text, file = file, show = showNext.getAndSet(false) && file != null) { words ->
             said.append(words); val cue = TalkCue.of(said); val mood = TalkMood.of(said)

@@ -1447,7 +1447,8 @@ private fun roadAt(map: MapLibreMap?, loc: Location, lang: String): Pair<String,
     val context = LocalContext.current
     val along = n.p?.along ?: 0.0
     val ahead = tolls.filter { it.second > along - 20 }
-    LazyColumn(Modifier.heightIn(max = 320.dp).padding(horizontal = 16.dp)) {
+    // the car's bar is as wide as what it holds, which a lazy list cannot say (19 Nov: Tetra Car crashed when its handle was tapped): a size of its own there
+    LazyColumn(Modifier.then(if (Car.running) Modifier.size(320.dp) else Modifier.heightIn(max = 320.dp)).padding(horizontal = 16.dp)) {
         item { Text(if (ahead.isEmpty()) stringResource(R.string.maps_no_tolls_ahead) else stringResource(R.string.maps_tolls_ahead, ahead.size), style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(vertical = 6.dp)) }
         items(ahead) { (t, at) ->
             Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), horizontalArrangement = Arrangement.spacedBy(10.dp), verticalAlignment = Alignment.CenterVertically) {
