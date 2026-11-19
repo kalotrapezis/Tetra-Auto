@@ -42,6 +42,8 @@ the car). Projection replaced it.
 
 ## Tetra Auto SE (`se/`)
 
+**[⬇ Download Tetra Auto SE 0.8.0 Beta 26 for the car (APK, arm64)](https://github.com/kalotrapezis/Tetra-Auto/releases/download/se-v0.8.0-beta.26/Tetra-Auto-SE-0.8.0-beta.26-arm64.apk)** — on the head unit itself.
+
 Tetra Auto SE, the "stand alone edition", is Tetra for Android built for a head unit: Tetra Car is its start and home
 screen, and it runs on the unit itself. It pairs with the phone over the car link (Tetra's CarWire) for calls, messages,
 maps, bookmarks and Share. Until Tetra for Android 0.8 Beta 24 it was Tetra-mobile's `car` module. On 18 Nov 2026 it moved

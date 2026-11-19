@@ -21,8 +21,8 @@ android {
         applicationId = "com.kalotrapezis.tetra.auto.se"
         minSdk = 29 // head units: Android 10 sold as "13" (QP1A build ids)
         targetSdk = 36
-        versionCode = 41
-        versionName = "0.8.0-beta.25-se"
+        versionCode = 42
+        versionName = "0.8.0-beta.26-se"
         val languages = listOf("en") + file("src/main/res").listFiles().orEmpty()
             .filter { it.name.matches(Regex("values-[a-z]{2,3}(-r[A-Z]{2})?")) && File(it, "strings.xml").exists() }
             .map { it.name.removePrefix("values-").replace("-r", "-") }.sorted()
