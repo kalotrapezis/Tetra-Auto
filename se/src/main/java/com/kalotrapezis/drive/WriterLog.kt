@@ -59,7 +59,44 @@ internal object WriterLog {
             override fun onLowMemory() = ram(context, "Android is out of memory")
             override fun onConfigurationChanged(c: android.content.res.Configuration) = Unit
         })
+        // the car restarting with nothing written and memory to spare (the user, 20 Nov): a frozen main thread, a native crash, or
+        // Android killing the app — the first found by a watchdog, the others in logcat, which outlives the process
+        watchMain()
+        Thread { lastRun(context) }.start()
     }
+
+    /** The main thread stuck over 5 s (Android kills an app frozen too long, writing nothing of it here): where it was, and for how long. */
+    private fun watchMain() = Thread({
+        val main = android.os.Handler(android.os.Looper.getMainLooper())
+        while (true) {
+            val answered = java.util.concurrent.atomic.AtomicBoolean(false)
+            val sent = android.os.SystemClock.uptimeMillis()
+            main.post { answered.set(true) }
+            Thread.sleep(5000)
+            if (answered.get()) continue
+            w("Main thread stuck over 5 s, at:\n" + android.os.Looper.getMainLooper().thread.stackTrace.take(40).joinToString("\n") { "\tat $it" })
+            while (!answered.get()) Thread.sleep(250)
+            i("Main thread free again after ${android.os.SystemClock.uptimeMillis() - sent} ms")
+        }
+    }, "Tetra main watch").apply { isDaemon = true }.start()
+
+    /**
+     * What Android wrote of the run before this one (warnings, native crashes, a freeze's SIGQUIT): an app reads its own lines of
+     * logcat without permission, and logcat outlives the process. Only the lines since that run started, and not this log's own.
+     */
+    private fun lastRun(context: Context) = runCatching {
+        val prefs = context.getSharedPreferences("writer_log", Context.MODE_PRIVATE)
+        val since = prefs.getString("logcat_since", null)
+        prefs.edit().putString("logcat_since", java.text.SimpleDateFormat("MM-dd HH:mm:ss.SSS", java.util.Locale.ROOT).format(java.util.Date())).apply()
+        if (since == null) return@runCatching
+        val me = android.os.Process.myPid().toString()
+        val p = ProcessBuilder("logcat", "-d", "-v", "threadtime", "-b", "main", "-b", "system", "-b", "crash", "-t", since, "*:W", "zygote64:I", "zygote:I")
+            .redirectErrorStream(true).start()
+        val lines = p.inputStream.bufferedReader().readLines()
+            .filter { l -> !l.startsWith("-----") && !l.contains(" $TAG") && l.trim().split(Regex("\\s+")).getOrNull(2) != me }
+        i(if (lines.isEmpty()) "Last run: Android wrote no warning or crash of Tetra since $since"
+          else "Last run: Android wrote, since $since:\n" + lines.takeLast(150).joinToString("\n") { "\t" + it.take(300) })
+    }.onFailure { w("Last run: logcat not read (${it.message})") }
 
     /**
      * A line of memory, off the main thread: the device's free RAM and whether Android counts it low, Tetra's Java heap, and
